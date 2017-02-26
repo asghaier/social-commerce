@@ -6,23 +6,17 @@ steps:
     plugin: Script
     script: |
       set -e
-      #curl -sS https://getcomposer.org/installer | $AUTO_SUDO php -- --install-dir=/usr/local/bin --filename=composer
       cd $SRC_DIR
       composer install
   - name: Bearded site setup
     plugin: Drupal
     database: bearded.sql.gz
     databaseGzipped: true
-  - name: Setup QA site
+  - name: Setup Bearded files
     plugin: Script
     script: |
       set -e
-      #gunzip -c $ASSET_DIR/bearded.sql.gz | drush sql-cli
-      rm $ASSET_DIR/bearded.sql.gz
       cd $SRC_DIR/sites/default
-      pwd
       mv $ASSET_DIR/bearded.tar.gz .
       tar xfz bearded.tar.gz
       rm bearded.tar.gz $ASSET_DIR/bearded.tar.gz
-      #find files -type d -exec chmod o+rwx {} \;
-      #find files -type f -exec chmod o+rw {} \;
