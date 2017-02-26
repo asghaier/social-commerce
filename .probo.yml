@@ -2,6 +2,13 @@ assets:
   - bearded.tar.gz
   - bearded.sql.gz
 steps:
+  - name : Composer install
+    plugin: Script
+    script: |
+      set -e
+      #curl -sS https://getcomposer.org/installer | $AUTO_SUDO php -- --install-dir=/usr/local/bin --filename=composer
+      cd $SRC_DIR
+      composer install
   - name: Bearded site setup
     plugin: Drupal
     database: bearded.sql.gz
