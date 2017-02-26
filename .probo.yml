@@ -19,4 +19,4 @@ steps:
       cd $SRC_DIR/sites/default
       mv $ASSET_DIR/bearded.tar.gz .
       tar xfz bearded.tar.gz
-      rm bearded.tar.gz $ASSET_DIR/bearded.tar.gz
+      rm bearded.tar.gz
