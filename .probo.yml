@@ -6,9 +6,6 @@ steps:
     plugin: Drupal
     database: bearded.sql.gz
     databaseGzipped: true
-    databaseUpdates: true
-    revertFeatures: true
-    clearCaches: true
   - name: Setup QA site
     plugin: Script
     script: |
@@ -16,6 +13,7 @@ steps:
       #gunzip -c $ASSET_DIR/bearded.sql.gz | drush sql-cli
       rm $ASSET_DIR/bearded.sql.gz
       cd $SRC_DIR/sites/default
+      pwd
       mv $ASSET_DIR/bearded.tar.gz .
       tar xfz bearded.tar.gz
       rm bearded.tar.gz $ASSET_DIR/bearded.tar.gz
