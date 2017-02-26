@@ -8,11 +8,11 @@ steps:
       set -e
       cd $SRC_DIR
       composer install
-      drush --version
   - name: Bearded site setup
     plugin: Drupal
     database: bearded.sql.gz
     databaseGzipped: true
+    clearCaches: false
   - name: Setup Bearded files
     plugin: Script
     script: |
