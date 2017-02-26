@@ -13,7 +13,7 @@ steps:
     database: bearded.sql.gz
     databaseGzipped: true
     clearCaches: false
-  - name: Setup Bearded files
+  - name: Post setup script
     plugin: Script
     script: |
       set -e
@@ -21,3 +21,4 @@ steps:
       mv $ASSET_DIR/bearded.tar.gz .
       tar xfz bearded.tar.gz
       rm bearded.tar.gz
+      drush cache-rebuild
