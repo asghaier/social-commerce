@@ -8,7 +8,7 @@ steps:
       set -e
       cd $SRC_DIR
       composer install
-  - name: Bearded site setup
+  - name: Bearded project site setup
     plugin: Drupal
     database: bearded.sql.gz
     databaseGzipped: true
