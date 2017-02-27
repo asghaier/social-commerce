@@ -1,0 +1,24 @@
+assets:
+  - bearded.tar.gz
+  - bearded.sql.gz
+steps:
+  - name : Composer install
+    plugin: Script
+    script: |
+      set -e
+      cd $SRC_DIR
+      composer install
+  - name: Bearded site setup
+    plugin: Drupal
+    database: bearded.sql.gz
+    databaseGzipped: true
+    clearCaches: false
+  - name: Post setup script
+    plugin: Script
+    script: |
+      set -e
+      cd $SRC_DIR/sites/default
+      mv $ASSET_DIR/bearded.tar.gz .
+      tar xfz bearded.tar.gz
+      rm bearded.tar.gz
+      drush cache-rebuild
