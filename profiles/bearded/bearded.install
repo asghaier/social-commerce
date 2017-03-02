@@ -20,20 +20,4 @@ function bearded_install() {
   standard_install();
   
   // Can add code in here to make nodes, terms, etc.
-  // Populate the default shortcut set.
-  $shortcut = Shortcut::create(array(
-    'shortcut_set' => 'default',
-    'title' => t('Add content'),
-    'weight' => -20,
-    'link' => array('uri' => 'internal:/node/add'),
-  ));
-  $shortcut->save();
-
-  $shortcut = Shortcut::create(array(
-    'shortcut_set' => 'default',
-    'title' => t('All content'),
-    'weight' => -19,
-    'link' => array('uri' => 'internal:/admin/content'),
-  ));
-  $shortcut->save();
 }
