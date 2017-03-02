@@ -4,6 +4,8 @@
  * @file
  * Install, update and uninstall functions for the profilename install profile.
  */
+ 
+ use Drupal\shortcut\Entity\Shortcut;
 
 /**
  * Implements hook_install().
@@ -12,7 +14,7 @@
  *
  * @see system_install()
  */
-function social_commerce_install() {
+function bearded_install() {
   // First, do everything in standard profile.
   include_once DRUPAL_ROOT . '/core/profiles/standard/standard.install';
   standard_install();

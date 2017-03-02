@@ -1,6 +1,6 @@
-name: Social commerce profile
+name: Bearded
 type: profile
-description: 'Social commerce profile is a profile that integrates the bearded theme and the Drupal 8 commerce module.'
+description: 'Description of your profile.'
 core: 8.x
 
 # Optional: Declare your installation profile as a distribution
@@ -8,25 +8,33 @@ core: 8.x
 # The distribution_name property is used in the installer and other places as
 # a label for the software being installed.
 #distribution:
-#  name: Distribution Name
+#  name: Bearded distribution
 
-# Required modules
+# version: VERSION
+# core: 8.x
 dependencies:
   - node
   - history
   - block
-  - block_content
   - breakpoint
+  - ckeditor
   - color
   - config
   - comment
   - contextual
   - contact
+  - menu_link_content
+  - datetime
+  - block_content
   - quickedit
+  - editor
   - help
   - image
+  - menu_ui
   - options
   - path
+  - page_cache
+  - dynamic_page_cache
   - taxonomy
   - dblog
   - search
@@ -37,5 +45,8 @@ dependencies:
   - rdf
   - views
   - views_ui
-  - editor
-  - ckeditor
+  - tour
+  - automated_cron
+themes:
+  - bartik
+  - seven
