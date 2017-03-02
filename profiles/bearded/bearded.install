@@ -1,0 +1,39 @@
+<?php
+
+/**
+ * @file
+ * Install, update and uninstall functions for the profilename install profile.
+ */
+ 
+ use Drupal\shortcut\Entity\Shortcut;
+
+/**
+ * Implements hook_install().
+ *
+ * Perform actions to set up the site for this profile.
+ *
+ * @see system_install()
+ */
+function bearded_install() {
+  // First, do everything in standard profile.
+  include_once DRUPAL_ROOT . '/core/profiles/standard/standard.install';
+  standard_install();
+  
+  // Can add code in here to make nodes, terms, etc.
+  // Populate the default shortcut set.
+  $shortcut = Shortcut::create(array(
+    'shortcut_set' => 'default',
+    'title' => t('Add content'),
+    'weight' => -20,
+    'link' => array('uri' => 'internal:/node/add'),
+  ));
+  $shortcut->save();
+
+  $shortcut = Shortcut::create(array(
+    'shortcut_set' => 'default',
+    'title' => t('All content'),
+    'weight' => -19,
+    'link' => array('uri' => 'internal:/admin/content'),
+  ));
+  $shortcut->save();
+}
