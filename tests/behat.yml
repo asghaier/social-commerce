@@ -1,0 +1,38 @@
+# behat.yml
+
+default:
+  suites:
+     default:
+        contexts:
+          - Drupal\DrupalExtension\Context\DrupalContext
+          - Drupal\DrupalExtension\Context\MinkContext
+          - Drupal\DrupalExtension\Context\MessageContext
+          - Drupal\DrupalExtension\Context\DrushContext
+  gherkin:
+    filters:
+      tags: ~@fixme
+  formatters:
+    pretty:
+      output_styles:
+        comment:    [default, default , [conceal]]
+  extensions:
+    Behat\MinkExtension:
+      base_url: http://social-commerce.dev
+      selenium2: ~
+      goutte: ~
+      # show_cmd: firefox %s
+      default_session: 'goutte'
+      javascript_session: 'selenium2'
+      # browser_name: chrome
+    Drupal\DrupalExtension:
+      blackbox: ~
+      drupal:
+        drupal_root: ../
+      api_driver: 'drupal'
+      text:
+        log_out: "Log out"
+        log_in: "Log in"
+      selectors:
+        message_selector: '.alert'
+        error_message_selector: '.alert.alert-error'
+        success_message_selector: '.alert.alert-success'
