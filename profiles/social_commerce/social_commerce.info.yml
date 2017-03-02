@@ -1,0 +1,41 @@
+name: Social commerce profile
+type: profile
+description: 'Social commerce profile is a profile that integrates the bearded theme and the Drupal 8 commerce module.'
+core: 8.x
+
+# Optional: Declare your installation profile as a distribution
+# This will make the installer auto-select this installation profile.
+# The distribution_name property is used in the installer and other places as
+# a label for the software being installed.
+#distribution:
+#  name: Distribution Name
+
+# Required modules
+dependencies:
+  - node
+  - history
+  - block
+  - block_content
+  - breakpoint
+  - color
+  - config
+  - comment
+  - contextual
+  - contact
+  - quickedit
+  - help
+  - image
+  - options
+  - path
+  - taxonomy
+  - dblog
+  - search
+  - shortcut
+  - toolbar
+  - field_ui
+  - file
+  - rdf
+  - views
+  - views_ui
+  - editor
+  - ckeditor
