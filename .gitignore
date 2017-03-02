@@ -44,3 +44,6 @@ composer.lock
 # Ignore core phpcs.xml and phpunit.xml.
 core/phpcs.xml
 core/phpunit.xml
+
+# Ignore gulp node_modules and package configuration in bearded theme
+themes/custom/*/node_modules
