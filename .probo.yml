@@ -11,8 +11,9 @@ steps:
       composer install
   - name: Bearded site setup
     plugin: Drupal
+    installArgs: "--site-name='Social commerce' --account-name=admin --account-pass=UvyowwuAjQuiOrt5 --site-mail='taieb@angrycactus.biz' --account-mail='taieb@angrycactus.biz'"
     profileName: social_commerce
-    runInstall: social_commerce
+    runInstall: true
     database: bearded.sql.gz
     databaseGzipped: true
     clearCaches: false
@@ -24,5 +25,4 @@ steps:
       mv $ASSET_DIR/bearded.tar.gz .
       tar xfz bearded.tar.gz
       rm bearded.tar.gz
-      drush upwd admin --password="cabiat705"
       drush cache-rebuild
