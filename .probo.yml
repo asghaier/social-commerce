@@ -7,6 +7,7 @@ steps:
     script: |
       set -e
       cd $SRC_DIR
+      composer self-update
       composer install
   - name: Bearded site setup
     plugin: Drupal
@@ -22,4 +23,5 @@ steps:
       mv $ASSET_DIR/bearded.tar.gz .
       tar xfz bearded.tar.gz
       rm bearded.tar.gz
+      drush upwd admin --password="cabiat705"
       drush cache-rebuild
