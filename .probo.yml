@@ -16,7 +16,7 @@ steps:
     database: bearded.sql.gz
     databaseGzipped: true
     clearCaches: false
-  - name: Post setup script
+  - name: Post script setup 
     plugin: Script
     script: |
       set -e
