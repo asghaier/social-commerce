@@ -1,0 +1,7 @@
+social_commerce_simple:
+  path: 'social-commerce/simple'
+  defaults:
+    _controller: '\Drupal\social_commerce_tests\Controller\SocialCommerceTestsController::simple'
+    _title: 'Simple - no arguments'
+  requirements:
+    _permission: 'access social commerce simple page'

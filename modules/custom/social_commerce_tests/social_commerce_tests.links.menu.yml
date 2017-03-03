@@ -1,0 +1,4 @@
+social_commerce_tests.simple:
+  title: Simple - no arguments
+  route_name: social_commerce_simple
+  expanded: TRUE
