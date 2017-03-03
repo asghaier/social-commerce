@@ -1,0 +1,20 @@
+<?php
+
+/**
+ * @file
+ * Module file for social_commerce_tests.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+function social_commerce_tests_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    case 'social_commerce_simple':
+      // Help text for the simple page registered for this path.
+      return t('This is help text for the social commerce simple page.');
+
+    case 'help.page.social_commerce_tests':
+      // Help text for the admin section, using the module name in the path.
+      return t("This is help text created in social commerce tests's implementation of hook_help().");
+  }
+}
