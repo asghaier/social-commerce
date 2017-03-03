@@ -11,6 +11,7 @@ steps:
       composer install
   - name: Bearded site setup
     plugin: Drupal
+    profileName: social_commerce
     runInstall: social_commerce
     database: bearded.sql.gz
     databaseGzipped: true
