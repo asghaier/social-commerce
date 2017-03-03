@@ -1,6 +1,6 @@
-name: Bearded
+name: Social commerce profile
 type: profile
-description: 'Description of your profile.'
+description: 'Social commerce profile.'
 core: 8.x
 
 # Optional: Declare your installation profile as a distribution
@@ -8,7 +8,7 @@ core: 8.x
 # The distribution_name property is used in the installer and other places as
 # a label for the software being installed.
 #distribution:
-#  name: Bearded distribution
+#  name: Social commerce distribution
 
 # version: VERSION
 # core: 8.x
