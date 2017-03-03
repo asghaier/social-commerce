@@ -5,7 +5,7 @@
  * Install, update and uninstall functions for the profilename install profile.
  */
  
- use Drupal\shortcut\Entity\Shortcut;
+ use Drupal\user\RoleInterface;
 
 /**
  * Implements hook_install().
@@ -19,5 +19,18 @@ function bearded_install() {
   include_once DRUPAL_ROOT . '/core/profiles/standard/standard.install';
   standard_install();
   
-  // Can add code in here to make nodes, terms, etc.
+  $user = \Drupal\user\Entity\User::create();
+  // Mandatory settings
+  $user->setPassword('test');
+  $user->enforceIsNew();
+  $user->setEmail('test@test.com');
+  $user->setUsername('test'); //This username must be unique and accept only a-Z,0-9, - _ @ .
+  $user->roles[] = 'administrator';
+  // Optional settings
+  $user->activate();
+  // Save user
+  $res = $user->save();
+
+  // Install Book module
+  \Drupal::service('module_installer')->install(['book']);
 }
