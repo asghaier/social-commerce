@@ -1,0 +1,12 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_product
+_core:
+  default_config_hash: nbbmJ_1guNjnX91GbCwCcJSjwPqvey2o4VlIctTs2W8
+id: commerce_unpublish_product
+label: 'Unpublish product'
+type: commerce_product
+plugin: commerce_unpublish_product
+configuration: {  }

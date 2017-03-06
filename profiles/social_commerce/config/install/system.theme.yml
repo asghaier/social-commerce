@@ -1,2 +1,4 @@
 admin: seven
-default: bartik
+default: bootstrap
+_core:
+  default_config_hash: fxJjwzz39ovYMgrg-pCHZH9ztloJ2HkxthzWF_b0_yg

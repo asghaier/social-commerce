@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Mrh9Qd-lOlG8mUOVN1VHHNk4lMxlo54NTPMWXuBH0ag
+id: admin
+label: Administration
+description: 'Administrative task links'
+locked: true

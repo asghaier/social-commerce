@@ -1,0 +1,11 @@
+langcode: en
+status: false
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: FpVOhpQ3brn83Tq3ZkvzgaTZ1loBeEhshd_FA7dk8ig
+id: node.search_result
+label: 'Search result highlighting input'
+targetEntityType: node
+cache: true

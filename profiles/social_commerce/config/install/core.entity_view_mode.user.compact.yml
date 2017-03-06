@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+_core:
+  default_config_hash: ERvkYC5k0xDar3ZDYc9_ynr3iV2_KgykFhjglJI1LaQ
+id: user.compact
+label: Compact
+targetEntityType: user
+cache: true

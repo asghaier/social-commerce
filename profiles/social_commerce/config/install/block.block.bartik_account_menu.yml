@@ -7,6 +7,8 @@ dependencies:
     - system
   theme:
     - bartik
+_core:
+  default_config_hash: S77MDPEX8C1wnTyG3N4RTOjZ_3mxQWkfDV7RX35SHKY
 id: bartik_account_menu
 theme: bartik
 region: secondary_menu

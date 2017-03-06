@@ -1,0 +1,13 @@
+name: test
+mail: test@test.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: FF1ex592hX6x7EsKXjlH4we1VuPXGLDLlzW_yC103Qo

@@ -21,10 +21,10 @@ function social_commerce_install() {
   
   $user = \Drupal\user\Entity\User::create();
   // Mandatory settings
-  $user->setPassword('test');
+  $user->setPassword('testuser');
   $user->enforceIsNew();
-  $user->setEmail('test@test.com');
-  $user->setUsername('test'); //This username must be unique and accept only a-Z,0-9, - _ @ .
+  $user->setEmail('testuser@testuser.com');
+  $user->setUsername('testuser'); //This username must be unique and accept only a-Z,0-9, - _ @ .
   $user->roles[] = 'administrator';
   // Optional settings
   $user->activate();

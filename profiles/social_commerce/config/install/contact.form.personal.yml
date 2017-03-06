@@ -1,0 +1,12 @@
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: dc4W4MKtS7C8OzDa-tIYO5KQUmS26aJup0LS4mXQu44
+id: personal
+label: 'Personal contact form'
+recipients: {  }
+reply: ''
+weight: 0
+message: 'Your message has been sent.'
+redirect: ''

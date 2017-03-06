@@ -2,11 +2,14 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.user.user.commerce_remote_id
     - field.field.user.user.user_picture
     - image.style.thumbnail
   module:
     - image
     - user
+_core:
+  default_config_hash: M797HnD2YgcgT8vil3S9uhwkiTTLmE93TiFxYL5kziE
 id: user.user.default
 targetEntityType: user
 bundle: user
@@ -14,6 +17,8 @@ mode: default
 content:
   member_for:
     weight: 5
+  profile_customer:
+    weight: 10
   user_picture:
     type: image
     weight: 0
@@ -22,4 +27,5 @@ content:
       image_link: content
     third_party_settings: {  }
     label: hidden
-hidden: {  }
+hidden:
+  commerce_remote_id: true

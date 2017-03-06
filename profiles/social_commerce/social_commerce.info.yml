@@ -1,6 +1,6 @@
-name: Social commerce profile
+name: Social Commerce
 type: profile
-description: 'Social commerce profile.'
+description: 'Description of your profile.'
 core: 8.x
 
 # Optional: Declare your installation profile as a distribution
@@ -8,45 +8,75 @@ core: 8.x
 # The distribution_name property is used in the installer and other places as
 # a label for the software being installed.
 #distribution:
-#  name: Social commerce distribution
+#  name: Bearded distribution
 
 # version: VERSION
 # core: 8.x
 dependencies:
   - node
+  - automated_cron
+  - menu_link_content
   - history
   - block
+  - block_content
   - breakpoint
-  - ckeditor
   - color
   - config
   - comment
   - contextual
   - contact
-  - menu_link_content
-  - datetime
-  - block_content
   - quickedit
-  - editor
   - help
   - image
-  - menu_ui
+  - system
   - options
   - path
-  - page_cache
-  - dynamic_page_cache
   - taxonomy
   - dblog
   - search
   - shortcut
   - toolbar
+  - field
   - field_ui
   - file
+  - filter
+  - dynamic_page_cache
+  - page_cache
+  - menu_ui
   - rdf
+  - tour
   - views
   - views_ui
-  - tour
-  - automated_cron
+  - editor
+  - update
+  - user
+  - ckeditor
+  - admin_toolbar
+  - admin_toolbar_tools
+  - commerce
+  - commerce_cart
+  - commerce_checkout
+  - commerce_order
+  - commerce_log
+  - commerce_payment
+  - commerce_payment_example
+  - commerce_price
+  - commerce_product
+  - commerce_promotion
+  - commerce_store
+  - devel
+  - devel_generate
+  - inline_entity_form
+  - address
+  - datetime
+  - entity_reference_revisions
+  - file
+  - link
+  - text
+  - entity
+  - profile
+  - state_machine
 themes:
   - bartik
   - seven
+  - bearded

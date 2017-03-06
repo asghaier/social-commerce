@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bearded
+_core:
+  default_config_hash: sgy1FrXxpfa3PZRERw3qnwQQvJZ_c25P-QUQIW2pwyg
+id: bearded_powered
+theme: bearded
+region: navigation
+weight: 10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

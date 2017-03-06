@@ -3,11 +3,11 @@ status: true
 dependencies:
   module:
     - editor
+_core:
+  default_config_hash: YffH3Gnc3bX2h6tGx8WpcuGLSP5iy-bPpTGvwlhD1V0
 name: 'Full HTML'
 format: full_html
 weight: 1
-roles:
-  - administrator
 filters:
   filter_align:
     id: filter_align

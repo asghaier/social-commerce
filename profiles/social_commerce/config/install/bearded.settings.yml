@@ -1,0 +1,20 @@
+cdn_provider: ''
+_core:
+  default_config_hash: QbbVZtbOCxODfhF1X-wD9Wr7nZazBF5M6SJN7D3-dv0
+favicon:
+  mimetype: image/vnd.microsoft.icon
+  path: ''
+  url: 'http://bearded.dev/themes/bootstrap/favicon.ico'
+  use_default: true
+features:
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: true
+  node_user_picture: true
+logo:
+  path: ''
+  url: ''
+  use_default: true
+schemas:
+  bootstrap: 8000
+  bearded: 8000

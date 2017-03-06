@@ -6,6 +6,8 @@ dependencies:
     - node.type.article
   module:
     - comment
+_core:
+  default_config_hash: A39ieAzRmz0QUuDzyZyCqt8B-DMe5DVotRne3xZvTqI
 id: node.article.comment
 field_name: comment
 entity_type: node

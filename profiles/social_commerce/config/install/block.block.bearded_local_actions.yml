@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies:
+  theme:
+    - bearded
+_core:
+  default_config_hash: ipckkKLO7e5YHwIu_9WqlDQvDCvR48H-LbaMNNVXcq4
+id: bearded_local_actions
+theme: bearded
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

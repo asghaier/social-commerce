@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vYCbQu8g2Wx6v1czil_bokJI4Sle5a3vUcZh22Devp0
+id: default
+label: Default

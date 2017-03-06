@@ -1,0 +1,12 @@
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 2xb4e7Ayh4IfHpM07x7b8yMl-w7KhsChIX4UuBQP1qU
+label: Default
+id: default
+workflow: order_default
+refresh_mode: customer
+refresh_frequency: 300
+sendReceipt: true
+receiptBcc: ''

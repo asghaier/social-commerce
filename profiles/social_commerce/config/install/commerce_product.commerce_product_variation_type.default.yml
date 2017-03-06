@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: DDVY7j6aOzUyVBZWvpu-YBWIfR0-XV-xjsGF8zLdsLM
+id: default
+label: Default
+orderItemType: default
+generateTitle: true

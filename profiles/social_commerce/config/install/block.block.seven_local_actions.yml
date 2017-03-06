@@ -3,6 +3,8 @@ status: true
 dependencies:
   theme:
     - seven
+_core:
+  default_config_hash: CP90rWiyiswoj8ujIoY27a8m_5dHJCds1vUlBFci0Uw
 id: seven_local_actions
 theme: seven
 region: content

@@ -1,0 +1,12 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - comment
+_core:
+  default_config_hash: l95TNhQGICOe4CxpIq-BQTLPPmSRPoSDakyVr0CoBRU
+id: comment_save_action
+label: 'Save comment'
+type: comment
+plugin: comment_save_action
+configuration: {  }

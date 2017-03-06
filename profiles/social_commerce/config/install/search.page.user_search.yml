@@ -1,0 +1,13 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+_core:
+  default_config_hash: SJqZBoKJk1QJA0nXhUcDxDoeYHEd9p2WbEl1UARGkEA
+id: user_search
+label: Users
+path: user
+weight: 0
+plugin: user_search
+configuration: {  }

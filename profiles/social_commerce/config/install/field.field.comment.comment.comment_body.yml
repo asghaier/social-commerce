@@ -6,6 +6,8 @@ dependencies:
     - field.storage.comment.comment_body
   module:
     - text
+_core:
+  default_config_hash: aZ2bFCyzA7ee9ujbmOPdX9Rl4JGWA8nr8fFMBn1uNBc
 id: comment.comment.comment_body
 field_name: comment_body
 entity_type: comment

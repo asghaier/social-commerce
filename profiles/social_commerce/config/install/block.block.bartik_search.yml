@@ -5,6 +5,8 @@ dependencies:
     - search
   theme:
     - bartik
+_core:
+  default_config_hash: 3kEXrIPky4bLaCO2ap-i25OvWLO4F_sw979QrKMOHR4
 id: bartik_search
 theme: bartik
 region: sidebar_first

@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: f29ptJpsl27LiJ48ILM71Bdyp2F0021XWazaFx0qF60
+id: node_search
+label: Content
+path: node
+weight: -10
+plugin: node_search
+configuration:
+  rankings: {  }

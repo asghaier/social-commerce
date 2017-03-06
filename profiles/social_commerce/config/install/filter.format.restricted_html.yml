@@ -1,11 +1,11 @@
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: jPCf7YYInI6LXycvv2b2-vWT5MClmI2TJR-fs5PWPLw
 name: 'Restricted HTML'
 format: restricted_html
 weight: 0
-roles:
-  - anonymous
 filters:
   filter_html:
     id: filter_html

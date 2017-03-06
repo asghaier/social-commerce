@@ -5,6 +5,8 @@ dependencies:
     - system
   theme:
     - seven
+_core:
+  default_config_hash: sbxdok-A7lyztNStNcmHPbdHM5Pl3EAJkKqsOAaNdCw
 id: seven_messages
 theme: seven
 region: highlighted
