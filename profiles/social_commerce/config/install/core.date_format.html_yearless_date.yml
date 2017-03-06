@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: xdEAiwXw9YZdyFFB-jeLE58FVf44nn91cRrNR0X_Opg
+id: html_yearless_date
+label: 'HTML Yearless date'
+locked: true
+pattern: m-d

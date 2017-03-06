@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 7-SC3D66B92hVvHLCvry72H9zsVSffwemRPbzKMUsls
+id: short
+label: 'Default short date'
+locked: false
+pattern: 'm/d/Y - H:i'

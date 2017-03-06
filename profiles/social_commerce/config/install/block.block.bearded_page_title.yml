@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies:
+  theme:
+    - bearded
+_core:
+  default_config_hash: osb2QRlMg93wb5mAQd53EsCK78UNG6SN8rMbidd6Fpg
+id: bearded_page_title
+theme: bearded
+region: content
+weight: -50
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

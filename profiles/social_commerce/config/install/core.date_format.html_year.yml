@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: jADRheUvGgsZK82gWa22uCDcRkY0REF62dGbnh-GKO4
+id: html_year
+label: 'HTML Year'
+locked: true
+pattern: 'Y'

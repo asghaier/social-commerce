@@ -3,11 +3,11 @@ status: true
 dependencies:
   module:
     - editor
+_core:
+  default_config_hash: yx_PnvYQtLiokysrSEXRHJ_kTTw8lpT_PLCdmjp7C2o
 name: 'Basic HTML'
 format: basic_html
 weight: 0
-roles:
-  - authenticated
 filters:
   filter_html:
     id: filter_html

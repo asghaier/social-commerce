@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: XDWBZ1tbPzh5B4nfdXoT8eVJu_NyzsBc_QtcrRTFmUg
+id: default
+label: Default
+description: ''
+variationType: default
+injectVariationFields: true

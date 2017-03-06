@@ -1,0 +1,15 @@
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - commerce_cart
+      - commerce_product
+  module:
+    - commerce_product
+_core:
+  default_config_hash: hIJXJGI0e1GAoss6-lKijyf12PI3TgYyJxEek553N9M
+id: commerce_product_variation.cart
+label: Cart
+targetEntityType: commerce_product_variation
+cache: true

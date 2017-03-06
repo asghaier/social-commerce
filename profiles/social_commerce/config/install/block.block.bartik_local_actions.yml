@@ -3,6 +3,8 @@ status: true
 dependencies:
   theme:
     - bartik
+_core:
+  default_config_hash: GkwWrsKWg9mf8qocZ-nVfuEUnQLzgyQpNS-SGqn2BEQ
 id: bartik_local_actions
 theme: bartik
 region: content

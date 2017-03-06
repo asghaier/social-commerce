@@ -5,6 +5,8 @@ dependencies:
     - system
   theme:
     - bartik
+_core:
+  default_config_hash: pXPk8NNewhAEwQEiFmsRvIzrTRRlvKre_-UG5tKsOSY
 id: bartik_powered
 theme: bartik
 region: footer_fifth

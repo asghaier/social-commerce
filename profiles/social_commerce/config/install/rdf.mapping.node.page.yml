@@ -5,6 +5,8 @@ dependencies:
     - node.type.page
   module:
     - node
+_core:
+  default_config_hash: wZMoCDVMeIaEA7GHv_8_eEyhAqxJ5BDs1IGNC7-L_ps
 id: node.page
 targetEntityType: node
 bundle: page

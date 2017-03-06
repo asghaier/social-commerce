@@ -10,6 +10,8 @@ dependencies:
     - node.type.article
   module:
     - user
+_core:
+  default_config_hash: PUHbwIt_NWCxiwCK66HzMpN_vaKihdg0N-aIqFrwvtk
 id: node.article.rss
 targetEntityType: node
 bundle: article

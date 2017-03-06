@@ -1,0 +1,16 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+_core:
+  default_config_hash: GU1xcG_aG-adf-Mc10PgmCz3UP-LXNY-djUBnh0gUkU
+id: user.user
+targetEntityType: user
+bundle: user
+types:
+  - 'schema:Person'
+fieldMappings:
+  name:
+    properties:
+      - 'schema:name'

@@ -1,10 +1,12 @@
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: F2_tkdAIWfcVWvBCMshgY5fSrfPB_saCJOgeR-RpAm8
 id: feedback
 label: 'Website feedback'
 recipients:
-  - admin@example.com
+  - bearded@gmail.com
 reply: ''
 weight: 0
 message: 'Your message has been sent.'
