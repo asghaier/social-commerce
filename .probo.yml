@@ -13,7 +13,7 @@ steps:
     plugin: Drupal
     installArgs: "--site-name='Social commerce' --account-name=admin --account-pass=UvyowwuAjQuiOrt5 --site-mail='taieb@angrycactus.biz' --account-mail='taieb@angrycactus.biz'"
     profileName: social_commerce
-    runInstall: true
+    runInstall: social_commerce
     database: bearded.sql.gz
     databaseGzipped: true
     clearCaches: false
