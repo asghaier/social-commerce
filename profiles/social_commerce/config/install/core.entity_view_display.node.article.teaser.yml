@@ -14,7 +14,7 @@ dependencies:
     - text
     - user
 _core:
-  default_config_hash: 7Ym8k4g8SDVNeQUkv-_grwAFwgB1GE3nNfDW5g-Zzsg
+  default_config_hash: 1cbhniFSyT-zqADNLxUXRAaH9xf1oNnJg857iksTCW4
 id: node.article.teaser
 targetEntityType: node
 bundle: article

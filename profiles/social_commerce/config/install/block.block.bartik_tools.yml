@@ -8,7 +8,7 @@ dependencies:
   theme:
     - bartik
 _core:
-  default_config_hash: xyiKIVMlVphnLS8EFwLeTFud6797CX4Ujxv-ND9pD5U
+  default_config_hash: pZSCcO7RCo3aDV3Na7tn-mqxfXkuPfcnhFwcdbJDF7c
 id: bartik_tools
 theme: bartik
 region: sidebar_first

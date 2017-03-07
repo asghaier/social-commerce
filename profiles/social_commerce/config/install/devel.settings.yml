@@ -7,4 +7,4 @@ debug_mail_file_format: '%to-%subject-%datetime.mail.txt'
 debug_mail_directory: 'temporary://devel-mails'
 devel_dumper: default
 _core:
-  default_config_hash: P2JFFcwppdagDcDp81m8FqSMKu2friuJaauLM6OCxwA
+  default_config_hash: t6CajBeQ_Ht3jDowI4_vpqxCUEaH0OasaJbRSNTAW0k

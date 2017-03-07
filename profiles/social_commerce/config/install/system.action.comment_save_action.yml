@@ -4,7 +4,7 @@ dependencies:
   module:
     - comment
 _core:
-  default_config_hash: l95TNhQGICOe4CxpIq-BQTLPPmSRPoSDakyVr0CoBRU
+  default_config_hash: L1rYTaDc9oXG0dtwdUHpsUK66fpSes9rZOot1bj7zqg
 id: comment_save_action
 label: 'Save comment'
 type: comment

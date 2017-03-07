@@ -6,7 +6,7 @@ dependencies:
   module:
     - commerce_price
 _core:
-  default_config_hash: ZTyLvM_bcDWRwL2w5PMqN8OduINQZU5TN4eD64ZnaXY
+  default_config_hash: spXOBnIpZkkFeT2uKJOPpRc-v0VlySfblYE_GiDmK4Q
 id: commerce_product_variation.default.default
 targetEntityType: commerce_product_variation
 bundle: default

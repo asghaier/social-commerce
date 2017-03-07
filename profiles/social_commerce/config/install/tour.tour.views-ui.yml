@@ -4,7 +4,7 @@ dependencies:
   module:
     - views_ui
 _core:
-  default_config_hash: 4l5NWyqzwFGY6Ed99DkzKYap7557VHOFoVcg_anAaGw
+  default_config_hash: mg3rJ-T1PQA4GaGOJu6Xy5HujazhoQ3t0-SYh8bT1YQ
 id: views-ui
 label: 'View edit page'
 module: views_ui

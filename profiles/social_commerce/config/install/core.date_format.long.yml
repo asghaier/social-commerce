@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: WJOkZdK3fyrXnclqNueVANKpxsKTkOzfmkUfrDER020
+  default_config_hash: dAJ7esHO9NNJkwBTnEVU9vqLV2LwlOBHKSAD9_W3D4w
 id: long
 label: 'Default long date'
 locked: false

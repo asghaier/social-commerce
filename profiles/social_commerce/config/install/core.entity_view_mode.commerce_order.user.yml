@@ -4,7 +4,7 @@ dependencies:
   module:
     - commerce_order
 _core:
-  default_config_hash: 0xTzRsfw6NDR6_TuXbUziF_-x6gdD9XJyCqxVy3ScII
+  default_config_hash: k2iVU9abQuDvcLbc9WNpswMuT5KAK2lDY0cXeUJJq-8
 id: commerce_order.user
 label: User
 targetEntityType: commerce_order

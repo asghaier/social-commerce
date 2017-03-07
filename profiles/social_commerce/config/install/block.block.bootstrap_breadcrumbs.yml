@@ -6,7 +6,7 @@ dependencies:
   theme:
     - bootstrap
 _core:
-  default_config_hash: 7153Lh_-LHuJmxGN_Gtq1EzP3XKDuTW5DnjSTw9drlE
+  default_config_hash: VQPsFV2D89IaxCgEn9CAmnxBzFcEbleyXG-7GItalOs
 id: bootstrap_breadcrumbs
 theme: bootstrap
 region: header

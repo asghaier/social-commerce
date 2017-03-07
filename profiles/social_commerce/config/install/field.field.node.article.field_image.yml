@@ -7,7 +7,7 @@ dependencies:
   module:
     - image
 _core:
-  default_config_hash: JrKenj2fSkGVZMSuYbY4WHeuwMmcLLriTqvrqWStmxY
+  default_config_hash: DfRBx5FqM85gtKWpq9QZcjImqSxS91v7ohw0xU8EN_s
 id: node.article.field_image
 field_name: field_image
 entity_type: node

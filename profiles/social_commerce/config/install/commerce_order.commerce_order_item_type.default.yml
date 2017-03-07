@@ -5,7 +5,7 @@ dependencies:
     module:
       - commerce_product
 _core:
-  default_config_hash: IksqxdGJEAtT4pMy_L42IUhgq4MTH-X4roMUGn2zNpg
+  default_config_hash: gB6tMmiCNv76HHfoIIUZA1QFVHLzqc8j58ycknTsuvg
 label: Default
 id: default
 purchasableEntityType: commerce_product_variation

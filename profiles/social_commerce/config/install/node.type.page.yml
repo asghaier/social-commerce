@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: JAuVSsTcv3qwWSMm821mh3i2PmsU9yj-ujnyaZnBt40
+  default_config_hash: mFJzbwarjKkxiWggo18MejjAYH_YgKaIKR9BzMT59-M
 name: 'Basic page'
 type: page
 description: 'Use <em>basic pages</em> for your static content, such as an ''About us'' page.'

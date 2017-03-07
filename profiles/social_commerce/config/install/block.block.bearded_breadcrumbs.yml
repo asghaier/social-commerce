@@ -6,11 +6,11 @@ dependencies:
   theme:
     - bearded
 _core:
-  default_config_hash: qw4L4KIeShRV3FBt-7DV7kaWob8Bh5GztcT_3wXZ684
+  default_config_hash: ykQWHkZaBbfAF-kb-5-ovn-TjLsNKWQT-TcdyEeOwZ8
 id: bearded_breadcrumbs
 theme: bearded
-region: navigation
-weight: 0
+region: header
+weight: -7
 provider: null
 plugin: system_breadcrumb_block
 settings:

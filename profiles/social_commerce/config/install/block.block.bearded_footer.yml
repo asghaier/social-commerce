@@ -8,11 +8,11 @@ dependencies:
   theme:
     - bearded
 _core:
-  default_config_hash: oxlT7qlaGRcHFl-dBP7O7SI82fayIIyYBYwslolXeRU
+  default_config_hash: T498DRmn3H0lP26RPwCFHTRe_IvRMTyNhAhYoo7z8Fs
 id: bearded_footer
 theme: bearded
-region: navigation
-weight: 0
+region: footer
+weight: -6
 provider: null
 plugin: 'system_menu_block:footer'
 settings:

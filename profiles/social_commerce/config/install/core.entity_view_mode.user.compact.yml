@@ -4,7 +4,7 @@ dependencies:
   module:
     - user
 _core:
-  default_config_hash: ERvkYC5k0xDar3ZDYc9_ynr3iV2_KgykFhjglJI1LaQ
+  default_config_hash: 7gQqqXcK9OuwzKJGqpt7fdswDRLwr09hlM8UeQP--C8
 id: user.compact
 label: Compact
 targetEntityType: user

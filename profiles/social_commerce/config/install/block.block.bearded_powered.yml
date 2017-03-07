@@ -6,11 +6,11 @@ dependencies:
   theme:
     - bearded
 _core:
-  default_config_hash: sgy1FrXxpfa3PZRERw3qnwQQvJZ_c25P-QUQIW2pwyg
+  default_config_hash: bzuX062aUiF6dPnoarkOJU1njl02JKC_xlWJT_TDzyo
 id: bearded_powered
 theme: bearded
-region: navigation
-weight: 10
+region: footer
+weight: -5
 provider: null
 plugin: system_powered_by_block
 settings:

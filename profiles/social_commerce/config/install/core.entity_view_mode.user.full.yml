@@ -4,7 +4,7 @@ dependencies:
   module:
     - user
 _core:
-  default_config_hash: Fm93q6j3T-H1soKVAVZcqrGOip5a9t7ZDo4b2eNnsGE
+  default_config_hash: cZuJkd3zNylLzrR6yAq-jqEzYenWsWMBJ-sIq-pQqQU
 id: user.full
 label: 'User account'
 targetEntityType: user

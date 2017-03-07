@@ -7,7 +7,7 @@ dependencies:
     - system
     - user
 _core:
-  default_config_hash: GnhJJ9cHsN5VpL4QN7emH8C5sd_z26m34v7qnFOmWyc
+  default_config_hash: SC0jq-gOelXMowdO-1RNYqCFSWtOEvUTMlx7hhsXL2c
 id: commerce_stores
 label: Stores
 module: views

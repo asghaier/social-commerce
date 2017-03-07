@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: aKMTkFRnPjbfuC60X_BqtABGtxBn6Ithdb_RaczJaJc
+  default_config_hash: oGQl7lVQfJTwufRxsrOfPdeyX5oRa4v60GsVs0syGiM
 name: Article
 type: article
 description: 'Use <em>articles</em> for time-sensitive content like news, press releases or blog posts.'

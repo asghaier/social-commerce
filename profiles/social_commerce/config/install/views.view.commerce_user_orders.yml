@@ -8,7 +8,7 @@ dependencies:
     - state_machine
     - user
 _core:
-  default_config_hash: eEbZiJ3Csz5C-KkHxv7yyzkPeC80Agtw1OpdVsudeN4
+  default_config_hash: gr6nHnqOj5QoBW8eWibQ-eMLL10Fyec6t6w2C4GyU14
 id: commerce_user_orders
 label: 'User orders'
 module: views

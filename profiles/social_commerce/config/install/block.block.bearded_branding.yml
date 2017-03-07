@@ -6,11 +6,11 @@ dependencies:
   theme:
     - bearded
 _core:
-  default_config_hash: vCeWielqHHmiq48_3E5oyNC5vV5pH8WAQvmlM3rmz8Y
+  default_config_hash: XlhdCfKw4EBtHmrXHmwRlBHLdfEWIBUEWsp5CleL_Xo
 id: bearded_branding
 theme: bearded
-region: header
-weight: 0
+region: navigation
+weight: -7
 provider: null
 plugin: system_branding_block
 settings:

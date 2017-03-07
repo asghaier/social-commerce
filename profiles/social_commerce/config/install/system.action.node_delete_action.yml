@@ -4,7 +4,7 @@ dependencies:
   module:
     - node
 _core:
-  default_config_hash: AExGs2FTT4RHLSRoXSNVQ-KKbnoFXRBrK1yHnwkzJPQ
+  default_config_hash: 0uX28E8zSqR4QE67ltceZwEaCj6Cy7Ld6bWJQ9P_0U4
 id: node_delete_action
 label: 'Delete content'
 type: node

@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: jADRheUvGgsZK82gWa22uCDcRkY0REF62dGbnh-GKO4
+  default_config_hash: DrK7ZIJ0G0npcGTe34a33yFUUXn7wghx22Af7TouBbc
 id: html_year
 label: 'HTML Year'
 locked: true

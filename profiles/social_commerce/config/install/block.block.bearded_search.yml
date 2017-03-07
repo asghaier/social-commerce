@@ -6,11 +6,11 @@ dependencies:
   theme:
     - bearded
 _core:
-  default_config_hash: ie-GvRlNqhYFViTajbegIhCyZnO_PpYGXP6x3B5cF6k
+  default_config_hash: aquWtL11xHJTsV17Hz5-JUwPmZWpQvdC3d7353MMvRc
 id: bearded_search
 theme: bearded
-region: sidebar_first
-weight: -1
+region: sidebar_second
+weight: -6
 provider: null
 plugin: search_form_block
 settings:

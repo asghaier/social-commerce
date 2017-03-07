@@ -8,7 +8,7 @@ dependencies:
     - address
     - profile
 _core:
-  default_config_hash: afibT0ImjC_ZZKYd35YYXpCWv1isvGsRw-ywPUYOMnA
+  default_config_hash: rmjRlV7d4pxDQS7OrfIrXks0LLHLcXcZZujItZNAVNQ
 id: profile.address
 field_name: address
 entity_type: profile

@@ -6,11 +6,11 @@ dependencies:
   theme:
     - bearded
 _core:
-  default_config_hash: G7svsSJ49rCT8yYsBTOLTI3g-uvIctVJE8O_anfOlyE
+  default_config_hash: F2cH9WR6FUwBCpwmrBFfqSDbXwvyv7UYqnyJnrxybaA
 id: bearded_help
 theme: bearded
-region: content
-weight: -30
+region: help
+weight: -6
 provider: null
 plugin: help_block
 settings:

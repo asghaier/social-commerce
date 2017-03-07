@@ -11,7 +11,7 @@ dependencies:
     - system
     - user
 _core:
-  default_config_hash: PDdlhYZgzhzz0ePR4cBhCj8epzld3O7t-44aS0UCzQQ
+  default_config_hash: hUpqdWYtShBtkoa7oVBoU3rwBVfPhTTVSM52SDRyMQk
 id: commerce_orders
 label: Orders
 module: views
