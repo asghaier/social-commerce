@@ -1,0 +1,14 @@
+uuid: 453df0cf-62c5-4cb2-8d77-061aaab6d124
+langcode: en
+status: true
+dependencies: {  }
+name: homepage_slideshow_style
+label: 'Homepage Slideshow Style'
+effects:
+  3fa98e60-2035-42ca-a0d8-89434d6bbbdc:
+    uuid: 3fa98e60-2035-42ca-a0d8-89434d6bbbdc
+    id: image_resize
+    weight: 1
+    data:
+      width: 800
+      height: 600

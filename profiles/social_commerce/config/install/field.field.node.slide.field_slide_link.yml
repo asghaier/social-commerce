@@ -1,0 +1,22 @@
+SocialCommerceTestsControllerlangcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_slide_link
+    - node.type.slide
+  module:
+    - link
+id: node.slide.field_slide_link
+field_name: field_slide_link
+entity_type: node
+bundle: slide
+label: Link
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link
