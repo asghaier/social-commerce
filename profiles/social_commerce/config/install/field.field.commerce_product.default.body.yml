@@ -7,7 +7,7 @@ dependencies:
   module:
     - text
 _core:
-  default_config_hash: EWTAWdOfhlzUCcHsGr7rxUxscntIENwr9ljjbpMjh18
+  default_config_hash: 2gc6Bh0j8c61bTP_ppxdZndexMUh6NKu0pBEktaTr0U
 id: commerce_product.default.body
 field_name: body
 entity_type: commerce_product

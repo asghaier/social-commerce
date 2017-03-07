@@ -8,7 +8,7 @@ dependencies:
     - commerce_order
     - inline_entity_form
 _core:
-  default_config_hash: '-1tJNcJR6Rz9XgN47_abNjVXY2eaSCHcvi8O8SpJVRc'
+  default_config_hash: O-zU6B7uUnknAHTlUXIjjwrO8ufvYPVDMw2ssMQaWjs
 id: commerce_order.default.default
 targetEntityType: commerce_order
 bundle: default

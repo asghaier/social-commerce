@@ -1,20 +1,22 @@
 cdn_provider: ''
 _core:
-  default_config_hash: QbbVZtbOCxODfhF1X-wD9Wr7nZazBF5M6SJN7D3-dv0
+  default_config_hash: qhgz5bXrr19ZGLePha7UbMb6Uqa4Ypq0oV9zh_9fmwk
 favicon:
   mimetype: image/vnd.microsoft.icon
   path: ''
-  url: 'http://bearded.dev/themes/bootstrap/favicon.ico'
+  url: 'http://social-commerce.dev/themes/custom/bearded/favicon.ico'
   use_default: true
+schemas:
+  bootstrap: 8000
+  bearded: 8000
 features:
   comment_user_picture: true
   comment_user_verification: true
   favicon: true
   node_user_picture: true
 logo:
-  path: ''
+  path: 'public://logo_0.png'
   url: ''
-  use_default: true
-schemas:
-  bootstrap: 8000
-  bearded: 8000
+  use_default: false
+table_responsive: '-1'
+table: ''

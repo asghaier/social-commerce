@@ -5,7 +5,7 @@ dependencies:
     - commerce_product
     - commerce_store
 _core:
-  default_config_hash: VHd_IpblQenqP6UksVBSd4SER1YLYbBeuaHczWQvznY
+  default_config_hash: 8xhEnSkuq4t89lebJ79SPMan0KKL2RMpkkfAlaDdI8E
 id: commerce_product.stores
 field_name: stores
 entity_type: commerce_product

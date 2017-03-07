@@ -4,7 +4,7 @@ dependencies:
   module:
     - user
 _core:
-  default_config_hash: _MdJFyo5KG5P4XpF5PCUAhmBCagcDZpPd6euzywCOkA
+  default_config_hash: 7ifuueZhS7I__ipUG_78UIA3qU1an_1cuYkCHXn11Fw
 id: who_s_new
 label: 'Who''s new'
 module: user

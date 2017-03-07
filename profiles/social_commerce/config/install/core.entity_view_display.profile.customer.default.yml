@@ -10,7 +10,7 @@ dependencies:
   module:
     - address
 _core:
-  default_config_hash: 7J52U4cBDrgZUZcASW6Yd5j8fRg6O1DFn30gASE1ADg
+  default_config_hash: snMMOjF91VkLyp3NFax9DGN-AuM-4SMcrIzeuJ82xpE
 id: profile.customer.default
 targetEntityType: profile
 bundle: customer

@@ -8,11 +8,11 @@ dependencies:
   theme:
     - bearded
 _core:
-  default_config_hash: zHgpn_nJh6lqWgtf_FtWAELX70ZlgqZ85-mjLZ9OY2g
+  default_config_hash: IJx3BiPV0KEv3ARXGfed1R9zETvWz9mVYpBJe-qNjLA
 id: bearded_account_menu
 theme: bearded
-region: navigation
-weight: 0
+region: navigation_collapsible
+weight: -5
 provider: null
 plugin: 'system_menu_block:account'
 settings:

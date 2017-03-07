@@ -7,7 +7,7 @@ dependencies:
   module:
     - commerce_order
 _core:
-  default_config_hash: SfCoksb4pGyAoZB_K0iomj-5_B601OwQYTp9ZcZ0Mgk
+  default_config_hash: ZcPHyptKbaGUP3FSRV_bMIVLFmbYvf6WhwXiBZNzjpA
 id: commerce_order_item.add_to_cart
 label: 'Add to cart'
 targetEntityType: commerce_order_item

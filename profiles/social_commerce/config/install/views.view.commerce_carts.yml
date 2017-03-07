@@ -12,7 +12,7 @@ dependencies:
     - system
     - user
 _core:
-  default_config_hash: vTRqh-UirarLHrpvK1JTH73NMdlQTJS-EcBImSWDHbc
+  default_config_hash: DdF6uXJwDESEpNcNSVriXYp-PCNL3nrIaaIJ9VPd-nw
 id: commerce_carts
 label: Carts
 module: views

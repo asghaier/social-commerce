@@ -7,7 +7,7 @@ dependencies:
     - node
     - user
 _core:
-  default_config_hash: rnCt76FiNThwDKw5PyprNyMKeIZCdftV7UupzeyPWes
+  default_config_hash: gH4I7nBb6n6WYlO1qzTH-Z-9NMNpldZ_vlEkNfhXIYg
 id: glossary
 label: Glossary
 module: node

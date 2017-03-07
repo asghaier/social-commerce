@@ -4,11 +4,11 @@ dependencies:
   theme:
     - bearded
 _core:
-  default_config_hash: osb2QRlMg93wb5mAQd53EsCK78UNG6SN8rMbidd6Fpg
+  default_config_hash: fauCx-6OqDKJz0vrJhynbl7i1FfEldNVu4nbjfmBLIU
 id: bearded_page_title
 theme: bearded
-region: content
-weight: -50
+region: header
+weight: -5
 provider: null
 plugin: page_title_block
 settings:

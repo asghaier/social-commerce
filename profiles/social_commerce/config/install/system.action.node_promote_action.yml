@@ -4,7 +4,7 @@ dependencies:
   module:
     - node
 _core:
-  default_config_hash: E2MlzsdhpPlAH6FhY6g2Xp9RVOQK4aAUVHWHaG0lqxw
+  default_config_hash: NwMQA5Qu_D4fLYqj1H7E3pr2bZRbdr3lKxXgG1MTX_U
 id: node_promote_action
 label: 'Promote content to front page'
 type: node

@@ -6,7 +6,7 @@ dependencies:
   theme:
     - bootstrap
 _core:
-  default_config_hash: RRHu6fycA_y85oiMhjqTakbpjUQXXC5qAtsyl12QX5A
+  default_config_hash: QBr_TLAXggwJLdvxzQbz37f45Tda3O5EsUN3yzauYkQ
 id: bootstrap_branding
 theme: bootstrap
 region: navigation

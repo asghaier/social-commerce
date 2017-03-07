@@ -1,5 +1,5 @@
-name: test
-mail: test@test.com
+name: socialcommerce
+mail: admin@example.com
 slogan: ''
 page:
   403: ''
@@ -10,4 +10,4 @@ weight_select_max: 100
 langcode: en
 default_langcode: en
 _core:
-  default_config_hash: FF1ex592hX6x7EsKXjlH4we1VuPXGLDLlzW_yC103Qo
+  default_config_hash: 6Km7L8nWFIJkQHlckmDrauPvSDo0k6TgSUkksM61DQw

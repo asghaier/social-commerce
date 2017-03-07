@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: ABc3OjH8HJFXHmtC-3HOL87byzpKOOc1qBj0fWQNbNA
+  default_config_hash: GRT1iFeJeCig2IHzkJX9eEFdqpp-gp9zmkUVhcbmKQc
 id: html_datetime
 label: 'HTML Datetime'
 locked: true

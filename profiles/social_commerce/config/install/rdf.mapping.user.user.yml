@@ -4,7 +4,7 @@ dependencies:
   module:
     - user
 _core:
-  default_config_hash: GU1xcG_aG-adf-Mc10PgmCz3UP-LXNY-djUBnh0gUkU
+  default_config_hash: mhWJThIxAzY8t3OBFSqVfSyFLXn84pEg1vn_P97s2vM
 id: user.user
 targetEntityType: user
 bundle: user

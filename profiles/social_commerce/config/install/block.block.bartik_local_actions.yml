@@ -4,7 +4,7 @@ dependencies:
   theme:
     - bartik
 _core:
-  default_config_hash: GkwWrsKWg9mf8qocZ-nVfuEUnQLzgyQpNS-SGqn2BEQ
+  default_config_hash: 9OWAMHAThY8DcH5aXtjdGaP62irQeku7jZfy0rOFrSs
 id: bartik_local_actions
 theme: bartik
 region: content

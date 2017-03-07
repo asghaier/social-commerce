@@ -4,11 +4,11 @@ dependencies:
   theme:
     - bearded
 _core:
-  default_config_hash: aSYalLKUKwG-FtP4GCdwhgFRvIol1_cOo5lHOQex1Gk
+  default_config_hash: OE32IGBkQerPcM8Fqv9dz_WFyvdjJLDZ3qB27A12m_s
 id: bearded_local_tasks
 theme: bearded
-region: content
-weight: -40
+region: header
+weight: -4
 provider: null
 plugin: local_tasks_block
 settings:

@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: Rvman9feHuuUDK9UCBuPRGM-t-z_EtakPDsQMjU-JOU
+  default_config_hash: D2qZcYWwrgXOKcqAJT68Bl9j-WdBYI96RDsQKRK0QWA
 id: main
 label: 'Main navigation'
 description: 'Site section links'
