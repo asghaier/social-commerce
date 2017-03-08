@@ -13,7 +13,7 @@ dependencies:
     - path
     - text
 _core:
-  default_config_hash: zdjCA71rTUQhtrWITYwIu4F1FUGGZFcRBzSIgB5YKes
+  default_config_hash: AjvW9PJ2Lbf-mSuFONDPvraRIxkCspeFovV7J9rnt8s
 id: node.slide.default
 targetEntityType: node
 bundle: slide

@@ -6,7 +6,7 @@ dependencies:
   theme:
     - bearded
 _core:
-  default_config_hash: W-JD1TwhdtBsMsf2t43jljTE5SMirVqfWBXFCF3UR8Y
+  default_config_hash: 4DCBBW60C-wXmbbAG05uax9vnbK0dGuDImPzemmf3wQ
 id: bearded_powered
 theme: bearded
 region: footer

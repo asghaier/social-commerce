@@ -6,7 +6,7 @@ dependencies:
     - node
     - user
 _core:
-  default_config_hash: X1ueoqB2ltWF4jvrEBOHuxv-xS_2spuApeRXpuxArvc
+  default_config_hash: HZq67xmvcvaUGj1I71WwMOqPack49V43W-0g0xevP3w
 id: comments_recent
 label: 'Recent comments'
 module: views

@@ -9,7 +9,7 @@ dependencies:
     - commerce_order
     - commerce_price
 _core:
-  default_config_hash: pod74p4dsS2idwOPC7Lt3g_HY7d_CKIORalBzUsigUg
+  default_config_hash: A3Cg7V-lWvBzESYm7sWaL-Yixsm2-MDRQryWZyj2t9U
 id: commerce_cart_form
 label: 'Cart form'
 module: views

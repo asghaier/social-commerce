@@ -8,7 +8,7 @@ dependencies:
     - commerce_order
     - commerce_price
 _core:
-  default_config_hash: scSY0wzV5QHML12b-bW_YxyebKTJLRQ9hCxxQ0-9Ulo
+  default_config_hash: ipsYs2TIkPGPbtYRx_HaCI_uHoK7hCDT7FJ1zA8rLtA
 id: commerce_cart_block
 label: 'Cart block'
 module: views

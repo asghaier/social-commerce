@@ -8,7 +8,7 @@ dependencies:
   theme:
     - bootstrap
 _core:
-  default_config_hash: vRUM6NR_TrZce5sBh3-vZjos9oIEFx_tEV02fAcxUmk
+  default_config_hash: 4lbw5KA9Cv03bLfwqlvLDXKu4RsAyKBwKsiCvXHdk90
 id: bootstrap_main_menu
 theme: bootstrap
 region: navigation_collapsible

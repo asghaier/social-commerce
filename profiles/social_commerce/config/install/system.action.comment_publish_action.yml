@@ -4,7 +4,7 @@ dependencies:
   module:
     - comment
 _core:
-  default_config_hash: HQFYiT4tQUm4FVBFSxnI8QxygCWPuJi5oML-BTm3Oyw
+  default_config_hash: rPni1eayrdcWGLPZFnohUqmMeRuufiq5P-tVTwLW-OE
 id: comment_publish_action
 label: 'Publish comment'
 type: comment

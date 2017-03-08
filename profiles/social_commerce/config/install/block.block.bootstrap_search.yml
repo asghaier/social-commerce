@@ -6,7 +6,7 @@ dependencies:
   theme:
     - bootstrap
 _core:
-  default_config_hash: KcPSK29_ILadFNYW3E1w93uI97mgcO467rSysmbEAt8
+  default_config_hash: wYdnxg1QIx9AZH-XlRlCQF7T06TBBqU9NuG1y8gE2tQ
 id: bootstrap_search
 theme: bootstrap
 region: sidebar_second

@@ -6,7 +6,7 @@ dependencies:
   theme:
     - bearded
 _core:
-  default_config_hash: '-yrl8F-adXk30o3J-5MfCZKeFjrRqSe_GW7pTx2o6cg'
+  default_config_hash: foYpveiu3aMadGN1pbZty8KSVWQgNNEjHUsjv8UQvZI
 id: bearded_search
 theme: bearded
 region: sidebar_second

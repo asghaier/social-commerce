@@ -5,7 +5,7 @@ dependencies:
     - node
     - text
 _core:
-  default_config_hash: shNfGP_YW0sjH_WDhnjbc5rBunkQZs6rGIxmExn38uk
+  default_config_hash: Z-LguSQAAFySNEUllQPden3V-0sFQqlfPOUPP2ChvFs
 id: node.body
 field_name: body
 entity_type: node

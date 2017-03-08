@@ -8,7 +8,7 @@ dependencies:
     - text
     - user
 _core:
-  default_config_hash: A5rt0CW6TAAGuwRI5FXFifOpOy6yurkru1selp6KE-4
+  default_config_hash: ygUYzTJ1EDEAwo6D6WRkYKChrWOd7DlcMQ2GKSQz33E
 id: node.page.default
 targetEntityType: node
 bundle: page

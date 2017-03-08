@@ -5,7 +5,7 @@ dependencies:
     - commerce_order
     - commerce_price
 _core:
-  default_config_hash: j0K6mfOOZFqGV241cAqvx0SllFloNmwrMARwTMxxNJk
+  default_config_hash: HgfTizuVXYWPzKl57smFm0pdqrPf1NSvSnRWoKW73Xs
 id: commerce_order_item_table
 label: 'Order items'
 module: views

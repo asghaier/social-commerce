@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: eXJJBd6CEqA6bxoULABjJ56dB4og0xjnYHLGLaVBoIU
+  default_config_hash: v-wEBFrxXMyjrBa2aUemdXqSiTaBL7wU4YEJ8E2z4iA
 id: comment
 label: 'Default comments'
 target_entity_type_id: node

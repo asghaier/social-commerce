@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: B1QhS5Q-l2W1ZWS1EkIfoyLy7g-VyuuvZDug8mMJTKE
+  default_config_hash: bpYT-bZKdDg2ce3afxnm6Or6iN2RuZyr0y3IVfT14ZE
 id: medium
 label: 'Default medium date'
 locked: false

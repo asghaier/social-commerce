@@ -4,7 +4,7 @@ dependencies:
   module:
     - block_content
 _core:
-  default_config_hash: aOoY8tIEslAQ5KQPnmMj8v-VMzw3tabPdzVItzFumSw
+  default_config_hash: fCJIfENZ_H62Opsyeo0EB1h-_qCxCGJNwJ4eVomoWXE
 id: block_content.full
 label: Full
 targetEntityType: block_content

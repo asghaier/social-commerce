@@ -10,7 +10,7 @@ dependencies:
     - state_machine
     - user
 _core:
-  default_config_hash: h3rGak6ax3DmYudB0DdvLad2xXmcpk-QGrurDXoC5t0
+  default_config_hash: r4UZCDO8mMIr9dpK6Yv0JkwYrJXiywD1bE2m8fco3y4
 id: commerce_order.default.default
 targetEntityType: commerce_order
 bundle: default

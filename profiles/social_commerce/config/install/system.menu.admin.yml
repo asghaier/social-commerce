@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: ot3jUy4ZlQ8FVaYPUoOpZuhWSbwAgwUsMvUEcSkhEyg
+  default_config_hash: ubbis0tyEVRh8TCzR8xK5KTzV1Y_woy9pH1PEoYmpMY
 id: admin
 label: Administration
 description: 'Administrative task links'

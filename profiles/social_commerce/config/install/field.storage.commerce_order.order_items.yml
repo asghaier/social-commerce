@@ -4,7 +4,7 @@ dependencies:
   module:
     - commerce_order
 _core:
-  default_config_hash: 5D4-8QrIOdWGw6phBShMjFdIndRMzOHCKVBJd6ANMxg
+  default_config_hash: 9c6TYvwuSxovUZ-RE863_KC8bxOAT2cmwO5R0IxH3vc
 id: commerce_order.order_items
 field_name: order_items
 entity_type: commerce_order

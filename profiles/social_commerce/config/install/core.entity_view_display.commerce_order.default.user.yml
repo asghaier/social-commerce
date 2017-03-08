@@ -11,7 +11,7 @@ dependencies:
     - entity_reference_revisions
     - options
 _core:
-  default_config_hash: xNkSgZvfp3zt2NCHKsRwBOoI8KiCOroLpf1wTr7xNec
+  default_config_hash: pCrOhoYnUOQAcKfpjVPJ_yxs3HWK6h42PypnEsshhGI
 id: commerce_order.default.user
 targetEntityType: commerce_order
 bundle: default

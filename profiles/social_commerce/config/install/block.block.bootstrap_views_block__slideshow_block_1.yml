@@ -6,7 +6,7 @@ dependencies:
   theme:
     - bootstrap
 _core:
-  default_config_hash: Adx0R-yBQ9fyASpDXC2irytPZ0WxukA_DLwXxX81qug
+  default_config_hash: L4M61RCQ6HUbq9DtF3k2wuA1Dp5H5hDuzgMZ007Xytc
 id: bootstrap_views_block__slideshow_block_1
 theme: bootstrap
 region: content

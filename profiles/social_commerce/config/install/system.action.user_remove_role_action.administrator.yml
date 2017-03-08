@@ -6,7 +6,7 @@ dependencies:
   module:
     - user
 _core:
-  default_config_hash: oleULlD5ba9-WuzPdqSNBE4cOsTXAh-yZlSxsqWoNqo
+  default_config_hash: LBkM9IT0XCHNG_d26ppdT2rCce96H7pEAhYiJ0MS7U8
 id: user_remove_role_action.administrator
 label: 'Remove the Administrator role from the selected users'
 type: user

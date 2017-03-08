@@ -4,7 +4,7 @@ dependencies:
   module:
     - node
 _core:
-  default_config_hash: bOqMkbJYrJVn9I7ZDZVgCDg7xUcsBFJKdApNifw2Ih0
+  default_config_hash: trUxB-JBNNS-GRP4Lfh4CQ9iAUNzxRsl_i7YbugxIho
 id: node_unpromote_action
 label: 'Remove content from front page'
 type: node

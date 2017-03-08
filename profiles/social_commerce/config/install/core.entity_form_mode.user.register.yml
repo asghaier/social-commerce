@@ -4,7 +4,7 @@ dependencies:
   module:
     - user
 _core:
-  default_config_hash: vjoqcAdCZZ3y0TbwSGUiYMXfzknd31IKPUhIyG_JkEg
+  default_config_hash: hHfyveqgbrRk9_M6XI7TZV_-NVZZvD81gsXv1KRZGG8
 id: user.register
 label: Register
 targetEntityType: user

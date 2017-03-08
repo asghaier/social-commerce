@@ -12,7 +12,7 @@ dependencies:
     - text
     - user
 _core:
-  default_config_hash: tr_3YWvZrqy4QS9pEtN3xnmLAPMWGUWWhbxvG2cD7zM
+  default_config_hash: 9jBHKMGmG3XlNIdXZwwAeSDLj_bULWAZkbC1AidNhj0
 id: node.slide.default
 targetEntityType: node
 bundle: slide

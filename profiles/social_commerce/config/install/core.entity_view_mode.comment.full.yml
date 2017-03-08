@@ -4,7 +4,7 @@ dependencies:
   module:
     - comment
 _core:
-  default_config_hash: 4M1dE2ESX57frBu1sMIRIXnhuJmg6Uy4hWxC1tNsTio
+  default_config_hash: 8MZcLW1T8Y282ImHLKs5K5oxo2rgaD1keb95YYhC9HU
 id: comment.full
 label: 'Full comment'
 targetEntityType: comment

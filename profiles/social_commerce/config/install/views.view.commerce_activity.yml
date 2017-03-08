@@ -5,7 +5,7 @@ dependencies:
     - commerce_log
     - user
 _core:
-  default_config_hash: a4VgDfkJtuDxQ2yo6sWS_StYniPRQA1IDxJQCTjBLI8
+  default_config_hash: s_PpJFos_V3zXzczcfFtOon6HPsxuwW3ltInkSyLfQM
 id: commerce_activity
 label: Activity
 module: views
