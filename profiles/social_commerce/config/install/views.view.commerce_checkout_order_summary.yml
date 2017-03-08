@@ -8,7 +8,7 @@ dependencies:
     - commerce_order
     - commerce_price
 _core:
-  default_config_hash: hyYl5bj4L01tRcdo8aDMkdJxKsYYcff1DH7kqPvKu8M
+  default_config_hash: 83qm4nl3uOgqK7Oqx1_M59Gdp23psCRFsdk8MLll1So
 id: commerce_checkout_order_summary
 label: 'Checkout Order Summary'
 module: views

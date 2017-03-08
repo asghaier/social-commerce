@@ -8,7 +8,7 @@ dependencies:
     - commerce
     - user
 _core:
-  default_config_hash: Laz53X3lXiTcExSX-qx8Gg3o85pGPGg5AxMlGBgdmFA
+  default_config_hash: GIEA_boHZF90e2haUXjf8_C8fiyT2znzIFo_bW6jSH4
 id: user.commerce_remote_id
 field_name: commerce_remote_id
 entity_type: user

@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: K7Ru7rb61qVXkmfIXC7SugmieIOMuG1k3seb5VO4GJw
+  default_config_hash: t50mumv3L4uDoVjpj0bmQoWIAp1uhngmrlfHS5q8plQ
 name: thumbnail
 label: 'Thumbnail (100×100)'
 effects:

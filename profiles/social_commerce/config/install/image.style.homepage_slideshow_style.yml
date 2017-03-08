@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: P9YsXmIf8BVldbuwL1nfsLCbD5XIU6b4l7OrplvGoqI
+  default_config_hash: tndA2Loq-wrJh0jr8lJburTnw9hTa5oJIMVzLhH8nTw
 name: homepage_slideshow_style
 label: 'Homepage Slideshow Style'
 effects:

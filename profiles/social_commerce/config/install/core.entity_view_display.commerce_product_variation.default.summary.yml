@@ -5,7 +5,7 @@ dependencies:
     - commerce_product.commerce_product_variation_type.default
     - core.entity_view_mode.commerce_product_variation.summary
 _core:
-  default_config_hash: 7pHQRIrqTUg677S7JY0uAcfZtnjK0-m8c9UWhkh_3A0
+  default_config_hash: 6J0xB8sNfDKPAl6hnmRY6Ng7Hv2SIgonKNkp75GaLHM
 id: commerce_product_variation.default.summary
 targetEntityType: commerce_product_variation
 bundle: default

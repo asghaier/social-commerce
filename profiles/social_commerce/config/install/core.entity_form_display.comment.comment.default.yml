@@ -7,7 +7,7 @@ dependencies:
   module:
     - text
 _core:
-  default_config_hash: zeWYWYN4yCIkvavsaoxzmv-uzhTKNEPTxuqWx5IjYfI
+  default_config_hash: DNlHnW484dHeTQNJRDtPsrIRCixJKKsfjqFifJ1p0II
 id: comment.comment.default
 targetEntityType: comment
 bundle: comment

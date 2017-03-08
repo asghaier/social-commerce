@@ -7,7 +7,7 @@ dependencies:
   module:
     - comment
 _core:
-  default_config_hash: Aituad2UG8Nee_FCrCKLwns_KD21RZdgU8CiGQgDGRQ
+  default_config_hash: rEh2iJHSsqahr1EH_RlE2Io-g3TiFdYCFo8xpdvKbGs
 id: node.article.comment
 field_name: comment
 entity_type: node

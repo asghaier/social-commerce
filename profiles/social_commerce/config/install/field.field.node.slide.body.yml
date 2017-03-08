@@ -7,7 +7,7 @@ dependencies:
   module:
     - text
 _core:
-  default_config_hash: dxhIFHJURxOYACjUDraGYQdBwFictC_oJzDMgPJhI_U
+  default_config_hash: spml1hlKWjbgZvjTKz-Fkegu2ngnMKegTgeeR69J99M
 id: node.slide.body
 field_name: body
 entity_type: node

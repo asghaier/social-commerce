@@ -8,7 +8,7 @@ dependencies:
   module:
     - commerce_product
 _core:
-  default_config_hash: lDI7aHxLe0KFMM3H5jTEl8JhxJ0wdamKjlmRbrhrBrM
+  default_config_hash: O-DSNGZy5QHGx8ndUNqGJXol7YOxxCFkM7Sk8jg5sJQ
 id: commerce_product_variation.cart
 label: Cart
 targetEntityType: commerce_product_variation

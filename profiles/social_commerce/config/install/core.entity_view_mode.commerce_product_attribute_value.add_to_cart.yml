@@ -4,7 +4,7 @@ dependencies:
   module:
     - commerce_product
 _core:
-  default_config_hash: NWTI8tCmQRgrjdMF8NCRTAlcbQ3qL9xMwCUvnf-klIM
+  default_config_hash: CfM_TcdJ-6btNteHcZ9-DKWPtuXV0OtC-COklk7GnXY
 id: commerce_product_attribute_value.add_to_cart
 label: 'Add to Cart Form'
 targetEntityType: commerce_product_attribute_value

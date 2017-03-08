@@ -8,7 +8,7 @@ dependencies:
   theme:
     - bearded
 _core:
-  default_config_hash: LRGUi42jzdMEG_5VSZ4QwWfu0vS3oEB0vXXCp-VC3II
+  default_config_hash: f9QIwkQCfZSrU8YRpoAeCDQC27pYF4yQMhA2Yi2wLcQ
 id: bearded_main_menu
 theme: bearded
 region: navigation_collapsible

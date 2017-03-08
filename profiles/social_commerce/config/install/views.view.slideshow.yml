@@ -15,7 +15,7 @@ dependencies:
     - user
     - views_slideshow
 _core:
-  default_config_hash: uAFtVgsOzcbc3Q-PiSzCp6t6ocH_zDVLMUGph3dH7P0
+  default_config_hash: QnnqSGeo8nFgY1R2ByFRc9N1Vh8_UwN_-i3hNxEXwQY
 id: slideshow
 label: Slideshow
 module: views

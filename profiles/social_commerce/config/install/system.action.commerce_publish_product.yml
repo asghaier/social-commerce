@@ -4,7 +4,7 @@ dependencies:
   module:
     - commerce_product
 _core:
-  default_config_hash: 75W_OKeiEckVkPdmTkc7loxtPpKTcKs6a8Nujbq7bMk
+  default_config_hash: 2qlIN_ybiN59tZnGHx16tgCWpeItNwQQWw0J82ncoro
 id: commerce_publish_product
 label: 'Publish product'
 type: commerce_product

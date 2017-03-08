@@ -9,7 +9,7 @@ dependencies:
   module:
     - commerce_price
 _core:
-  default_config_hash: Pl8c3wPaHrS1Ie9SZQg0KVgKCmLAwibnF7iBPxE1QMs
+  default_config_hash: WqXW5iF-YGuRFOMdgcxHjwIrohjS_W8kutSHpYNq3SA
 id: commerce_order_item.default.default
 targetEntityType: commerce_order_item
 bundle: default

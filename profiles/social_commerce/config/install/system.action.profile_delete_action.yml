@@ -4,7 +4,7 @@ dependencies:
   module:
     - profile
 _core:
-  default_config_hash: 8MXOo-ZtdvjwcaJqGk5sylngsTTWsw-S172mNmpQDVY
+  default_config_hash: kyuxolHhroNqr4vD0k8NtI2d5fggyTCZM8ctulTeGXI
 id: profile_delete_action
 label: 'Delete selected profile'
 type: profile

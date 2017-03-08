@@ -9,7 +9,7 @@ dependencies:
       - commerce_cart
       - commerce_product
 _core:
-  default_config_hash: dC0XuFmJzZ76sion5ungdy2oR32lpcbESsOQGjUNf3w
+  default_config_hash: '-cUWlMZ-qneqkt620zTcGt0l3R3MwEYUmF3jfmBaKzY'
 id: commerce_product_variation.default.cart
 targetEntityType: commerce_product_variation
 bundle: default

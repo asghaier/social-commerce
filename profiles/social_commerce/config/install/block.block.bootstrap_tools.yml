@@ -8,7 +8,7 @@ dependencies:
   theme:
     - bootstrap
 _core:
-  default_config_hash: 0KOvvJ65IEmRSwh_RFzdeUdShN5_elFmb0yiOKYVh50
+  default_config_hash: DAIgdLFQUEPlqWM7mL2q-n-bZt8ArU6fphlfESlF6Mo
 id: bootstrap_tools
 theme: bootstrap
 region: sidebar_second

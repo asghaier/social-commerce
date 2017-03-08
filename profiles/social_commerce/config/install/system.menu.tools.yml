@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: ZGWb4xQBnbHQxRmw7kP1oOIqS88-bcNjMl-Ckz0x6gI
+  default_config_hash: mJ16r1fQrbil2VJkhXgnKr6Xdw97HrSWLIWPF8ZNVr0
 id: tools
 label: Tools
 description: 'User tool links, often added by modules'

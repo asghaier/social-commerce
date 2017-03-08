@@ -4,7 +4,7 @@ dependencies:
   module:
     - commerce_product
 _core:
-  default_config_hash: Wwa_5gj5qO7H3C33udX0l1QjXBexw_Gq2BnPMPHT7hU
+  default_config_hash: gymQLr_FsFd9LdMQoTcaK_LrRm5rrl6GnHyAnqQ5K30
 id: commerce_product_variation.summary
 label: Summary
 targetEntityType: commerce_product_variation

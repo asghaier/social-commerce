@@ -11,7 +11,7 @@ dependencies:
     - text
     - user
 _core:
-  default_config_hash: JEl1U8WiBMDM4iVs17WLw_tAehZySJ2A7RXtRZl9tK4
+  default_config_hash: Sr6sED_t3zeZzcJnVkhf9d9JliPrKwb7VOAuwaPTuMI
 id: node.slide.teaser
 targetEntityType: node
 bundle: slide

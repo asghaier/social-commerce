@@ -5,7 +5,7 @@ dependencies:
     - link
     - node
 _core:
-  default_config_hash: K3Cq5RebRAiO4CzoSePfE3Xe12pt-vSvJ9UNo0GqYNE
+  default_config_hash: vQWRV3Qa-8GVzExbo2PfnEM99GSXB2Q5BY2k6U8AEn0
 id: node.field_slide_link
 field_name: field_slide_link
 entity_type: node

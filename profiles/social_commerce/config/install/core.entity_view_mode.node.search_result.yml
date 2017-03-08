@@ -4,7 +4,7 @@ dependencies:
   module:
     - node
 _core:
-  default_config_hash: 6Q1AAlEq-uq_6lw5hv7oACXZReEZz_cfRmAdO-3_Z9U
+  default_config_hash: fJMu44wjqRQbToYt9dKLNq_ccdGDE2vY6Cx2KnzquZs
 id: node.search_result
 label: 'Search result highlighting input'
 targetEntityType: node
