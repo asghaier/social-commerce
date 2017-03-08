@@ -1,4 +1,3 @@
-uuid: 8fbc4ccd-ee2f-4814-a771-44ea57ca6ad4
 langcode: en
 status: true
 dependencies:
@@ -15,6 +14,8 @@ dependencies:
     - text
     - user
     - views_slideshow
+_core:
+  default_config_hash: uAFtVgsOzcbc3Q-PiSzCp6t6ocH_zDVLMUGph3dH7P0
 id: slideshow
 label: Slideshow
 module: views

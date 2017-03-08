@@ -2,6 +2,6 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: 6rsdE-B5e3IyTeynUZf0dLol1ejX7HnETeH5HesGKXc
+  default_config_hash: tTUYeVHiOF0qgPXHizwYZttrD6J6ZLcGdv06_4NTNaY
 id: default
 label: Default

@@ -6,7 +6,7 @@ dependencies:
   theme:
     - bearded
 _core:
-  default_config_hash: XlhdCfKw4EBtHmrXHmwRlBHLdfEWIBUEWsp5CleL_Xo
+  default_config_hash: '-sFJ16pnZT55MJ4kp0ujn7suXVt25mMOI2LHShh-zZo'
 id: bearded_branding
 theme: bearded
 region: navigation

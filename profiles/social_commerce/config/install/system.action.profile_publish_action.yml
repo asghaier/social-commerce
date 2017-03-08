@@ -4,7 +4,7 @@ dependencies:
   module:
     - profile
 _core:
-  default_config_hash: oOLpi310j8NEMWQCgQm57W9PkqnmCc8GsWVNIOxRLIY
+  default_config_hash: mwzdcN-9n-6VADIcrN8-ukzf82cJuAbAUt47CxQRqzo
 id: profile_publish_action
 label: 'Publish selected profile'
 type: profile

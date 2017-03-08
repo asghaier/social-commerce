@@ -5,7 +5,7 @@ dependencies:
     - commerce_order.commerce_order_type.default
     - field.storage.commerce_order.order_items
 _core:
-  default_config_hash: SEltnuElrSBb8J484uO8AEmje6UQA2tmjd4Y-sO9rPo
+  default_config_hash: n32SS4fOP3fCKSPpvAPkFVYL9cUZ7flQbwjU2DxorfI
 id: commerce_order.default.order_items
 field_name: order_items
 entity_type: commerce_order

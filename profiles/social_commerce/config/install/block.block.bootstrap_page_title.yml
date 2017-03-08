@@ -4,7 +4,7 @@ dependencies:
   theme:
     - bootstrap
 _core:
-  default_config_hash: Bm3OixJDnEfGP4sn0JnNnto_ckynG0-s22RDziTegFM
+  default_config_hash: qNoZ9DRbemGlX-j6qHe-Ed2AifExRHNeMD0CeWR9tVg
 id: bootstrap_page_title
 theme: bootstrap
 region: header

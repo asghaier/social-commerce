@@ -6,7 +6,7 @@ dependencies:
   module:
     - user
 _core:
-  default_config_hash: ZUe5FQphWF9jrvrt1zlWBS4ezjoPrgN_WV8wcbU855c
+  default_config_hash: otgHblyjY3ph-uoGLRLzbIWdR-nsSRxjNO833hZnKR8
 id: user_add_role_action.administrator
 label: 'Add the Administrator role to the selected users'
 type: user

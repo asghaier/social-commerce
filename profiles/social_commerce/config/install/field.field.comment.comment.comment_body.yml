@@ -7,7 +7,7 @@ dependencies:
   module:
     - text
 _core:
-  default_config_hash: EcQ-euGOBT5X1BOD_BhgZu0OfPniRXsevS8ZEwysjLA
+  default_config_hash: 04kKoqS5eGKHbcA5Uuar0kkhWRE1g26NtKTKH2IeI_c
 id: comment.comment.comment_body
 field_name: comment_body
 entity_type: comment

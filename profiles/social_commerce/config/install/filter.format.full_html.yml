@@ -4,7 +4,7 @@ dependencies:
   module:
     - editor
 _core:
-  default_config_hash: WnTEhOEGWg27AokXo6_Etd0I8vf-VN6fpbQ7eYNimu0
+  default_config_hash: ii3I7q0AcdxgY3Ny_hy1unOpxTxEV2XKnItLq0iIba4
 name: 'Full HTML'
 format: full_html
 weight: 1

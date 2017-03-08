@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: Zmjf8_YkWq1OsnryhPRtXG06TK-JLy0dzYN9ZOOU8k4
+  default_config_hash: Otri7Q1DlFih5Smm2GFosNib4CLfjWLyykFJ6ztsjdE
 id: footer
 label: Footer
 description: 'Site information links'

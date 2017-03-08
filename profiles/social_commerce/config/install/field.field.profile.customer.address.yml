@@ -7,7 +7,7 @@ dependencies:
   module:
     - address
 _core:
-  default_config_hash: JiUnUe2fFkNXk0ka9gMTIh40Me6zPSv9XNeLPUWqneg
+  default_config_hash: M81M0WLGt12P7-1y3hu3iA3l2_CUJWqn5PZv9zOILyc
 id: profile.customer.address
 field_name: address
 entity_type: profile

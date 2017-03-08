@@ -4,7 +4,7 @@ dependencies:
   module:
     - node
 _core:
-  default_config_hash: LdMxsJsgjI5142Zicl-oRiNXJWEh3jNYocfjhByjabA
+  default_config_hash: uGZ0hlSloaZrlm04yiU61RkO82l_BdStbo3Cyb3ZPYo
 id: node.rss
 label: RSS
 targetEntityType: node

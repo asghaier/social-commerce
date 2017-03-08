@@ -4,7 +4,7 @@ dependencies:
   module:
     - comment
 _core:
-  default_config_hash: Js3fg_eNUjweaUwzG5kG2nooBqKrLFn7YKERmganXrA
+  default_config_hash: K0jK0hw0QPMYreVQsy4mVBPYlS3jolsfSeglw2IQquo
 id: comment_unpublish_action
 label: 'Unpublish comment'
 type: comment

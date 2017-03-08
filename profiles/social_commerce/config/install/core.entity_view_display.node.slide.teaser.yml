@@ -1,13 +1,17 @@
-SocialCommerceTestsControllerlangcode: en
+langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.slide.body
+    - field.field.node.slide.field_slide_image
+    - field.field.node.slide.field_slide_link
     - node.type.slide
   module:
     - text
     - user
+_core:
+  default_config_hash: JEl1U8WiBMDM4iVs17WLw_tAehZySJ2A7RXtRZl9tK4
 id: node.slide.teaser
 targetEntityType: node
 bundle: slide
@@ -22,4 +26,6 @@ content:
     third_party_settings: {  }
   links:
     weight: 100
-hidden: {  }
+hidden:
+  field_slide_image: true
+  field_slide_link: true

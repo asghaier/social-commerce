@@ -4,7 +4,7 @@ dependencies:
   module:
     - profile
 _core:
-  default_config_hash: o3qQGz2-1bkCTF9hgKCxw-j2m0bC7tIJmoMUF3gLolE
+  default_config_hash: VloUq_1kpDtZwXKkxqmf9_WViEbjCg3xfrzhoznOnz8
 id: profile_unpublish_action
 label: 'Unpublish selected profile'
 type: profile

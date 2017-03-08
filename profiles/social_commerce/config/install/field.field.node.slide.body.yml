@@ -1,4 +1,4 @@
-SocialCommerceTestsControllerlangcode: en
+langcode: en
 status: true
 dependencies:
   config:
@@ -6,6 +6,8 @@ dependencies:
     - node.type.slide
   module:
     - text
+_core:
+  default_config_hash: dxhIFHJURxOYACjUDraGYQdBwFictC_oJzDMgPJhI_U
 id: node.slide.body
 field_name: body
 entity_type: node

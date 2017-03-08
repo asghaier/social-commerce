@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: M9E8iwfhiO2mLiHYErMBYqwTHizGgAx53JpRsYvKIGY
+  default_config_hash: TaSay_Qepu_PwecClel5BJu627SBxawzmZECu4RvVnk
 id: personal
 label: 'Personal contact form'
 recipients: {  }

@@ -4,7 +4,7 @@ dependencies:
   module:
     - node
 _core:
-  default_config_hash: Qs36zKREz5zBv-AO8N79zdeCTS3Z7XjGs_Pqio4eLDI
+  default_config_hash: NQU0_iiyRusYDXAwhSAvb3b9_2rcW9pp9wy2Q9QGY4k
 id: node.teaser
 label: Teaser
 targetEntityType: node

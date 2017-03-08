@@ -6,7 +6,7 @@ dependencies:
   theme:
     - bootstrap
 _core:
-  default_config_hash: G6QMRYr8VYwG7OLzLfcsqmtPJr7fOhXJqk1oc6qr_U0
+  default_config_hash: 0k9DCmfu2cdiSJ8wtUyVuUb8pXUTw2CwLIeQ2HOO6cs
 id: bootstrap_powered
 theme: bootstrap
 region: footer

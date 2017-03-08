@@ -4,7 +4,7 @@ dependencies:
   theme:
     - bearded
 _core:
-  default_config_hash: OE32IGBkQerPcM8Fqv9dz_WFyvdjJLDZ3qB27A12m_s
+  default_config_hash: Or_kLEWfT5oRLFC3eoW22DeL6rEuHN4MFYviNrQogFY
 id: bearded_local_tasks
 theme: bearded
 region: header
