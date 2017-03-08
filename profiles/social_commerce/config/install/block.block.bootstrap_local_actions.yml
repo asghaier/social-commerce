@@ -4,7 +4,7 @@ dependencies:
   theme:
     - bootstrap
 _core:
-  default_config_hash: aUxfCjZlR0VFzU4xmtGaA2RzfO3BhXQjDiKwih4mzu0
+  default_config_hash: bc2Ivz3Z3Ob-r4RxTlxJANGqvZexpaeS8r_8gJO49H4
 id: bootstrap_local_actions
 theme: bootstrap
 region: header

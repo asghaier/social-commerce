@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: Cfv9H3lp6SX2qGGyYxfTf3akOkyFLMAFZE2EtxRB6d0
+  default_config_hash: IUxFWT40Kneayv2oRdruZtIcWEB1U_LLoNfxcfGASbM
 name: medium
 label: 'Medium (220×220)'
 effects:

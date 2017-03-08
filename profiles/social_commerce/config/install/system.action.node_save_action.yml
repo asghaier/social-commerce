@@ -4,7 +4,7 @@ dependencies:
   module:
     - node
 _core:
-  default_config_hash: wq8Eqj69fJp0iZ9PIb9pVmBavyPRmGkGSQI7zo2jMuc
+  default_config_hash: _VsqCzgNgf8h6VC86eiZmiP0YROUsI6XYafBZ7Ue74c
 id: node_save_action
 label: 'Save content'
 type: node

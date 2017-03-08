@@ -11,7 +11,7 @@ dependencies:
   module:
     - user
 _core:
-  default_config_hash: 1OTfA_pgxJt5bQnBAi47tdz9rt3Qlb5bN-18tzjP-a8
+  default_config_hash: os2sgHSvqy6Tp2RynUnf0CvSLn6gs4gT_TGUZw62KW0
 id: node.article.rss
 targetEntityType: node
 bundle: article

@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: 7Csh22iNfxrss4OFjc_9HTQ_rEPmzpCD3x6FomypA5A
+  default_config_hash: _U-N-YBLvQD_5RPzSs0Y2SNSRoWZ5X77asYMuCs6rwM
 label: Default
 id: default
 workflow: order_default

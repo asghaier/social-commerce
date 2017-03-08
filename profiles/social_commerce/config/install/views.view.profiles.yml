@@ -4,7 +4,7 @@ dependencies:
   module:
     - profile
 _core:
-  default_config_hash: 8fmp5qvMnORw69nj_oaKUjHwO4ZvP4prp39R_D28qGg
+  default_config_hash: rOg1szGhkBpEe3EkGdU8pB7_IQEZISQjaxy-kt-HTc8
 id: profiles
 label: Profiles
 module: views

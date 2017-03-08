@@ -4,7 +4,7 @@ dependencies:
   module:
     - commerce_product
 _core:
-  default_config_hash: ysUjXB2cw2SzIVSNVMXj1cHxcB2iPk0A_MvRPIE19fQ
+  default_config_hash: wl5rCGplVhsiL-bJrNui-iwLSltCKlAn2QO_VOt9wOQ
 id: commerce_unpublish_product
 label: 'Unpublish product'
 type: commerce_product

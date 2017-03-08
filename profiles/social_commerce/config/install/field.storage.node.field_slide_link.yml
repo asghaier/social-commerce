@@ -1,9 +1,11 @@
-SocialCommerceTestsControllerlangcode: en
+langcode: en
 status: true
 dependencies:
   module:
     - link
     - node
+_core:
+  default_config_hash: K3Cq5RebRAiO4CzoSePfE3Xe12pt-vSvJ9UNo0GqYNE
 id: node.field_slide_link
 field_name: field_slide_link
 entity_type: node

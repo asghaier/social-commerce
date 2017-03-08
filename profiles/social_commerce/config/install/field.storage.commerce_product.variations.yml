@@ -4,7 +4,7 @@ dependencies:
   module:
     - commerce_product
 _core:
-  default_config_hash: HjP1VwDBhleZrAPLo0OJnqHD74jl_VshBA29NmN1dto
+  default_config_hash: ZDcdu2oIjSuDuQXaYT9zs7SZ8La7EgfXlavFrZ2gXbo
 id: commerce_product.variations
 field_name: variations
 entity_type: commerce_product

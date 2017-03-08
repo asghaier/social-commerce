@@ -1,4 +1,4 @@
-SocialCommerceTestsControllerlangcode: en
+langcode: en
 status: true
 dependencies:
   config:
@@ -11,6 +11,8 @@ dependencies:
     - link
     - text
     - user
+_core:
+  default_config_hash: tr_3YWvZrqy4QS9pEtN3xnmLAPMWGUWWhbxvG2cD7zM
 id: node.slide.default
 targetEntityType: node
 bundle: slide

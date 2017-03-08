@@ -1,7 +1,8 @@
-uuid: 453df0cf-62c5-4cb2-8d77-061aaab6d124
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: P9YsXmIf8BVldbuwL1nfsLCbD5XIU6b4l7OrplvGoqI
 name: homepage_slideshow_style
 label: 'Homepage Slideshow Style'
 effects:

@@ -6,7 +6,7 @@ dependencies:
   module:
     - address
 _core:
-  default_config_hash: lZ74A899R4o1s4AsGCyiq3fLJ5dSap01bCRQNe6-2dA
+  default_config_hash: yIpWntcRioYv0_YaVijx6Io_r8vObDYtnrudRZlIQak
 id: commerce_store.online.default
 targetEntityType: commerce_store
 bundle: online

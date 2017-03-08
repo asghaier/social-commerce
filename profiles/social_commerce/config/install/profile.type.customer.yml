@@ -5,7 +5,7 @@ dependencies:
     module:
       - commerce_order
 _core:
-  default_config_hash: g_lrxmcR7oZxlU5HwgoFe2UMgkXSkD-Sl8F_ZoMU0wE
+  default_config_hash: kAl82GO619KPWGgJDrxZnTGeQuGhPi8zeYRPo9CbesM
 id: customer
 label: Customer
 registration: false

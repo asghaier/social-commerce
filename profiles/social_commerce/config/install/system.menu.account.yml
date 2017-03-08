@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: WKjKxkisN1yXdXF5ZJ-dbYjtbgTex2yI0ep0-pgUKMo
+  default_config_hash: zsSso5cZD7CEamo_3ttvwWdYZNQe43WHBi4R5-4q7DY
 id: account
 label: 'User account menu'
 description: 'Links related to the active user account'

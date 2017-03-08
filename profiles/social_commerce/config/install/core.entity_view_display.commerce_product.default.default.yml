@@ -10,7 +10,7 @@ dependencies:
     - commerce_product
     - text
 _core:
-  default_config_hash: 2hBDH7ITm7P-MJf7FbK0obqQs_tmf_0BpouP7k7q5wA
+  default_config_hash: RHSCBqxBK-nSXie1xYBdazf2LQYxtFpZfy2jagh9PY8
 id: commerce_product.default.default
 targetEntityType: commerce_product
 bundle: default

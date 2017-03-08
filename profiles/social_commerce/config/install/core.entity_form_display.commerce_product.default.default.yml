@@ -12,7 +12,7 @@ dependencies:
     - path
     - text
 _core:
-  default_config_hash: ELs4mArzUDxeVQYoYmfCC3pswdIKVd4h5JljtaNjdwM
+  default_config_hash: KBxCzOZR0fLSpDDLbD-MkrGRha5tSJ67V3o1HLBAlC0
 id: commerce_product.default.default
 targetEntityType: commerce_product
 bundle: default

@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: I2OQCv0p4XeNYT5n4TZlfI3aAaGJ6CE63kkVRklan8w
+  default_config_hash: m99N94p5TVINtYaow1J4bUq4S3qABhNizQhdafc-KpY
 id: fallback
 label: 'Fallback date format'
 locked: true

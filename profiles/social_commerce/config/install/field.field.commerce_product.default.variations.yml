@@ -6,7 +6,7 @@ dependencies:
     - commerce_product.commerce_product_variation_type.default
     - field.storage.commerce_product.variations
 _core:
-  default_config_hash: OYcQNzncBHjJWgsPtZUmGs0NbvbDim324u6-2eSEdqM
+  default_config_hash: guMlHBnSYVDFTftv0M1d6xq_KbIq7uoPHQ0E5xJK5Nk
 id: commerce_product.default.variations
 field_name: variations
 entity_type: commerce_product

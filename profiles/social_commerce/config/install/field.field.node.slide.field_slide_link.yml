@@ -1,4 +1,4 @@
-SocialCommerceTestsControllerlangcode: en
+langcode: en
 status: true
 dependencies:
   config:
@@ -6,6 +6,8 @@ dependencies:
     - node.type.slide
   module:
     - link
+_core:
+  default_config_hash: iTo7W_iIbl4Qgw4LX9ASnEXBHpzbyYJ3EKT0Uf8YZe0
 id: node.slide.field_slide_link
 field_name: field_slide_link
 entity_type: node

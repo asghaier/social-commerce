@@ -4,7 +4,7 @@ dependencies:
   module:
     - node
 _core:
-  default_config_hash: sv0k-e772WB9-GBGRt7v3vgltrgd5Ko2FYbPyNXtH1k
+  default_config_hash: dVlxeJjJoU2z0TJw85w5oGT3KsWfWCUhOijWpf4ZBOc
 id: node.full
 label: 'Full content'
 targetEntityType: node

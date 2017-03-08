@@ -1,0 +1,28 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bootstrap
+_core:
+  default_config_hash: Adx0R-yBQ9fyASpDXC2irytPZ0WxukA_DLwXxX81qug
+id: bootstrap_views_block__slideshow_block_1
+theme: bootstrap
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:slideshow-block_1'
+settings:
+  id: 'views_block:slideshow-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

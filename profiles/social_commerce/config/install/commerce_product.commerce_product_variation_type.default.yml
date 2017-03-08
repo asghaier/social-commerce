@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: ao_Nixnpn1-_R3QgFsFv--iVb5ZZDSTvKWFc1q0YnGI
+  default_config_hash: vuquVB_ZQCn6ybxyAAlpEn3iKid_fsSSqFIOxpKw6EI
 id: default
 label: Default
 orderItemType: default

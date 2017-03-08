@@ -8,7 +8,7 @@ dependencies:
   theme:
     - bearded
 _core:
-  default_config_hash: tXOXwHxPVBWtDcYulPpRe1Ty0nn7cqJWpqCnxZk339g
+  default_config_hash: CszdrIjZALX2o8Ac8BPlIztGwPbk2lJ9sxPnX8rMDGU
 id: bearded_tools
 theme: bearded
 region: sidebar_second

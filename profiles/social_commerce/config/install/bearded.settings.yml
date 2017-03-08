@@ -1,6 +1,6 @@
 cdn_provider: ''
 _core:
-  default_config_hash: qhgz5bXrr19ZGLePha7UbMb6Uqa4Ypq0oV9zh_9fmwk
+  default_config_hash: hoFKW8ePvYVwwfw0Ug17rBQCLhrMR6yFCqLQb0hZggk
 favicon:
   mimetype: image/vnd.microsoft.icon
   path: ''
@@ -17,6 +17,6 @@ features:
 logo:
   path: 'public://logo_0.png'
   url: ''
-  use_default: false
+  use_default: true
 table_responsive: '-1'
 table: ''
