@@ -1,10 +1,13 @@
 langcode: en
 status: true
 dependencies:
+  module:
+    - system
+    - views
   theme:
-    - bootstrap
-id: views_block__slideshow_homepage
-theme: bootstrap
+    - bearded
+id: views_block__slideshow_block_1
+theme: bearded
 region: content
 weight: 0
 provider: null
