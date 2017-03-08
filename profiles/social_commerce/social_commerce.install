@@ -6,6 +6,7 @@
  */
  
  use Drupal\user\RoleInterface;
+ use Drupal\menu_link_content\Entity\MenuLinkContent;
 
 /**
  * Implements hook_install().
@@ -33,4 +34,21 @@ function social_commerce_install() {
 
   // Install Book module
   // \Drupal::service('module_installer')->install(['book']);
+
+  //Main menu
+  $items = array(
+  '/' => ' Home',
+  '/contact' => 'Contact',
+  '/shop' => 'Shop'
+  );
+
+  foreach($items as $path => $title) {
+    $menu_link = MenuLinkContent::create([
+      'title' => $title,
+      'link' => ['uri' => 'internal:' . $path],
+      'menu_name' => 'main',
+      'expanded' => TRUE,
+    ]);
+    $menu_link->save();
+  }
 }
