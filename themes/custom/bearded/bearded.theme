@@ -5,3 +5,7 @@
  *
  * Place your custom PHP code in this file.
  */
+function bearded_preprocess_block(&$variables) {
+	//Change site logo to PNG.
+  	$variables['site_logo'] = str_replace('.svg', '.png', $variables['content']['site_logo']['#uri']);
+}
