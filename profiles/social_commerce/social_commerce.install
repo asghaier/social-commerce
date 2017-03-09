@@ -55,7 +55,7 @@ function social_commerce_install() {
   $menu_link = MenuLinkContent::create([
       'title' => 'Password',
       'link' => ['uri' => 'internal:/user/password'],
-      'description' => '',
+      'description' => 'Lost Password',
       'menu_name' => 'account',
       'expanded' => TRUE,
     ]);
