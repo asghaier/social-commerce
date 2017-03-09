@@ -22,6 +22,7 @@ steps:
     script: |
       set -e
       cd $SRC_DIR/sites/default
+      chown www-data:www-data files -R
       mv $ASSET_DIR/social-commerce.tar.gz .
       tar xfz social-commerce.tar.gz
       rm social-commerce.tar.gz
