@@ -25,6 +25,7 @@ dependencies:
   - comment
   - contextual
   - contact
+  - default_content
   - quickedit
   - help
   - image
@@ -39,6 +40,7 @@ dependencies:
   - field
   - field_ui
   - file
+  - file_entity
   - filter
   - dynamic_page_cache
   - page_cache

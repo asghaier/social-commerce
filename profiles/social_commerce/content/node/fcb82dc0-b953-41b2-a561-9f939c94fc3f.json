@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/node\/2?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/slide"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/slide\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/slide\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/slide\/field_slide_image": [
+            {
+                "href": "http:\/\/default\/file\/2?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": "2"
+        }
+    ],
+    "uuid": [
+        {
+            "value": "fcb82dc0-b953-41b2-a561-9f939c94fc3f"
+        }
+    ],
+    "vid": [
+        {
+            "value": "2"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "slide"
+        }
+    ],
+    "title": [
+        {
+            "value": "Quisque velit nisi",
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/slide\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "16ca0f08-d200-4701-9315-872aadc00ef7"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/slide\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "16ca0f08-d200-4701-9315-872aadc00ef7"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/slide\/field_slide_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/file\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "4ac73df2-4591-4656-af14-accca4788cd7"
+                    }
+                ],
+                "alt": "Quisque velit nisi",
+                "title": "",
+                "width": "2000",
+                "height": "1333"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "1489050808",
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": "1489051047",
+            "lang": "en"
+        }
+    ],
+    "promote": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": "0",
+            "lang": "en"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "1489050855"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Quisque velit nisi.<\/p>\r\n",
+            "format": "basic_html",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "field_slide_link": [
+        {
+            "uri": "https:\/\/en.wikipedia.org\/wiki\/Natural_landscape",
+            "title": "Quisque",
+            "options": [
+
+            ]
+        }
+    ]
+}

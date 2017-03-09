@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/node\/4?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/slide"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/slide\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/slide\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/slide\/field_slide_image": [
+            {
+                "href": "http:\/\/default\/file\/4?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": "4"
+        }
+    ],
+    "uuid": [
+        {
+            "value": "3a30e4be-302c-4607-bd3f-73fda042d59a"
+        }
+    ],
+    "vid": [
+        {
+            "value": "4"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "slide"
+        }
+    ],
+    "title": [
+        {
+            "value": "vehicula elementum",
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/slide\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "733a890c-6a6c-48ec-be23-470003e87004"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/slide\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "733a890c-6a6c-48ec-be23-470003e87004"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/slide\/field_slide_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/file\/4?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "a0c65523-e2ed-45a4-a2cf-9465154e3c17"
+                    }
+                ],
+                "alt": "vehicula elementum",
+                "title": "",
+                "width": "1920",
+                "height": "1200"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "1489052573",
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": "1489052630",
+            "lang": "en"
+        }
+    ],
+    "promote": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": "0",
+            "lang": "en"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "1489052612"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>Convallis quis ac lectus. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.<\/p>\r\n",
+            "format": "basic_html",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "field_slide_link": [
+        {
+            "uri": "https:\/\/en.wikipedia.org\/wiki\/Natural_landscape",
+            "title": "vehicula elementum",
+            "options": [
+
+            ]
+        }
+    ]
+}
