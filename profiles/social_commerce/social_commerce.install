@@ -51,4 +51,21 @@ function social_commerce_install() {
     ]);
     $menu_link->save();
   }
+  //User account Menu
+  $menu_link = MenuLinkContent::create([
+      'title' => 'Password',
+      'link' => ['uri' => 'internal:/user/password'],
+      'description' => '',
+      'menu_name' => 'account',
+      'expanded' => TRUE,
+    ]);
+    $menu_link->save();
+    $menu_link = MenuLinkContent::create([
+      'title' => 'Shop',
+      'link' => ['uri' => 'internal:/shop'],
+      'description' => 'Visit Shop',
+      'menu_name' => 'account',
+      'expanded' => TRUE,
+    ]);
+    $menu_link->save();
 }
