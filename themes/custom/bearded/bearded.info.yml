@@ -12,6 +12,7 @@ regions:
   header: 'Top Bar'
   highlighted: 'Highlighted'
   help: 'Help'
+  slideshow: 'Slideshow region'
   content: 'Content'
   sidebar_first: 'Primary'
   sidebar_second: 'Secondary'
