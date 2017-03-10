@@ -1,0 +1,161 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/node\/6?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/banner"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/banner\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/banner\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": "6"
+        }
+    ],
+    "uuid": [
+        {
+            "value": "9c32a5e8-26be-415d-9c5f-4e15d8063101"
+        }
+    ],
+    "vid": [
+        {
+            "value": "6"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "banner"
+        }
+    ],
+    "title": [
+        {
+            "value": "Call to Action Banner",
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/banner\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "c8ed5d26-0bbb-4a0b-b355-ba30ee76eb62"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/banner\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "c8ed5d26-0bbb-4a0b-b355-ba30ee76eb62"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "1489165697",
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": "1489166419",
+            "lang": "en"
+        }
+    ],
+    "promote": [
+        {
+            "value": "0",
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": "0",
+            "lang": "en"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "1489165739"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<h1>Call to Action Banner<\/h1>\r\n<p>Download This theme It\u2019s 100% Free<\/p>",
+            "format": "full_html",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "field_banner_block": [
+        {
+            "enabled": "1",
+            "title": "Call to Action Banner",
+            "view_mode": "full"
+        }
+    ],
+    "field_banner_link": [
+        {
+            "uri": "internal:\/",
+            "title": "Download",
+            "options": [
+
+            ]
+        }
+    ]
+}

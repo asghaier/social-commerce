@@ -1,0 +1,19 @@
+uuid: c94775a3-dcdf-4506-be24-1a013c01b745
+langcode: en
+status: true
+dependencies:
+  module:
+    - entityblock
+    - node
+id: node.field_banner_block
+field_name: field_banner_block
+entity_type: node
+type: entityblock
+settings: {  }
+module: entityblock
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

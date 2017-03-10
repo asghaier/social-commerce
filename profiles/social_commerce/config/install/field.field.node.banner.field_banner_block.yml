@@ -1,0 +1,24 @@
+uuid: be980d60-7c61-4a54-819c-c49b8c34b061
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_banner_block
+    - node.type.banner
+  module:
+    - entityblock
+id: node.banner.field_banner_block
+field_name: field_banner_block
+entity_type: node
+bundle: banner
+label: 'Banner Block'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  enabled: true
+  title: '1'
+  view_mode: full
+field_type: entityblock
