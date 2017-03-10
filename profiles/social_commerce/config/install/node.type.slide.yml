@@ -7,8 +7,6 @@ third_party_settings:
   menu_ui:
     available_menus: {  }
     parent: ''
-_core:
-  default_config_hash: ltCpaoO6nkOyJLwJ5eDNf1Sp9heRuLkb6JcmIv3tu6g
 name: Slide
 type: slide
 description: 'A content type for the homepage slideshow.'
