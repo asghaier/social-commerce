@@ -97,10 +97,18 @@
   {% endblock %}
 {% endif %}
 
-{% if page.slideshow %}
-  {% block slideshow %}
-    <div class="slideshow {{ container }}" role="contentinfo">
-      {{ page.slideshow }}
+{% if page.slider %}
+  {% block slider %}
+    <div class="slider {{ container }}" role="contentinfo">
+      {{ page.slider }}
+    </div>
+  {% endblock %}
+{% endif %}
+
+{% if page.banner %}
+  {% block banner %}
+    <div class="banner {{ container }}" role="contentinfo">
+      {{ page.banner }}
     </div>
   {% endblock %}
 {% endif %}

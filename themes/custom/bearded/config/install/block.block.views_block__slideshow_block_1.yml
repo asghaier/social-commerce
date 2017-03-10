@@ -8,7 +8,7 @@ dependencies:
     - bearded
 id: views_block__slideshow_block_1
 theme: bearded
-region: slideshow
+region: slider
 weight: -7
 provider: null
 plugin: 'views_block:slideshow-block_1'
