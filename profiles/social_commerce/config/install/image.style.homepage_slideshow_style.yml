@@ -1,15 +1,13 @@
 langcode: en
 status: true
 dependencies: {  }
-_core:
-  default_config_hash: tndA2Loq-wrJh0jr8lJburTnw9hTa5oJIMVzLhH8nTw
 name: homepage_slideshow_style
 label: 'Homepage Slideshow Style'
 effects:
-  3fa98e60-2035-42ca-a0d8-89434d6bbbdc:
-    uuid: 3fa98e60-2035-42ca-a0d8-89434d6bbbdc
-    id: image_resize
-    weight: 1
+  f563ad0d-9cbb-4d7d-a2ce-f4cfc93fcfa5:
+    uuid: f563ad0d-9cbb-4d7d-a2ce-f4cfc93fcfa5
+    id: image_scale_and_crop
+    weight: 2
     data:
-      width: 800
+      width: 1140
       height: 600
