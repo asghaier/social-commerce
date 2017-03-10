@@ -23,9 +23,11 @@ dependencies:
   - color
   - config
   - comment
+  - context
   - contextual
   - contact
   - default_content
+  - entityblock
   - quickedit
   - help
   - image

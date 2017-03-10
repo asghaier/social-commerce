@@ -1,0 +1,28 @@
+<?php
+
+/**
+ * @file
+ * Enables users to turn entities in blocks.
+ */
+
+/**
+ * Implements template_preprocess_node().
+ */
+function entityblock_preprocess_node(&$variables) {
+  if (!empty($variables['elements']['#entityblock'])) {
+    $variables['page'] = $variables['elements']['#entityblock'];
+  }
+}
+
+/**
+ * Implements hook_form_FORM_ID_alter() for block_form.
+ */
+function entityblock_form_block_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
+  if ($form['settings']['provider']['#value'] == 'entityblock') {
+    $form['settings']['label']['#states'] = [
+      'enabled' => [
+        ':input[name="settings[label_override]"]' => ['checked' => TRUE],
+      ],
+    ];
+  }
+}
