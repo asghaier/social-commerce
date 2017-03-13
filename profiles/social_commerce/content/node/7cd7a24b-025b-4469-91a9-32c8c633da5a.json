@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/node\/6?_format=hal_json"
+            "href": "http:\/\/default\/node\/9?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/node\/client"
@@ -19,13 +19,13 @@
         ],
         "http:\/\/drupal.org\/rest\/relation\/node\/client\/field_client_image": [
             {
-                "href": "http:\/\/default\/file\/6?_format=hal_json"
+                "href": "http:\/\/default\/file\/9?_format=hal_json"
             }
         ]
     },
     "nid": [
         {
-            "value": "6"
+            "value": "9"
         }
     ],
     "uuid": [
@@ -35,7 +35,7 @@
     ],
     "vid": [
         {
-            "value": "6"
+            "value": "9"
         }
     ],
     "langcode": [
@@ -95,7 +95,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/default\/file\/6?_format=hal_json"
+                        "href": "http:\/\/default\/file\/9?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/file\/image"

@@ -3,6 +3,8 @@ status: true
 dependencies:
   module:
     - system
+_core:
+  default_config_hash: pyvNzDFGreA9fo_9ZNeZTo9htBjFKepBJsmMPzvDzkM
 name: front
 label: Front
 group: null
@@ -40,7 +42,7 @@ reactions:
         level: '1'
         depth: '0'
         region: navigation_collapsible
-        weight: '0'
+        weight: '-3'
         context_mapping: {  }
         theme: bearded
         unique: 0
@@ -53,7 +55,7 @@ reactions:
         level: '1'
         depth: '0'
         region: navigation_collapsible
-        weight: '0'
+        weight: '-2'
         context_mapping: {  }
         theme: bearded
         unique: 0
@@ -64,7 +66,7 @@ reactions:
         provider: system
         label_display: 0
         use_site_logo: 1
-        use_site_name: 1
+        use_site_name: 0
         use_site_slogan: 1
         region: navigation
         weight: '0'
@@ -84,6 +86,31 @@ reactions:
         theme: bearded
         unique: 0
         uuid: e9a74294-54e6-4c5c-88b4-2cb2bc017814
+      7e7fda2a-ebea-46a4-9bc5-6e2024b37688:
+        id: 'views_block:clients-block_1'
+        label: 'Our Clients'
+        provider: views
+        label_display: visible
+        views_label: 'Our Clients'
+        items_per_page: none
+        region: footer
+        weight: '0'
+        context_mapping: {  }
+        theme: bearded
+        unique: 0
+        uuid: 7e7fda2a-ebea-46a4-9bc5-6e2024b37688
+      14fbd460-a8e1-4caf-933d-beef59056632:
+        id: commerce_cart
+        label: Cart
+        provider: commerce_cart
+        label_display: 0
+        dropdown: '1'
+        region: navigation_collapsible
+        weight: '-1'
+        context_mapping: {  }
+        theme: bearded
+        unique: 0
+        uuid: 14fbd460-a8e1-4caf-933d-beef59056632
     id: blocks
     saved: false
     uuid: f3e59423-9bd5-4f94-9db4-a72dfa016fe4
