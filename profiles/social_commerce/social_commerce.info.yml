@@ -84,6 +84,8 @@ dependencies:
   - entity
   - profile
   - state_machine
+  - fontawesome
+  - libraries
 themes:
   - bartik
   - seven

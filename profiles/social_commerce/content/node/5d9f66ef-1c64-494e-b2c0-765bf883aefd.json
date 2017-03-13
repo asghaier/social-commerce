@@ -1,0 +1,152 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/node\/11?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/content_block"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/content_block\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/content_block\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": "11"
+        }
+    ],
+    "uuid": [
+        {
+            "value": "5d9f66ef-1c64-494e-b2c0-765bf883aefd"
+        }
+    ],
+    "vid": [
+        {
+            "value": "11"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "content_block"
+        }
+    ],
+    "title": [
+        {
+            "value": "social links",
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/content_block\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "d04ee9a6-bb9e-4800-9677-b680dbdd4cd5"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/content_block\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "d04ee9a6-bb9e-4800-9677-b680dbdd4cd5"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "1489427745",
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": "1489427814",
+            "lang": "en"
+        }
+    ],
+    "promote": [
+        {
+            "value": "0",
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": "0",
+            "lang": "en"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "1489427773"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<ul class=\"social-links\">\r\n<li><a href=\"http:\/\/facebook.com\/nackle2k10\"><i class=\"fa fa-facebook\"><\/i><\/a><\/li>\r\n<li><a href=\"http:\/\/twitter.com\/nackle2k10\"><i class=\"fa fa-twitter\"><\/i><\/a><\/li>\r\n<li><a href=\"http:\/\/pinterest.com\/nackle2k10\"><i class=\"fa fa-pinterest\"><\/i><\/a><\/li>\r\n<li><a href=\"http:\/\/dribbble.com\/nackle2k10\"><i class=\"fa fa-dribbble\"><\/i><\/a><\/li>\r\n<li><a href=\"http:\/\/github.com\/nackle2k10\"><i class=\"fa fa-github-alt\"><\/i><\/a><\/li>\r\n<\/ul>\r\n\r\n<p class=\"credit\">Copyright \u00a9 2017 <a class=\"site-link\" rel=\"home\" title=\"Bearded\" href=\"http:\/\/themes.bonfirelab.com\/bearded\"><span>Bearded<\/span><\/a>. Proudly Powered by <a class=\"wp-link\" title=\"State-of-the-art semantic personal publishing platform\" href=\"http:\/\/drupal.org\"><span>Drupal<\/span><\/a> and <a class=\"site-link\" rel=\"home\" title=\"Bearded\" href=\"http:\/\/themes.bonfirelab.com\/bearded\"><span>Bearded<\/span><\/a>.<\/p>",
+            "format": "full_html",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "field_content_block": [
+        {
+            "enabled": "1",
+            "title": "social links",
+            "view_mode": "full"
+        }
+    ]
+}
