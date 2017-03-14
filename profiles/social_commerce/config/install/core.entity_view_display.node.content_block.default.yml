@@ -1,0 +1,31 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.content_block.body
+    - field.field.node.content_block.field_entity_block
+    - node.type.content_block
+  module:
+    - entityblock
+    - text
+    - user
+id: node.content_block.default
+targetEntityType: node
+bundle: content_block
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+  field_entity_block:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: entityblock
+  links:
+    weight: 100
+hidden: {  }
