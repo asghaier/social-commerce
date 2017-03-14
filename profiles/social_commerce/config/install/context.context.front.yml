@@ -93,7 +93,7 @@ reactions:
         label_display: visible
         views_label: 'Our Clients'
         items_per_page: none
-        region: footer
+        region: content
         weight: '0'
         context_mapping: {  }
         theme: bearded
