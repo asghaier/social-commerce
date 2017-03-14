@@ -4,7 +4,7 @@ dependencies:
   module:
     - system
 _core:
-  default_config_hash: wIXuLo7-Bn4FxvoLoBgLspMDrr7kr8SxaIKc0wpNdBc
+  default_config_hash: pyvNzDFGreA9fo_9ZNeZTo9htBjFKepBJsmMPzvDzkM
 name: front
 label: Front
 group: null
@@ -93,8 +93,8 @@ reactions:
         label_display: visible
         views_label: 'Our Clients'
         items_per_page: none
-        region: content
-        weight: '-4'
+        region: footer
+        weight: '0'
         context_mapping: {  }
         theme: bearded
         unique: 0
@@ -111,42 +111,6 @@ reactions:
         theme: bearded
         unique: 0
         uuid: 14fbd460-a8e1-4caf-933d-beef59056632
-      8708a491-16aa-4f4f-a670-ae1d678bfece:
-        id: 'entityblock_block:16cb1097-78f6-4f59-9276-ba52d7a2bf2c|76abe449-c5d8-49eb-ab2e-c150cd79211e|0'
-        label: Credits
-        provider: entityblock
-        label_display: visible
-        label_override: 0
-        region: footer
-        weight: '-4'
-        context_mapping: {  }
-        theme: bearded
-        unique: 0
-        uuid: 8708a491-16aa-4f4f-a670-ae1d678bfece
-      c37d917c-05fa-42dc-b793-60a9bd1a2618:
-        id: 'entityblock_block:16cb1097-78f6-4f59-9276-ba52d7a2bf2c|5d9f66ef-1c64-494e-b2c0-765bf883aefd|0'
-        label: 'social links'
-        provider: entityblock
-        label_display: 0
-        label_override: 0
-        region: footer
-        weight: '-2'
-        context_mapping: {  }
-        theme: bearded
-        unique: 0
-        uuid: c37d917c-05fa-42dc-b793-60a9bd1a2618
-      7930d795-a32e-4d9e-aaf4-83b6dcc91e34:
-        id: 'entityblock_block:16cb1097-78f6-4f59-9276-ba52d7a2bf2c|36abc4c3-b5dc-4d48-8c0a-b1af8f2e82ea|0'
-        label: Links
-        provider: entityblock
-        label_display: visible
-        label_override: 0
-        region: footer
-        weight: '-3'
-        context_mapping: {  }
-        theme: bearded
-        unique: 0
-        uuid: 7930d795-a32e-4d9e-aaf4-83b6dcc91e34
     id: blocks
     saved: false
     uuid: f3e59423-9bd5-4f94-9db4-a72dfa016fe4
