@@ -22,7 +22,7 @@ settings:
       description: ''
       weight: '-10'
     facebook:
-      value: 'http://facebook.com/nackle2k10'
+      value: 'nackle2k10'
       description: ''
       weight: '-9'
     instagram:
@@ -34,11 +34,11 @@ settings:
       description: ''
       weight: '-7'
     twitter:
-      value: 'http://twitter.com/nackle2k10'
+      value: 'nackle2k10'
       description: ''
       weight: '-6'
     pinterest:
-      value: 'http://pinterest.com/nackle2k10'
+      value: 'nackle2k10'
       description: ''
       weight: '-5'
     slideshare:
@@ -70,7 +70,7 @@ settings:
       description: ''
       weight: '2'
     github:
-      value: 'http://github.com/nackle2k10'
+      value: 'nackle2k10'
       description: ''
       weight: '3'
     youtube:
