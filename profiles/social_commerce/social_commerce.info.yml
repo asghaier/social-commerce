@@ -84,6 +84,7 @@ dependencies:
   - entity
   - profile
   - state_machine
+  - social_media_links
 themes:
   - bartik
   - seven
