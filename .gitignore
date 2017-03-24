@@ -47,4 +47,7 @@ core/phpunit.xml
 
 # Ignore gulp node_modules and package configuration in bearded theme
 themes/custom/*/node_modules
+
+# Ignore IDE folders and Drupal console
 nbproject/
+console/
