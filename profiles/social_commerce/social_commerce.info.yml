@@ -23,8 +23,6 @@ dependencies:
   - color
   - config
   - comment
-  - context
-  - context_ui
   - contextual
   - contact
   - default_content
