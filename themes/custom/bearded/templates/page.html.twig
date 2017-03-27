@@ -187,18 +187,26 @@
                         {{ page.topwidget_first }}
                     {% endblock topwidget_first %}
                     {# END TOP WIDGET FIRST #}
-                    
+
                     {# BEGIN TOP WIDGET SECOND #}
                     {% block topwidget_second %}
                         {{ page.topwidget_second }}
                     {% endblock topwidget_second %}
                     {# END TOP WIDGET SECOND #}
-                    
+
                     {# BEGIN TOP WIDGET THIRD #}
                     {% block topwidget_third %}
                         {{ page.topwidget_third }}
                     {% endblock topwidget_third %}
                     {# END TOP WIDGET THIRD #}
+
+                    {# BEGIN CLIENTS #}
+                    {% if page.clients %}               
+                        {% block clients %}
+                            {{ page.clients }}
+                        {% endblock clients %}
+                    {% endif %}
+                    {# END CLIENTS #}
                 {% endif %}
             </section>
 
