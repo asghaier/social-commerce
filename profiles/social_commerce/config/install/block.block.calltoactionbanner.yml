@@ -1,0 +1,30 @@
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:2e5a5e85-47d9-4cac-ba46-bf404e4ab1bc'
+  module:
+    - block_content
+    - system
+  theme:
+    - bearded
+id: calltoactionbanner
+theme: bearded
+region: banner
+weight: 0
+provider: null
+plugin: 'block_content:2e5a5e85-47d9-4cac-ba46-bf404e4ab1bc'
+settings:
+  id: 'block_content:2e5a5e85-47d9-4cac-ba46-bf404e4ab1bc'
+  label: 'Call to Action Banner'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }
