@@ -27,6 +27,16 @@
             "value": "65c412a3-b83f-4efb-8a05-5a6ecea10ad4"
         }
     ],
+    "nid": [
+        {
+            "value": "1"
+        }
+    ],
+    "vid": [
+        {
+            "value": "1"
+        }
+    ],
     "type": [
         {
             "target_id": "page"

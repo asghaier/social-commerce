@@ -5,6 +5,7 @@ namespace Drupal\default_content;
 use Drupal\Component\Graph\Graph;
 use Drupal\Component\Render\FormattableMarkup;
 use Drupal\Core\Entity\ContentEntityInterface;
+use Drupal\Core\Entity\EntityStorageException;
 use Drupal\Core\Entity\EntityTypeManagerInterface;
 use Drupal\Core\Entity\EntityRepositoryInterface;
 use Drupal\Core\Extension\InfoParserInterface;
@@ -219,8 +220,27 @@ class DefaultContentManager implements DefaultContentManagerInterface {
           $contents = $this->parseFile($file);
           $class = $definition['serialization_class'];
           $entity = $this->serializer->deserialize($contents, $class, 'hal_json', array('request_method' => 'POST'));
-          $entity->enforceIsNew(TRUE);
-          $entity->save();
+          if ($entity->validate()->count()) {
+            // Try to resolve validation errors by unsetting entity keys.
+            $entity_type = $this->entityManager->getDefinition($entity_type_id);
+            $keys = $entity_type->getKeys();
+            unset($entity->{$keys['id']});
+            if (isset($keys['revision'])) {
+              unset($entity->{$keys['revision']});
+            }
+            if ($entity->validate()->count()) {
+              // Pass on this entity if we still have validation errors.
+              // Should we alert someone about this?
+              continue;
+            }
+          }
+          try {
+            $entity->save();
+          }
+          catch (EntityStorageException $e) {
+            // What do we do with this?
+            continue;
+          }
           $created[$entity->uuid()] = $entity;
         }
       }
