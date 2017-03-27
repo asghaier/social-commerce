@@ -4,9 +4,11 @@
  * @file
  * Install, update and uninstall functions for the profilename install profile.
  */
- 
- use Drupal\user\RoleInterface;
- use Drupal\menu_link_content\Entity\MenuLinkContent;
+use Drupal\user\RoleInterface;
+use Drupal\menu_link_content\Entity\MenuLinkContent;
+use Drupal\block\Entity\Block;
+use Drupal\block_content\Entity\BlockContent;
+use Drupal\user\Entity\User;
 
 /**
  * Implements hook_install().
@@ -19,8 +21,14 @@ function social_commerce_install() {
   // First, do everything in standard profile.
   include_once DRUPAL_ROOT . '/core/profiles/standard/standard.install';
   standard_install();
-  
-  $user = \Drupal\user\Entity\User::create();
+  // Create users
+  createUsers();
+  // Create the main menu
+  CreateMainMenu();
+}
+
+function createUsers() {
+  $user = User::create();
   // Mandatory settings
   $user->setPassword('testuser');
   $user->enforceIsNew();
@@ -31,41 +39,41 @@ function social_commerce_install() {
   $user->activate();
   // Save user
   $res = $user->save();
+}
 
-  // Install Book module
-  // \Drupal::service('module_installer')->install(['book']);
-
-  //Main menu
+// Create the main menu
+function CreateMainMenu() {
+  // Main menu
   $items = array(
-  '/' => ' Home',
-  '/contact' => 'Contact',
-  '/shop' => 'Shop'
+    '/' => ' Home',
+    '/contact' => 'Contact',
+    '/shop' => 'Shop'
   );
 
-  foreach($items as $path => $title) {
+  foreach ($items as $path => $title) {
     $menu_link = MenuLinkContent::create([
-      'title' => $title,
-      'link' => ['uri' => 'internal:' . $path],
-      'menu_name' => 'main',
-      'expanded' => TRUE,
+          'title' => $title,
+          'link' => ['uri' => 'internal:' . $path],
+          'menu_name' => 'main',
+          'expanded' => TRUE,
     ]);
     $menu_link->save();
   }
-  //User account Menu
+  // User account Menu
   $menu_link = MenuLinkContent::create([
-      'title' => 'Password',
-      'link' => ['uri' => 'internal:/user/password'],
-      'description' => 'Lost Password',
-      'menu_name' => 'account',
-      'expanded' => TRUE,
-    ]);
-    $menu_link->save();
-    $menu_link = MenuLinkContent::create([
-      'title' => 'Shop',
-      'link' => ['uri' => 'internal:/shop'],
-      'description' => 'Visit Shop',
-      'menu_name' => 'account',
-      'expanded' => TRUE,
-    ]);
-    $menu_link->save();
+        'title' => 'Password',
+        'link' => ['uri' => 'internal:/user/password'],
+        'description' => 'Lost Password',
+        'menu_name' => 'account',
+        'expanded' => TRUE,
+  ]);
+  $menu_link->save();
+  $menu_link = MenuLinkContent::create([
+        'title' => 'Shop',
+        'link' => ['uri' => 'internal:/shop'],
+        'description' => 'Visit Shop',
+        'menu_name' => 'account',
+        'expanded' => TRUE,
+  ]);
+  $menu_link->save();
 }

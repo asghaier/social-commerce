@@ -1,0 +1,31 @@
+uuid: da82f6b7-3620-44da-bb4b-a5e8d70e69c5
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:08fc21ef-9ee7-4d61-a913-886c4ceeca66'
+  module:
+    - block_content
+    - system
+  theme:
+    - bearded
+id: whatwedo
+theme: bearded
+region: topwidget_third
+weight: 0
+provider: null
+plugin: 'block_content:08fc21ef-9ee7-4d61-a913-886c4ceeca66'
+settings:
+  id: 'block_content:08fc21ef-9ee7-4d61-a913-886c4ceeca66'
+  label: 'What We Do?'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }
