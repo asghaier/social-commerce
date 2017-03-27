@@ -6,7 +6,7 @@ dependencies:
     - entityblock
     - node
 _core:
-  default_config_hash: 9GedeB_JipVij5SHGVnWGuyDI3U386iO1CLHv9SGyOo
+  default_config_hash: r6VMo9e4jPL0g5xWcB2iiBjfo4s2UE8-IlYDuSj4aNs
 id: node.field_entity_block
 field_name: field_entity_block
 entity_type: node
