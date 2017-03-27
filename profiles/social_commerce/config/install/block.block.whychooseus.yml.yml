@@ -1,0 +1,31 @@
+uuid: a8f54664-4f75-4f72-b3c5-7d25dca4f1d9
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:21482cda-b114-443d-a3d8-735e3f2c702d'
+  module:
+    - block_content
+    - system
+  theme:
+    - bearded
+id: whychooseus
+theme: bearded
+region: topwidget_first
+weight: 0
+provider: null
+plugin: 'block_content:21482cda-b114-443d-a3d8-735e3f2c702d'
+settings:
+  id: 'block_content:21482cda-b114-443d-a3d8-735e3f2c702d'
+  label: 'Why Choose Us?'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }
