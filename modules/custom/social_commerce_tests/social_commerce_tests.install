@@ -1,0 +1,219 @@
+<?php
+
+/**
+ * @file
+ * Install, update and uninstall functions for the social_commerce_tests module.
+ */
+
+ use \Drupal\file\Entity\File;
+
+/**
+ * Implements hook_install().
+ *
+ */
+function social_commerce_tests_install() {
+
+    // The store type. Default is 'online'.
+    $type = 'online';
+     
+    // The user id the store belongs to.
+    $uid = 1;
+
+    // The store's name.
+    $name = "John Smith's Store";
+
+    // Store's email address.
+    $mail = 'john.smith@example.com';
+
+    // The country code.
+    $country = 'US';
+
+    // The store's address.
+    $address = [
+      'country_code' => $country,
+      'address_line1' => '123 Street Drive',
+      'locality' => 'Beverly Hills',
+      'administrative_area' => 'CA',
+      'postal_code' => '90210',
+    ];
+
+    // The currency code.
+    $currency = 'USD';
+
+    $store = \Drupal\commerce_store\Entity\Store::create([
+      'type' => $type,
+      'uid' => $uid,
+      'name' => $name,
+      'mail' => $mail,
+      'address' => $address,
+      'default_currency' => $currency,
+      'billing_countries' => [
+        $country,
+      ],
+    ]);
+
+    // This sets the store as the default store.
+    $store_storage = \Drupal::service('entity_type.manager')->getStorage('commerce_store');
+    $store_storage->markAsDefault($store);
+
+    $store->save();
+
+    // Create a new variation type.
+    $variationType = \Drupal\commerce_product\Entity\ProductVariationType::create([
+      'status' => 1,
+      'id' => 'demo_variation_type',
+      'label' => 'Demo Variation Type',
+      'orderItemType' => 'default', // Order item type to reference. Default is 'default'.
+      'generateTitle' => TRUE, // True to generate titles based off of attribute values.
+    ]);
+    $variationType->save();
+
+    \Drupal\field\Entity\FieldStorageConfig::create(array(
+      'field_name' => 'field_product_variation_image',
+      'entity_type' => 'commerce_product_variation',
+      'type' => 'image',
+      'cardinality' => 1,
+    ))->save();
+
+    \Drupal\field\Entity\FieldConfig::create([
+      'field_name' => 'field_product_variation_image',
+      'entity_type' => 'commerce_product_variation',
+      'bundle' => 'demo_variation_type',
+      'label' => 'An Image field',
+    ])->save();
+
+    entity_get_form_display('commerce_product_variation', 'demo_variation_type', 'default')
+      ->setComponent('field_product_variation_image', array(
+        'type' => 'image_image',
+      ))
+      ->save();
+
+    entity_get_display('commerce_product_variation', 'demo_variation_type', 'default')
+      ->setComponent('field_product_variation_image', array(
+        'type' => 'image',
+      ))
+      ->save();
+
+    $field_config = \Drupal\field\Entity\FieldStorageConfig::loadByName('commerce_product_variation', 'field_product_variation_image');
+
+    $uri  = file_unmanaged_copy('profiles/social_commerce/content/file/hoodie_5_front-600x600.jpg', 'public://hoodie_5_front-600x600.jpg', FILE_CHECK_EXISTS_DB_FS);
+    $file = File::Create([
+      'uri' => $uri,
+    ]);
+    $file->save();
+
+    // Create a new product variation.
+    $variation_1 = \Drupal\commerce_product\Entity\ProductVariation::create([
+      'type' => 'demo_variation_type', // The default variation type is 'default'.
+      'sku' => 'PROD-0101', // The variation sku.
+      'status' => 1,
+      'price' => "150.99",
+      'field_product_variation_image' => [
+        'target_id' => $file->id(),
+      ],
+    ]);
+    $variation_1->save();
+
+    $uri  = file_unmanaged_copy('modules/custom/social_commerce_tests/files/hoodie_4_front-600x600.jpg', 'public://hoodie_4_front-600x600.jpg', FILE_CHECK_EXISTS_DB_FS);
+    $file = File::Create([
+      'uri' => $uri,
+    ]);
+    $file->save();
+
+    $variation_2 = \Drupal\commerce_product\Entity\ProductVariation::create([
+      'type' => 'demo_variation_type',
+      'sku' => 'PROD-0102',
+      'status' => 1,
+      'price' => "150.99",
+      'field_product_variation_image' => [
+        'target_id' => $file->id(),
+      ],
+    ]);
+    $variation_2->save();
+
+    $uri  = file_unmanaged_copy('profiles/social_commerce/content/file/T_5_front-600x600.jpg', 'public://T_5_front-600x600.jpg', FILE_EXISTS_REPLACE);
+    $file = File::Create([
+      'uri' => $uri,
+    ]);
+    $file->save();
+
+    $variation_3 = \Drupal\commerce_product\Entity\ProductVariation::create([
+      'type' => 'demo_variation_type',
+      'sku' => 'PROD-0103',
+      'status' => 1,
+      'price' => "150.99",
+      'field_product_variation_image' => [
+        'target_id' => $file->id(),
+      ],
+    ]);
+    $variation_3->save();
+
+    $uri  = file_unmanaged_copy('profiles/social_commerce/content/file/hoodie_7_front-600x600.jpg', 'public://hoodie_7_front-600x600.jpg', FILE_EXISTS_REPLACE);
+    $file = File::Create([
+      'uri' => $uri,
+    ]);
+    $file->save();
+
+    $variation_4 = \Drupal\commerce_product\Entity\ProductVariation::create([
+      'type' => 'demo_variation_type',
+      'sku' => 'PROD-0104',
+      'status' => 1,
+      'price' => "150.99",
+      'field_product_variation_image' => [
+        'target_id' => $file->id(),
+      ],
+    ]);
+    $variation_4->save();
+
+    $productType = \Drupal\commerce_product\Entity\ProductType::create([
+      'id' => 'demo_product_type',
+      'label' => 'Demo Product Type',
+      'status' => 1,
+      'description' => 'A Product Type for demo sites.', // Optional
+      'variationType' => 'demo_variation_type', // The variation type we want to reference for this
+      'injectVariationFields' => TRUE, // Optional - defaults to TRUE
+    ]);
+    $productType->save();
+
+    // These three functions must be called to add the appropriate fields to the type
+    commerce_product_add_variations_field($productType);
+    commerce_product_add_stores_field($productType);
+    commerce_product_add_body_field($productType);
+
+    $product = \Drupal\commerce_product\Entity\Product::create([
+      'uid' => 1,
+      'type' => 'demo_product_type',
+      'title' => 'Ninja Silhouette',
+      'stores' => [$store],
+      'variations' => [$variation_1],
+    ]);
+    $product->save();
+
+    $product = \Drupal\commerce_product\Entity\Product::create([
+      'uid' => 1,
+      'type' => 'demo_product_type',
+      'title' => 'Happy Ninja',
+      'stores' => [$store],
+      'variations' => [$variation_2],
+    ]);
+    $product->save();
+
+    $product = \Drupal\commerce_product\Entity\Product::create([
+      'uid' => 1,
+      'type' => 'demo_product_type',
+      'title' => 'Ninja Silhouette',
+      'stores' => [$store],
+      'variations' => [$variation_3],
+    ]);
+    $product->save();
+
+    $product = \Drupal\commerce_product\Entity\Product::create([
+      'uid' => 1,
+      'type' => 'demo_product_type',
+      'title' => 'Ship Your Idea',
+      'stores' => [$store],
+      'variations' => [$variation_4],
+    ]);
+    $product->save();
+
+}
