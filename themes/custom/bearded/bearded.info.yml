@@ -18,6 +18,7 @@ regions:
   topwidget_second: 'Top Second Widget'
   topwidget_third: 'Top Third Widget'
   content: 'Content'
+  clients: 'Our clients'
   sidebar_first: 'Primary'
   sidebar_second: 'Secondary'
   footer: 'Footer'
