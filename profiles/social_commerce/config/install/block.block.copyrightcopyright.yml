@@ -1,0 +1,24 @@
+uuid: 68308460-20ef-40b3-b806-126def2d7dd8
+langcode: en
+status: true
+dependencies:
+  content:
+    - field.storage.node.field_entity_block
+    - 'node:content_block:79f09726-ea86-4108-a480-443b790ec25b'
+  module:
+    - entityblock
+  theme:
+    - bearded
+id: copyrightcopyright
+theme: bearded
+region: footer
+weight: 1
+provider: null
+plugin: 'entityblock_block:8f0c9c29-0763-4cd0-8e37-f038630f205b|79f09726-ea86-4108-a480-443b790ec25b|0'
+settings:
+  id: 'entityblock_block:8f0c9c29-0763-4cd0-8e37-f038630f205b|79f09726-ea86-4108-a480-443b790ec25b|0'
+  label: Copyright
+  provider: entityblock
+  label_display: '0'
+  label_override: 0
+visibility: {  }

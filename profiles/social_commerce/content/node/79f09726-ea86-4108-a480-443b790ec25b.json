@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/node\/11?_format=hal_json"
+            "href": "http:\/\/default\/node\/12?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/node\/content_block"
@@ -20,17 +20,17 @@
     },
     "nid": [
         {
-            "value": "11"
+            "value": "12"
         }
     ],
     "uuid": [
         {
-            "value": "36f06c88-0b7f-4732-a7ef-b3d159873cfe"
+            "value": "79f09726-ea86-4108-a480-443b790ec25b"
         }
     ],
     "vid": [
         {
-            "value": "11"
+            "value": "12"
         }
     ],
     "langcode": [
@@ -46,7 +46,7 @@
     ],
     "title": [
         {
-            "value": "Links",
+            "value": "Copyright",
             "lang": "en"
         }
     ],
@@ -63,7 +63,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "aeaf02bc-e702-48af-814a-8759a851b573"
+                        "value": "1811c8bb-643f-4ca1-bde6-13fba55b0a9a"
                     }
                 ],
                 "lang": "en"
@@ -81,7 +81,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "aeaf02bc-e702-48af-814a-8759a851b573"
+                        "value": "1811c8bb-643f-4ca1-bde6-13fba55b0a9a"
                     }
                 ]
             }
@@ -95,13 +95,13 @@
     ],
     "created": [
         {
-            "value": "1489600309",
+            "value": "1490621091",
             "lang": "en"
         }
     ],
     "changed": [
         {
-            "value": "1489600444",
+            "value": "1490621582",
             "lang": "en"
         }
     ],
@@ -119,7 +119,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "1489600428"
+            "value": "1490621582"
         }
     ],
     "revision_translation_affected": [
@@ -136,7 +136,7 @@
     ],
     "body": [
         {
-            "value": "<ul>\r\n\u00a0 <li><a href=\"\/\">About<\/a><\/li>\r\n\u00a0 <li><a href=\"\/contact\">Contact Us<\/a><\/li>\r\n\u00a0 <li><a href=\"\/\">Help<\/a><\/li>\r\n<\/ul>\u00a0",
+            "value": "Copyright \u00a9 2017 <a class=\"site-link\" rel=\"home\" title=\"Bearded\" href=\"http:\/\/themes.bonfirelab.com\/bearded\"><span>Bearded<\/span><\/a>. Proudly Powered by <a class=\"wp-link\" title=\"State-of-the-art semantic personal publishing platform\" href=\"http:\/\/drupal.org\"><span>Drupal<\/span><\/a> and <a class=\"site-link\" rel=\"home\" title=\"Bearded\" href=\"http:\/\/themes.bonfirelab.com\/bearded\"><span>Bearded<\/span><\/a>.",
             "format": "full_html",
             "summary": "",
             "lang": "en"
@@ -145,7 +145,7 @@
     "field_entity_block": [
         {
             "enabled": "1",
-            "title": "Links",
+            "title": "Copyright",
             "view_mode": "full"
         }
     ]
