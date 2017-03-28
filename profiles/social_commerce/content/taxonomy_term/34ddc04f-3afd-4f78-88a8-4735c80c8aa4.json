@@ -1,0 +1,78 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/social-commerce-test.dev\/taxonomy\/term\/4?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/product_category"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/taxonomy_term\/product_category\/parent": [
+            {
+                "href": "http:\/\/social-commerce-test.dev\/taxonomy\/term\/2?_format=hal_json"
+            }
+        ]
+    },
+    "tid": [
+        {
+            "value": "4"
+        }
+    ],
+    "uuid": [
+        {
+            "value": "34ddc04f-3afd-4f78-88a8-4735c80c8aa4"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "product_category"
+        }
+    ],
+    "name": [
+        {
+            "value": "T-shirts",
+            "lang": "en"
+        }
+    ],
+    "weight": [
+        {
+            "value": "0"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/taxonomy_term\/product_category\/parent": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/social-commerce-test.dev\/taxonomy\/term\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/product_category"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "52608e55-731c-4a14-8d6d-9a720203a796"
+                    }
+                ]
+            }
+        ]
+    },
+    "changed": [
+        {
+            "value": "1490722533",
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ]
+}
