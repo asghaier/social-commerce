@@ -83,6 +83,7 @@ dependencies:
   - profile
   - state_machine
   - social_media_links
+  - social_commerce_tests
 themes:
   - bartik
   - seven
