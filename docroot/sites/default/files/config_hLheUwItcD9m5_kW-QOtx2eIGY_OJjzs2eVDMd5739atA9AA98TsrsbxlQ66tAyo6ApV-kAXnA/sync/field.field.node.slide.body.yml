@@ -1,0 +1,24 @@
+uuid: 24023806-a7de-4d0e-9507-88724b37f9ea
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.slide
+  module:
+    - text
+_core:
+  default_config_hash: P2nDj1Rusy07-_RvpWd6Dp1zHTe9G3pJp-a4hwZcD7g
+id: node.slide.body
+field_name: body
+entity_type: node
+bundle: slide
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

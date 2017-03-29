@@ -1,0 +1,26 @@
+uuid: bf272a36-91b3-4c89-b54e-e0c6da1a4b7c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_entity_block
+    - node.type.content_block
+  module:
+    - entityblock
+_core:
+  default_config_hash: GWDYkchbjbBJn9mBoqFrC8v3MCl7eO1h7aLxiOfuzcA
+id: node.content_block.field_entity_block
+field_name: field_entity_block
+entity_type: node
+bundle: content_block
+label: 'Entity block'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  enabled: true
+  title: '1'
+  view_mode: full
+field_type: entityblock

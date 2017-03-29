@@ -1,0 +1,19 @@
+uuid: 0d520b31-8ebc-4a54-9a19-c850c15ea958
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+_core:
+  default_config_hash: OzrMzHTpnQqX_R-ln--BRzvavSmd-G9bIk_bl649fk4
+name: Client
+type: client
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

@@ -1,0 +1,19 @@
+uuid: db2d9c09-ce4b-4256-9bfa-55e217d2daef
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+_core:
+  default_config_hash: s3raYX_m6dXNqWJx38S7Dax-6ppRGyyD4lK5ZjO7yhs
+name: 'Content Block'
+type: content_block
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

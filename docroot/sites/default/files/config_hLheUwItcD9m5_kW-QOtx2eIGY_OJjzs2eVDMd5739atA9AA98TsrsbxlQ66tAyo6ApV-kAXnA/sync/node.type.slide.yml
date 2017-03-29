@@ -1,0 +1,19 @@
+uuid: 4301f538-611b-449a-9472-fe19ffbe0278
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+_core:
+  default_config_hash: 99OcOp7EmUUyG8LICF7teNaXTQRmlVm7Gmz3-vdO3_E
+name: Slide
+type: slide
+description: 'A content type for the homepage slideshow.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

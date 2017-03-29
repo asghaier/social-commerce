@@ -1,0 +1,26 @@
+uuid: 15b19940-9c9d-42cf-a28e-7f1af71be6d2
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.tools
+  module:
+    - system
+  theme:
+    - bearded
+_core:
+  default_config_hash: CgOvMBDo7yIPkYQ7mGH1Vtm7dbXJfR7DigPQ7H21Dfg
+id: bearded_tools
+theme: bearded
+region: '-1'
+weight: -10
+provider: null
+plugin: 'system_menu_block:tools'
+settings:
+  id: 'system_menu_block:tools'
+  label: Tools
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility: {  }

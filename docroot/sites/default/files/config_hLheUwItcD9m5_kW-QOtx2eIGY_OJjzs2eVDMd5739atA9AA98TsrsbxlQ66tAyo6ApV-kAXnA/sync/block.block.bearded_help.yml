@@ -1,0 +1,22 @@
+uuid: d2716a5c-8d5d-4bc6-9e3d-b2b88f74e528
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - bearded
+_core:
+  default_config_hash: tfqme3vzPtVzDc_mvknFAO7WmrPjbbehGXPtHwZS_JY
+id: bearded_help
+theme: bearded
+region: help
+weight: -6
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

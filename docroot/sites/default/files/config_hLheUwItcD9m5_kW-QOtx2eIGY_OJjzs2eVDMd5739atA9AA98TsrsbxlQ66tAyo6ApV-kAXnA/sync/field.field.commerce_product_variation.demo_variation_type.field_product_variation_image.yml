@@ -1,0 +1,38 @@
+uuid: 86bae563-9410-4c0a-9cf1-47a73599b18f
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.demo_variation_type
+    - field.storage.commerce_product_variation.field_product_variation_image
+  module:
+    - image
+id: commerce_product_variation.demo_variation_type.field_product_variation_image
+field_name: field_product_variation_image
+entity_type: commerce_product_variation
+bundle: demo_variation_type
+label: 'An Image field'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_extensions: 'png gif jpg jpeg'
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  max_resolution: ''
+  min_resolution: ''
+  default_image:
+    uuid: null
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  max_filesize: ''
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

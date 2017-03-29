@@ -1,0 +1,26 @@
+uuid: 4410b724-d964-406a-ba98-221bbbbb0a08
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - bearded
+_core:
+  default_config_hash: 1CCm5T2HnZLl5vn-qoLEnzBs8CzBDpZZHZUWLfYMYWM
+id: bearded_main_menu
+theme: bearded
+region: navigation_collapsible
+weight: -6
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+visibility: {  }

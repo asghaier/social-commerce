@@ -1,0 +1,22 @@
+uuid: 833a0c1b-0013-486b-bbca-17a2cfacb92c
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bearded
+_core:
+  default_config_hash: tDDpQRnIEmp2t_3xi-pRMUgrEtAr0XvrLycgqt5l2eE
+id: bearded_messages
+theme: bearded
+region: header
+weight: -6
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

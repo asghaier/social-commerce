@@ -1,0 +1,30 @@
+uuid: 19fecc56-c15f-43b1-8532-3a9d6ee4d051
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.content_block.body
+    - field.field.node.content_block.field_entity_block
+    - node.type.content_block
+  module:
+    - text
+    - user
+_core:
+  default_config_hash: Xu1dfWwVUsJKT2U2lzntwJiFNAGBF4KbnWwPDfiBhow
+id: node.content_block.teaser
+targetEntityType: node
+bundle: content_block
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden:
+  field_entity_block: true

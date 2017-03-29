@@ -1,0 +1,10 @@
+uuid: 931c0b9e-f12c-46f2-be89-2f5b88e5c80c
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+id: user.token
+label: Token
+targetEntityType: user
+cache: true

@@ -1,0 +1,29 @@
+uuid: 0077b6d7-0520-4e3b-9f20-156adfeac4a7
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bartik
+_core:
+  default_config_hash: PY0IkAvo6W1zqcYjZCHlqTxoJjPLjOI7KZrFZW_aE_Y
+id: bartik_views_block__slideshow_block_1
+theme: bartik
+region: header
+weight: -7
+provider: null
+plugin: 'views_block:slideshow-block_1'
+settings:
+  id: 'views_block:slideshow-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }
