@@ -1,5 +1,6 @@
+uuid: 15b19940-9c9d-42cf-a28e-7f1af71be6d2
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.tools
@@ -8,11 +9,11 @@ dependencies:
   theme:
     - bearded
 _core:
-  default_config_hash: Oha-IE63GBE5w8VILIxS__8Bf5GWEPwHW60fLQUUswM
+  default_config_hash: PXg6JKR6gVp72PdiXHl1Uo0dxllvjyT121An_IFLCs8
 id: bearded_tools
 theme: bearded
-region: sidebar_second
-weight: -5
+region: '-1'
+weight: -10
 provider: null
 plugin: 'system_menu_block:tools'
 settings:
