@@ -1,8 +1,0 @@
-channel:
-  description: ''
-items:
-  limit: 10
-  view_mode: rss
-langcode: en
-_core:
-  default_config_hash: 6DmLriDK9GuT7-BjUcM1kDhzCinisuY3HNNpTPJR6xs

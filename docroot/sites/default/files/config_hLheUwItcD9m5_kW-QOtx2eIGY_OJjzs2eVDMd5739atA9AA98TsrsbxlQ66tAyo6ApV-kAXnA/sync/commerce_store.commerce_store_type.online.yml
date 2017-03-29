@@ -1,9 +1,0 @@
-uuid: faef2ea7-f92d-431b-9f3d-e5d9bb8c4586
-langcode: en
-status: true
-dependencies: {  }
-_core:
-  default_config_hash: t6iEaAiuMSiQJyEGYXvEcdyffkVWaFr1FlKrxc1nDkc
-id: online
-label: Online
-description: null

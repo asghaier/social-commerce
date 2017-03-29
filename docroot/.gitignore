@@ -49,5 +49,5 @@ core/phpunit.xml
 themes/custom/*/node_modules
 
 # Ignore IDE folders and Drupal console
-nbproject/
 console/
+../nbproject/
