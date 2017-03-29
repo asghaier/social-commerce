@@ -1,0 +1,21 @@
+uuid: 8f0c9c29-0763-4cd0-8e37-f038630f205b
+langcode: en
+status: true
+dependencies:
+  module:
+    - entityblock
+    - node
+_core:
+  default_config_hash: U_Sg1ZpT-6FYvF0WlahWXFj8SFUvA0wvtU8GD3xqEU8
+id: node.field_entity_block
+field_name: field_entity_block
+entity_type: node
+type: entityblock
+settings: {  }
+module: entityblock
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

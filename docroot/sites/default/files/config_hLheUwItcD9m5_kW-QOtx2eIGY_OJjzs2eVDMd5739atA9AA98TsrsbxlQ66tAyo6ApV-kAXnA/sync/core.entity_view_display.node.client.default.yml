@@ -1,0 +1,43 @@
+uuid: 17c613fa-478f-43ff-ae68-db22002a1177
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.client.field_client_image
+    - field.field.node.client.field_client_link
+    - node.type.client
+  module:
+    - image
+    - link
+    - user
+_core:
+  default_config_hash: zbOdmgc2viTc9KpzHgAXL2rUedDUwKQdNg1CACnX3iY
+id: node.client.default
+targetEntityType: node
+bundle: client
+mode: default
+content:
+  field_client_image:
+    weight: 101
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+  field_client_link:
+    weight: 102
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

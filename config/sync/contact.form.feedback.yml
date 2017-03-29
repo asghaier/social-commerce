@@ -1,0 +1,14 @@
+uuid: 1cbcc18c-4021-4a46-861c-7687fe982925
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: f0elRMB4kMhd-ea4nTRUq1fVbMjRxm6enUbnzpoMUiM
+id: feedback
+label: 'Website feedback'
+recipients:
+  - bearded@gmail.com
+reply: ''
+weight: 0
+message: 'Your message has been sent.'
+redirect: ''

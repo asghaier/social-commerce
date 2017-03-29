@@ -1,0 +1,106 @@
+uuid: f9356470-3975-4de3-8830-d513e6450a28
+langcode: en
+status: true
+dependencies:
+  module:
+    - social_media_links
+  theme:
+    - bearded
+_core:
+  default_config_hash: rSc1ToNtm0Pyg4lTljnRaoHGxrpJGhoDkWweD71JQQc
+id: socialmedialinks
+theme: bearded
+region: footer
+weight: 0
+provider: null
+plugin: social_media_links_block
+settings:
+  id: social_media_links_block
+  label: 'Social Media Links'
+  provider: social_media_links
+  label_display: '0'
+  platforms:
+    contact:
+      value: ''
+      description: ''
+      weight: '-10'
+    facebook:
+      value: nackle2k10
+      description: ''
+      weight: '-9'
+    instagram:
+      value: ''
+      description: ''
+      weight: '-8'
+    email:
+      value: ''
+      description: ''
+      weight: '-7'
+    twitter:
+      value: nackle2k10
+      description: ''
+      weight: '-6'
+    pinterest:
+      value: nackle2k10
+      description: ''
+      weight: '-5'
+    slideshare:
+      value: ''
+      description: ''
+      weight: '-4'
+    vimeo:
+      value: ''
+      description: ''
+      weight: '-3'
+    googleplus:
+      value: ''
+      description: ''
+      weight: '-2'
+    rss:
+      value: ''
+      description: ''
+      weight: '-1'
+    behance:
+      value: ''
+      description: ''
+      weight: '0'
+    drupal:
+      value: ''
+      description: ''
+      weight: '1'
+    bitbucket:
+      value: ''
+      description: ''
+      weight: '2'
+    github:
+      value: nackle2k10
+      description: ''
+      weight: '3'
+    youtube:
+      value: ''
+      description: ''
+      weight: '4'
+    tumblr:
+      value: ''
+      description: ''
+      weight: '5'
+    youtube_channel:
+      value: ''
+      description: ''
+      weight: '6'
+    linkedin:
+      value: ''
+      description: ''
+      weight: '7'
+  appearance:
+    orientation: h
+    show_name: 0
+  link_attributes:
+    target: '<none>'
+    rel: '<none>'
+  iconset:
+    style: 'fontawesome:2x'
+    installed_iconsets:
+      fontawesome:
+        examples: ''
+visibility: {  }

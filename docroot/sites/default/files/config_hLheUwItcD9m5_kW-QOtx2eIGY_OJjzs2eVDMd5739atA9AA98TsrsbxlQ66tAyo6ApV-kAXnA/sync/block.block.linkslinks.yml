@@ -1,0 +1,21 @@
+uuid: 7e7f9f7b-5cf0-45f4-b248-306d0bfbcf51
+langcode: en
+status: true
+dependencies:
+  theme:
+    - bearded
+_core:
+  default_config_hash: tgTEOBe0LywQkQiBcCf3mbwET3rnSBJURyacW4S1oQM
+id: linkslinks
+theme: bearded
+region: footer
+weight: 0
+provider: null
+plugin: 'entityblock_block:8f0c9c29-0763-4cd0-8e37-f038630f205b|36f06c88-0b7f-4732-a7ef-b3d159873cfe|0'
+settings:
+  id: 'entityblock_block:8f0c9c29-0763-4cd0-8e37-f038630f205b|36f06c88-0b7f-4732-a7ef-b3d159873cfe|0'
+  label: Links
+  provider: entityblock
+  label_display: visible
+  label_override: 0
+visibility: {  }

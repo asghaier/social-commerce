@@ -1,0 +1,22 @@
+uuid: 38758f0e-37bc-4afb-b91c-d8b17e142862
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bearded
+_core:
+  default_config_hash: mLHDK88oqD4rrotrIOQkCXu4e6H0FQsZI4uERpHvq1c
+id: bearded_content
+theme: bearded
+region: content
+weight: -6
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

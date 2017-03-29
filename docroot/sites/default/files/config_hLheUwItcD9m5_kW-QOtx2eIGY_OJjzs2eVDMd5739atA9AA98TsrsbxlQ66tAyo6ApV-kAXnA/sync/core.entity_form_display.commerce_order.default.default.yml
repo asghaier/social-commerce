@@ -1,0 +1,46 @@
+uuid: 07cc655e-f695-4cb3-b643-0157de189cfc
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_order.commerce_order_type.default
+    - field.field.commerce_order.default.order_items
+  module:
+    - commerce_order
+    - inline_entity_form
+_core:
+  default_config_hash: BVPrhjZ__d_fiYNJA1MjzqLw7Tq67wScj-Q_MRTzNaI
+id: commerce_order.default.default
+targetEntityType: commerce_order
+bundle: default
+mode: default
+content:
+  adjustments:
+    type: commerce_adjustment_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+  billing_profile:
+    type: options_select
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+  order_items:
+    type: inline_entity_form_complex
+    weight: 0
+    settings:
+      override_labels: true
+      label_singular: 'order item'
+      label_plural: 'order items'
+      allow_new: true
+      match_operator: CONTAINS
+      allow_existing: false
+    third_party_settings: {  }
+hidden:
+  created: true
+  ip_address: true
+  mail: true
+  order_number: true
+  state: true
+  store_id: true
+  uid: true

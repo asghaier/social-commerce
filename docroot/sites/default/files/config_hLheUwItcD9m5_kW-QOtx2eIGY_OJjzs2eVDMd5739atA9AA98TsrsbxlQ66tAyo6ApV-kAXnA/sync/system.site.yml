@@ -1,0 +1,14 @@
+name: 'Social commerce'
+mail: admin@example.com
+slogan: 'Not Just Moustache'
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: oeXXPJn9leA2ia1Sr0uE7zIvk4X57aIYQk_sYNdNGMA
+uuid: 958762dd-4d6f-462b-9355-7bbb0c329380

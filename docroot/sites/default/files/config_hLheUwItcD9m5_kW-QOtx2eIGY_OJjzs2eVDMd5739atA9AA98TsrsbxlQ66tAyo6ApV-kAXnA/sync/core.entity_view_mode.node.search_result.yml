@@ -1,0 +1,12 @@
+uuid: 7728f006-80c6-40aa-8617-e37a5e08a629
+langcode: en
+status: false
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: T7c79hMPGmaEScZ5ClmI1xbJt64T4WHxWE7Ru4bFXcM
+id: node.search_result
+label: 'Search result highlighting input'
+targetEntityType: node
+cache: true

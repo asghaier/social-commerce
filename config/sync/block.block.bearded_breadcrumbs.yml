@@ -1,0 +1,22 @@
+uuid: da5bbfc6-4c5c-4c59-8882-b282496cbf5f
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bearded
+_core:
+  default_config_hash: 6yuW1IKbP5SDSjL3K924lHFYGJFLWKrgGdzAi0KH0Og
+id: bearded_breadcrumbs
+theme: bearded
+region: header
+weight: -7
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,20 @@
+uuid: d0b0b85e-400d-4daa-aa14-d7d055a200e5
+langcode: en
+status: true
+dependencies:
+  theme:
+    - bearded
+_core:
+  default_config_hash: tCHalSQVo0kcO4FHFtkTFF2rEtjs78H7ctXyvj_yHgE
+id: bearded_page_title
+theme: bearded
+region: header
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,40 @@
+uuid: 0d594661-bd3e-4afc-b57e-b4dc95a48436
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_slide_image
+    - node.type.slide
+  module:
+    - image
+_core:
+  default_config_hash: k0IOQoR_Fcyr9W0HtqSuoNr-81iT5vlaYu72D_JwY4w
+id: node.slide.field_slide_image
+field_name: field_slide_image
+entity_type: node
+bundle: slide
+label: Image
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

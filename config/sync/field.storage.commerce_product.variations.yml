@@ -1,0 +1,21 @@
+uuid: e03c27f0-d3b9-4890-be93-298fc493a64d
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_product
+_core:
+  default_config_hash: GdY4qUNibrei95hP8hSjVWR6QEvUPu0wA4AC1lS2mvY
+id: commerce_product.variations
+field_name: variations
+entity_type: commerce_product
+type: entity_reference
+settings:
+  target_type: commerce_product_variation
+module: core
+locked: true
+cardinality: -1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

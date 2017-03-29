@@ -1,0 +1,19 @@
+uuid: 9c9a5497-f8fa-486e-b695-a0b6d91b1048
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+_core:
+  default_config_hash: s3raYX_m6dXNqWJx38S7Dax-6ppRGyyD4lK5ZjO7yhs
+name: 'Content Block'
+type: content_block
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

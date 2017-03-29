@@ -1,0 +1,22 @@
+uuid: f0586d72-6738-4ce0-8882-68f6287c9625
+langcode: en
+status: false
+dependencies:
+  module:
+    - search
+  theme:
+    - bearded
+_core:
+  default_config_hash: gDD2wn4N5JVWNqsQPOvqAapTk93zLtB0y1xVyKZTVwA
+id: bearded_search
+theme: bearded
+region: '-1'
+weight: -8
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility: {  }

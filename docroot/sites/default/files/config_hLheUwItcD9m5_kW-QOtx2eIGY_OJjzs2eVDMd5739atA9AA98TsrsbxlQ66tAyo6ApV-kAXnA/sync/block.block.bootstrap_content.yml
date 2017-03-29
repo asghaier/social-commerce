@@ -1,0 +1,22 @@
+uuid: cc64dc74-4bf5-48e7-af5e-da9d6439f813
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bootstrap
+_core:
+  default_config_hash: Kl38z2Rq0vveYgHnkqMCYps-gCTKYbJYsfRG0RziAtU
+id: bootstrap_content
+theme: bootstrap
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

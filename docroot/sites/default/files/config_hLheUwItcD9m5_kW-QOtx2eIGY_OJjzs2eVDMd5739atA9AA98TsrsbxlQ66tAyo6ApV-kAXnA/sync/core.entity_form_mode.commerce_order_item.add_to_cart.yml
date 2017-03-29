@@ -1,0 +1,15 @@
+uuid: d3f64316-b1c8-4ea9-8ef6-65daabc5e799
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - commerce_cart
+  module:
+    - commerce_order
+_core:
+  default_config_hash: m9KSzwqlJwUNz5nUfcOObpTQIydWs4v7k0yiHVM3KYc
+id: commerce_order_item.add_to_cart
+label: 'Add to cart'
+targetEntityType: commerce_order_item
+cache: true
