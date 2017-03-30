@@ -1,8 +1,0 @@
-uuid: 3b3e6091-fd0f-46f3-b527-7085284c3b90
-langcode: en
-status: true
-dependencies: {  }
-id: demo_variation_type
-label: 'Demo Variation Type'
-orderItemType: default
-generateTitle: true

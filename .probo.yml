@@ -6,7 +6,7 @@ steps:
     plugin: Script
     script: |
       set -e
-      cd $SRC_DIR/docroot
+      cd $SRC_DIR
       composer self-update
       composer install
   - name: Social commerce site setup
@@ -21,7 +21,7 @@ steps:
     plugin: Script
     script: |
       set -e
-      cd $SRC_DIR/docroot/sites/default
+      cd $SRC_DIR/sites/default
       chown www-data:www-data files -R
       mv $ASSET_DIR/social-commerce.tar.gz .
       tar xfz social-commerce.tar.gz
