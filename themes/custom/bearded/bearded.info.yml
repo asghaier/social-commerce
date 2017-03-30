@@ -14,6 +14,7 @@ regions:
   help: 'Help'
   slider: 'Slider region'
   banner: 'Banner region'
+  products: 'Products region'
   topwidget_first: 'Top First Widget'
   topwidget_second: 'Top Second Widget'
   topwidget_third: 'Top Third Widget'
