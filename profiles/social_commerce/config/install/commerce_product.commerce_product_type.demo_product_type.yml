@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+id: demo_product_type
+label: 'Demo Product Type'
+description: 'A custom product type for Social Commerce.'
+variationType: demo_variation_type
+injectVariationFields: true

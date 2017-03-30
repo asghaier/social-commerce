@@ -84,7 +84,7 @@ function social_commerce_tests_install() {
     'field_name' => 'field_product_variation_image',
     'entity_type' => 'commerce_product_variation',
     'bundle' => 'demo_variation_type',
-    'label' => 'An Image field',
+    'label' => 'Product Variation Image',
   ])->save();
 
   entity_get_form_display('commerce_product_variation', 'demo_variation_type', 'default')
@@ -178,25 +178,83 @@ function social_commerce_tests_install() {
   ]);
   $variation_4->save();
 
+  $productType = \Drupal\commerce_product\Entity\ProductType::create([
+    'id' => 'demo_product_type',
+    'label' => 'Demo Product Type',
+    'status' => 1,
+    'description' => 'A custom product type for Social Commerce.',
+    'variationType' => 'demo_variation_type',
+    'injectVariationFields' => TRUE,
+  ]);
+  $productType->save();
+
+  \Drupal\field\Entity\FieldStorageConfig::create(array(
+    'field_name' => 'field_product_category',
+    'entity_type' => 'commerce_product',
+    'type' => 'entity_reference',
+    'cardinality' => 1,
+    'settings' => array(
+      'target_type' => 'taxonomy_term',
+    ),
+  ))->save();
+
+  \Drupal\field\Entity\FieldConfig::create([
+    'field_name' => 'field_product_category',
+    'entity_type' => 'commerce_product',
+    'bundle' => 'demo_product_type',
+    'label' => 'Product Category',
+    'settings' => array(
+      'handler_settings' => array(
+        'target_bundles' => array(
+          "product_category" => "product_category",
+        ),
+        'auto_create' => TRUE,
+      ),
+    ),
+  ])->save();
+
+  entity_get_form_display('commerce_product', 'demo_product_type', 'default')
+    ->setComponent('field_product_category', array(
+      'type' => 'entity_reference_autocomplete',
+    ))
+    ->save();
+
+  entity_get_display('commerce_product', 'demo_product_type', 'default')
+    ->setComponent('field_product_category'
+      )
+    ->save();
+
+  $field_config = \Drupal\field\Entity\FieldStorageConfig::loadByName('commerce_product', 'field_product_category');
+
+  // These three functions must be called to add the appropriate fields to the type
+  commerce_product_add_variations_field($productType);
+  commerce_product_add_stores_field($productType);
+  commerce_product_add_body_field($productType);
+
   $product = \Drupal\commerce_product\Entity\Product::create([
     'uid' => 1, // The user id that created the product.
-    'type' => 'default', // Just like variation, the default product type is 'default'.
+    'type' => 'demo_product_type', // Just like variation, the default product type is 'default'.
     'title' => 'Ninja Silhouette',
     'stores' => [$store], // The store we created/loaded above.
     'variations' => [$variation_1], // The variation we created above.
+    'field_product_category' => [
+      'target_id' => 3,
+    ],
   ]);
   $product->save();
 
-  // You can also add a variation to a product using the addVariation() method.
   $product->addVariation($variation_1);
   $product->save();
 
   $product = \Drupal\commerce_product\Entity\Product::create([
     'uid' => 1,
-    'type' => 'default',
+    'type' => 'demo_product_type',
     'title' => 'Happy Ninja',
     'stores' => [$store],
     'variations' => [$variation_2],
+    'field_product_category' => [
+      'target_id' => 3,
+    ],
   ]);
   $product->save();
 
@@ -205,10 +263,13 @@ function social_commerce_tests_install() {
 
   $product = \Drupal\commerce_product\Entity\Product::create([
     'uid' => 1,
-    'type' => 'default',
+    'type' => 'demo_product_type',
     'title' => 'Ninja Silhouette',
     'stores' => [$store],
     'variations' => [$variation_3],
+    'field_product_category' => [
+      'target_id' => 4,
+    ],
   ]);
   $product->save();
 
@@ -217,10 +278,13 @@ function social_commerce_tests_install() {
 
   $product = \Drupal\commerce_product\Entity\Product::create([
     'uid' => 1,
-    'type' => 'default',
+    'type' => 'demo_product_type',
     'title' => 'Ship Your Idea',
     'stores' => [$store],
     'variations' => [$variation_4],
+    'field_product_category' => [
+      'target_id' => 3,
+    ],
   ]);
   $product->save();
 
