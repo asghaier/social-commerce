@@ -113,6 +113,14 @@
     {% endblock %}
 {% endif %}
 
+{% if page.products %}
+    {% block products %}
+        <div class="products {{ container }}" role="contentinfo">
+            {{ page.products }}
+        </div>
+    {% endblock %}
+{% endif %}
+
 {# Main #}
 {% block main %}
     <div role="main" class="main-container {{ container }} js-quickedit-main-content">

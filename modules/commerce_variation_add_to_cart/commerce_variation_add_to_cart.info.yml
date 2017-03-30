@@ -1,0 +1,13 @@
+name: Commerce Variation Add to Cart
+type: module
+description: Commerce Variation Add to Cart Form for Drupal Commerce 2.x
+package: Commerce
+# core: 8.x
+dependencies:
+  - commerce
+
+# Information added by Drupal.org packaging script on 2017-02-09
+version: '8.x-1.x-dev'
+core: '8.x'
+project: 'commerce_variation_add_to_cart'
+datestamp: 1486636685

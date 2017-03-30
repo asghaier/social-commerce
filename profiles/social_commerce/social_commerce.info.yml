@@ -69,6 +69,7 @@ dependencies:
   - commerce_product
   - commerce_promotion
   - commerce_store
+  - commerce_variation_add_to_cart
   - devel
   - devel_generate
   - inline_entity_form
