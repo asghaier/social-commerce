@@ -5,12 +5,16 @@ dependencies:
     - field.storage.commerce_product.variations
     - field.storage.commerce_product_variation.field_product_variation_image
     - image.style.medium
+    - taxonomy.vocabulary.product_category
   module:
     - commerce_price
     - commerce_product
     - commerce_variation_add_to_cart
     - image
+    - taxonomy
     - user
+_core:
+  default_config_hash: iAmwYVfXiQJWq6TwdVZTUej3Cd46cFlRSE7zB5fcvvc
 id: shop
 label: shop
 module: views
@@ -378,6 +382,51 @@ display:
           entity_type: commerce_product
           entity_field: status
           plugin_id: boolean
+        field_product_category_target_id:
+          id: field_product_category_target_id
+          table: commerce_product__field_product_category
+          field: field_product_category_target_id
+          relationship: none
+          group_type: group
+          admin_label: ''
+          operator: or
+          value: {  }
+          group: 1
+          exposed: true
+          expose:
+            operator_id: field_product_category_target_id_op
+            label: Category
+            description: ''
+            use_operator: false
+            operator: field_product_category_target_id_op
+            identifier: field_product_category_target_id
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+              anonymous: '0'
+              administrator: '0'
+            reduce: false
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          reduce_duplicates: false
+          type: select
+          limit: true
+          vid: product_category
+          hierarchy: true
+          error_message: true
+          plugin_id: taxonomy_index_tid
       sorts:
         price__number:
           id: price__number
@@ -424,9 +473,11 @@ display:
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
+        - url
         - url.query_args
         - 'url.query_args:sort_by'
         - 'url.query_args:sort_order'
+        - user
         - user.permissions
       tags:
         - 'config:field.storage.commerce_product.variations'
@@ -444,9 +495,11 @@ display:
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
+        - url
         - url.query_args
         - 'url.query_args:sort_by'
         - 'url.query_args:sort_order'
+        - user
         - user.permissions
       tags:
         - 'config:field.storage.commerce_product.variations'
