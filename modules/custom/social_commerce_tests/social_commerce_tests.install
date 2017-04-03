@@ -235,6 +235,7 @@ function social_commerce_tests_install() {
     'uid' => 1, // The user id that created the product.
     'type' => 'demo_product_type', // Just like variation, the default product type is 'default'.
     'title' => 'Ninja Silhouette',
+    'body' => 'Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Cras ultricies ligula sed magna dictum porta. Nulla porttitor accumsan tincidunt. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Pellentesque in ipsum id orci porta dapibus. Pellentesque in ipsum id orci porta dapibus. Nulla porttitor accumsan tincidunt. Curabitur aliquet quam id dui posuere blandit.',
     'stores' => [$store], // The store we created/loaded above.
     'variations' => [$variation_1], // The variation we created above.
     'field_product_category' => [
@@ -250,6 +251,7 @@ function social_commerce_tests_install() {
     'uid' => 1,
     'type' => 'demo_product_type',
     'title' => 'Happy Ninja',
+    'body' => 'Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Cras ultricies ligula sed magna dictum porta. Nulla porttitor accumsan tincidunt. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Pellentesque in ipsum id orci porta dapibus. Pellentesque in ipsum id orci porta dapibus. Nulla porttitor accumsan tincidunt. Curabitur aliquet quam id dui posuere blandit.',
     'stores' => [$store],
     'variations' => [$variation_2],
     'field_product_category' => [
@@ -265,6 +267,7 @@ function social_commerce_tests_install() {
     'uid' => 1,
     'type' => 'demo_product_type',
     'title' => 'Ninja Silhouette',
+    'body' => 'Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Cras ultricies ligula sed magna dictum porta. Nulla porttitor accumsan tincidunt. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Pellentesque in ipsum id orci porta dapibus. Pellentesque in ipsum id orci porta dapibus. Nulla porttitor accumsan tincidunt. Curabitur aliquet quam id dui posuere blandit.',
     'stores' => [$store],
     'variations' => [$variation_3],
     'field_product_category' => [
@@ -280,6 +283,7 @@ function social_commerce_tests_install() {
     'uid' => 1,
     'type' => 'demo_product_type',
     'title' => 'Ship Your Idea',
+    'body' => 'Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Cras ultricies ligula sed magna dictum porta. Nulla porttitor accumsan tincidunt. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Pellentesque in ipsum id orci porta dapibus. Pellentesque in ipsum id orci porta dapibus. Nulla porttitor accumsan tincidunt. Curabitur aliquet quam id dui posuere blandit.',
     'stores' => [$store],
     'variations' => [$variation_4],
     'field_product_category' => [
