@@ -178,6 +178,120 @@ function social_commerce_tests_install() {
   ]);
   $variation_4->save();
 
+  $uri  = file_unmanaged_copy('modules/custom/social_commerce_tests/files/hoodie_3_front-600x600.jpg', 'public://hoodie_3_front-600x600.jpg', FILE_EXISTS_REPLACE);
+  $file = File::Create([
+    'uri' => $uri,
+  ]);
+  $file->save();
+
+  $price = new \Drupal\commerce_price\Price('25.99', 'USD');
+
+  $variation_5 = \Drupal\commerce_product\Entity\ProductVariation::create([
+    'type' => 'demo_variation_type',
+    'sku' => 'PROD-0105',
+    'status' => 1,
+    'price' => $price,
+    'field_product_variation_image' => [
+      'target_id' => $file->id(),
+    ],
+  ]);
+  $variation_5->save();
+
+  $uri  = file_unmanaged_copy('modules/custom/social_commerce_tests/files/T_4_front-600x600.jpg', 'public://T_4_front-600x600.jpg', FILE_EXISTS_REPLACE);
+  $file = File::Create([
+    'uri' => $uri,
+  ]);
+  $file->save();
+
+  $price = new \Drupal\commerce_price\Price('26.99', 'USD');
+
+  $variation_6 = \Drupal\commerce_product\Entity\ProductVariation::create([
+    'type' => 'demo_variation_type',
+    'sku' => 'PROD-0106',
+    'status' => 1,
+    'price' => $price,
+    'field_product_variation_image' => [
+      'target_id' => $file->id(),
+    ],
+  ]);
+  $variation_6->save();
+
+  $uri  = file_unmanaged_copy('modules/custom/social_commerce_tests/files/T_2_front-600x600.jpg', 'public://T_2_front-600x600.jpg', FILE_EXISTS_REPLACE);
+  $file = File::Create([
+    'uri' => $uri,
+  ]);
+  $file->save();
+
+  $price = new \Drupal\commerce_price\Price('27.99', 'USD');
+
+  $variation_7 = \Drupal\commerce_product\Entity\ProductVariation::create([
+    'type' => 'demo_variation_type',
+    'sku' => 'PROD-0107',
+    'status' => 1,
+    'price' => $price,
+    'field_product_variation_image' => [
+      'target_id' => $file->id(),
+    ],
+  ]);
+  $variation_7->save();
+
+  $uri  = file_unmanaged_copy('modules/custom/social_commerce_tests/files/poster_1_up-600x600.jpg', 'public://poster_1_up-600x600.jpg', FILE_EXISTS_REPLACE);
+  $file = File::Create([
+    'uri' => $uri,
+  ]);
+  $file->save();
+
+  $price = new \Drupal\commerce_price\Price('28.99', 'USD');
+
+  $variation_8 = \Drupal\commerce_product\Entity\ProductVariation::create([
+    'type' => 'demo_variation_type',
+    'sku' => 'PROD-0108',
+    'status' => 1,
+    'price' => $price,
+    'field_product_variation_image' => [
+      'target_id' => $file->id(),
+    ],
+  ]);
+  $variation_8->save();
+
+  $uri  = file_unmanaged_copy('modules/custom/social_commerce_tests/files/poster_2_up-600x600.jpg', 'public://poster_2_up-600x600.jpg', FILE_EXISTS_REPLACE);
+  $file = File::Create([
+    'uri' => $uri,
+  ]);
+  $file->save();
+
+  $price = new \Drupal\commerce_price\Price('29.99', 'USD');
+
+  $variation_9 = \Drupal\commerce_product\Entity\ProductVariation::create([
+    'type' => 'demo_variation_type',
+    'sku' => 'PROD-0109',
+    'status' => 1,
+    'price' => $price,
+    'field_product_variation_image' => [
+      'target_id' => $file->id(),
+    ],
+  ]);
+  $variation_9->save();
+
+  $uri  = file_unmanaged_copy('modules/custom/social_commerce_tests/files/poster_3_up-600x600.jpg', 'public://poster_3_up-600x600.jpg', FILE_EXISTS_REPLACE);
+  $file = File::Create([
+    'uri' => $uri,
+  ]);
+  $file->save();
+
+  $price = new \Drupal\commerce_price\Price('30.99', 'USD');
+
+  $variation_10 = \Drupal\commerce_product\Entity\ProductVariation::create([
+    'type' => 'demo_variation_type',
+    'sku' => 'PROD-0110',
+    'status' => 1,
+    'price' => $price,
+    'field_product_variation_image' => [
+      'target_id' => $file->id(),
+    ],
+  ]);
+  $variation_10->save();
+
   $productType = \Drupal\commerce_product\Entity\ProductType::create([
     'id' => 'demo_product_type',
     'label' => 'Demo Product Type',
@@ -235,6 +349,7 @@ function social_commerce_tests_install() {
     'uid' => 1, // The user id that created the product.
     'type' => 'demo_product_type', // Just like variation, the default product type is 'default'.
     'title' => 'Ninja Silhouette',
+    'body' => 'Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Cras ultricies ligula sed magna dictum porta. Nulla porttitor accumsan tincidunt. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Pellentesque in ipsum id orci porta dapibus. Pellentesque in ipsum id orci porta dapibus. Nulla porttitor accumsan tincidunt. Curabitur aliquet quam id dui posuere blandit.',
     'stores' => [$store], // The store we created/loaded above.
     'variations' => [$variation_1], // The variation we created above.
     'field_product_category' => [
@@ -250,6 +365,7 @@ function social_commerce_tests_install() {
     'uid' => 1,
     'type' => 'demo_product_type',
     'title' => 'Happy Ninja',
+    'body' => 'Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Cras ultricies ligula sed magna dictum porta. Nulla porttitor accumsan tincidunt. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Pellentesque in ipsum id orci porta dapibus. Pellentesque in ipsum id orci porta dapibus. Nulla porttitor accumsan tincidunt. Curabitur aliquet quam id dui posuere blandit.',
     'stores' => [$store],
     'variations' => [$variation_2],
     'field_product_category' => [
@@ -265,6 +381,7 @@ function social_commerce_tests_install() {
     'uid' => 1,
     'type' => 'demo_product_type',
     'title' => 'Ninja Silhouette',
+    'body' => 'Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Cras ultricies ligula sed magna dictum porta. Nulla porttitor accumsan tincidunt. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Pellentesque in ipsum id orci porta dapibus. Pellentesque in ipsum id orci porta dapibus. Nulla porttitor accumsan tincidunt. Curabitur aliquet quam id dui posuere blandit.',
     'stores' => [$store],
     'variations' => [$variation_3],
     'field_product_category' => [
@@ -280,6 +397,7 @@ function social_commerce_tests_install() {
     'uid' => 1,
     'type' => 'demo_product_type',
     'title' => 'Ship Your Idea',
+    'body' => 'Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Cras ultricies ligula sed magna dictum porta. Nulla porttitor accumsan tincidunt. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Pellentesque in ipsum id orci porta dapibus. Pellentesque in ipsum id orci porta dapibus. Nulla porttitor accumsan tincidunt. Curabitur aliquet quam id dui posuere blandit.',
     'stores' => [$store],
     'variations' => [$variation_4],
     'field_product_category' => [
@@ -289,6 +407,102 @@ function social_commerce_tests_install() {
   $product->save();
 
   $product->addVariation($variation_4);
+  $product->save();
+
+  $product = \Drupal\commerce_product\Entity\Product::create([
+    'uid' => 1,
+    'type' => 'demo_product_type',
+    'title' => 'Patient Ninja',
+    'body' => 'Donec rutrum congue leo eget malesuada. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Donec rutrum congue leo eget malesuada.',
+    'stores' => [$store],
+    'variations' => [$variation_5],
+    'field_product_category' => [
+      'target_id' => 3,
+    ],
+  ]);
+  $product->save();
+
+  $product->addVariation($variation_5);
+  $product->save();
+
+  $product = \Drupal\commerce_product\Entity\Product::create([
+    'uid' => 1,
+    'type' => 'demo_product_type',
+    'title' => 'Ship Your Idea',
+    'body' => 'Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Cras ultricies ligula sed magna dictum porta. Nulla porttitor accumsan tincidunt. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Pellentesque in ipsum id orci porta dapibus. Pellentesque in ipsum id orci porta dapibus. Nulla porttitor accumsan tincidunt.',
+    'stores' => [$store],
+    'variations' => [$variation_6],
+    'field_product_category' => [
+      'target_id' => 4,
+    ],
+  ]);
+  $product->save();
+
+  $product->addVariation($variation_6);
+  $product->save();
+
+  $product = \Drupal\commerce_product\Entity\Product::create([
+    'uid' => 1,
+    'type' => 'demo_product_type',
+    'title' => 'Premium Quality',
+    'body' => 'Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Cras ultricies ligula sed magna dictum porta. Nulla porttitor accumsan tincidunt.',
+    'stores' => [$store],
+    'variations' => [$variation_7],
+    'field_product_category' => [
+      'target_id' => 4,
+    ],
+  ]);
+  $product->save();
+
+  $product->addVariation($variation_7);
+  $product->save();
+
+  $product = \Drupal\commerce_product\Entity\Product::create([
+    'uid' => 1,
+    'type' => 'demo_product_type',
+    'title' => 'Ship Your Idea',
+    'body' => 'Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vivamus suscipit tortor eget felis porttitor volutpat. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Cras ultricies ligula sed magna dictum porta.',
+    'stores' => [$store],
+    'variations' => [$variation_8],
+    'field_product_category' => [
+      'target_id' => 1,
+    ],
+  ]);
+  $product->save();
+
+  $product->addVariation($variation_8);
+  $product->save();
+
+  $product = \Drupal\commerce_product\Entity\Product::create([
+    'uid' => 1,
+    'type' => 'demo_product_type',
+    'title' => 'Flying Ninja',
+    'body' => 'Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.',
+    'stores' => [$store],
+    'variations' => [$variation_9],
+    'field_product_category' => [
+      'target_id' => 1,
+    ],
+  ]);
+  $product->save();
+
+  $product->addVariation($variation_9);
+  $product->save();
+
+  $product = \Drupal\commerce_product\Entity\Product::create([
+    'uid' => 1,
+    'type' => 'demo_product_type',
+    'title' => 'Premium Quality',
+    'body' => 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.',
+    'stores' => [$store],
+    'variations' => [$variation_10],
+    'field_product_category' => [
+      'target_id' => 1,
+    ],
+  ]);
+  $product->save();
+
+  $product->addVariation($variation_10);
   $product->save();
 
 }
