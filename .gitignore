@@ -51,3 +51,4 @@ themes/custom/*/node_modules
 # Ignore IDE folders and Drupal console
 console/
 nbproject/
+.idea/
