@@ -15,8 +15,8 @@ config_devel:
     - views.view.commerce_stores
     - system.action.commerce_delete_store_action
 
-# Information added by Drupal.org packaging script on 2016-12-26
-version: '8.x-2.0-beta5'
+# Information added by Drupal.org packaging script on 2017-03-17
+version: '8.x-2.0-beta6'
 core: '8.x'
 project: 'commerce'
-datestamp: 1482792203
+datestamp: 1489757889

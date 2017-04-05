@@ -2,7 +2,6 @@
 
 namespace Drupal\Tests\commerce\FunctionalJavascript;
 
-use Drupal\commerce_store\StoreCreationTrait;
 use Drupal\Core\Plugin\Context\Context;
 use Drupal\Core\Plugin\Context\ContextDefinition;
 use Drupal\field\Entity\FieldConfig;
@@ -18,7 +17,6 @@ use Drupal\user\Entity\Role;
 class PluginItemTest extends CommerceBrowserTestBase {
 
   use JavascriptTestTrait;
-  use StoreCreationTrait;
 
   /**
    * Modules to enable.
@@ -98,7 +96,8 @@ class PluginItemTest extends CommerceBrowserTestBase {
 
     // Executes and returns TRUE that user1 has role.
     $user1_context = new Context(new ContextDefinition('entity:user'), $test_user1);
-    $this->assertTrue($condition_field->getTargetInstance(['user' => $user1_context])->execute());
+
+    $this->assertNotEmpty($condition_field->getTargetInstance(['user' => $user1_context])->execute());
   }
 
 }
