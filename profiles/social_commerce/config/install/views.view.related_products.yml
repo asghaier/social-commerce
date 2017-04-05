@@ -12,6 +12,8 @@ dependencies:
     - commerce_product
     - commerce_variation_add_to_cart
     - image
+_core:
+  default_config_hash: nFRb_1cC7HgDgeGNO4qxHBYhKhp63lrBT65tB9rTkHQ
 id: related_products
 label: 'Related Products'
 module: views
@@ -412,7 +414,7 @@ display:
           admin_label: ''
           default_action: default
           exception:
-            value: product
+            value: all
             title_enable: false
             title: All
           title_enable: false
@@ -435,7 +437,7 @@ display:
             fail: 'not found'
           validate_options: {  }
           break_phrase: false
-          not: false
+          not: true
           entity_type: commerce_product_variation
           entity_field: product_id
           plugin_id: numeric
@@ -448,7 +450,7 @@ display:
           admin_label: ''
           default_action: default
           exception:
-            value: product
+            value: all
             title_enable: false
             title: All
           title_enable: false
