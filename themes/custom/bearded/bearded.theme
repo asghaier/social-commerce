@@ -6,6 +6,20 @@
  * Place your custom PHP code in this file.
  */
 function bearded_preprocess_block(&$variables) {
-	//Change site logo to PNG.
-  	$variables['site_logo'] = str_replace('.svg', '.png', $variables['content']['site_logo']['#uri']);
+  //Change site logo to PNG.
+  $variables['site_logo'] = str_replace('.svg', '.png', $variables['content']['site_logo']['#uri']);
+}
+
+function bearded_preprocess_region(&$variables) {
+  $region = $variables['elements']['#region'];
+  
+   $targeted_regions = array (
+    'topwidget_first',
+    'topwidget_second',
+    'topwidget_third',
+  );
+  
+   if (in_array($region, $targeted_regions)) {
+     $variables['attributes']['class'][] = 'col-sm-4';
+  }
 }

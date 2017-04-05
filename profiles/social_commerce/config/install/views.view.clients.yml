@@ -56,16 +56,11 @@ display:
           items_per_page: 4
           offset: 0
       style:
-        type: grid
+        type: default
         options:
           grouping: {  }
-          columns: 4
-          automatic_width: true
-          alignment: horizontal
-          col_class_default: true
-          col_class_custom: ''
-          row_class_default: true
-          row_class_custom: ''
+          row_class: col-sm-3
+          default_row_class: true
       row:
         type: fields
         options:
@@ -251,6 +246,7 @@ display:
       display_extenders: {  }
       link_url: 'http://angrycactus.biz/'
       link_display: custom_url
+      css_class: container-fluid
     cache_metadata:
       max-age: -1
       contexts:
