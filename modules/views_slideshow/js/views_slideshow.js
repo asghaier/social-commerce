@@ -111,29 +111,31 @@
    * Implement the pause hook for text controls.
    */
   Drupal.viewsSlideshowControlsText.pause = function (options) {
-    var pauseText = Drupal.theme.prototype['viewsSlideshowControlsPause'] ? Drupal.theme('viewsSlideshowControlsPause') : '';
-    $('#views_slideshow_controls_text_pause_' + options.slideshowID + ' a').text(pauseText);
-    $('#views_slideshow_controls_text_pause_' + options.slideshowID).removeClass('views-slideshow-controls-text-status-play');
-    $('#views_slideshow_controls_text_pause_' + options.slideshowID).addClass('views-slideshow-controls-text-status-pause');
+    var pauseText = Drupal.theme.viewsSlideshowControlsPause ? Drupal.theme('viewsSlideshowControlsPause') : '';
+    var $element = $('#views_slideshow_controls_text_pause_' + options.slideshowID);
+    $element.find('a').text(pauseText);
+    $element.removeClass('views-slideshow-controls-text-status-play');
+    $element.addClass('views-slideshow-controls-text-status-pause');
   };
 
   /**
    * Implement the play hook for text controls.
    */
   Drupal.viewsSlideshowControlsText.play = function (options) {
-    var playText = Drupal.theme.prototype['viewsSlideshowControlsPlay'] ? Drupal.theme('viewsSlideshowControlsPlay') : '';
-    $('#views_slideshow_controls_text_pause_' + options.slideshowID + ' a').text(playText);
-    $('#views_slideshow_controls_text_pause_' + options.slideshowID).removeClass('views-slideshow-controls-text-status-pause');
-    $('#views_slideshow_controls_text_pause_' + options.slideshowID).addClass('views-slideshow-controls-text-status-play');
+    var playText = Drupal.theme.viewsSlideshowControlsPlay ? Drupal.theme('viewsSlideshowControlsPlay') : '';
+    var $element = $('#views_slideshow_controls_text_pause_' + options.slideshowID);
+    $element.find('a').text(playText);
+    $element.removeClass('views-slideshow-controls-text-status-pause');
+    $element.addClass('views-slideshow-controls-text-status-play');
   };
 
   // Theme the resume control.
-  Drupal.theme.prototype.viewsSlideshowControlsPause = function () {
+  Drupal.theme.viewsSlideshowControlsPause = function () {
     return Drupal.t('Resume');
   };
 
   // Theme the pause control.
-  Drupal.theme.prototype.viewsSlideshowControlsPlay = function () {
+  Drupal.theme.viewsSlideshowControlsPlay = function () {
     return Drupal.t('Pause');
   };
 
