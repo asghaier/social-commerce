@@ -14,13 +14,12 @@ function views_slideshow_help($route_name, RouteMatchInterface $route_match) {
   switch ($route_name) {
     // Main module help for the gss module.
     case 'help.page.views_slideshow':
-      $output .= '<h3>' . t('About') . '</h3>';
+      $output = '<h3>' . t('About') . '</h3>';
       $output .= '<p>' . t('Views Slideshow can be used to create a slideshow of any content (not just images) that can appear in a View. Powered by jQuery, it is heavily customizable: you may choose slideshow settings for each View you create.') . '</p>';
       $output .= '<h3>' . t('More Information') . '</h3>';
       $output .= '<p>' . t('For more information about this module visite the <a href="@link">Views Slideshow</a> module page.', array('@link' => 'https://www.drupal.org/project/views_slideshow')) . '</p>';
+      return $output;
   }
-
-  return $output;
 }
 
 /**

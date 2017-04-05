@@ -61,6 +61,8 @@ class Cycle extends ViewsSlideshowTypeBase {
         'nowrap' => ['default' => 0],
         'fixed_height' => ['default' => 1],
         'items_per_slide' => ['default' => 1],
+        'items_per_slide_first' => array('default' => FALSE),
+        'items_per_slide_first_number' => array('default' => 1),
         'wait_for_image_load' => ['default' => 1],
         'wait_for_image_load_timeout' => ['default' => 3000],
 
@@ -358,6 +360,30 @@ class Cycle extends ViewsSlideshowTypeBase {
       '#states' => [
         'visible' => [
           ':input[name="style_options[views_slideshow_cycle][action_advanced]"]' => ['checked' => TRUE],
+        ],
+      ],
+    ];
+    $form['views_slideshow_cycle']['items_per_slide_first'] = [
+      '#type' => 'checkbox',
+      '#title' => t('Different first slide'),
+      '#default_value' => $this->getConfiguration()['items_per_slide_first'],
+      '#description' => t('Different number of items for the first slide'),
+      '#states' => [
+        'visible' => [
+          ':input[name="style_options[views_slideshow_cycle][action_advanced]"]' => ['checked' => TRUE],
+        ],
+      ],
+    ];
+    $form['views_slideshow_cycle']['items_per_slide_first_number'] = [
+      '#type' => 'textfield',
+      '#title' => t('Items for first slide'),
+      '#default_value' => $this->getConfiguration()['items_per_slide_first_number'],
+      '#description' => t('The number of items for the first slide'),
+      '#size' => 4,
+      '#states' => [
+        'visible' => [
+          ':input[name="style_options[views_slideshow_cycle][action_advanced]"]' => ['checked' => TRUE],
+          ':input[name="style_options[views_slideshow_cycle][items_per_slide_first]"]' => ['checked' => TRUE],
         ],
       ],
     ];
