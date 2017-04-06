@@ -10,7 +10,7 @@ use Drupal\Component\Utility\Html;
 /**
  * Views Slideshow: Theme the main frame wrapper.
  *
- * @ingroup themeable
+ * @ingroup vss_theme
  */
 function template_preprocess_views_slideshow_cycle_main_frame(&$vars) {
   $settings = $vars['settings'];
@@ -39,9 +39,19 @@ function template_preprocess_views_slideshow_cycle_main_frame(&$vars) {
     $new_settings[$key] = $value;
   }
 
+  $num_divs = count($rows);
+  if ($settings['items_per_slide_first']) {
+   $num_divs -= $settings['items_per_slide_first_number'];
+   $num_divs = $num_divs / $settings['items_per_slide'];
+   $num_divs += 1;
+  }
+  else {
+    $num_divs = $num_divs / $settings['items_per_slide'];
+  }
+
   $settings = array_merge(
     [
-      'num_divs' => count($rows),
+      'num_divs' => ceil($num_divs),
       'id_prefix' => '#views_slideshow_cycle_main_',
       'div_prefix' => '#views_slideshow_cycle_div_',
       'vss_id' => $vss_id,
@@ -101,7 +111,21 @@ function template_preprocess_views_slideshow_cycle_main_frame(&$vars) {
   $vars['rendered_rows'] = [];
   foreach ($rows as $count => $item) {
     $items[] = $item;
-    if (count($items) == $settings['items_per_slide'] || $count == (count($rows) - 1)) {
+    if ($settings['items_per_slide_first'] && empty($vars['rendered_rows'])) {
+      if (count($items) == $settings['items_per_slide_first_number'] || $count == (count($rows) - 1)) {
+        $vars['rendered_rows'][] = [
+          '#theme' => $vars['view']->buildThemeFunctions('views_slideshow_cycle_main_frame_row'),
+          '#vss_id' => $vss_id,
+          '#items' => $items,
+          '#count' => $index,
+          '#view' => $vars['view'],
+        ];
+
+        $items = [];
+        $index++;
+      }
+    }
+    elseif (count($items) == $settings['items_per_slide'] || $count == (count($rows) - 1)) {
       $vars['rendered_rows'][] = [
         '#theme' => $vars['view']->buildThemeFunctions('views_slideshow_cycle_main_frame_row'),
         '#vss_id' => $vss_id,
@@ -119,7 +143,7 @@ function template_preprocess_views_slideshow_cycle_main_frame(&$vars) {
 /**
  * Views Slideshow slideshow rows.
  *
- * @ingroup themeable
+ * @ingroup vss_theme
  */
 function template_preprocess_views_slideshow_cycle_main_frame_row(&$vars) {
   $current = $vars['count'] + 1;
@@ -147,7 +171,7 @@ function template_preprocess_views_slideshow_cycle_main_frame_row(&$vars) {
 /**
  * Views Slideshow slideshow row items.
  *
- * @ingroup themeable
+ * @ingroup vss_theme
  */
 function template_preprocess_views_slideshow_cycle_main_frame_row_item(&$vars) {
   $vars['attributes']['class'][] = 'views-row views-row-' . $vars['count'];
@@ -167,51 +191,65 @@ function template_preprocess_views_slideshow_cycle_main_frame_row_item(&$vars) {
 
 /**
  * Implements hook_preprocess_views_slideshow_pager_fields().
+ *
+ * @ingroup vss_theme
  */
 function _views_slideshow_cycle_preprocess_views_slideshow_pager_fields(&$vars) {
   $slide_count = count($vars['view']->result);
-  $items_per_slide = $vars['view']->style_plugin->options['views_slideshow_cycle']['items_per_slide'];
+  $options = $vars['view']->style_plugin->options['views_slideshow_cycle'];
+  $items_per_slide = $options['items_per_slide'];
 
-  if ($vars['view']->style_plugin->options['slideshow_type'] == 'views_slideshow_cycle') {
-    $slide_count = $slide_count / $items_per_slide;
-    $slide_count = ceil($slide_count);
+  if ($vars['settings']['hide_on_single_slide'] && $slide_count == 1) {
+    return;
   }
 
   $vars['rendered_field_items'] = [];
-  if (empty($vars['settings']['hide_on_single_slide']) || $slide_count > 1) {
-    foreach ($vars['view']->result as $count => $node) {
-      if ($count < $slide_count) {
-        $rendered_fields = [];
-        foreach ($vars['settings']['views_slideshow_pager_fields']['views_slideshow_pager_fields_fields'] as $field => $use) {
-          if ($use !== 0 && is_object($vars['view']->field[$field])) {
-            $rendered_fields[] = [
-              '#theme' => $vars['view']->buildThemeFunctions('views_slideshow_pager_field_field'),
-              '#view' => $vars['view'],
-              '#label' => $vars['view']->field[$field]->options['label'],
-              '#output' => $vars['view']->style_plugin->getField($count, $field),
-              '#css_identifier' => Html::cleanCssIdentifier($vars['view']->field[$field]->field),
-            ];
-          }
-        }
-
-        $vars['rendered_field_items'][] = [
-          '#theme' => $vars['view']->buildThemeFunctions('views_slideshow_pager_field_item'),
-          '#vss_id' => $vars['vss_id'],
-          '#item' => $rendered_fields,
-          '#count' => $count,
-          '#location' => $vars['location'],
+  for ($slide = 0, $count=0; $slide < $slide_count; $count++) {
+    $rendered_fields = [];
+    foreach ($vars['settings']['views_slideshow_pager_fields']['views_slideshow_pager_fields_fields'] as $field => $use) {
+      if ($use !== 0 && is_object($vars['view']->field[$field])) {
+        $rendered_fields[] = [
+          '#theme' => $vars['view']->buildThemeFunctions('views_slideshow_pager_field_field'),
+          '#view' => $vars['view'],
+          '#label' => $vars['view']->field[$field]->options['label'],
+          '#output' => $vars['view']->style_plugin->getField($slide, $field),
+          '#css_identifier' => Html::cleanCssIdentifier($vars['view']->field[$field]->field),
         ];
       }
     }
+    if (empty($vars['rendered_field_items']) && $options['items_per_slide_first']) {
+      $slide += $options['items_per_slide_first_number'];
+    }
+    elseif ($options['items_per_slide']) {
+      $slide += $options['items_per_slide'];
+    }
+    else {
+      $slide += 1;
+    }
+    $vars['rendered_field_items'][] = [
+      '#theme' => $vars['view']->buildThemeFunctions('views_slideshow_pager_field_item'),
+      '#vss_id' => $vars['vss_id'],
+      '#item' => $rendered_fields,
+      '#count' => $count,
+      '#location' => $vars['location'],
+    ];
   }
 }
 
 /**
  * Implements hook_preprocess_views_slideshow_slide_counter().
+ *
+ * @ingroup vss_theme
  */
 function _views_slideshow_cycle_preprocess_views_slideshow_slide_counter(&$vars) {
-  if ($vars['view']->style_plugin->options['slideshow_type'] == 'views_slideshow_cycle') {
-    $vars['slide_count'] = $vars['slide_count'] / $vars['view']->style_plugin->options['views_slideshow_cycle']['items_per_slide'];
-    $vars['slide_count'] = ceil($vars['slide_count']);
+  $options = $vars['view']->style_plugin->options['views_slideshow_cycle'];
+  if ($options['items_per_slide_first']) {
+     $slide_count = $vars['slide_count'] - $options['items_per_slide_first_number'];
+     $slide_count = $slide_count / $options['items_per_slide'];
+     $slide_count += 1;
   }
+  else {
+    $slide_count = $vars['slide_count'] / $options['items_per_slide'];
+  }
+  $vars['slide_count'] = ceil($slide_count);
 }

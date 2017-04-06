@@ -13,8 +13,6 @@ dependencies:
     - commerce_product
     - commerce_variation_add_to_cart
     - image
-_core:
-  default_config_hash: W0yDWuNon5LveKvMmnm2bTCH-G4XSzm-JkNHSc3Qpd4
 id: random_products
 label: 'Random Products'
 module: views
@@ -60,7 +58,11 @@ display:
           items_per_page: 4
           offset: 0
       style:
-        type: grid
+        type: default
+        options:
+          grouping: {  }
+          row_class: 'col-xs-12 col-sm-6 col-md-3 col-lg-3'
+          default_row_class: true
       row:
         type: fields
       fields:
@@ -206,7 +208,7 @@ display:
           exclude: false
           alter:
             alter_text: false
-            text: ''
+            text: '<p>{{ title }}</p>'
             make_link: false
             path: ''
             absolute: false
@@ -221,8 +223,8 @@ display:
             suffix: ''
             target: ''
             nl2br: false
-            max_length: 0
-            word_boundary: true
+            max_length: 20
+            word_boundary: false
             ellipsis: true
             more_link: false
             more_link_text: ''
@@ -230,7 +232,7 @@ display:
             strip_tags: false
             trim: false
             preserve_tags: ''
-            html: false
+            html: true
           element_type: ''
           element_class: ''
           element_label_type: ''
@@ -448,6 +450,7 @@ display:
           plugin_id: standard
       arguments: {  }
       display_extenders: {  }
+      css_class: container-fluid
     cache_metadata:
       max-age: -1
       contexts:

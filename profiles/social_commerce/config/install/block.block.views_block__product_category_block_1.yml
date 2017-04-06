@@ -4,13 +4,14 @@ dependencies:
   config:
     - views.view.product_category
   module:
+    - system
     - views
   theme:
     - bearded
 id: views_block__product_category_block_1
 theme: bearded
 region: sidebar_second
-weight: 0
+weight: -12
 provider: null
 plugin: 'views_block:product_category-block_1'
 settings:
@@ -20,4 +21,9 @@ settings:
   label_display: visible
   views_label: ''
   items_per_page: none
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: "/shop\r\n/product/*\r\n/user\r\n/user/*"
+    negate: false
+    context_mapping: {  }
