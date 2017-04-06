@@ -8,7 +8,7 @@ dependencies:
 id: cart
 theme: bearded
 region: navigation_collapsible
-weight: 0
+weight: -12
 provider: null
 plugin: commerce_cart
 settings:
