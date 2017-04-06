@@ -13,8 +13,6 @@ dependencies:
     - commerce_product
     - commerce_variation_add_to_cart
     - image
-_core:
-  default_config_hash: vDu5_v6R3OHLN9GSW77AvhGTbaEH5UXPbmESdspWp9o
 id: random_products
 label: 'Random Products'
 module: views
@@ -63,7 +61,7 @@ display:
         type: default
         options:
           grouping: {  }
-          row_class: col-sm-3
+          row_class: 'col-xs-12 col-sm-6 col-md-3 col-lg-3'
           default_row_class: true
       row:
         type: fields
