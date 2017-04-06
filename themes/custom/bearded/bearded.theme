@@ -11,15 +11,17 @@ function bearded_preprocess_block(&$variables) {
 }
 
 function bearded_preprocess_region(&$variables) {
-  $region = $variables['elements']['#region'];
-  
-   $targeted_regions = array (
-    'topwidget_first',
-    'topwidget_second',
-    'topwidget_third',
-  );
-  
-   if (in_array($region, $targeted_regions)) {
-     $variables['attributes']['class'][] = 'col-sm-4';
+
+  switch ($variables['elements']['#region']) {
+    case 'topwidget_first':
+      $variables['attributes']['class'][] = 'col-xs-12 col-sm-6 col-md-4 col-lg-4';
+      break;
+    case 'topwidget_second':
+      $variables['attributes']['class'][] = 'col-xs-12 col-sm-6 col-md-4 col-lg-4';
+      break;
+    case 'topwidget_third':
+      $variables['attributes']['class'][] = 'col-xs-12 col-sm-12 col-md-4 col-lg-4';
+      break;
   }
+
 }
