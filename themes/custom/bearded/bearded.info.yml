@@ -22,7 +22,8 @@ regions:
   clients: 'Our clients'
   sidebar_first: 'Primary'
   sidebar_second: 'Secondary'
-  footer: 'Footer'
+  footer_first: 'Footer First'
+  footer_second: 'Footer Second'
   page_top: 'Page top'
   page_bottom: 'Page bottom'
 

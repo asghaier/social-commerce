@@ -11,8 +11,8 @@ dependencies:
     - bearded
 id: creditscredits
 theme: bearded
-region: footer
-weight: 0
+region: footer_first
+weight: -12
 provider: null
 plugin: 'entityblock_block:8f0c9c29-0763-4cd0-8e37-f038630f205b|0fa0b453-45df-4d39-b491-f503d5bfebb2|0'
 settings:

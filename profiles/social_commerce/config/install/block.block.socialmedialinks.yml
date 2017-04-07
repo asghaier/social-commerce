@@ -7,8 +7,8 @@ dependencies:
     - bearded
 id: socialmedialinks
 theme: bearded
-region: footer
-weight: 0
+region: footer_second
+weight: -12
 provider: null
 plugin: social_media_links_block
 settings:
