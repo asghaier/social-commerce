@@ -230,10 +230,15 @@
     </div>
 {% endblock %}
 
-{% if page.footer %}
-    {% block footer %}
-        <footer class="footer {{ container }}" role="contentinfo">
-            {{ page.footer }}
-        </footer>
-    {% endblock %}
-{% endif %}
+<footer class="footer {{ container }}" role="contentinfo">
+    {% if page.footer_first %}
+        {% block footer_first %}
+            {{ page.footer_first }}
+        {% endblock footer_first %}
+    {% endif %}
+    {% if page.footer_second %}
+        {% block footer_second %}
+            {{ page.footer_second }}
+        {% endblock footer_second %}
+    {% endif %}
+</footer>
