@@ -11,8 +11,8 @@ dependencies:
     - bearded
 id: copyrightcopyright
 theme: bearded
-region: footer
-weight: 1
+region: footer_second
+weight: -11
 provider: null
 plugin: 'entityblock_block:8f0c9c29-0763-4cd0-8e37-f038630f205b|79f09726-ea86-4108-a480-443b790ec25b|0'
 settings:

@@ -1,6 +1,6 @@
 cdn_provider: ''
 _core:
-  default_config_hash: wWFRfCLjqAaF9J7AwGR4G688N_nt7lCTIXpArmXaOxg
+  default_config_hash: 2bdTm0hxyupILZiXABj7eg2Hp9H8MdW_k7U9xmhoP4M
 favicon:
   mimetype: image/vnd.microsoft.icon
   path: ''
@@ -9,14 +9,34 @@ favicon:
 schemas:
   bootstrap: 8000
   bearded: 8000
-features:
-  comment_user_picture: true
-  comment_user_verification: true
-  favicon: true
-  node_user_picture: true
 logo:
   path: 'public://logo_0.png'
   url: ''
   use_default: true
 table_responsive: '-1'
 table: ''
+features:
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: true
+  node_user_picture: true
+breadcrumb_home: 1
+breadcrumb_title: 0
+region_wells:
+  navigation: ''
+  navigation_collapsible: ''
+  header: ''
+  highlighted: ''
+  help: ''
+  breadcrumb: ''
+  slider: ''
+  banner: ''
+  products: ''
+  topwidget_first: ''
+  topwidget_second: ''
+  topwidget_third: ''
+  content: ''
+  clients: ''
+  sidebar_first: ''
+  sidebar_second: well
+  footer: ''

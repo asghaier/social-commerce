@@ -87,6 +87,7 @@ dependencies:
   - social_media_links
   - social_commerce_tests
   - superfish
+  - easy_breadcrumb
 themes:
   - bartik
   - seven
