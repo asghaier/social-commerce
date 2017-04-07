@@ -1,5 +1,5 @@
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.main
@@ -7,12 +7,10 @@ dependencies:
     - system
   theme:
     - bearded
-_core:
-  default_config_hash: f9QIwkQCfZSrU8YRpoAeCDQC27pYF4yQMhA2Yi2wLcQ
 id: bearded_main_menu
 theme: bearded
-region: navigation_collapsible
-weight: -6
+region: '-1'
+weight: -11
 provider: null
 plugin: 'system_menu_block:main'
 settings:

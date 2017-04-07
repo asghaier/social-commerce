@@ -5,12 +5,10 @@ dependencies:
     - search
   theme:
     - bearded
-_core:
-  default_config_hash: LCjYsKwBRXsyG2A1xncFNfj_iU2pa5iZT4nZ9G4y_fo
 id: bearded_search
 theme: bearded
 region: '-1'
-weight: -8
+weight: -12
 provider: null
 plugin: search_form_block
 settings:

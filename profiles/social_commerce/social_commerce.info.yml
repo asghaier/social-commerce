@@ -16,6 +16,7 @@ dependencies:
   - node
   - automated_cron
   - menu_link_content
+  - menu_link_attributes
   - history
   - block
   - block_content
@@ -85,6 +86,7 @@ dependencies:
   - state_machine
   - social_media_links
   - social_commerce_tests
+  - superfish
   - easy_breadcrumb
 themes:
   - bartik
