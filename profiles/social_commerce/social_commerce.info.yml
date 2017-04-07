@@ -85,6 +85,7 @@ dependencies:
   - state_machine
   - social_media_links
   - social_commerce_tests
+  - easy_breadcrumb
 themes:
   - bartik
   - seven

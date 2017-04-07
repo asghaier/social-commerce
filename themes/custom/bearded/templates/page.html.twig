@@ -162,12 +162,13 @@
                     {% endblock %}
                 {% endif %}
 
-                {# Breadcrumbs #}
-                {% if breadcrumb %}
+                {# BEGIN BREADCRUMBS REGION #}
+                {% if page.breadcrumb %}
                     {% block breadcrumb %}
-                        {{ breadcrumb }}
-                    {% endblock %}
+                        {{ page.breadcrumb }}
+                    {% endblock breadcrumb %}
                 {% endif %}
+                {# END BREADCRUMBS REGION #}
 
                 {# Action Links #}
                 {% if action_links %}
