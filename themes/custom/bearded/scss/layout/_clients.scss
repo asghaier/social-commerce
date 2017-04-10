@@ -1,0 +1,14 @@
+.region-clients {
+    text-align: center;
+}
+.region-clients h2 {
+    margin-bottom: 29px;
+}
+@media (max-width: 992px) {
+    .region-clients .views-row{
+        margin-bottom: 40px;
+    }
+    .region-clients .views-row .img-responsive{
+        display: inline-block;
+    }
+}
