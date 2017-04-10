@@ -1,4 +1,3 @@
-uuid: aeb506dc-223a-469e-8699-3aaaa1530819
 langcode: en
 status: true
 dependencies:
@@ -9,6 +8,8 @@ dependencies:
     - system
   theme:
     - bearded
+_core:
+  default_config_hash: EJ5iU3s22L6eIcnMCbLn38vWDZ5ebh8FmNw3j8UgSo8
 id: whoweare
 theme: bearded
 region: topwidget_second
@@ -19,7 +20,7 @@ settings:
   id: 'block_content:c6e2a05e-ea9c-4459-994c-6e5621feb880'
   label: 'Who We Are?'
   provider: block_content
-  label_display: visible
+  label_display: '0'
   status: true
   info: ''
   view_mode: full

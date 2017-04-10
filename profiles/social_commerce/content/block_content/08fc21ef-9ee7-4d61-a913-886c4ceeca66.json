@@ -5,12 +5,7 @@
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/block_content\/basic"
-        },
-        "http:\/\/drupal.org\/rest\/relation\/block_content\/basic\/revision_user": [
-            {
-                "href": "http:\/\/default\/user\/1?_format=hal_json"
-            }
-        ]
+        }
     },
     "id": [
         {
@@ -46,7 +41,7 @@
     ],
     "changed": [
         {
-            "value": "1490622927",
+            "value": "1491824256",
             "lang": "en"
         }
     ],
@@ -55,25 +50,6 @@
             "value": "1490622927"
         }
     ],
-    "_embedded": {
-        "http:\/\/drupal.org\/rest\/relation\/block_content\/basic\/revision_user": [
-            {
-                "_links": {
-                    "self": {
-                        "href": "http:\/\/default\/user\/1?_format=hal_json"
-                    },
-                    "type": {
-                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
-                    }
-                },
-                "uuid": [
-                    {
-                        "value": "67d875fd-a9db-40f8-85b9-893f0a2ce937"
-                    }
-                ]
-            }
-        ]
-    },
     "revision_translation_affected": [
         {
             "value": "1",
@@ -88,7 +64,7 @@
     ],
     "body": [
         {
-            "value": "<p><i class=\"fa fa-drupal\">&nbsp;<\/i><\/p>\r\n<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<\/p>",
+            "value": "<p><i class=\"fa fa-drupal\">&nbsp;<\/i><\/p>\r\n<h3>Who We Are?<\/h3>\r\n<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<\/p>\r\n",
             "format": "full_html",
             "summary": "",
             "lang": "en"

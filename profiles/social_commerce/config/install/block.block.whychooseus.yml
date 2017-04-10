@@ -1,4 +1,3 @@
-uuid: a8f54664-4f75-4f72-b3c5-7d25dca4f1d9
 langcode: en
 status: true
 dependencies:
@@ -9,6 +8,8 @@ dependencies:
     - system
   theme:
     - bearded
+_core:
+  default_config_hash: sZQ1rkQ4gssARKrZenJNZgiun2XPX9XubwysHNs_Wxw
 id: whychooseus
 theme: bearded
 region: topwidget_first
@@ -19,7 +20,7 @@ settings:
   id: 'block_content:21482cda-b114-443d-a3d8-735e3f2c702d'
   label: 'Why Choose Us?'
   provider: block_content
-  label_display: visible
+  label_display: '0'
   status: true
   info: ''
   view_mode: full

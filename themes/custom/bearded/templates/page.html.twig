@@ -189,35 +189,46 @@
                     <a id="main-content"></a>
                     {{ page.content }}
                 {% endblock %}
+            </section>
 
-                {% if is_front %}
-                    {# BEGIN TOP WIDGET FIRST #}
-                    {% block topwidget_first %}
-                        {{ page.topwidget_first }}
-                    {% endblock topwidget_first %}
-                    {# END TOP WIDGET FIRST #}
+            {% if is_front %}
+                <section id="services">
+                    <div class="container services">
+                        {# BEGIN TOP WIDGET FIRST #}
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 item">
+                            {% block topwidget_first %}
+                                {{ page.topwidget_first }}
+                            {% endblock topwidget_first %}
+                        </div>
+                        {# END TOP WIDGET FIRST #}
 
-                    {# BEGIN TOP WIDGET SECOND #}
-                    {% block topwidget_second %}
-                        {{ page.topwidget_second }}
-                    {% endblock topwidget_second %}
-                    {# END TOP WIDGET SECOND #}
+                        {# BEGIN TOP WIDGET SECOND #}
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 item">
+                            {% block topwidget_second %}
+                                {{ page.topwidget_second }}
+                            {% endblock topwidget_second %}
+                        </div>
+                        {# END TOP WIDGET SECOND #}
 
-                    {# BEGIN TOP WIDGET THIRD #}
-                    {% block topwidget_third %}
-                        {{ page.topwidget_third }}
-                    {% endblock topwidget_third %}
-                    {# END TOP WIDGET THIRD #}
+                        {# BEGIN TOP WIDGET THIRD #}
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 item">
+                            {% block topwidget_third %}
+                                {{ page.topwidget_third }}
+                            {% endblock topwidget_third %}
+                        </div>
+                        {# END TOP WIDGET THIRD #}
 
-                    {# BEGIN CLIENTS #}
-                    {% if page.clients %}               
-                        {% block clients %}
-                            {{ page.clients }}
-                        {% endblock clients %}
-                    {% endif %}
-                    {# END CLIENTS #}
+                        {# BEGIN CLIENTS #}
+                        {# {% if page.clients %}               
+                             {% block clients %}
+                                 {{ page.clients }}
+                             {% endblock clients %}
+                         {% endif %}#}
+                        {# END CLIENTS #}
+                    </div>
                 {% endif %}
             </section>
+
 
             {# Sidebar Second #}
             {% if page.sidebar_second %}
