@@ -29,11 +29,23 @@ footer {
       h2 {
         color: #fff;
         margin: 3.75em 0 0 0;
-        font-size: 1.1428em;
-        line-height: 1;
-        padding-bottom: .9375em;
+        font-size: 1.28571em;
+        padding-left: 18px;
         margin-bottom: 1.5625em;
         position: relative;
+        line-height: 1.4;
+        &:before {
+          content: "";
+          width: 9px;
+          border-left: 3px solid #cccccc;
+          border-right: 3px solid #cccccc;
+          height: 9px;
+          position: absolute;
+          margin-top: -3px;
+          margin-right: 9px;
+          top: 50%;
+          left: 0;
+        }
         &:after {
           content: "";
           position: absolute;
