@@ -216,18 +216,20 @@
                                 {{ page.topwidget_third }}
                             {% endblock topwidget_third %}
                         </div>
-                        {# END TOP WIDGET THIRD #}
-
-                        {# BEGIN CLIENTS #}
-                        {# {% if page.clients %}               
-                             {% block clients %}
-                                 {{ page.clients }}
-                             {% endblock clients %}
-                         {% endif %}#}
-                        {# END CLIENTS #}
+                        {# END TOP WIDGET THIRD #}                        
                     </div>
-                {% endif %}
-            </section>
+                </section>
+
+                {# BEGIN CLIENTS SECTION #}
+                <section id="clients">
+                    {% if page.clients %}               
+                        {% block clients %}
+                            {{ page.clients }}
+                        {% endblock clients %}
+                    {% endif %}
+                </section>
+                {# END CLIENTS SECTION #}
+            {% endif %}
 
 
             {# Sidebar Second #}
