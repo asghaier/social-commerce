@@ -1,0 +1,30 @@
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:bf17ab4b-532a-4ba1-86f7-98d8c8fc1d6b'
+  module:
+    - block_content
+    - system
+  theme:
+    - bearded
+id: googlemaps
+theme: bearded
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'block_content:bf17ab4b-532a-4ba1-86f7-98d8c8fc1d6b'
+settings:
+  id: 'block_content:bf17ab4b-532a-4ba1-86f7-98d8c8fc1d6b'
+  label: 'Google Maps'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /contact
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,97 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/block\/6?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/block_content\/basic"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/block_content\/basic\/revision_user": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": "6"
+        }
+    ],
+    "uuid": [
+        {
+            "value": "bf17ab4b-532a-4ba1-86f7-98d8c8fc1d6b"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": "6"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "basic"
+        }
+    ],
+    "info": [
+        {
+            "value": "Google Maps",
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": "1491573527",
+            "lang": "en"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "1491573420"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/block_content\/basic\/revision_user": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "37112e73-6bea-4c41-9698-52340538fc97"
+                    }
+                ]
+            }
+        ]
+    },
+    "revision_translation_affected": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p><iframe allowfullscreen=\"\" frameborder=\"0\" height=\"300\" src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d3192.7020131132304!2d10.186262751364117!3d36.84961207983995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12fd34b9dee763fd%3A0xdca263934c8cca90!2sLa+Cit%C3%A9+des+Sciences+%C3%A0+Tunis!5e0!3m2!1sen!2stn!4v1491573388817\" style=\"border:0\" width=\"100%\"><\/iframe><\/p>\r\n",
+            "format": "full_html",
+            "summary": "",
+            "lang": "en"
+        }
+    ]
+}
