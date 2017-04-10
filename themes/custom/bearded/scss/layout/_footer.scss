@@ -17,7 +17,7 @@ footer {
       color: $theme-color
     }
   }
-  .region-footer-first {
+  .region-footer-first-left, .region-footer-first-right {
     max-width: 67.5em;
     margin: 0 auto;
     @include clearfix;
