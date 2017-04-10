@@ -1,0 +1,35 @@
+.products .region-products {
+    padding: 60px 0 60px;
+}
+.products .region-products h2{
+    font-size: 23px;
+    font-weight: bold;
+    overflow: hidden;
+    position: relative;
+    clear: both;
+    padding-left: 21px;
+    margin-bottom: 30px;
+}
+.products .region-products .block-title:before {
+    content: "";
+    width: 9px;
+    border-left: 3px solid #ccc;
+    border-right: 3px solid #ccc;
+    height: 9px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    margin-top: -3px;
+    left: 0;
+}
+.products .region-products .block-title:after {
+    background: url(../images/dotted.png) repeat 0 0 transparent;
+    content: "";
+    float: right;
+    margin-left: 12px;
+    height: 7px;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    margin-top: -2px;
+}

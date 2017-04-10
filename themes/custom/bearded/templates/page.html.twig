@@ -97,30 +97,6 @@
     {% endblock %}
 {% endif %}
 
-{% if page.slider %}
-    {% block slider %}
-        <div class="slider {{ container }}" role="contentinfo">
-            {{ page.slider }}
-        </div>
-    {% endblock %}
-{% endif %}
-
-{% if page.banner %}
-    {% block banner %}
-        <div class="banner {{ container }}" role="contentinfo">
-            {{ page.banner }}
-        </div>
-    {% endblock %}
-{% endif %}
-
-{% if page.products %}
-    {% block products %}
-        <div class="products {{ container }}" role="contentinfo">
-            {{ page.products }}
-        </div>
-    {% endblock %}
-{% endif %}
-
 {# Main #}
 {% block main %}
     <div role="main" class="main-container {{ container }} js-quickedit-main-content">
@@ -192,6 +168,35 @@
             </section>
 
             {% if is_front %}
+                {% if page.slider %}
+                    {% block slider %}
+                        <div class="slider {{ container }}" role="contentinfo">
+                            {{ page.slider }}
+                        </div>
+                    {% endblock %}
+                {% endif %}
+
+                {% if page.banner %}
+                    {% block banner %}
+                        <div class="banner {{ container }}" role="contentinfo">
+                            {{ page.banner }}
+                        </div>
+                    {% endblock %}
+                {% endif %}
+
+                {# BEGIN PRODUCTS SECTION #}
+                {% if page.products %}
+                    <section id="products">
+                        <div class="container products">
+                            {% block products %}
+                                {{ page.products }}
+                            {% endblock %}
+                        </div>
+                    </section>
+                {% endif %}
+                {# END PRODUCTS SECTION #}
+
+                {# BEGIN SERVICES SECTION #}
                 <section id="services">
                     <div class="container services">
                         {# BEGIN TOP WIDGET FIRST #}
@@ -219,14 +224,17 @@
                         {# END TOP WIDGET THIRD #}                        
                     </div>
                 </section>
+                {# END SERVICES SECTION #}
 
                 {# BEGIN CLIENTS SECTION #}
                 <section id="clients">
-                    {% if page.clients %}               
-                        {% block clients %}
-                            {{ page.clients }}
-                        {% endblock clients %}
-                    {% endif %}
+                    <div class="container clients">
+                        {% if page.clients %}               
+                            {% block clients %}
+                                {{ page.clients }}
+                            {% endblock clients %}
+                        {% endif %}
+                    </div>
                 </section>
                 {# END CLIENTS SECTION #}
             {% endif %}
