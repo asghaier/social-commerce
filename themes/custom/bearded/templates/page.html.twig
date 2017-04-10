@@ -245,10 +245,15 @@
 {% endblock %}
 
 <footer class="footer {{ container }}" role="contentinfo">
-    {% if page.footer_first %}
-        {% block footer_first %}
-            {{ page.footer_first }}
-        {% endblock footer_first %}
+    {% if page.footer_first_left %}
+        {% block footer_first_left %}
+            {{ page.footer_first_left }}
+        {% endblock footer_first_left %}
+    {% endif %}
+    {% if page.footer_first_right %}
+        {% block footer_first_right %}
+            {{ page.footer_first_right }}
+        {% endblock footer_first_right %}
     {% endif %}
     {% if page.footer_second %}
         {% block footer_second %}

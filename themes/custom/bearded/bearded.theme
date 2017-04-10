@@ -11,4 +11,8 @@ function bearded_preprocess_block(&$variables) {
 }
 
 function bearded_preprocess_region(&$variables) {
+
+	if ($variables['elements']['creditscredits'] || $variables['elements']['linkslinks'] ) {
+    $variables['attributes']['class'][] = 'col-xs-12 col-sm-6 col-md-6 col-lg-6';
+  }
 }

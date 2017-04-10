@@ -1,3 +1,4 @@
+@import "variables/colors";
 /**
  * Default Variables.
  *
@@ -12,11 +13,3 @@
 
 // Set the proper directory for the Bootstrap Glyphicon font.
 $icon-font-path: '../bootstrap/assets/fonts/bootstrap/';
-
-$orange: #27313d;
-$green: #1abc9c;
-$blue: #27313d;
-
-$theme-color: $green;
-$body-font-color: $blue;
-$body-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
