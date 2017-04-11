@@ -1,0 +1,19 @@
+// Breadcrumb
+.breadcrumb {
+    background-color: #fff;
+    font-size: 14px;    
+    line-height: 1;
+    margin: 0 0 1.25em 0;
+    padding: 0 0 2.083em 0;
+    border-bottom-width: 1px;
+    border-bottom-color: #ddd;
+    border-bottom-style: dotted;
+}
+.breadcrumb li a {
+    font-weight: bold;    
+}
+.breadcrumb>li+li:before {
+    content: " › ";
+    font-weight: 300;
+    color: #27313d;
+}
