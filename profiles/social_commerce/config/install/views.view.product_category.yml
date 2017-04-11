@@ -7,7 +7,7 @@ dependencies:
     - taxonomy
     - user
 _core:
-  default_config_hash: nSa0K7CyE1lC1pn25mnpdUFMcUtuw8TI5vyY_X3fSKk
+  default_config_hash: 2FrNEtTlLvIKqcy6s6l-2e0iq-G2i63dJjIhp0bdLBc
 id: product_category
 label: 'Product Category'
 module: views
@@ -54,7 +54,14 @@ display:
           items_per_page: 5
           offset: 0
       style:
-        type: default
+        type: html_list
+        options:
+          grouping: {  }
+          row_class: ''
+          default_row_class: true
+          type: ul
+          wrapper_class: item-list
+          class: ''
       row:
         type: fields
       fields:

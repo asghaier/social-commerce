@@ -2,6 +2,7 @@
 // specific Drupal libraries are used.
 @import "component/alert";
 @import "component/ajax";
+@import "component/block";
 @import "component/field";
 @import "component/file";
 @import "component/filter";
@@ -18,6 +19,8 @@
 @import "layout/header";
 @import "layout/navbar";
 @import "layout/footer";
+@import "layout/sidebar";
+
 @import "pages//services";
 @import "pages/clients";
 @import "pages/random-products";
