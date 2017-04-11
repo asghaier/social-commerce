@@ -6,8 +6,6 @@ dependencies:
   module:
     - system
     - views
-  theme:
-    - bearded
 id: views_block__latest_products_block_1
 theme: bearded
 region: sidebar_second

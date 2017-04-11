@@ -2,11 +2,9 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.commerce_product.field_product_category
     - field.storage.commerce_product.variations
     - field.storage.commerce_product_variation.field_product_variation_image
     - image.style.medium
-    - taxonomy.vocabulary.product_category
   module:
     - commerce_price
     - commerce_product

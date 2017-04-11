@@ -6,8 +6,6 @@ dependencies:
   module:
     - system
     - views
-  theme:
-    - bearded
 id: views_block__random_products_block_1
 theme: bearded
 region: products
