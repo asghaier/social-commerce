@@ -1,0 +1,35 @@
+.block-title {
+  position: relative;
+  margin: 0 15px 15px 0;
+  font-size: 1.28571em;
+  line-height: 1.4;
+  padding-top: 2px;
+  padding-left: 18px;
+  position: relative;
+  overflow: hidden;
+  clear: both;
+  &:before {
+    content: "";
+    width: 9px;
+    border-left: 3px solid #cccccc;
+    border-right: 3px solid #cccccc;
+    height: 9px;
+    display: block;
+    position: absolute;
+    margin-top: -3px;
+    margin-right: 9px;
+    top: 50%;
+    left: 0;
+  }
+  &:after {
+    background: url(../images/dotted.png) repeat 0 0 transparent;
+    content: "";
+    float: right;
+    height: 7px;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    margin-top: -2px;
+    margin-left: 15px;
+  }
+}
