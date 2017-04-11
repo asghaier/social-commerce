@@ -18,9 +18,9 @@
 @import "layout/header";
 @import "layout/navbar";
 @import "layout/footer";
-@import "layout/services";
-@import "layout/clients";
-@import "layout/random-products";
+@import "pages//services";
+@import "pages/clients";
+@import "pages/random-products";
 
 // jQuery UI style overrides.
 @import "jquery-ui/autocomplete";
