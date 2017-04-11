@@ -78,14 +78,161 @@ p:last-child,
     }
 }
 
-// Links
-a{
+.block-commerce-cart {
+    .cart-block--contents__inner {
+        background-color: $body-font-color !important;
+        box-shadow: initial;
+        color: #fff;
+        font-size: 0.75em;
+        text-align: left;
+        min-width: 214px;
+        line-height: 1.6;
+        padding: 1em 1.5em;
+        position: absolute;
+        display: block;
+        .cart-block--contents__items {
+            overflow-y: visible;
+            max-height: none;
+        }
+        a {
+            color: #fff;
+        }
+        .view-header {
+            > h2 {
+                font-size: 1.333em;
+                line-height: 1.4;
+                margin: 0 0 1em 0;
+                color: inherit;
+            }
+        }
+        .view-content {
+            .views-row {
+                @include clearfix();
+                margin-bottom: 1em;
+                &:before, &:after {
+                    content: ".";
+                    display: block;
+                    height: 0;
+                    overflow: hidden;
+                }
+                .views-field-field-product-variation-image {
+                    float: right;
+                    display: block;
+                    img {
+                        height: auto;
+                        max-width: 38px;
+                        vertical-align: middle;
+                    }
+                }
+                .views-field-title {
+                    font-weight: bold;
+                }
+                &:hover {
+                    a {
+                        color: $theme-color;
+                    }
+                }
+            }
+        }
+        .view-footer {
+            .order-total-line__subtotal {
+                display: none;
+            }
+            .order-total-line__total {
+                text-align: left;
+                margin-bottom: 1.42857em;
+            }
+        }
+    }
+    .cart-block--contents__links {
+        text-align: left;
+        margin-bottom: 1.42857em;
+        a {
+            font-size: 0.81252222em;
+            font-weight: bold;
+            line-height: normal;
+            background-color: $theme-color;
+            border-radius: 3px;
+            padding: 0.75em 1.5em;
+            color: #fff;
+            &:hover {
+                background-color: $body-font-color;
+            }
+        }
+    }
+}
+
+h1, h2, h3, h4, h5, h6 {
     color: #27313d;
-    cursor: pointer;
+    font-family: "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 1.2125em;
+    margin-bottom: 0.5em;
+    margin-top: 0.2em;
+    text-rendering: optimizelegibility;
 }
-a:hover{
-    color: #1abc9c;
+
+html,
+body {
+  font-size: 100%;
 }
-a:hover, a:active, a:focus {
-    text-decoration: none;
+
+p {
+  line-height: 1.6;
+}
+body {
+  background: white;
+  color: #27313d;
+  padding: 0;
+  margin: 0;
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 1;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+ul,
+ol,
+dl {
+  font-size: 1em;
+  line-height: 1.6;
+  margin-bottom: 1.42857em;
+  list-style-position: outside;
+  font-family: inherit;
+}
+
+ul, ol {
+  margin-left: 0;
+}
+
+ul.no-bullet, ol.no-bullet {
+  margin-left: 0;
+}
+
+a {
+  color: #1abc9c;
+  text-decoration: none;
+  line-height: inherit;
+  transition: all 0.2s ease 0s;
+}
+a {
+  color: $theme-color;
+  transition: all 0.2s linear 0s;
+  &:hover {
+    color: #089a7a;
+  }
+  &:focus {
+    color: #089a7a;
+  }
+}
+a:hover, a:focus {
+  color: #089a7a;
+}
+a img {
+  border: none;
 }
