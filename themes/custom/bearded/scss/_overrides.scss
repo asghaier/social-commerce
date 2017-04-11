@@ -21,6 +21,7 @@
 @import "pages//services";
 @import "pages/clients";
 @import "pages/random-products";
+@import "pages/shop";
 
 // jQuery UI style overrides.
 @import "jquery-ui/autocomplete";
@@ -72,4 +73,16 @@ p:last-child,
     &:first-child {
         margin-top: 0;
     }
+}
+
+// Links
+a{
+    color: #27313d;
+    cursor: pointer;
+}
+a:hover{
+    color: #1abc9c;
+}
+a:hover, a:active, a:focus {
+    text-decoration: none;
 }
