@@ -7,8 +7,10 @@ dependencies:
   module:
     - commerce_order
     - commerce_price
+    - commerce_product
+    - image
 _core:
-  default_config_hash: ipsYs2TIkPGPbtYRx_HaCI_uHoK7hCDT7FJ1zA8rLtA
+  default_config_hash: ee_z9ZhrHFcfFBH5T8QeG0mpR8IkLiyXRCNWplU67uw
 id: commerce_cart_block
 label: 'Cart block'
 module: views
@@ -83,74 +85,6 @@ display:
           hide_empty: false
           default_field_elements: true
       fields:
-        quantity:
-          id: quantity
-          table: commerce_order_item
-          field: quantity
-          relationship: order_items
-          group_type: group
-          admin_label: ''
-          label: ''
-          exclude: false
-          alter:
-            alter_text: true
-            text: '{{ quantity }}&nbsp;x'
-            make_link: false
-            path: ''
-            absolute: false
-            external: false
-            replace_spaces: false
-            path_case: none
-            trim_whitespace: false
-            alt: ''
-            rel: ''
-            link_class: ''
-            prefix: ''
-            suffix: ''
-            target: ''
-            nl2br: false
-            max_length: 0
-            word_boundary: true
-            ellipsis: true
-            more_link: false
-            more_link_text: ''
-            more_link_path: ''
-            strip_tags: false
-            trim: false
-            preserve_tags: ''
-            html: false
-          element_type: ''
-          element_class: ''
-          element_label_type: ''
-          element_label_class: ''
-          element_label_colon: false
-          element_wrapper_type: ''
-          element_wrapper_class: ''
-          element_default_classes: true
-          empty: ''
-          hide_empty: false
-          empty_zero: false
-          hide_alter_empty: true
-          click_sort_column: value
-          type: number_decimal
-          settings:
-            thousand_separator: ''
-            prefix_suffix: false
-            decimal_separator: .
-            scale: 0
-          group_column: value
-          group_columns: {  }
-          group_rows: true
-          delta_limit: 0
-          delta_offset: 0
-          delta_reversed: false
-          delta_first_last: false
-          multi_type: separator
-          separator: ', '
-          field_api_classes: false
-          entity_type: commerce_order_item
-          entity_field: quantity
-          plugin_id: field
         title:
           id: title
           table: commerce_order_item
@@ -159,7 +93,7 @@ display:
           group_type: group
           admin_label: ''
           label: ''
-          exclude: false
+          exclude: true
           alter:
             alter_text: false
             text: ''
@@ -216,11 +150,194 @@ display:
           entity_type: commerce_order_item
           entity_field: title
           plugin_id: field
-        total_price__number:
-          id: total_price__number
+        quantity:
+          id: quantity
           table: commerce_order_item
-          field: total_price__number
+          field: quantity
           relationship: order_items
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: true
+          alter:
+            alter_text: true
+            text: '{{ quantity }}&nbsp;x&nbsp;'
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: number_decimal
+          settings:
+            thousand_separator: ''
+            prefix_suffix: false
+            decimal_separator: .
+            scale: 0
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          entity_type: commerce_order_item
+          entity_field: quantity
+          plugin_id: field
+        unit_price__number:
+          id: unit_price__number
+          table: commerce_order_item
+          field: unit_price__number
+          relationship: order_items
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: true
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: number
+          type: commerce_price_default
+          settings:
+            strip_trailing_zeroes: false
+            display_currency_code: false
+          group_column: ''
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          entity_type: commerce_order_item
+          entity_field: unit_price
+          plugin_id: field
+        nothing:
+          id: nothing
+          table: views
+          field: nothing
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: false
+          alter:
+            alter_text: true
+            text: "{{ title }}\n{{ quantity }}{{ unit_price__number }}"
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: false
+          plugin_id: custom
+        field_product_variation_image:
+          id: field_product_variation_image
+          table: commerce_product_variation__field_product_variation_image
+          field: field_product_variation_image
+          relationship: commerce_product_variation
           group_type: group
           admin_label: ''
           label: ''
@@ -264,11 +381,11 @@ display:
           hide_empty: false
           empty_zero: false
           hide_alter_empty: true
-          click_sort_column: number
-          type: commerce_price_default
+          click_sort_column: target_id
+          type: image
           settings:
-            strip_trailing_zeroes: true
-            display_currency_code: false
+            image_style: thumbnail
+            image_link: ''
           group_column: ''
           group_columns: {  }
           group_rows: true
@@ -279,8 +396,6 @@ display:
           multi_type: separator
           separator: ', '
           field_api_classes: false
-          entity_type: commerce_order_item
-          entity_field: total_price
           plugin_id: field
       filters:
         cart:
@@ -337,7 +452,16 @@ display:
           entity_field: order_item_id
           plugin_id: standard
       header: {  }
-      footer: {  }
+      footer:
+        commerce_order_total:
+          id: commerce_order_total
+          table: views
+          field: commerce_order_total
+          relationship: none
+          group_type: group
+          admin_label: ''
+          empty: false
+          plugin_id: commerce_order_total
       empty: {  }
       relationships:
         order_items:
@@ -348,6 +472,16 @@ display:
           group_type: group
           admin_label: 'order_items: Order Item'
           required: true
+          plugin_id: standard
+        commerce_product_variation:
+          id: commerce_product_variation
+          table: commerce_order_item
+          field: commerce_product_variation
+          relationship: order_items
+          group_type: group
+          admin_label: 'Product variation'
+          required: false
+          entity_type: commerce_order_item
           plugin_id: standard
       arguments:
         order_id:
@@ -394,4 +528,3 @@ display:
         - 'languages:language_content'
         - 'languages:language_interface'
         - url
-      tags: {  }

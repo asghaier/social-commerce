@@ -2,7 +2,6 @@ langcode: en
 status: true
 dependencies:
   config:
-    - commerce_product.commerce_product_type.demo_product_type
     - field.storage.commerce_product_variation.field_product_variation_image
     - image.style.thumbnail
   module:
