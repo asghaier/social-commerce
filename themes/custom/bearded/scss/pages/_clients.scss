@@ -4,6 +4,11 @@
 }
 .region-clients h2 {
     margin-bottom: 29px;
+    font-size: 1.5em;
+    letter-spacing: -1px;
+    line-height: 1.4;
+    text-align: center;
+    margin-bottom: 1.25em;
 }
 @media (max-width: 992px) {
     .region-clients {
@@ -15,4 +20,5 @@
     .region-clients .views-row .img-responsive{
         display: inline-block;
     }
+
 }
