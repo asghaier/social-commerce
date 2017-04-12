@@ -1,4 +1,4 @@
-// Breadcrumb
+// Breadcrumb styles
 .breadcrumb {
     font-size: 12px;    
     line-height: 1;
@@ -12,11 +12,15 @@
     color: #27313d;
     font-weight: bold;    
 }
+.breadcrumb li a:hover {
+    color: $green;
+}
 .breadcrumb>li+li:before {
     content: " › ";
     font-weight: 300;
     color: #27313d;
 }
+// View header styles
 .view-shop .view-header {
     font-size: 0.875em;
     line-height: 1.6;
@@ -43,4 +47,72 @@
 .view-shop .select-wrapper:after {
     font-size: 12px;
     color: #27313d;
+}
+// Product Styles
+.view-shop .views-field-field-product-variation-image .img-responsive{
+    width: 100%;
+}
+
+.view-shop .commerce-variation-add-to-cart-form {
+    margin-bottom: 0.714286em;
+    background-color: #27313d;
+}
+.view-shop .commerce-variation-add-to-cart-form .form-submit {
+    font-size: 14px;
+    color: #fff;
+    font-weight: bolder;
+    line-height: 1.14286;
+    text-align: left;
+    text-indent: 20px;
+    padding: 1em 1.2em;
+    position: relative;
+    display: inline-block;
+    background-color: transparent;
+    background-image: url(../images/cart.png);
+    background-repeat: no-repeat;
+    border: 0;
+    outline: medium none;
+}
+.view-shop .commerce-variation-add-to-cart-form .form-submit:hover,
+.view-shop .commerce-variation-add-to-cart-form .form-submit:focus{
+    color: $green;
+    cursor: pointer;
+    background-image: url(../images/cart-hover.png);
+}
+.view-shop .views-field-title {
+    color: #27313d;
+    width: 70%;
+    display: block;
+    float: left;
+    line-height: 1.6;
+}
+.view-shop .views-field-title a {
+    color: #27313d;
+}
+.view-shop .views-field-title a:hover {
+    color: $green;
+}
+.view-shop .views-field-price__number {
+    width: 30%;
+    display: inline-block;
+    float: right;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 1.6;
+    text-align: right;
+}
+.view-shop .views-field-field-product-category {
+    display: block;
+    float: left;
+    font-size: 0.928571em;
+    line-height: 1.6;
+}
+.view-shop .views-field-field-product-category a {
+    color: #656565;
+}
+.view-shop .views-field-field-product-category a:hover {
+    color: #27313d;
+}
+.view-shop .views-view-grid .views-row {
+    padding-bottom: 60px;
 }
