@@ -1,7 +1,6 @@
 // Breadcrumb
 .breadcrumb {
-    background-color: #fff;
-    font-size: 14px;    
+    font-size: 12px;    
     line-height: 1;
     margin: 0 0 1.25em 0;
     padding: 0 0 2.083em 0;
@@ -10,10 +9,38 @@
     border-bottom-style: dotted;
 }
 .breadcrumb li a {
+    color: #27313d;
     font-weight: bold;    
 }
 .breadcrumb>li+li:before {
     content: " › ";
     font-weight: 300;
+    color: #27313d;
+}
+.view-shop .view-header {
+    font-size: 0.875em;
+    line-height: 1.6;
+    padding-top: 0.5em;
+    margin-bottom: 4em;
+    float: left;
+}
+.view-shop .view-filters {
+    float: right;
+    font-size: 0.875em;
+}
+.view-shop .views-exposed-form .select-wrapper {
+    margin: 0 5px 0 5px;
+}
+.view-shop .views-exposed-form .form-item select {
+    background: none;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    box-shadow: 0 0 3px white inset, 0 1px 1px rgba(0, 0, 0, 0.1);
+    color: #444;
+    height: 28px;
+    font-size: 12px;
+}
+.view-shop .select-wrapper:after {
+    font-size: 12px;
     color: #27313d;
 }
