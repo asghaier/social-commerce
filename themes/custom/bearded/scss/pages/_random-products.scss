@@ -39,6 +39,13 @@
     float: left;
     line-height: 1.6;
 }
+.products .region-products .views-field-title a{
+    color: #27313d;
+}
+.products .region-products .views-field-title a:hover,
+.products .region-products .views-field-title a:focus {
+    color: #1abc9c;
+}
 .products .region-products .views-field-price__number {
     width: 30%;
     display: inline-block;
@@ -66,7 +73,7 @@
     background-color: #27313d;
 }
 .products .region-products .commerce-variation-add-to-cart-form .form-submit{
-    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-family: $body-font-family;
     font-size: 14px;
     color: #fff;
     font-weight: bolder;
