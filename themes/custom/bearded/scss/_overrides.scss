@@ -186,7 +186,7 @@ body {
   color: #27313d;
   padding: 0;
   margin: 0;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: $body-font-family;
   font-weight: 300;
   font-style: normal;
   line-height: 1;
@@ -232,6 +232,7 @@ a {
 }
 a:hover, a:focus {
   color: #089a7a;
+  text-decoration: none;
 }
 a img {
   border: none;
