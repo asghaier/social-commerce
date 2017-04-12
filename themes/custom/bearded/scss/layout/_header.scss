@@ -599,6 +599,7 @@ pre {
       border-radius: 3px;
       padding: 0.75em 1.5em;
       color: #fff;
+      text-decoration: none;
       &:hover {
         background-color: $body-font-color;
       }
@@ -662,8 +663,8 @@ pre {
     .contents {
       background-color: darken( $theme-color, 5%);
     }
-    .line-item-quantity {
-      .line-item-quantity-raw {
+    .cart-summary-count-link {
+      span {
         background-color: #056747;
       }
     }
@@ -671,4 +672,8 @@ pre {
   &:before {
     float: left;
   }
+}
+
+.cart-block--contents {
+  width: 0;
 }
