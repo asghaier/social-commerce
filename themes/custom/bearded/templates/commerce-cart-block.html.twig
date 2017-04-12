@@ -1,23 +1,13 @@
+{% set twig_content_variable = count_text.__toString() %}
+{% if 'items' in twig_content_variable  %}
+  {% set replace_value_var = ' items' %}
+{% elseif 'item' in twig_content_variable %}
+  {% set replace_value_var = ' item' %}
+{% endif %}
+{% set replace_with_value_var = '' %}
 <div{{ attributes}}>
   <div class="cart-block--summary">
   <a class="cart-block--link__expand cart-summary-count-link" href="{{ url }}">
-
-
-
-
-
-        {% set twig_content_variable = count_text.__toString() %}
-        {% if 'items' in twig_content_variable  %}
-          {% set replace_value_var = ' items' %}
-        {% elseif 'item' in twig_content_variable %}
-          {% set replace_value_var = ' item' %}
-        {% endif %}
-        {% set replace_with_value_var = '' %}
-
-
-
-
-
     <span class="cart-block--summary__count">{{ twig_content_variable|replace({ (replace_value_var): replace_with_value_var }) }}</span>
   </a>
   <a class="cart-block--link__expand cart-summary-total-link" href="{{ url }}">
