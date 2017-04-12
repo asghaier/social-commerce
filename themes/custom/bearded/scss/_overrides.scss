@@ -80,7 +80,7 @@ p:last-child,
 
 h1, h2, h3, h4, h5, h6 {
     color: #27313d;
-    font-family: "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+    font-family: $body-font-family;
     font-style: normal;
     font-weight: bold;
     line-height: 1.2125em;
@@ -91,65 +91,86 @@ h1, h2, h3, h4, h5, h6 {
 
 html,
 body {
-  font-size: 100%;
+    font-size: 100%;
 }
 
 p {
-  line-height: 1.6;
+    line-height: 1.6;
 }
 body {
-  background: white;
-  color: #27313d;
-  padding: 0;
-  margin: 0;
-  font-family: $body-font-family;
-  font-weight: 300;
-  font-style: normal;
-  line-height: 1;
+    background: $background-color;
+    color: #27313d;
+    padding: 0;
+    margin: 0;
+    font-family: $body-font-family;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1;
 }
 
 a:hover {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 ul,
 ol,
 dl {
-  font-size: 1em;
-  line-height: 1.6;
-  margin-bottom: 1.42857em;
-  list-style-position: outside;
-  font-family: inherit;
+    font-size: 1em;
+    line-height: 1.6;
+    margin-bottom: 1.42857em;
+    list-style-position: outside;
+    font-family: inherit;
 }
 
 ul, ol {
-  margin-left: 0;
+    margin-left: 0;
 }
 
 ul.no-bullet, ol.no-bullet {
-  margin-left: 0;
+    margin-left: 0;
 }
 
 a {
-  color: #1abc9c;
-  text-decoration: none;
-  line-height: inherit;
-  transition: all 0.2s ease 0s;
+    color: #1abc9c;
+    text-decoration: none;
+    line-height: inherit;
+    transition: all 0.2s ease 0s;
 }
 a {
-  color: $theme-color;
-  transition: all 0.2s linear 0s;
-  &:hover {
-    color: #089a7a;
-  }
-  &:focus {
-    color: #089a7a;
-  }
+    color: $theme-color;
+    transition: all 0.2s linear 0s;
+    &:hover {
+        color: #089a7a;
+    }
+    &:focus {
+        color: #089a7a;
+    }
 }
 a:hover, a:focus {
-  color: #089a7a;
-  text-decoration: none;
+    color: #089a7a;
+    text-decoration: none;
 }
 a img {
-  border: none;
+    border: none;
+}
+.page-header {
+    padding-bottom: 0px;
+    border-bottom: none;
+    letter-spacing: normal;
+}
+.btn {
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    line-height: normal;
+    background-color: #1abc9c;
+    padding: 6px 15px;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #27313d;
 }
