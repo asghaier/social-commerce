@@ -10,6 +10,8 @@ dependencies:
     - link
     - node
     - user
+_core:
+  default_config_hash: Ah8mr36MCvk5gFYm0Gra1I0Sg7rNn7ek5dbx4aeGzIQ
 id: clients
 label: clients
 module: views
@@ -238,7 +240,20 @@ display:
             label: ''
           granularity: second
       title: 'Our Clients'
-      header: {  }
+      header:
+        area:
+          id: area
+          table: views
+          field: area
+          relationship: none
+          group_type: group
+          admin_label: ''
+          empty: false
+          tokenize: false
+          content:
+            value: '<h2>Our Clients</h2>'
+            format: basic_html
+          plugin_id: text
       footer: {  }
       empty: {  }
       relationships: {  }
