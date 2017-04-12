@@ -17,8 +17,30 @@
     font-weight: 300;
     color: #27313d;
 }
-.page-header {
-    padding-bottom: 0px;
-    border-bottom: none;
-    letter-spacing: normal;
+.view-shop .view-header {
+    font-size: 0.875em;
+    line-height: 1.6;
+    padding-top: 0.5em;
+    margin-bottom: 4em;
+    float: left;
+}
+.view-shop .view-filters {
+    float: right;
+    font-size: 0.875em;
+}
+.view-shop .views-exposed-form .select-wrapper {
+    margin: 0 5px 0 5px;
+}
+.view-shop .views-exposed-form .form-item select {
+    background: none;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    box-shadow: 0 0 3px white inset, 0 1px 1px rgba(0, 0, 0, 0.1);
+    color: #444;
+    height: 28px;
+    font-size: 12px;
+}
+.view-shop .select-wrapper:after {
+    font-size: 12px;
+    color: #27313d;
 }

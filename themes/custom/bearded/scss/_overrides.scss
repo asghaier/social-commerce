@@ -153,3 +153,24 @@ a:hover, a:focus {
 a img {
     border: none;
 }
+.page-header {
+    padding-bottom: 0px;
+    border-bottom: none;
+    letter-spacing: normal;
+}
+.btn {
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    line-height: normal;
+    background-color: #1abc9c;
+    padding: 6px 15px;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #27313d;
+}
