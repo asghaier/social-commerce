@@ -15,7 +15,7 @@ dependencies:
     - taxonomy
     - user
 _core:
-  default_config_hash: EpKSJg9Q26pKqESMtQ7UZBtnmbmOGX0tSnWRjokmgZ4
+  default_config_hash: F2hflqVSsixtEkuj7pvh16Ktks3pDH1EyKVoohBINo0
 id: shop
 label: shop
 module: views
@@ -64,10 +64,10 @@ display:
           id: 0
           total_pages: null
           tags:
-            previous: ‹‹
-            next: ››
-            first: '« First'
-            last: 'Last »'
+            previous: ‹
+            next: ›
+            first: '« '
+            last: ' »'
           expose:
             items_per_page: false
             items_per_page_label: 'Items per page'
