@@ -8,13 +8,13 @@
         },
         "http:\/\/drupal.org\/rest\/relation\/node\/content_block\/uid": [
             {
-                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "href": "http:\/\/default\/user\/0?_format=hal_json",
                 "lang": "en"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/node\/content_block\/revision_uid": [
             {
-                "href": "http:\/\/default\/user\/1?_format=hal_json"
+                "href": "http:\/\/default\/user\/0?_format=hal_json"
             }
         ]
     },
@@ -55,7 +55,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                        "href": "http:\/\/default\/user\/0?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
@@ -63,7 +63,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "aeaf02bc-e702-48af-814a-8759a851b573"
+                        "value": "d304144b-4469-4c8c-81d8-f5f202627ac2"
                     }
                 ],
                 "lang": "en"
@@ -73,7 +73,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                        "href": "http:\/\/default\/user\/0?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
@@ -81,7 +81,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "aeaf02bc-e702-48af-814a-8759a851b573"
+                        "value": "d304144b-4469-4c8c-81d8-f5f202627ac2"
                     }
                 ]
             }
@@ -101,7 +101,7 @@
     ],
     "changed": [
         {
-            "value": "1489600444",
+            "value": "1492100158",
             "lang": "en"
         }
     ],
@@ -136,7 +136,7 @@
     ],
     "body": [
         {
-            "value": "<ul>\r\n\u00a0 <li><a href=\"\/\">About<\/a><\/li>\r\n\u00a0 <li><a href=\"\/contact\">Contact Us<\/a><\/li>\r\n\u00a0 <li><a href=\"\/\">Help<\/a><\/li>\r\n<\/ul>\u00a0",
+            "value": "<ul>\r\n\t<li><a href=\"\/\">About<\/a><\/li>\r\n\t<li><a href=\"\/contact\">Contact Us<\/a><\/li>\r\n\t<li><a href=\"\/\">Help<\/a><\/li>\r\n<\/ul>",
             "format": "full_html",
             "summary": "",
             "lang": "en"
