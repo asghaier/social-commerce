@@ -1,0 +1,13 @@
+langcode: en
+status: true
+dependencies: {  }
+name: cart_small
+label: 'Cart Small'
+effects:
+  a81a9b5b-429e-4fda-a94a-751b2639265f:
+    uuid: a81a9b5b-429e-4fda-a94a-751b2639265f
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 46
+      height: 46
