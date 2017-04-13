@@ -2,9 +2,9 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: OD1Okx13nbdeYT2_qewvVmZYootiJ4fq5FU88a5_4tI
+  default_config_hash: f0elRMB4kMhd-ea4nTRUq1fVbMjRxm6enUbnzpoMUiM
 id: feedback
-label: 'Website feedback'
+label: Contact
 recipients:
   - bearded@gmail.com
 reply: ''
