@@ -25,6 +25,7 @@
 @import "pages/clients";
 @import "pages/random-products";
 @import "pages/shop";
+@import "pages/contact";
 
 // jQuery UI style overrides.
 @import "jquery-ui/autocomplete";
@@ -153,10 +154,41 @@ a:hover, a:focus {
 a img {
     border: none;
 }
+// Page header style
 .page-header {
     padding-bottom: 0px;
     border-bottom: none;
     letter-spacing: normal;
+}
+// Form style
+form .form-item label {
+    font-weight: 500;
+    color: #4d4d4d;
+    line-height: 1.6;
+    margin-bottom: 0.1875em;
+}
+.form-required:after {
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+form .form-item input,
+form .form-item textarea {
+    background-color: white;
+    border: 1px solid #cccccc;
+    border-radius: 0;
+    box-shadow: none;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.75);
+    display: block;
+    font-family: inherit;
+    font-size: 1em;
+    height: 2.4375em;
+    margin: 0 0 0.1875em;
+    padding: 0.5em;
+    width: 100%;
+}
+form .form-item textarea {
+    height: 200px;
 }
 .btn {
     font-size: 1em;
@@ -165,12 +197,14 @@ a img {
     text-decoration: none;
     color: #fff;
     line-height: normal;
-    background-color: #1abc9c;
-    padding: 6px 15px;
+    background-color: $green;
+    padding: 1em 1.875em 0.9375em 1.875em;
     border: 0;
     border-radius: 3px;
-    cursor: pointer;
 }
-.btn:hover {
-    background-color: #27313d;
+.btn:hover,
+.btn:active,
+.btn:focus {
+    background-color: #27313d !important;
+    color: white !important;
 }
