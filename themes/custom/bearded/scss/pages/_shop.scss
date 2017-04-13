@@ -116,3 +116,30 @@
 .view-shop .views-view-grid .views-row {
     padding-bottom: 60px;
 }
+.pager-nav {
+    font-size: 0.875em;
+    font-weight: bold;
+    line-height: 1;
+    padding-top: 2em;
+    border-top: 1px solid #eaeaea;
+}
+.pagination>.active>a, .pagination>.active>a:hover, .pagination>.active>a:focus {
+    z-index: 3;
+    color: $green;
+    background-color: transparent;
+    border-color: transparent;
+    border-width: 0;
+    cursor: default;
+}
+.pagination>li>a, .pagination>li>a:focus {
+    color: #27313d;
+    background-color: transparent;
+    border: 0 transparent;
+    margin-left: -1px;
+}
+.pagination>li>a:hover {
+    color: #27313d;
+    background-color: transparent;
+    border-color: transparent;
+    border-width: 0;
+}
