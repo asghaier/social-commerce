@@ -599,6 +599,7 @@ pre {
       border-radius: 3px;
       padding: 0.75em 1.5em;
       color: #fff;
+      text-decoration: none;
       &:hover {
         background-color: $body-font-color;
       }
@@ -612,7 +613,7 @@ pre {
   width: auto;
   height: 39px;
   margin: 0 0 0 0;
-  padding: 0 0 0 .8em;
+  padding: 0;
   background: #27313d;
   border-radius: 5px;
   a.cart-block--link__expand {
@@ -621,10 +622,10 @@ pre {
   a.cart-summary-count-link {
     float: right;
     .cart-block--summary__count {
+      display: none;
       border-top-right-radius: 4px;
       border-bottom-right-radius: 4px;
       font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-      display: block;
       float: right;
       font-size: .875em;
       line-height: 39px;
@@ -639,22 +640,22 @@ pre {
     float: left;
     width: auto;
     text-decoration: none;
+    padding: 0 .8em 0 .8em;
     .cart-block--summary__total {
       font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-      margin: 0 .8em 0 .5em;
+      margin: 0 0 0 .5em;
       font-size: .875em;
       font-weight: bold;
       width: auto;
-      display: block;
       line-height: 39px;
       color: #fff;
     }
-  }
-  &:before {
-    font-family: FontAwesome,"Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
-    content: "\f07a";
-    line-height: 39px;
-    color: #ffffff;
+    &:before {
+      font-family: FontAwesome,"Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+      content: "\f07a";
+      line-height: 39px;
+      color: #ffffff;
+    }
   }
   &:hover {
     background-color: $theme-color;
@@ -662,8 +663,8 @@ pre {
     .contents {
       background-color: darken( $theme-color, 5%);
     }
-    .line-item-quantity {
-      .line-item-quantity-raw {
+    .cart-summary-count-link {
+      span {
         background-color: #056747;
       }
     }
@@ -671,4 +672,8 @@ pre {
   &:before {
     float: left;
   }
+}
+
+.cart-block--contents {
+  width: 0;
 }
