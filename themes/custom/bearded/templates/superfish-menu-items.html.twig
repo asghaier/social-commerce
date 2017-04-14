@@ -1,0 +1,68 @@
+{#
+/**
+ * @file
+ * Default theme implementation of Superfish menu items.
+ *
+ * Available variables:
+ * - html_id: Unique menu item identifier.
+ * - item_class: Menu item classes.
+ * - link: Link element.
+ * - link_menuparent: Link element, when a menu parent.
+ * - children: Menu item children.
+ * - multicolumn_wrapper: Whether the menu item contains a column.
+ * - multicolumn_column: Whether the menu item contains a column.
+ * - multicolumn_content: Whether the menu item contains a column.
+ *
+ * @see template_preprocess_superfish_menu_items()
+ *
+ * @ingroup themeable
+ */
+#}
+
+{% set classes = [] %}
+{% spaceless %}
+{% for item in menu_items %}
+
+  {% set link = item['link'] %}
+  {% set title = item['link']['#title'].__toString()|trim %}
+
+  {% if (title == 'Home') or (title == 'Contact') or (title == 'Shop') %}
+    {% if title == 'Home'  %}
+      {% set path = "/" %}
+      {% set fa_classes = "fa fa-home" %}
+    {% elseif title == 'Contact' %}
+      {% set path = "/contact" %}
+      {% set fa_classes = "fa fa-envelope" %}
+    {% elseif title == 'Shop' %}
+      {% set path = "/shop" %}
+      {% set fa_classes = "fa fa-shopping-cart" %}
+    {% endif %}
+    {% set link = '<a href="' ~ path ~ '" class="' ~ fa_classes ~ ' ' ~ item['link']['#options']['attributes']['class']|join(' ') ~ '">' ~ title ~ '</a>' %}
+  {% endif %}
+
+  {% if item['children'] is not empty %}
+    {% set item_class = item.item_class ~ ' menuparent' %}
+    {% if item['multicolumn_column'] %}
+      {% set item_class = item_class ~ ' sf-multicolumn-column' %}
+    {% endif %}
+  {% endif %}
+
+  <li id="{{ item.id }}"{% if item['item_class'] %} class="{{ item['item_class'] }}"{% endif %}>
+    {% if item['multicolumn_column'] %}<div class="sf-multicolumn-column">{% endif %}
+    {% if item['children'] is not empty %}
+      {{ item['link_menuparent'] }}
+    {% else %}
+      {{ link | raw }}
+    {% endif %}
+    {% if item['multicolumn_wrapper'] %}<ul class="sf-multicolumn"><li class="sf-multicolumn-wrapper {{ item['item_class'] }}">{% endif %}
+    {% if item['children'] is not empty %}
+      {% if item['multicolumn_content'] %}<ol>{% else %}<ul>{% endif %}
+      {{ item['children'] }}
+      {% if item['multicolumn_content'] %}</ol>{% else %}</ul>{% endif %}
+    {% endif %}
+    {% if item['multicolumn_wrapper'] %}</li></ul>{% endif %}
+    {% if item['multicolumn_column'] %}</div>{% endif %}
+  </li>
+
+{% endfor %}
+{% endspaceless %}
