@@ -26,6 +26,7 @@
 @import "pages/random-products";
 @import "pages/shop";
 @import "pages/contact";
+@import "pages/register";
 
 // jQuery UI style overrides.
 @import "jquery-ui/autocomplete";
@@ -159,6 +160,13 @@ a img {
     padding-bottom: 0px;
     border-bottom: none;
     letter-spacing: normal;
+}
+.region-header{
+        padding-bottom: 1.75em
+
+}
+.main-container{
+    padding-bottom: 3.75em;
 }
 // Form style
 form .form-item label {
