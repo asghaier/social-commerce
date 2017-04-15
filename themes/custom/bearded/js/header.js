@@ -91,4 +91,18 @@
     }
   };
 
+  Drupal.behaviors.cartBlockPositioning = {
+    attach: function (context, settings) {
+      $(window).load(function () {
+        $( "#cart-block-contents" ).position({
+          my: "right top",
+          at: "right bottom",
+          of: ".cart-block--summary"
+        });
+        $('#cart-block-contents').hide();
+        $("#cart-block-contents").css({"visibility": "visible"});
+      });
+    }
+  };
+
 })(jQuery);
