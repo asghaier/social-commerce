@@ -91,4 +91,23 @@
     }
   };
 
+  // Using jquery.ui.position plugin to dynamically position the '#cart-block-contents' box.
+  Drupal.behaviors.cartBlockPositioning = {
+    attach: function (context, settings) {
+      $(window).load(function () {
+        // Added the id '#cart-block-contents' to the targeted element to be able to position it using the code below.
+        // See the template file 'commerce-cart-block.html.twig'.
+        $( "#cart-block-contents" ).position({
+          my: "right top",
+          at: "right bottom",
+          of: ".cart-block--summary"
+        });
+        // The box is not visible while the document is loading.
+        // And now hide the box and restore its visibility after the document is loaded.
+        $('#cart-block-contents').hide();
+        $("#cart-block-contents").css({"visibility": "visible"});
+      });
+    }
+  };
+
 })(jQuery);

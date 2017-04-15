@@ -18,3 +18,14 @@ bootstrap-scripts:
     bootstrap/assets/javascripts/bootstrap/tab.js: {}
     bootstrap/assets/javascripts/bootstrap/transition.js: {}
     js/main.js: {}
+
+  dependencies:
+    - core/jquery
+    - core/jquery.ui
+    - core/jquery.ui.draggable
+    - core/jquery.ui.droppable
+    - core/jquery.ui.sortable
+    - core/jquery.ui.mouse
+    - core/jquery.ui.position
+    - core/drupal
+    - core/drupal.tabledrag

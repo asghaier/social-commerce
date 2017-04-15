@@ -8,7 +8,8 @@
     </a>
   </div>
   {% if content %}
-  <div class="cart-block--contents">
+  {# Adding an id to the cart block content box to be able to position it. #}
+  <div id="cart-block-contents" class="cart-block--contents">
     <div class="cart-block--contents__inner">
       <div class="cart-block--contents__items">
         {{ content }}

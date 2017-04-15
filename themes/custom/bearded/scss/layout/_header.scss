@@ -197,6 +197,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
         &.active {
           > a {
             background-color: $theme-color;
+            height: 39px;
             &:hover, &:focus {
               color: #fff;
             }
@@ -511,97 +512,99 @@ pre {
 }
 
 .block-commerce-cart {
-  .cart-block--contents__inner {
-    top: 39px;
-    left: -139.41px;
+  .cart-block--contents {
     background-color: $body-font-color !important;
     box-shadow: initial;
     color: #fff;
     font-size: 0.75em;
     text-align: left;
     min-width: 214px;
+    visibility: hidden;
     line-height: 1.6;
     padding: 1em 1.5em;
     position: absolute;
     display: block;
     box-sizing: content-box;
     background: white;
-    .cart-block--contents__items {
-      overflow-y: visible;
-      max-height: none;
-    }
-    a {
-      color: #fff;
-    }
-    .view-header {
-      > h2 {
-        font-size: 1.333em;
-        line-height: 1.4;
-        margin: 0 0 1em 0;
-        color: inherit;
+    .cart-block--contents__inner {
+      padding: 0;
+      .cart-block--contents__items {
+        overflow-y: visible;
+        max-height: none;
       }
-    }
-    .view-content {
-      .views-row {
-        @include clearfix();
-        margin-bottom: 1em;
-        &:before, &:after {
-          content: ".";
-          display: block;
-          height: 0;
-          overflow: hidden;
+      a {
+        color: #fff;
+      }
+      .view-header {
+        > h2 {
+          font-size: 1.333em;
+          line-height: 1.4;
+          margin: 0 0 1em 0;
+          color: inherit;
         }
-        .views-field-field-product-variation-image {
-          float: right;
-          display: block;
-          img {
-            height: auto;
-            max-width: 38px;
-            vertical-align: middle;
+      }
+      .view-content {
+        .views-row {
+          @include clearfix();
+          margin-bottom: 1em;
+          &:before, &:after {
+            content: ".";
+            display: block;
+            height: 0;
+            overflow: hidden;
+          }
+          .views-field-field-product-variation-image {
+            float: right;
+            display: block;
+            img {
+              height: auto;
+              max-width: 38px;
+              vertical-align: middle;
+            }
+          }
+          .views-field-title {
+            font-weight: bold;
+          }
+          &:hover {
+            a {
+              color: $theme-color;
+            }
           }
         }
-        .views-field-title {
-          font-weight: bold;
+      }
+      .view-footer {
+        .order-total-line__subtotal {
+          display: none;
         }
-        &:hover {
-          a {
-            color: $theme-color;
+        .order-total-line__total {
+          text-align: left;
+          margin-bottom: 1.42857em;
+          padding: 0;
+          .order-total-line-label {
+            display: inline;
+          }
+          .order-total-line-value {
+            display: inline;
+            font-weight: 300;
           }
         }
       }
-    }
-    .view-footer {
-      .order-total-line__subtotal {
-        display: none;
-      }
-      .order-total-line__total {
+      .cart-block--contents__links {
         text-align: left;
         margin-bottom: 1.42857em;
-        padding: 0;
-        .order-total-line-label {
-          display: inline;
+        a {
+          font-size: 0.81252222em;
+          font-weight: bold;
+          line-height: normal;
+          background-color: $theme-color;
+          border-radius: 3px;
+          padding: 0.75em 1.5em;
+          color: #fff;
+          text-decoration: none;
+          &:hover {
+            background-color: $body-font-color;
+          }
         }
-        .order-total-line-value {
-          display: inline;
-          font-weight: 300;
-        }
-      }
-    }
-  }
-  .cart-block--contents__links {
-    text-align: left;
-    margin-bottom: 1.42857em;
-    a {
-      font-size: 0.81252222em;
-      font-weight: bold;
-      line-height: normal;
-      background-color: $theme-color;
-      border-radius: 3px;
-      padding: 0.75em 1.5em;
-      color: #fff;
-      text-decoration: none;
-      &:hover {
-        background-color: $body-font-color;
       }
     }
   }
@@ -672,8 +675,4 @@ pre {
   &:before {
     float: left;
   }
-}
-
-.cart-block--contents {
-  width: 0;
 }
