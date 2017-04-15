@@ -512,8 +512,6 @@ pre {
 
 .block-commerce-cart {
   .cart-block--contents {
-    top: 39px;
-    left: -139.41px;
     background-color: $body-font-color !important;
     box-shadow: initial;
     color: #fff;
@@ -676,9 +674,4 @@ pre {
   &:before {
     float: left;
   }
-}
-
-.cart-block--contents {
-  width: 0;
-  float: left;
 }
