@@ -9,7 +9,7 @@ dependencies:
     - commerce_order
     - commerce_price
 _core:
-  default_config_hash: A3Cg7V-lWvBzESYm7sWaL-Yixsm2-MDRQryWZyj2t9U
+  default_config_hash: Cgn0hay9_8B5GcHmLTiS2s8IaBi1zpO_FgsX4-eKz4E
 id: commerce_cart_form
 label: 'Cart form'
 module: views
@@ -84,14 +84,14 @@ display:
           hide_empty: false
           default_field_elements: true
       fields:
-        purchased_entity:
-          id: purchased_entity
+        title:
+          id: title
           table: commerce_order_item
-          field: purchased_entity
+          field: title
           relationship: order_items
           group_type: group
           admin_label: ''
-          label: Item
+          label: Product
           exclude: false
           alter:
             alter_text: false
@@ -132,11 +132,11 @@ display:
           hide_empty: false
           empty_zero: false
           hide_alter_empty: true
-          click_sort_column: target_id
-          type: entity_reference_entity_view
+          click_sort_column: value
+          type: string
           settings:
-            view_mode: cart
-          group_column: target_id
+            link_to_entity: false
+          group_column: value
           group_columns: {  }
           group_rows: true
           delta_limit: 0
@@ -147,7 +147,7 @@ display:
           separator: ', '
           field_api_classes: false
           entity_type: commerce_order_item
-          entity_field: purchased_entity
+          entity_field: title
           plugin_id: field
         unit_price__number:
           id: unit_price__number
@@ -398,7 +398,16 @@ display:
           entity_field: order_item_id
           plugin_id: standard
       header: {  }
-      footer: {  }
+      footer:
+        commerce_order_total:
+          id: commerce_order_total
+          table: views
+          field: commerce_order_total
+          relationship: none
+          group_type: group
+          admin_label: ''
+          empty: false
+          plugin_id: commerce_order_total
       empty: {  }
       relationships:
         order_items:
