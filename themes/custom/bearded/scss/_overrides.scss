@@ -249,6 +249,10 @@ form .form-item textarea {
 
 .container > .navbar-header {
     margin: 0;
+    margin-left: 15px;
+    @media (min-width: $grid-float-breakpoint) {
+        margin-left: -15px;
+    }
 }
 
 .region.region-navigation {
