@@ -21,5 +21,23 @@
   }
   .navbar-collapse {
     padding: 0;
+    overflow: visible;
+    max-width: 100%;
   }
+}
+
+.navbar-toggle {
+    display: none;
+}
+
+.navbar-collapse.collapse {
+  display: block !important;
+}
+
+.navbar-nav > li, .navbar-nav {
+  float: left !important;
+}
+
+.navbar-right {
+  float: right !important;
 }
