@@ -4,20 +4,29 @@
   margin-bottom: 2.5em;
   background-color: rgba(0, 0, 0, 0);
   border: 0;
-  .navbar-text {
-    font-family: "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
-    vertical-align: top;
-    display: inline-block;
-    text-align: left;
-    margin: .5em 0 0 1em;
-    font-size: 1em;
-    font-weight: 300;
-    line-height: 1.4;
-    color: #27313d;
-    font-style: normal;
-    text-rendering: optimizelegibility;
-    border: 0;
-    padding: 0;
+  /* Extra Small Devices, Phones */
+  /* Theming the Site Logo */
+  @media only screen and (min-width : $small) {
+    .region.region-navigation {
+      .logo {
+        float: left !important;
+      }
+      .navbar-text {
+        font-family: "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+        vertical-align: top;
+        display: inline-block;
+        text-align: left;
+        margin: .5em 0 0 1em;
+        font-size: 1em;
+        font-weight: 300;
+        line-height: 1.4;
+        color: #27313d;
+        font-style: normal;
+        text-rendering: optimizelegibility;
+        border: 0;
+        padding: 0;
+      }
+    }
   }
   .navbar-collapse {
     padding: 0;
