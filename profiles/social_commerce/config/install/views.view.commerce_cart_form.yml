@@ -9,7 +9,7 @@ dependencies:
     - commerce_order
     - commerce_price
 _core:
-  default_config_hash: SpRbnGNUVzhVlsTRvo_KCjfbDmI4kPUIrce-LIgC7sQ
+  default_config_hash: Cgn0hay9_8B5GcHmLTiS2s8IaBi1zpO_FgsX4-eKz4E
 id: commerce_cart_form
 label: 'Cart form'
 module: views
@@ -398,7 +398,16 @@ display:
           entity_field: order_item_id
           plugin_id: standard
       header: {  }
-      footer: {  }
+      footer:
+        commerce_order_total:
+          id: commerce_order_total
+          table: views
+          field: commerce_order_total
+          relationship: none
+          group_type: group
+          admin_label: ''
+          empty: false
+          plugin_id: commerce_order_total
       empty: {  }
       relationships:
         order_items:
