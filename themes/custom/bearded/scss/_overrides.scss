@@ -277,7 +277,12 @@ body > .main-container > .row > div.col-sm-12:nth-child(1) {
 }
 
 @media (min-width: 768px) {
-    .main-container section {
+    .main-container .main {
+        margin-bottom: 40px;
+    }
+}
+@media (max-width: 768px) {
+    .main-container .main {
         margin-bottom: 40px;
     }
 }
