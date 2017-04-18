@@ -28,6 +28,7 @@ dependencies:
   - contact
   - default_content
   - entityblock
+  - flexslider
   - quickedit
   - help
   - image
@@ -88,6 +89,7 @@ dependencies:
   - social_commerce_tests
   - superfish
   - easy_breadcrumb
+  - libraries
 themes:
   - bartik
   - seven
