@@ -114,8 +114,8 @@
             {# Content #}
             {%
         set content_classes = [
-          page.sidebar_second ? 'col-xs-12 col-sm-12 col-md-9 col-lg-9',
-          page.sidebar_second is empty ? 'col-xs-12 col-sm-12 col-md-12 col-lg-12'
+          page.sidebar_second ? 'main col-xs-12 col-sm-12 col-md-9 col-lg-9',
+          page.sidebar_second is empty ? 'main col-xs-12 col-sm-12 col-md-12 col-lg-12'
         ]
             %}
             <section{{ content_attributes.addClass(content_classes) }}>
