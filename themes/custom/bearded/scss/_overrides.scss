@@ -275,3 +275,9 @@ body > .main-container > .row > div.col-sm-12:nth-child(1) {
     float: left;
     width: 100%;
 }
+
+@media (min-width: 768px) {
+    .main-container section {
+        margin-bottom: 40px;
+    }
+}
