@@ -23,8 +23,8 @@ function social_commerce_install() {
   standard_install();
   // Create users
   createUsers();
-  // Create the main menu
-  CreateMainMenu();
+  // Create menu items
+  CreateMenuItems();
 }
 
 function createUsers() {
@@ -41,8 +41,8 @@ function createUsers() {
   $res = $user->save();
 }
 
-// Create the main menu
-function CreateMainMenu() {
+// Create menu items.
+function CreateMenuItems() {
   // Main menu
   $items = array(
     '/' => ' Home',
@@ -61,19 +61,30 @@ function CreateMainMenu() {
   }
   // User account Menu
   $menu_link = MenuLinkContent::create([
-        'title' => 'Password',
-        'link' => ['uri' => 'internal:/user/password'],
-        'description' => 'Lost Password',
-        'menu_name' => 'account',
-        'expanded' => TRUE,
-  ]);
-  $menu_link->save();
-  $menu_link = MenuLinkContent::create([
         'title' => 'Shop',
         'link' => ['uri' => 'internal:/shop'],
         'description' => 'Visit Shop',
         'menu_name' => 'account',
         'expanded' => TRUE,
+        'weight' => -50,
+  ]);
+  $menu_link->save();
+  $menu_link = MenuLinkContent::create([
+        'title' => 'Password',
+        'link' => ['uri' => 'internal:/user/password'],
+        'description' => 'Lost Password',
+        'menu_name' => 'account',
+        'expanded' => TRUE,
+        'weight' => -49,
+  ]);
+  $menu_link->save();
+  $menu_link = MenuLinkContent::create([
+        'title' => 'New Account',
+        'link' => ['uri' => 'internal:/user/register'],
+        'description' => 'New Account',
+        'menu_name' => 'account',
+        'expanded' => TRUE,
+        'weight' => -48,
   ]);
   $menu_link->save();
 }
