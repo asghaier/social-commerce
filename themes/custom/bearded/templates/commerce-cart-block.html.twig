@@ -1,23 +1,23 @@
 <div{{ attributes}}>
-  <div class="cart-block--summary">
-    <a class="cart-block--link__expand cart-summary-count-link" href="{{ url }}">
-      <span class="cart-block--summary__count">{{ count }}</span>
-    </a>
-    <a class="cart-block--link__expand cart-summary-total-link" href="{{ url }}">
-      <span class="cart-block--summary__total">{{ count }}</span>
-    </a>
-  </div>
-  {% if content %}
-  {# Adding an id to the cart block content box to be able to position it. #}
-  <div id="cart-block-contents" class="cart-block--contents">
-    <div class="cart-block--contents__inner">
-      <div class="cart-block--contents__items">
-        {{ content }}
-      </div>
-      <div class="cart-block--contents__links">
-        {{ links }}
-      </div>
+    <div class="cart-block--summary">
+        <a class="cart-block--link__expand cart-summary-count-link" href="{{ url }}">
+            <span class="cart-block--summary__count">{{ count }}</span>
+        </a>
+        <a class="cart-block--link__expand cart-summary-total-link" href="{{ url }}">
+            <span class="cart-block--summary__total">{{ count }}</span>
+        </a>
     </div>
-  </div>
-  {% endif %}
+    {% if content %}
+        {# Adding an id to the cart block content box to be able to position it. #}
+        <div id="cart-block-contents" class="cart-block--contents">
+            <div class="cart-block--contents__inner">
+                <div class="cart-block--contents__items">
+                    {{ content }}
+                </div>
+                <div class="cart-block--contents__links">
+                    {{ links }}
+                </div>
+            </div>
+        </div>
+    {% endif %}
 </div>
