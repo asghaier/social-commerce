@@ -29,3 +29,4 @@ bootstrap-scripts:
     - core/jquery.ui.position
     - core/drupal
     - core/drupal.tabledrag
+    - flexslider/flexslider
