@@ -1,6 +1,7 @@
 #views-form-commerce-cart-form-default-1{
 	.form-actions {
 		float: right;
+		margin-top: 60px;
 	}
 	.button.js-form-submit.form-submit.btn-default.btn{
 		background-color: #c60f13;
@@ -26,5 +27,11 @@
 .view-footer{
 	.order-total-line.order-total-line__subtotal{
 	display: none;
+	}
+	.footer-wrapper {
+		position: relative;
+		bottom: 123px;
+		border-bottom: 1px solid lightgray;
+		padding-bottom: 15px;
 	}
 }
