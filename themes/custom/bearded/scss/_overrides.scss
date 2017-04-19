@@ -23,11 +23,10 @@
 @import "layout/sidebar";
 @import "layout/footer";
 
-@import "pages//services";
+@import "pages/services";
 @import "pages/clients";
 @import "pages/random-products";
 @import "pages/shop";
-@import "pages/contact";
 @import "pages/register";
 @import "pages/shopping-cart";
 
@@ -285,145 +284,145 @@ body > .main-container > .row > div.col-sm-12:nth-child(1) {
 }
 
 .view-id-slideshow {
-  .view-content {
-    font-family: "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
-    position: relative;
-    display: block;
-    margin: 0 auto;
-    padding: 0;
-    height: 480px;
-    border: 0 solid #fff;
-    border-radius: 0;
-    img {
-      max-width: 100%;
-    }
-    .views-slideshow-controls-bottom {
-      span.views_slideshow_controls_text_pause {
-        display: none;
-      }
-      span.views_slideshow_controls_text_previous > a {
-        display: inline;
-        left: -25px;
-        &:before {
-          content: '\f001';
-        }
-      }
-      span.views_slideshow_controls_text_next > a {
+    .view-content {
+        font-family: "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+        position: relative;
         display: block;
-        right: -25px;
-        &:before {
-          content: '\f002';
+        margin: 0 auto;
+        padding: 0;
+        height: 480px;
+        border: 0 solid #fff;
+        border-radius: 0;
+        img {
+            max-width: 100%;
         }
-      }
-      span > a {
-        opacity: 100;
-        overflow: hidden;
-        top: 50%;
-        z-index: 10;
-        background: none repeat scroll 0 0 white;
-        color: $body-font-color;
-        text-decoration: none;
-        font-size: 1.4em;
-        font-weight: 300;
-        line-height: 50px;
-        text-align: center;
-        width: 50px;
-        height: 50px;
-        position: absolute;
-        margin-top: -25px;
-        border-radius: 1000px;
-        &:hover {
-          color: #ffffff;
-          background: none repeat scroll 0 0 $body-font-color;
+        .views-slideshow-controls-bottom {
+            span.views_slideshow_controls_text_pause {
+                display: none;
+            }
+            span.views_slideshow_controls_text_previous > a {
+                display: inline;
+                left: -25px;
+                &:before {
+                    content: '\f001';
+                }
+            }
+            span.views_slideshow_controls_text_next > a {
+                display: block;
+                right: -25px;
+                &:before {
+                    content: '\f002';
+                }
+            }
+            span > a {
+                opacity: 100;
+                overflow: hidden;
+                top: 50%;
+                z-index: 10;
+                background: none repeat scroll 0 0 white;
+                color: $body-font-color;
+                text-decoration: none;
+                font-size: 1.4em;
+                font-weight: 300;
+                line-height: 50px;
+                text-align: center;
+                width: 50px;
+                height: 50px;
+                position: absolute;
+                margin-top: -25px;
+                border-radius: 1000px;
+                &:hover {
+                    color: #ffffff;
+                    background: none repeat scroll 0 0 $body-font-color;
+                }
+                &:before {
+                    font-size: 1em;
+                    font-family: "flexslider-icon";
+                    line-height: 1;
+                    display: inline-block;
+                }
+            }
         }
-        &:before {
-          font-size: 1em;
-          font-family: "flexslider-icon";
-          line-height: 1;
-          display: inline-block;
+        #views_slideshow_cycle_teaser_section_slideshow-block_1 {
+            // overflow: hidden;
+            > .views_slideshow_cycle_slide {
+                > .views-row {
+                    // position: absolute;
+                    // display: block;
+                    .views-field-field-slide-image {
+                        left: auto;
+                        right: 12%;
+                        padding: 0;
+                        margin: 0;
+                        position: absolute;
+                        display: block;
+                        min-height: 100%;
+                        line-height: 480px;
+                        vertical-align: middle;
+                        overflow: hidden;
+                        text-align: center;
+                        top: 0;
+                        width: 46%;
+                        img {
+                            width: auto;
+                            height: auto;
+                            max-width: 70%;
+                            line-height: 480px;
+                            padding: 0;
+                            margin: 0;
+                            display: inline-block;
+                            vertical-align: middle;
+                        }
+                    }
+                    .views-field-nothing {
+                        left: 0;
+                        text-align: center;
+                        width: 100%;
+                        margin-top: -116.5px;
+                        top: 50%;
+                        padding: 0;
+                        position: absolute;
+                        display: block;
+                        h1 {
+                            font-size: 2.25em;
+                            color: #ffffff;
+                            font-weight: bold;
+                            line-height: 1.4;
+                            letter-spacing: -0.056em;
+                            margin-top: 0;
+                            margin-bottom: 0.416667em;
+                        }
+                        p {
+                            display: block;
+                            font-size: 1em;
+                            color: #ffffff;
+                            font-weight: 300;
+                            line-height: 1.6;
+                            margin-bottom: 1.55em;
+                        }
+                        a {
+                            display: inline-block;
+                            font-weight: bold;
+                            line-height: 1em;
+                            color: $body-font-color;
+                            text-decoration: none;
+                            padding: 0.8em 1.8em;
+                            border-radius: 3px;
+                            background: none repeat scroll 0 0 #ffffff;
+                            transition: all 0.2s linear 0s;
+                            &:hover {
+                                color: #ffffff;
+                                background: none repeat scroll 0 0 $body-font-color;
+                            }
+                        }
+                    }
+                    .views-field-field-slide-image ~ .views-field-nothing {
+                        left: 12%;
+                        text-align: right;
+                        width: 25%;
+                    }
+                }
+            }
         }
-      }
     }
-    #views_slideshow_cycle_teaser_section_slideshow-block_1 {
-      // overflow: hidden;
-      > .views_slideshow_cycle_slide {
-        > .views-row {
-          // position: absolute;
-          // display: block;
-          .views-field-field-slide-image {
-            left: auto;
-            right: 12%;
-            padding: 0;
-            margin: 0;
-            position: absolute;
-            display: block;
-            min-height: 100%;
-            line-height: 480px;
-            vertical-align: middle;
-            overflow: hidden;
-            text-align: center;
-            top: 0;
-            width: 46%;
-            img {
-              width: auto;
-              height: auto;
-              max-width: 70%;
-              line-height: 480px;
-              padding: 0;
-              margin: 0;
-              display: inline-block;
-              vertical-align: middle;
-            }
-          }
-          .views-field-nothing {
-            left: 0;
-            text-align: center;
-            width: 100%;
-            margin-top: -116.5px;
-            top: 50%;
-            padding: 0;
-            position: absolute;
-            display: block;
-            h1 {
-              font-size: 2.25em;
-              color: #ffffff;
-              font-weight: bold;
-              line-height: 1.4;
-              letter-spacing: -0.056em;
-              margin-top: 0;
-              margin-bottom: 0.416667em;
-            }
-            p {
-              display: block;
-              font-size: 1em;
-              color: #ffffff;
-              font-weight: 300;
-              line-height: 1.6;
-              margin-bottom: 1.55em;
-            }
-            a {
-              display: inline-block;
-              font-weight: bold;
-              line-height: 1em;
-              color: $body-font-color;
-              text-decoration: none;
-              padding: 0.8em 1.8em;
-              border-radius: 3px;
-              background: none repeat scroll 0 0 #ffffff;
-              transition: all 0.2s linear 0s;
-              &:hover {
-                color: #ffffff;
-                background: none repeat scroll 0 0 $body-font-color;
-              }
-            }
-          }
-          .views-field-field-slide-image ~ .views-field-nothing {
-            left: 12%;
-            text-align: right;
-            width: 25%;
-          }
-        }
-      }
-    }
-  }
 }

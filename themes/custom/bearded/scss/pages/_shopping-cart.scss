@@ -1,30 +1,36 @@
-#views-form-commerce-cart-form-default-1{
-	.form-actions {
-		float: right;
-	}
-	.button.js-form-submit.form-submit.btn-default.btn{
-		background-color: #c60f13;
-	}
+.shopping-cart-form  {
+  .form-actions {
+    float: right;
+    margin-top: 60px;
+  }
+  .button.js-form-submit.form-submit.btn-default.btn{
+    background-color: #c60f13;
+  }
 
-	.delete-order-item.button.js-form-submit.form-submit.btn-danger.btn.icon-before{
-		font-size: 0.857em;
-		font-weight: 300;
-		color: #fff;
-		text-align: center;
-		background: none repeat scroll 0 0 padding-box #fa565a;
-		background-image: url(../images/remove.png);
-		width: 1.618em;
-		height: 1.618em;
-		padding: 0;
-		margin-left: 1.5em;
-		border-radius: 100%;
-		text-indent: -999em;
-
-	}
-	
+  .delete-order-item.button.js-form-submit.form-submit.btn-danger.btn.icon-before{
+    font-size: 0.857em;
+    font-weight: 300;
+    color: #fff;
+    text-align: center;
+    background: none repeat scroll 0 0 padding-box #fa565a;
+    background-image: url(../images/remove.png);
+    width: 1.618em;
+    height: 1.618em;
+    padding: 0;
+    margin-left: 1.5em;
+    border-radius: 100%;
+    text-indent: -999em;
+  }
 }
+
 .view-footer{
-	.order-total-line.order-total-line__subtotal{
-	display: none;
-	}
+  .order-total-line.order-total-line__subtotal{
+  display: none;
+  }
+  .footer-wrapper {
+    position: relative;
+    bottom: 123px;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 15px;
+  }
 }
