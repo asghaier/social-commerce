@@ -1,0 +1,92 @@
+html {
+  .main-container {
+    .row {
+      .banner.container {
+        padding: 0;
+        .region-banner {
+          background: $body-font-color;
+          margin: 0 0 3.75em 0;
+          .block-block-content {
+            color: #fff;
+            width: 100%;
+            max-width: 67.5em;
+            margin: 0 auto;
+            padding: 2.8125em 0;
+            display: block;
+            > h2 {
+              font-size: 0;
+              text-indent: 960px;
+              width: 0;
+              height: 0;
+            }
+            .field--type-text-with-summary {
+              width: 100%;
+              padding: 0 1.25em;
+              position: relative;
+              float: left;
+              h1 {
+                color: inherit;
+                letter-spacing: -2px;
+                font-size: 2.5em;
+                font-weight: bold;
+                line-height: 1.2;
+                margin: 0 0 .3em 0;
+              }
+              p {
+                line-height: 1.6;
+                margin-bottom: 0;
+                display: block;
+                float: none;
+              }
+            }
+            .download {
+              width: 100%;
+              padding: 0 1.25em;
+              position: relative;
+              float: right;
+              a {
+                color: #ffffff;
+                background-color: $theme-color;
+                font-weight: bold;
+                text-align: right;
+                text-decoration: none;
+                line-height: normal;
+                border-radius: 3px;
+                margin: 1em 0 0 0;
+                padding: 1em 1.875em;
+                display: block;
+                float: right;
+                transition: all 0.2s ease 0s;
+                &:hover {
+                  color: $body-font-color;
+                  background: none repeat scroll 0 0 #ffffff;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (min-width: $medium) {
+  html {
+    .main-container {
+      .row {
+        .banner.container {
+          .region-banner {
+            .block-block-content {
+              .action_banner_text {
+                width: 66.6667%;
+                float: left;
+              }
+              .download {
+                width: 33.3333%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
