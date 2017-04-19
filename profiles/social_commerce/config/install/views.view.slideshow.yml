@@ -3,9 +3,11 @@ status: true
 dependencies:
   config:
     - field.storage.node.body
+    - field.storage.node.field_slide_background
     - field.storage.node.field_slide_image
     - field.storage.node.field_slide_link
-    - image.style.homepage_slideshow_style
+    - image.style.slide_background
+    - image.style.slide_image
     - node.type.slide
   module:
     - image
@@ -135,11 +137,16 @@ display:
                 type: views_slideshow_controls_text
       row:
         type: fields
+        options:
+          default_field_elements: true
+          inline: {  }
+          separator: ''
+          hide_empty: true
       fields:
-        field_slide_image:
-          id: field_slide_image
-          table: node__field_slide_image
-          field: field_slide_image
+        field_slide_background:
+          id: field_slide_background
+          table: node__field_slide_background
+          field: field_slide_background
           relationship: none
           group_type: group
           admin_label: ''
@@ -187,7 +194,7 @@ display:
           click_sort_column: target_id
           type: image
           settings:
-            image_style: homepage_slideshow_style
+            image_style: slide_background
             image_link: ''
           group_column: ''
           group_columns: {  }
@@ -283,7 +290,7 @@ display:
             external: false
             replace_spaces: false
             path_case: none
-            trim_whitespace: false
+            trim_whitespace: true
             alt: ''
             rel: ''
             link_class: ''
@@ -383,6 +390,70 @@ display:
             url_plain: false
             rel: '0'
             target: '0'
+          group_column: ''
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+        field_slide_image:
+          id: field_slide_image
+          table: node__field_slide_image
+          field: field_slide_image
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: true
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: target_id
+          type: image
+          settings:
+            image_style: slide_image
+            image_link: ''
           group_column: ''
           group_columns: {  }
           group_rows: true
@@ -496,6 +567,7 @@ display:
         - user.permissions
       tags:
         - 'config:field.storage.node.body'
+        - 'config:field.storage.node.field_slide_background'
         - 'config:field.storage.node.field_slide_image'
         - 'config:field.storage.node.field_slide_link'
   block_1:
@@ -514,5 +586,6 @@ display:
         - user.permissions
       tags:
         - 'config:field.storage.node.body'
+        - 'config:field.storage.node.field_slide_background'
         - 'config:field.storage.node.field_slide_image'
         - 'config:field.storage.node.field_slide_link'

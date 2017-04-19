@@ -6,15 +6,13 @@ dependencies:
     - node.type.slide
   module:
     - image
-_core:
-  default_config_hash: yYmjCyf1xX-RoB-OGp_Q0qy1gP7ef_xKP2Ede70q5YE
 id: node.slide.field_slide_image
 field_name: field_slide_image
 entity_type: node
 bundle: slide
 label: Image
 description: ''
-required: true
+required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''

@@ -16,12 +16,14 @@
 @import "component/tabs";
 @import "component/toolbar";
 
+@import "layout/layout";
 @import "layout/header";
 @import "layout/navbar";
-@import "layout/footer";
+@import "layout/banner";
 @import "layout/sidebar";
+@import "layout/footer";
 
-@import "pages//services";
+@import "pages/services";
 @import "pages/clients";
 @import "pages/random-products";
 @import "pages/shop";
@@ -347,7 +349,7 @@ body > .main-container > .row > div.col-sm-12:nth-child(1) {
                 > .views-row {
                     // position: absolute;
                     // display: block;
-                    .views-field-field-image {
+                    .views-field-field-slide-image {
                         left: auto;
                         right: 12%;
                         padding: 0;
@@ -414,7 +416,7 @@ body > .main-container > .row > div.col-sm-12:nth-child(1) {
                             }
                         }
                     }
-                    .views-field-field-image ~ .views-field-nothing {
+                    .views-field-field-slide-image ~ .views-field-nothing {
                         left: 12%;
                         text-align: right;
                         width: 25%;

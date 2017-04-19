@@ -1,25 +1,25 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/node\/4?_format=hal_json"
+            "href": "http:\/\/social-commerce.dev\/node\/4?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/node\/slide"
         },
         "http:\/\/drupal.org\/rest\/relation\/node\/slide\/uid": [
             {
-                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "href": "http:\/\/social-commerce.dev\/user\/0?_format=hal_json",
                 "lang": "en"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/node\/slide\/revision_uid": [
             {
-                "href": "http:\/\/default\/user\/1?_format=hal_json"
+                "href": "http:\/\/social-commerce.dev\/user\/0?_format=hal_json"
             }
         ],
-        "http:\/\/drupal.org\/rest\/relation\/node\/slide\/field_slide_image": [
+        "http:\/\/drupal.org\/rest\/relation\/node\/slide\/field_slide_background": [
             {
-                "href": "http:\/\/default\/file\/4?_format=hal_json"
+                "href": "http:\/\/social-commerce.dev\/file\/9000002?_format=hal_json"
             }
         ]
     },
@@ -51,7 +51,7 @@
     ],
     "title": [
         {
-            "value": "vehicula elementum",
+            "value": "Download this Awesome WordPress Theme",
             "lang": "en"
         }
     ],
@@ -60,7 +60,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                        "href": "http:\/\/social-commerce.dev\/user\/0?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
@@ -68,7 +68,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "733a890c-6a6c-48ec-be23-470003e87004"
+                        "value": "fc96ae6c-51df-44fc-ac2e-d762fa96c8bc"
                     }
                 ],
                 "lang": "en"
@@ -78,7 +78,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                        "href": "http:\/\/social-commerce.dev\/user\/0?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
@@ -86,16 +86,16 @@
                 },
                 "uuid": [
                     {
-                        "value": "733a890c-6a6c-48ec-be23-470003e87004"
+                        "value": "fc96ae6c-51df-44fc-ac2e-d762fa96c8bc"
                     }
                 ]
             }
         ],
-        "http:\/\/drupal.org\/rest\/relation\/node\/slide\/field_slide_image": [
+        "http:\/\/drupal.org\/rest\/relation\/node\/slide\/field_slide_background": [
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/default\/file\/4?_format=hal_json"
+                        "href": "http:\/\/social-commerce.dev\/file\/9000002?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/file\/image"
@@ -103,13 +103,13 @@
                 },
                 "uuid": [
                     {
-                        "value": "a0c65523-e2ed-45a4-a2cf-9465154e3c17"
+                        "value": "d14c3d2a-de8e-4d4a-a3e4-a6a2a43d2de9"
                     }
                 ],
-                "alt": "vehicula elementum",
+                "alt": "Green and yellow background",
                 "title": "",
-                "width": "1920",
-                "height": "1200"
+                "width": "1160",
+                "height": "480"
             }
         ]
     },
@@ -127,7 +127,7 @@
     ],
     "changed": [
         {
-            "value": "1489052630",
+            "value": "1492555010",
             "lang": "en"
         }
     ],
@@ -162,7 +162,7 @@
     ],
     "body": [
         {
-            "value": "<p>Convallis quis ac lectus. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.<\/p>\r\n",
+            "value": "<p>Available 100% free with all the features. No any other versions. Only one version and it\u2019s free :D<\/p>\r\n",
             "format": "basic_html",
             "summary": "",
             "lang": "en"
@@ -170,8 +170,8 @@
     ],
     "field_slide_link": [
         {
-            "uri": "https:\/\/en.wikipedia.org\/wiki\/Natural_landscape",
-            "title": "vehicula elementum",
+            "uri": "internal:\/",
+            "title": "Download Theme",
             "options": [
 
             ]

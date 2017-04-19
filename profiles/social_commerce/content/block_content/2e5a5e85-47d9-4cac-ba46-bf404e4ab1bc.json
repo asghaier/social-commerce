@@ -1,16 +1,11 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/block\/4?_format=hal_json"
+            "href": "http:\/\/social-commerce.dev\/block\/4?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/block_content\/basic"
-        },
-        "http:\/\/drupal.org\/rest\/relation\/block_content\/basic\/revision_user": [
-            {
-                "href": "http:\/\/default\/user\/1?_format=hal_json"
-            }
-        ]
+        }
     },
     "id": [
         {
@@ -46,7 +41,7 @@
     ],
     "changed": [
         {
-            "value": "1490631594",
+            "value": "1492637481",
             "lang": "en"
         }
     ],
@@ -55,25 +50,6 @@
             "value": "1490631594"
         }
     ],
-    "_embedded": {
-        "http:\/\/drupal.org\/rest\/relation\/block_content\/basic\/revision_user": [
-            {
-                "_links": {
-                    "self": {
-                        "href": "http:\/\/default\/user\/1?_format=hal_json"
-                    },
-                    "type": {
-                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
-                    }
-                },
-                "uuid": [
-                    {
-                        "value": "f9d76c65-6d9f-480e-b66a-3e067d5348df"
-                    }
-                ]
-            }
-        ]
-    },
     "revision_translation_affected": [
         {
             "value": "1",
@@ -88,7 +64,7 @@
     ],
     "body": [
         {
-            "value": "<h1>Call to Action Banner<\/h1>\r\n\r\n<p>Download This theme It\u2019s 100% Free<\/p>\r\n\r\n<div class=\"download\"><a href=\"#\">Download<\/a><\/div>\r\n",
+            "value": "<div class=\"action_banner_text\">\r\n<h1>Call to Action Banner<\/h1>\r\n\r\n<p>Download This theme It\u2019s 100% Free<\/p>\r\n<\/div>\r\n\r\n<div class=\"download\"><a href=\"#\">Download<\/a><\/div>\r\n",
             "format": "full_html",
             "summary": "",
             "lang": "en"
