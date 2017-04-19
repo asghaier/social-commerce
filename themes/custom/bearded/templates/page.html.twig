@@ -242,19 +242,29 @@
 {% endblock %}
 
 <footer class="footer {{ container }}" role="contentinfo">
-    {% if page.footer_first_left %}
-        {% block footer_first_left %}
-            {{ page.footer_first_left }}
-        {% endblock footer_first_left %}
-    {% endif %}
-    {% if page.footer_first_right %}
-        {% block footer_first_right %}
-            {{ page.footer_first_right }}
-        {% endblock footer_first_right %}
-    {% endif %}
+    <div class="row">
+      <div class="container">
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+          {% if page.footer_first_left %}
+              {% block footer_first_left %}
+                  {{ page.footer_first_left }}
+              {% endblock footer_first_left %}
+          {% endif %}
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+          {% if page.footer_first_right %}
+              {% block footer_first_right %}
+                  {{ page.footer_first_right }}
+              {% endblock footer_first_right %}
+          {% endif %}
+      </div>
+      </div>
+    </div>
+    <div class="row">
     {% if page.footer_second %}
         {% block footer_second %}
             {{ page.footer_second }}
         {% endblock footer_second %}
     {% endif %}
+    </div>
 </footer>
