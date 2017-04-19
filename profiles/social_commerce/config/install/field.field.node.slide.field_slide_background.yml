@@ -2,15 +2,15 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_slide_image
+    - field.storage.node.field_slide_background
     - node.type.slide
   module:
     - image
-id: node.slide.field_slide_image
-field_name: field_slide_image
+id: node.slide.field_slide_background
+field_name: field_slide_background
 entity_type: node
 bundle: slide
-label: Image
+label: Background
 description: ''
 required: false
 translatable: false

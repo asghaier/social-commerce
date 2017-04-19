@@ -3,6 +3,7 @@ status: true
 dependencies:
   config:
     - field.field.node.slide.body
+    - field.field.node.slide.field_slide_background
     - field.field.node.slide.field_slide_image
     - field.field.node.slide.field_slide_link
     - image.style.thumbnail
@@ -12,8 +13,6 @@ dependencies:
     - link
     - path
     - text
-_core:
-  default_config_hash: AjvW9PJ2Lbf-mSuFONDPvraRIxkCspeFovV7J9rnt8s
 id: node.slide.default
 targetEntityType: node
 bundle: slide
@@ -32,6 +31,13 @@ content:
     weight: 10
     settings: {  }
     third_party_settings: {  }
+  field_slide_background:
+    weight: 34
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
   field_slide_image:
     weight: 32
     settings:

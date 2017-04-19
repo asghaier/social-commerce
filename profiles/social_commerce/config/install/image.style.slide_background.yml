@@ -1,0 +1,13 @@
+langcode: en
+status: true
+dependencies: {  }
+name: slide_background
+label: 'Slide Background'
+effects:
+  2b0eb3c4-84b1-4cea-b3b9-03b2f0780869:
+    uuid: 2b0eb3c4-84b1-4cea-b3b9-03b2f0780869
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1160
+      height: 480
