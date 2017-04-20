@@ -1,0 +1,13 @@
+langcode: en
+status: true
+dependencies: {  }
+name: slide_image
+label: 'Slide Image'
+effects:
+  ca67cf8b-a2a9-4fe7-8c3f-d7a48d9db4e3:
+    uuid: ca67cf8b-a2a9-4fe7-8c3f-d7a48d9db4e3
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 350
+      height: 350
