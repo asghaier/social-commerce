@@ -1,14 +1,16 @@
 langcode: en
 status: true
 dependencies:
+  module:
+    - system
   theme:
     - bearded
 _core:
-  default_config_hash: LdsHQklpXcrA23aAJbvXpJYErPuHGY9pGd6xhweTKjw
+  default_config_hash: tCHalSQVo0kcO4FHFtkTFF2rEtjs78H7ctXyvj_yHgE
 id: bearded_page_title
 theme: bearded
 region: header
-weight: -5
+weight: -12
 provider: null
 plugin: page_title_block
 settings:
@@ -16,4 +18,9 @@ settings:
   label: 'Page title'
   provider: core
   label_display: '0'
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: '/product/*'
+    negate: true
+    context_mapping: {  }
