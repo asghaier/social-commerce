@@ -1,6 +1,7 @@
 var gulp = require('gulp'),
     livereload = require('gulp-livereload'),
     sass = require('gulp-sass'),
+    csslint = require('gulp-csslint'),
     autoprefixer = require('gulp-autoprefixer'),
     sourcemaps = require('gulp-sourcemaps'),
     imagemin = require('gulp-imagemin'),
@@ -18,13 +19,19 @@ gulp.task('imagemin', function () {
         .pipe(gulp.dest('./img'));
 });
 
-// SASS
+// SASS : (outputStyle={compressed, compact, nested}
 gulp.task('sass', function () {
     gulp.src('./scss/*')
-        .pipe(sass({ outputStyle: 'compressed' }).on('error', sass.logError))
+        .pipe(sass({ outputStyle: 'compact' }).on('error', sass.logError))
         .pipe(autoprefixer('last 2 version'))
         .pipe(sourcemaps.write('./'))
         .pipe(gulp.dest('./css'));
+});
+
+gulp.task('csslint', function() {
+  gulp.src('./css/*.css')
+      .pipe(csslint())
+      .pipe(csslint.formatter());
 });
 
 // JS
@@ -44,3 +51,5 @@ gulp.task('watch', function () {
         livereload.changed(files)
     });
 });
+
+gulp.task('default', ['uglify', 'imagemin', 'sass']);
