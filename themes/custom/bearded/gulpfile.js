@@ -6,7 +6,9 @@ var gulp = require('gulp'),
     sourcemaps = require('gulp-sourcemaps'),
     imagemin = require('gulp-imagemin'),
     pngquant = require('imagemin-pngquant'),
-    uglify = require('gulp-uglifyjs');
+    uglify = require('gulp-uglifyjs'),
+    sassGlob = require('gulp-sass-glob');
+
 
 // IMAGES
 gulp.task('imagemin', function () {
@@ -21,7 +23,8 @@ gulp.task('imagemin', function () {
 
 // SASS : (outputStyle={compressed, compact, nested}
 gulp.task('sass', function () {
-    gulp.src('./scss/*')
+    gulp.src('./scss_noomane/style_noomane.scss')
+        .pipe(sassGlob())
         .pipe(sass({ outputStyle: 'compact' }).on('error', sass.logError))
         .pipe(autoprefixer('last 2 version'))
         .pipe(sourcemaps.write('./'))
@@ -46,8 +49,8 @@ gulp.task('watch', function () {
 
     gulp.watch('./js/*.js', ['uglify']);
     gulp.watch('./bootstrap/assets/images/*.svg', ['imagemin']);
-    gulp.watch('./scss/**/*.scss', ['sass']);
-    gulp.watch(['./css/style.css', './**/*.html.twig', './assets/js/*.js'], function (files) {
+    gulp.watch('./scss_noomane/**/*.scss', ['sass']);
+    gulp.watch(['./css/style_noomane.css', './**/*.html.twig', './assets/js/*.js'], function (files) {
         livereload.changed(files)
     });
 });
