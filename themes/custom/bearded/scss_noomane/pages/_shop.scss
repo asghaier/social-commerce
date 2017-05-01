@@ -1,0 +1,166 @@
+/*
+ // ./pages/_shop.scss
+*/
+// Breadcrumb styles
+.breadcrumb {
+    font-size: 12px;    
+    line-height: 1;
+    margin: 0 0 1.25em 0;
+    padding: 0 0 2.083em 0;
+    border-bottom-width: 1px;
+    border-bottom-color: #ddd;
+    border-bottom-style: dotted;
+    background-color: white;
+}
+.breadcrumb li a {
+    color: #27313d;
+    font-weight: bold;    
+}
+.breadcrumb li a:hover {
+    color: $green;
+}
+.breadcrumb>li+li:before {
+    content: " › ";
+    font-weight: 300;
+    color: #27313d;
+}
+// View header styles
+.view-shop .view-header {
+    font-size: 0.875em;
+    line-height: 1.6;
+    padding-top: 0.5em;
+    margin-bottom: 4em;
+    float: left;
+}
+.view-shop .view-filters {
+    float: right;
+    font-size: 0.875em;
+}
+.view-shop .views-exposed-form .select-wrapper {
+    margin: 0 5px 0 5px;
+}
+.view-shop .views-exposed-form .form-item select {
+    background: none;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    box-shadow: 0 0 3px white inset, 0 1px 1px rgba(0, 0, 0, 0.1);
+    color: #444;
+    height: 28px;
+    font-size: 12px;
+}
+.view-shop .select-wrapper:after {
+    font-size: 12px;
+    color: #27313d;
+}
+// Product Styles
+.view-shop .views-field-field-product-variation-image .img-responsive{
+    width: 100%;
+}
+
+.view-shop .commerce-variation-add-to-cart-form {
+    margin-bottom: 0.714286em;
+    background-color: #27313d;
+}
+.view-shop .commerce-variation-add-to-cart-form .form-submit {
+    font-size: 14px;
+    color: #fff;
+    font-weight: bolder;
+    line-height: 1.14286;
+    text-align: left;
+    text-indent: 20px;
+    padding: 1em 1.2em;
+    position: relative;
+    display: inline-block;
+    background-color: transparent;
+    background-image: url(../images/cart.png);
+    background-repeat: no-repeat;
+    border: 0;
+    outline: medium none;
+}
+.view-shop .commerce-variation-add-to-cart-form .form-submit:hover,
+.view-shop .commerce-variation-add-to-cart-form .form-submit:focus{
+    color: $green;
+    cursor: pointer;
+    background-image: url(../images/cart-hover.png);
+}
+.view-shop .views-field-title {
+    color: #27313d;
+    width: 70%;
+    display: block;
+    float: left;
+    line-height: 1.6;
+}
+.view-shop .views-field-title a {
+    color: #27313d;
+}
+.view-shop .views-field-title a:hover {
+    color: $green;
+}
+.view-shop .views-field-price__number {
+    width: 30%;
+    display: inline-block;
+    float: right;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 1.6;
+    text-align: right;
+}
+.view-shop .views-field-field-product-category {
+    display: block;
+    float: left;
+    font-size: 0.928571em;
+    line-height: 1.6;
+}
+.view-shop .views-field-field-product-category a {
+    color: #656565;
+}
+.view-shop .views-field-field-product-category a:hover {
+    color: #27313d;
+}
+.view-shop .product-item {
+    margin-bottom: 30px;
+}
+// Pagination
+.pager-nav {
+    font-size: 0.875em;
+    font-weight: bold;
+    line-height: 1;
+    padding-top: 2em;
+    border-top: 1px solid #eaeaea;
+}
+.pagination>.active>a, .pagination>.active>a:hover, .pagination>.active>a:focus {
+    z-index: 3;
+    color: $green;
+    background-color: transparent;
+    border-color: transparent;
+    border-width: 0;
+    cursor: default;
+}
+.pagination>li>a, .pagination>li>a:focus {
+    color: #27313d;
+    background-color: transparent;
+    border: 0 transparent;
+    margin-left: -1px;
+}
+.pagination>li>a:hover {
+    color: #27313d;
+    background-color: transparent;
+    border-color: transparent;
+    border-width: 0;
+}
+.view-shop .btn {
+    padding: 6px 12px;
+}
+@media only screen and (max-width : 768px) {
+    .view-shop .view-header {
+        width: 100%;
+        margin-bottom: 2em;
+    }
+    .view-shop .view-filters {
+        float: left;
+        width: 100%;
+    }
+    .view-shop .view-filters .form-item {
+        float: left;
+    }
+}

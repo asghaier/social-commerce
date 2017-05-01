@@ -84,6 +84,12 @@ p:last-child,
     }
 }
 
+
+
+
+
+
+// Bearded theming start
 h1, h2, h3, h4, h5, h6, p.navbar-text {
     color: #27313d;
     font-family: $body-font-family;
@@ -141,6 +147,9 @@ ul.no-bullet, ol.no-bullet {
     margin-left: 0;
 }
 
+
+///
+
 a {
     color: #1abc9c;
     text-decoration: none;
@@ -164,6 +173,9 @@ a:hover, a:focus {
 a img {
     border: none;
 }
+
+
+
 // Page header style
 .page-header {
     padding-bottom: 0px;
@@ -174,6 +186,10 @@ a img {
     padding-bottom: 1.75em
 
 }
+
+
+
+
 body {
     .main-container {
         background-color: white;
@@ -201,6 +217,11 @@ body {
         }
     }
 }
+
+
+
+
+
 // Form style
 form .form-item label {
     font-weight: 500;
@@ -231,6 +252,12 @@ form .form-item textarea {
 form .form-item textarea {
     height: 200px;
 }
+
+
+
+
+
+
 .btn {
     font-size: 1em;
     font-weight: bold;
@@ -249,6 +276,9 @@ form .form-item textarea {
     background-color: #27313d !important;
     color: white !important;
 }
+
+
+
 
 .container > .navbar-header {
     margin: 0;
@@ -283,6 +313,15 @@ body > .main-container > .row > div.col-sm-12:nth-child(1) {
         margin-bottom: 40px;
     }
 }
+
+
+
+
+
+
+
+
+
 
 .view-id-slideshow {
     .view-content {

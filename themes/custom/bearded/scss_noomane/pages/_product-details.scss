@@ -1,0 +1,64 @@
+/*
+ // ./pages/_product-details.scss
+*/
+// Product details
+.product-details .field--name-field-product-variation-image .field--label,
+.product-details .field--name-price .field--label {
+    display: none;
+}
+.product-title-price {
+    padding: 0 0 3.071em 0;
+    margin: 0 0 1.4285em 0;
+    float: none;
+    border-bottom-width: 1px;
+    border-bottom-color: #eee;
+    border-bottom-style: solid;
+}
+.product-title-price h1 {
+    font-size: 1.715em;
+    letter-spacing: -1px;
+    float: left;
+}
+.product-title-price .field--name-price .field--item {
+    float: right;
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 47px;
+}
+.product-content .btn {
+    font-size: 0.8125em;
+    padding: 0.75em 1.5em 0.8125em 1.5em;
+}
+.product-content .field--name-field-product-category {
+    padding: 20px 0 20px 0;
+}
+.product-content .field--name-field-product-category .field--label {
+    float: left;
+    padding-right: 5px;
+}
+.product-content .field--name-field-product-category .field--label::after {
+    content: ":";
+}
+.product-content .description-label {
+    font-weight: bold;
+}
+.product-content .field--type-text-with-summary {
+    padding: 10px 0 10px 0;
+}
+@media only screen and (max-width : 970px) {
+    .product-title-price {
+        margin-top: 20px;
+    }
+}
+.product-content .description-label{
+    font-size: 0.8125em;
+    color: #fff;
+    background-color: #27313d;
+    padding: 0.75em 1.5em 0.8125em 1.5em;
+}
+.product-content .field--name-body{
+    border-top-width: 3px;
+    border-top-color: #27313d;
+    border-top-style: solid;
+    margin-top: 0.7em;
+    }

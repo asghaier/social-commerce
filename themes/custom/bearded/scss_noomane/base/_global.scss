@@ -1,0 +1,89 @@
+/*
+ // ./base/_global.scss
+*/
+
+/* _global: Style links */
+
+ol, ul {
+  padding-left: 1.5em;
+  .popover &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+a {
+  color: #1abc9c;
+  text-decoration: none;
+  line-height: inherit;
+  transition: all 0.2s ease 0s;
+}
+a {
+  color: $theme-color;
+  transition: all 0.2s linear 0s;
+  &:hover {
+    color: #089a7a;
+  }
+  &:focus {
+    color: #089a7a;
+  }
+}
+a:hover, a:focus {
+  color: #089a7a;
+  text-decoration: none;
+}
+a img {
+  border: none;
+}
+
+
+
+/* _global: Style Buttons */
+.btn {
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  line-height: normal;
+  background-color: $green;
+  padding: 1em 1.875em 0.9375em 1.875em;
+  border: 0;
+  border-radius: 3px;
+}
+.btn:hover,
+.btn:active,
+.btn:focus {
+  background-color: #27313d !important;
+  color: white !important;
+}
+
+/* _global: Style Form */
+form .form-item label {
+  font-weight: 500;
+  color: #4d4d4d;
+  line-height: 1.6;
+  margin-bottom: 0.1875em;
+}
+.form-required:after {
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+form .form-item input,
+form .form-item textarea {
+  background-color: white;
+  border: 1px solid #cccccc;
+  border-radius: 0;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.75);
+  display: block;
+  font-family: inherit;
+  font-size: 1em;
+  height: 2.4375em;
+  margin: 0 0 0.1875em;
+  padding: 0.5em;
+  width: 100%;
+}
+form .form-item textarea {
+  height: 200px;
+}
