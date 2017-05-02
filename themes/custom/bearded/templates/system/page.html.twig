@@ -101,7 +101,6 @@
 {% block main %}
     <div role="main" class="main-container {{ container }} js-quickedit-main-content">
         <div class="row">
-
             {# Header #}
             {% if page.header %}
                 {% block header %}
@@ -114,8 +113,7 @@
             {# Content #}
             {%
         set content_classes = [
-          page.sidebar_second ? 'main col-xs-12 col-sm-12 col-md-9 col-lg-9',
-          page.sidebar_second is empty ? 'main col-xs-12 col-sm-12 col-md-12 col-lg-12'
+          page.sidebar_second ? 'col-sm-9':'col-sm-12'
         ]
             %}
             <section{{ content_attributes.addClass(content_classes) }}>
@@ -149,6 +147,13 @@
                     {% endblock %}
                 {% endif %}
 
+                {# Content Header #}
+                {% if page.content_header %}
+                  {% block content_header %}
+                    {{ page.content_header }}
+                  {% endblock %}
+                {% endif %}
+
                 {# Content #}
                 {% block content %}
                     <a id="main-content"></a>
@@ -156,84 +161,11 @@
                 {% endblock %}
             </section>
 
-            {% if is_front %}
-                {% if page.slider %}
-                    {% block slider %}
-                        <div class="slider {{ container }}" role="contentinfo">
-                            {{ page.slider }}
-                        </div>
-                    {% endblock %}
-                {% endif %}
-
-                {% if page.banner %}
-                    {% block banner %}
-                        <div class="banner {{ container }}" role="contentinfo">
-                            {{ page.banner }}
-                        </div>
-                    {% endblock %}
-                {% endif %}
-
-                {# BEGIN PRODUCTS SECTION #}
-                {% if page.products %}
-                    <section id="products">
-                        <div class="container products">
-                            {% block products %}
-                                {{ page.products }}
-                            {% endblock %}
-                        </div>
-                    </section>
-                {% endif %}
-                {# END PRODUCTS SECTION #}
-
-                {# BEGIN SERVICES SECTION #}
-                <section id="services">
-                    <div class="container services">
-                        {# BEGIN TOP WIDGET FIRST #}
-                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 item">
-                            {% block topwidget_first %}
-                                {{ page.topwidget_first }}
-                            {% endblock topwidget_first %}
-                        </div>
-                        {# END TOP WIDGET FIRST #}
-
-                        {# BEGIN TOP WIDGET SECOND #}
-                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 item">
-                            {% block topwidget_second %}
-                                {{ page.topwidget_second }}
-                            {% endblock topwidget_second %}
-                        </div>
-                        {# END TOP WIDGET SECOND #}
-
-                        {# BEGIN TOP WIDGET THIRD #}
-                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xs-offset-0 col-sm-offset-3 col-md-offset-0 col-lg-offset-0 item">
-                            {% block topwidget_third %}
-                                {{ page.topwidget_third }}
-                            {% endblock topwidget_third %}
-                        </div>
-                        {# END TOP WIDGET THIRD #}                        
-                    </div>
-                </section>
-                {# END SERVICES SECTION #}
-
-                {# BEGIN CLIENTS SECTION #}
-                <section id="clients">
-                    <div class="container clients">
-                        {% if page.clients %}               
-                            {% block clients %}
-                                {{ page.clients }}
-                            {% endblock clients %}
-                        {% endif %}
-                    </div>
-                </section>
-                {# END CLIENTS SECTION #}
-            {% endif %}
-
-
-            {# Sidebar Second #}
-            {% if page.sidebar_second %}
-                {% block sidebar_second %}
-                    <aside class="col-xs-12 col-sm-12 col-md-3 col-lg-3" role="complementary">
-                        {{ page.sidebar_second }}
+            {# Sidebar #}
+            {% if page.sidebar %}
+                {% block sidebar %}
+                    <aside class="col-sm-3" role="complementary">
+                        {{ page.sidebar }}
                     </aside>
                 {% endblock %}
             {% endif %}
