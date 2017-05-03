@@ -1,14 +1,12 @@
 langcode: en
-status: true
+status: false
 dependencies:
   theme:
     - bearded
-_core:
-  default_config_hash: 2ch0TGIBe_7niOTaIvRRVZsaAjk4sWu8zBjnmMWodIQ
 id: bearded_local_tasks
 theme: bearded
-region: header
-weight: -4
+region: '-1'
+weight: 2
 provider: null
 plugin: local_tasks_block
 settings:

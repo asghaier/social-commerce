@@ -1,5 +1,5 @@
 langcode: en
-status: true
+status: false
 dependencies:
   content:
     - 'block_content:basic:2e5a5e85-47d9-4cac-ba46-bf404e4ab1bc'
@@ -10,8 +10,8 @@ dependencies:
     - bearded
 id: calltoactionbanner
 theme: bearded
-region: banner
-weight: 0
+region: '-1'
+weight: -1
 provider: null
 plugin: 'block_content:2e5a5e85-47d9-4cac-ba46-bf404e4ab1bc'
 settings:

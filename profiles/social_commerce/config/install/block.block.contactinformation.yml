@@ -1,5 +1,5 @@
 langcode: en
-status: true
+status: false
 dependencies:
   content:
     - 'block_content:basic:5394aee2-d454-4ada-993f-eb8092e874e4'
@@ -10,8 +10,8 @@ dependencies:
     - bearded
 id: contactinformation
 theme: bearded
-region: sidebar_second
-weight: 0
+region: '-1'
+weight: -8
 provider: null
 plugin: 'block_content:5394aee2-d454-4ada-993f-eb8092e874e4'
 settings:
