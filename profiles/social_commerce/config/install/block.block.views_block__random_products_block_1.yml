@@ -1,5 +1,6 @@
+uuid: ddfe89b7-ded3-4361-b77e-701f0003ca66
 langcode: en
-status: false
+status: true
 dependencies:
   config:
     - views.view.random_products
@@ -8,10 +9,12 @@ dependencies:
     - views
   theme:
     - bearded
+_core:
+  default_config_hash: 2cnj08_19LvSzexLecmF_tgAKxs8lR4-ecOaH1c0ArM
 id: views_block__random_products_block_1
 theme: bearded
-region: '-1'
-weight: -2
+region: content
+weight: -13
 provider: null
 plugin: 'views_block:random_products-block_1'
 settings:

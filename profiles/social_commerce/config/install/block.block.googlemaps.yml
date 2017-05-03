@@ -1,5 +1,5 @@
 langcode: en
-status: false
+status: true
 dependencies:
   content:
     - 'block_content:basic:bf17ab4b-532a-4ba1-86f7-98d8c8fc1d6b'
@@ -10,8 +10,8 @@ dependencies:
     - bearded
 id: googlemaps
 theme: bearded
-region: '-1'
-weight: -7
+region: sidebar
+weight: -11
 provider: null
 plugin: 'block_content:bf17ab4b-532a-4ba1-86f7-98d8c8fc1d6b'
 settings:

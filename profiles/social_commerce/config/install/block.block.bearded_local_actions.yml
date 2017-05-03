@@ -1,12 +1,12 @@
 langcode: en
-status: false
+status: true
 dependencies:
   theme:
     - bearded
 id: bearded_local_actions
 theme: bearded
-region: '-1'
-weight: 1
+region: highlighted
+weight: -12
 provider: null
 plugin: local_actions_block
 settings:

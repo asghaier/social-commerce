@@ -1,5 +1,6 @@
+uuid: 962c626f-4217-445a-84cc-c66b92c9df58
 langcode: en
-status: false
+status: true
 dependencies:
   config:
     - views.view.latest_products
@@ -8,10 +9,12 @@ dependencies:
     - views
   theme:
     - bearded
+_core:
+  default_config_hash: fCMnbKcuN2-oi_yD1hF6qp_5UG-Adq96spzZxlErEXg
 id: views_block__latest_products_block_1
 theme: bearded
-region: '-1'
-weight: -9
+region: sidebar
+weight: -13
 provider: null
 plugin: 'views_block:latest_products-block_1'
 settings:

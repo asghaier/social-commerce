@@ -1,5 +1,5 @@
 langcode: en
-status: false
+status: true
 dependencies:
   module:
     - system
@@ -7,8 +7,8 @@ dependencies:
     - bearded
 id: bearded_messages
 theme: bearded
-region: '-1'
-weight: 3
+region: highlighted
+weight: -14
 provider: null
 plugin: system_messages_block
 settings:

@@ -1,5 +1,6 @@
+uuid: 66b94e5d-4191-4220-aba2-ed6c054a2c0e
 langcode: en
-status: false
+status: true
 dependencies:
   config:
     - views.view.product_category
@@ -8,10 +9,12 @@ dependencies:
     - views
   theme:
     - bearded
+_core:
+  default_config_hash: 81FzLgmph-4kT2nYHxBOfDYFTVnx_eQdXYL-ndFT5GU
 id: views_block__product_category_block_1
 theme: bearded
-region: '-1'
-weight: -10
+region: sidebar
+weight: -14
 provider: null
 plugin: 'views_block:product_category-block_1'
 settings:

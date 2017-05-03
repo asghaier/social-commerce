@@ -1,14 +1,20 @@
+uuid: 949e53dd-0cc7-47e3-b2ff-349c5645262b
 langcode: en
-status: false
+status: true
 dependencies:
+  config:
+    - views.view.slideshow
   module:
     - system
+    - views
   theme:
     - bearded
+_core:
+  default_config_hash: PY0IkAvo6W1zqcYjZCHlqTxoJjPLjOI7KZrFZW_aE_Y
 id: views_block__slideshow_block_1
 theme: bearded
-region: '-1'
-weight: 0
+region: header
+weight: -14
 provider: null
 plugin: 'views_block:slideshow-block_1'
 settings:
