@@ -1,9 +1,6 @@
-uuid: 962c626f-4217-445a-84cc-c66b92c9df58
 langcode: en
 status: true
 dependencies:
-  config:
-    - views.view.latest_products
   module:
     - system
     - views

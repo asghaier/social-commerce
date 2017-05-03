@@ -1,16 +1,11 @@
-uuid: ddfe89b7-ded3-4361-b77e-701f0003ca66
 langcode: en
 status: true
 dependencies:
-  config:
-    - views.view.random_products
   module:
     - system
     - views
   theme:
     - bearded
-_core:
-  default_config_hash: 2cnj08_19LvSzexLecmF_tgAKxs8lR4-ecOaH1c0ArM
 id: views_block__random_products_block_1
 theme: bearded
 region: content
