@@ -1,11 +1,8 @@
 langcode: en
 status: false
 dependencies:
-  config:
-    - views.view.slideshow
   module:
     - system
-    - views
   theme:
     - bearded
 id: views_block__slideshow_block_1
