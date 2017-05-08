@@ -3282,19 +3282,20 @@ footer .region-footer-second #block-socialmedialinks .fa-2x { font-size: inherit
 
 footer .region-footer-second #block-copyrightcopyright { font-size: 0.75em; }
 
+/* services.scss */
 .view-services { text-align: center; margin-top: 40px; }
 
 .view-services h2 { font-size: 23px; font-weight: 600; margin-bottom: 20px; text-transform: capitalize; }
 
 .view-services .fa { background: #1abc9c; font-size: 38px; padding-top: 30px; color: #fff; width: 99px; height: 99px; line-height: 1; border-radius: 50%; position: relative; margin-bottom: 29px; }
 
-.region-clients { text-align: center; padding: 60px 20px 60px; }
+/* clients.scss */
+.view-clients { text-align: center; padding: 60px 20px 60px; }
 
-.region-clients h2 { margin-bottom: 29px; font-size: 1.5em; letter-spacing: -1px; line-height: 1.4; text-align: center; margin-bottom: 1.25em; }
+.view-clients h2 { font-size: 1.5em; letter-spacing: -1px; line-height: 1.4; text-align: center; margin-bottom: 1.25em; }
 
-@media (max-width: 992px) { .region-clients { padding: 20px 20px 20px; }
-  .region-clients .views-row { margin-bottom: 40px; }
-  .region-clients .views-row .img-responsive { display: inline-block; } }
+@media (max-width: 992px) { .view-clients { padding: 20px 20px 20px; }
+  .view-clients .img-responsive { display: inline-block; margin-bottom: 40px; } }
 
 .products .region-products { padding: 60px 20px 60px; }
 

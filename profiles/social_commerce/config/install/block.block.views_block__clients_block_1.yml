@@ -1,3 +1,4 @@
+uuid: 59e0464d-e973-4b35-bfb5-c4f7e6081f61
 langcode: en
 status: true
 dependencies:
@@ -8,10 +9,12 @@ dependencies:
     - views
   theme:
     - bearded
+_core:
+  default_config_hash: mQ9x7q_WDsMLYPCxDnAhBy-4ecZRS9JUbGgO8V2abfI
 id: views_block__clients_block_1
 theme: bearded
 region: content
-weight: -12
+weight: -11
 provider: null
 plugin: 'views_block:clients-block_1'
 settings:
