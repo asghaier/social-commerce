@@ -1,10 +1,10 @@
-uuid: 48dd5b1c-f338-4820-9bd6-f413a5cf0d94
 langcode: en
 status: true
 dependencies:
   config:
     - views.view.services
   module:
+    - system
     - views
   theme:
     - bearded
@@ -21,4 +21,9 @@ settings:
   label_display: '0'
   views_label: ''
   items_per_page: none
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

@@ -10,8 +10,6 @@ dependencies:
     - link
     - node
     - user
-_core:
-  default_config_hash: Ah8mr36MCvk5gFYm0Gra1I0Sg7rNn7ek5dbx4aeGzIQ
 id: clients
 label: clients
 module: views
@@ -58,15 +56,20 @@ display:
           items_per_page: 4
           offset: 0
       style:
-        type: default
+        type: grid
         options:
           grouping: {  }
-          row_class: 'col-xs-12 col-sm-6 col-md-3 col-lg-3'
-          default_row_class: true
+          columns: 4
+          automatic_width: false
+          alignment: horizontal
+          col_class_default: false
+          col_class_custom: col-sm-3
+          row_class_default: false
+          row_class_custom: row
       row:
         type: fields
         options:
-          default_field_elements: true
+          default_field_elements: false
           inline: {  }
           separator: ''
           hide_empty: false

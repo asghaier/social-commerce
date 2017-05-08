@@ -1,28 +1,22 @@
-.services {
+.view-services {
     text-align: center;
-    //padding: 60px 0 40px;
-}
-.services .fa {
-    background: #1abc9c;
-    font-size: 38px;
-    padding: 33px 0 0 10px;
-    color: #fff;
-    width: 99px;
-    height: 99px;
-    line-height: 1;
-    border-radius: 50%;
-    position: relative;
-    margin-bottom: 29px;
-}    
-.services h2 {
-    font-size: 23px;
-    font-weight: 600;
-    margin-bottom: 15px;
-    text-transform: capitalize;
-}
-
-@media (max-width: 992px) {
-    .services .item {
-        margin-bottom: 40px;
+    margin-top: 40px;
+    h2 {
+        font-size: 23px;
+        font-weight: 600;
+        margin-bottom: 20px;
+        text-transform: capitalize;
+    }
+    .fa {
+        background: $theme-color;
+        font-size: 38px;
+        padding-top: 30px;
+        color: #fff;
+        width: 99px;
+        height: 99px;
+        line-height: 1;
+        border-radius: 50%;
+        position: relative;
+        margin-bottom: 29px;
     }
 }

@@ -1,3 +1,10 @@
+/* navbar.scss */
+.navbar-header {
+  @media (min-width: $small) {
+    float: left;
+  }
+}
+
 .navbar {
   display: block;
   padding: 3em 0 0 0;
