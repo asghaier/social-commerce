@@ -6,3 +6,24 @@
 
 // Base-theme overrides.
 @import 'overrides';
+
+@import "layout/layout";
+@import "layout/header";
+@import "layout/navbar";
+@import "layout/banner";
+@import "layout/sidebar";
+@import "layout/footer";
+
+@import "pages/services";
+@import "pages/clients";
+@import "pages/random-products";
+@import "pages/shop";
+@import "pages/register";
+@import "pages/shopping-cart";
+@import "pages/product-details";
+
+// jQuery UI style overrides.
+@import "jquery-ui/autocomplete";
+
+// to refactor asap
+@import "shame";
