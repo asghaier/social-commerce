@@ -3238,7 +3238,7 @@ html .main-container .row .banner.container .region-banner .block-block-content 
 
 .block-views-blocklatest-products-block-1 .views-row a { color: #1abc9c; }
 
-footer { font-size: 16px; background: #27313d; color: #9eadbe; margin-bottom: 2.857em; padding-bottom: 4.285714285714286em; }
+footer { font-size: 16px; background: #27313d; color: #9eadbe; margin-bottom: 2.857em; }
 
 footer:before, footer:after { content: " "; display: table; }
 
@@ -3256,9 +3256,9 @@ footer .region-footer-first-left:before, footer .region-footer-first-left:after,
 
 footer .region-footer-first-left:after, footer .region-footer-first-right:after { clear: both; }
 
-footer .region-footer-first-left .block, footer .region-footer-first-right .block { font-size: 0.875em; padding: 0 17px 0 17px; float: left; display: inline-block; }
+footer .region-footer-first-left .block, footer .region-footer-first-right .block { font-size: 0.875em; padding: 0 17px 0 17px; }
 
-footer .region-footer-first-left .block h2, footer .region-footer-first-right .block h2 { color: #fff; margin: 2.75em 0 0 0; font-size: 1.28571em; padding-left: 18px; margin-bottom: 1.5625em; position: relative; line-height: 1.4; }
+footer .region-footer-first-left .block h2, footer .region-footer-first-right .block h2 { color: #fff; margin: 2.75em 0 0 0; margin-bottom: 1.5625em; }
 
 footer .region-footer-first-left .block h2:before, footer .region-footer-first-right .block h2:before { content: ""; width: 9px; border-left: 3px solid #cccccc; border-right: 3px solid #cccccc; height: 9px; position: absolute; margin-top: -3px; margin-right: 9px; top: 50%; left: 0; }
 
@@ -3266,7 +3266,7 @@ footer .region-footer-first-left .block h2:after, footer .region-footer-first-ri
 
 footer .region-footer-second { clear: both; border-top: 5px solid rgba(255, 255, 255, 0.1); text-align: center; max-width: 67.5em; margin: 0 auto; }
 
-footer .region-footer-second #block-socialmedialinks { list-style: none; padding-top: 2.5em; margin-bottom: 1.5625em; font-size: 16px; }
+footer .region-footer-second #block-socialmedialinks { padding-top: 2.5em; margin-bottom: 1.5625em; }
 
 footer .region-footer-second #block-socialmedialinks li { display: inline-block; list-style: none; }
 
@@ -3276,7 +3276,7 @@ footer .region-footer-second #block-socialmedialinks li a:hover { background: #1
 
 footer .region-footer-second #block-socialmedialinks .fa-2x { font-size: inherit; }
 
-footer .region-footer-second #block-copyrightcopyright { margin-bottom: 0; font-size: 0.75em; }
+footer .region-footer-second #block-copyrightcopyright { font-size: 0.75em; }
 
 .services { text-align: center; }
 

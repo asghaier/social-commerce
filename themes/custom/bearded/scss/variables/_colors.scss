@@ -1,8 +1,16 @@
-$orange: #27313d;
 $green: #1abc9c;
 $blue: #27313d;
-
+$grey-blue: #9eadbe;
+$darker-blue: #1b222b;
+// Global
 $theme-color: $green;
+$background-color: #f3f3f3;
+
+// Main
 $body-font-color: $blue;
 $body-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-$background-color: #f3f3f3;
+
+// Footer
+$footer-font-color: $grey-blue;
+$footer-background-color: $blue;
+$footer-social-links-color: $darker-blue;
