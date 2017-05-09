@@ -1,8 +1,9 @@
+/*deprecated random-products : shame */
 .products .region-products {
-    padding: 60px 20px 60px;
+    padding: 160px 20px 60px;
 }
 .products .region-products h2{
-    font-size: 23px;
+    font-size: 123px;
     font-weight: bold;
     overflow: hidden;
     position: relative;
@@ -12,7 +13,7 @@
 }
 .products .region-products .block-title:before {
     content: "";
-    width: 9px;
+    width: 19px;
     border-left: 3px solid #ccc;
     border-right: 3px solid #ccc;
     height: 9px;
@@ -27,10 +28,10 @@
     content: "";
     float: right;
     margin-left: 12px;
-    height: 7px;
+    height: 117px;
     width: 100%;
     position: absolute;
-    top: 50%;
+    top: 10%;
     margin-top: -2px;
 }
 .products .region-products .views-field-title {
@@ -105,3 +106,4 @@
         padding: 20px 20px 20px;
     }
 }
+

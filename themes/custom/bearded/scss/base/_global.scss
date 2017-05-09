@@ -32,3 +32,12 @@ pre {
   margin: 1.5em;
   padding: 1.25em;
 }
+
+
+/* layout:global.scss */
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1160px;
+  }
+}

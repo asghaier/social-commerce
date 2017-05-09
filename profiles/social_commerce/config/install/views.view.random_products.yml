@@ -2,6 +2,8 @@ langcode: en
 status: true
 dependencies:
   config:
+    - commerce_product.commerce_product_type.demo_product_type
+    - field.storage.commerce_product.field_product_category
     - field.storage.commerce_product.variations
     - field.storage.commerce_product_variation.field_product_variation_image
     - image.style.medium
@@ -56,13 +58,23 @@ display:
           items_per_page: 4
           offset: 0
       style:
-        type: default
+        type: grid
         options:
           grouping: {  }
-          row_class: 'col-xs-12 col-sm-6 col-md-3 col-lg-3'
-          default_row_class: true
+          columns: 4
+          automatic_width: false
+          alignment: horizontal
+          col_class_default: false
+          col_class_custom: 'product-item col-sm-6 col-md-3'
+          row_class_default: false
+          row_class_custom: row
       row:
         type: fields
+        options:
+          default_field_elements: false
+          inline: {  }
+          separator: ''
+          hide_empty: false
       fields:
         field_product_variation_image:
           id: field_product_variation_image
@@ -100,14 +112,14 @@ display:
             trim: false
             preserve_tags: ''
             html: false
-          element_type: ''
-          element_class: ''
+          element_type: div
+          element_class: product-image
           element_label_type: ''
           element_label_class: ''
           element_label_colon: false
           element_wrapper_type: ''
           element_wrapper_class: ''
-          element_default_classes: true
+          element_default_classes: false
           empty: ''
           hide_empty: false
           empty_zero: false
@@ -231,14 +243,14 @@ display:
             trim: false
             preserve_tags: ''
             html: true
-          element_type: ''
+          element_type: h3
           element_class: ''
           element_label_type: ''
           element_label_class: ''
           element_label_colon: false
           element_wrapper_type: ''
           element_wrapper_class: ''
-          element_default_classes: true
+          element_default_classes: false
           empty: ''
           hide_empty: false
           empty_zero: false
@@ -296,14 +308,14 @@ display:
             trim: false
             preserve_tags: ''
             html: false
-          element_type: ''
-          element_class: ''
+          element_type: div
+          element_class: product-price
           element_label_type: ''
           element_label_class: ''
           element_label_colon: false
           element_wrapper_type: ''
           element_wrapper_class: ''
-          element_default_classes: true
+          element_default_classes: false
           empty: ''
           hide_empty: false
           empty_zero: false
@@ -362,14 +374,14 @@ display:
             trim: false
             preserve_tags: ''
             html: false
-          element_type: ''
-          element_class: ''
+          element_type: div
+          element_class: product-category
           element_label_type: ''
           element_label_class: ''
           element_label_colon: false
           element_wrapper_type: ''
           element_wrapper_class: ''
-          element_default_classes: true
+          element_default_classes: false
           empty: ''
           hide_empty: false
           empty_zero: false
