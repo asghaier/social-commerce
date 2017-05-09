@@ -11,7 +11,7 @@ dependencies:
 id: whychooseus
 theme: bearded
 region: '-1'
-weight: -3
+weight: -9
 provider: null
 plugin: 'block_content:21482cda-b114-443d-a3d8-735e3f2c702d'
 settings:

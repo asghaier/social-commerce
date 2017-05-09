@@ -1,3 +1,4 @@
+uuid: 4f2464b8-dee2-4eff-ad4e-c1fef2125300
 langcode: en
 status: false
 dependencies:
@@ -5,10 +6,12 @@ dependencies:
     - search
   theme:
     - bearded
+_core:
+  default_config_hash: CH0KVfFnXWcWbI5Vjshmkdo-nDqy3XOTpGb6zxLR1HA
 id: bearded_search
 theme: bearded
 region: '-1'
-weight: -12
+weight: -13
 provider: null
 plugin: search_form_block
 settings:

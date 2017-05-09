@@ -1,3 +1,4 @@
+uuid: 66f1ebce-f8cd-4591-afd4-899af11611a7
 langcode: en
 status: false
 dependencies:
@@ -7,10 +8,12 @@ dependencies:
     - system
   theme:
     - bearded
+_core:
+  default_config_hash: rIbKjm4XPTJTU7G9GJXIUBZLWJ4r5nhur22XhxJLP1I
 id: bearded_main_menu
 theme: bearded
 region: '-1'
-weight: -11
+weight: -14
 provider: null
 plugin: 'system_menu_block:main'
 settings:
