@@ -80,12 +80,12 @@
           $('.menu-items').addClass("active");
         }
       });
-      var navbarpos = $('.l-region--navigation').offset();
+      var navbarpos = $('.region-navigation-collapsible').offset();
       $(window).scroll(function(){
         if($(window).scrollTop() > navbarpos.top){
-          $('.l-region--navigation').addClass("navbar-sticky");
+          $('.region-navigation-collapsible').addClass("navbar-sticky");
         } else {
-          $('.l-region--navigation').removeClass("navbar-sticky");
+          $('.region-navigation-collapsible').removeClass("navbar-sticky");
         }
       });
     }
