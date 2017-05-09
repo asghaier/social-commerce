@@ -49,7 +49,9 @@
                             {% set title %}
                                 <span>{{ item.title }}</span>
                             {% endset %}
-                            {% if item.title == 'My account'  %}
+                            {% if item.title == 'Home'  %}
+                                {% set link_classes = "fa fa-home" %}
+                            {% elseif item.title == 'My account'  %}
                                 {% set link_classes = "fa fa-user" %}
                             {% elseif item.title == 'Password' %}
                                 {% set link_classes = "fa fa-key" %}
