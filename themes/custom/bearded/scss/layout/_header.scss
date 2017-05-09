@@ -425,9 +425,15 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     .block--views-shopping-cart-block {
       float: right;
     }
-    #block-bearded-account-menu ul.menu>li.first>a.is-active{
-      border-top-left-radius: 0px;
-      border-bottom-left-radius: 0px;
+    #block-bearded-account-menu ul.menu>li{
+      &.first>a.is-active{
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+      }
+      &.last>a.is-active {
+      border-top-right-radius: 0px;
+      border-bottom-right-radius: 0px;
+      }
     }
     ul {
       -webkit-border-radius: 0;
