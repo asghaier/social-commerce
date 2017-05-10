@@ -10,3 +10,10 @@ function bearded_preprocess_block(&$variables) {
   //Change site logo to PNG.
   $variables['site_logo'] = str_replace('.svg', '.png', $variables['content']['site_logo']['#uri']);
 }
+
+function bearded_preprocess_menu(&$variables) {
+	if (! \Drupal::currentUser()->isAnonymous()) {
+		//hide new aacount menu item
+		unset($variables['items']['menu_link_content:c5f495a7-3c57-4820-90d8-c1a85437ba72']);
+	}
+}
