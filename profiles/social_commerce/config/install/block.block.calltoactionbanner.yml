@@ -1,5 +1,6 @@
+uuid: 91a17e36-a15e-42d9-b59b-5310a8f747d3
 langcode: en
-status: true
+status: false
 dependencies:
   content:
     - 'block_content:basic:2e5a5e85-47d9-4cac-ba46-bf404e4ab1bc'
@@ -8,10 +9,12 @@ dependencies:
     - system
   theme:
     - bearded
+_core:
+  default_config_hash: 2k5KQSE0O_5H3-5t1wkQOBv__bxpVHGRWVAwUkGDr-0
 id: calltoactionbanner
 theme: bearded
-region: banner
-weight: 0
+region: '-1'
+weight: -8
 provider: null
 plugin: 'block_content:2e5a5e85-47d9-4cac-ba46-bf404e4ab1bc'
 settings:

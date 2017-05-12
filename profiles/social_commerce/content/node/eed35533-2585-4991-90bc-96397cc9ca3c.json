@@ -1,0 +1,150 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/node\/15?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/service"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/service\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/service\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": "15"
+        }
+    ],
+    "uuid": [
+        {
+            "value": "eed35533-2585-4991-90bc-96397cc9ca3c"
+        }
+    ],
+    "vid": [
+        {
+            "value": "15"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "service"
+        }
+    ],
+    "title": [
+        {
+            "value": "What we do ?",
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/service\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "fd4ee914-9df1-4bb4-9bdb-6447a98d611c"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/service\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "fd4ee914-9df1-4bb4-9bdb-6447a98d611c"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "1493928648",
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": "1493928726",
+            "lang": "en"
+        }
+    ],
+    "promote": [
+        {
+            "value": "0",
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": "0",
+            "lang": "en"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "1493928726"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est enim effectrix multarum et magnarum voluptatum. Huius, Lyco, oratione locuples, rebus ipsis ielunior. Duo Reges: constructio interrete. Tubulum fuisse, qua illum, cuius is condemnatus est rogatione, P. Quid turpius quam sapientis vitam ex insipientium sermone pendere? Traditur, inquit, ab Epicuro ratio neglegendi doloris.&nbsp;<strong>Non quam nostram quidem, inquit Pomponius iocans;<\/strong>&nbsp;An hoc usque quaque, aliter in vita?&nbsp;<strong>Qui convenit?<\/strong>Expectoque quid ad id, quod quaerebam, respondeas.<\/p>\r\n\r\n<p>Addidisti ad extremum etiam indoctum fuisse. Idemque diviserunt naturam hominis in animum et corpus. Sine ea igitur iucunde negat posse se vivere? Quonam modo? Quasi ego id curem, quid ille aiat aut neget. Ita fit cum gravior, tum etiam splendidior oratio.<\/p>\r\n\r\n<p>Sed vos squalidius, illorum vides quam niteat oratio. Indicant pueri, in quibus ut in speculis natura cernitur. Atqui iste locus est, Piso, tibi etiam atque etiam confirmandus, inquam; Ergo id est convenienter naturae vivere, a natura discedere.<\/p>\r\n",
+            "format": "basic_html",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "field_awesome_icon_class": [
+        {
+            "value": "fa fa-briefcase"
+        }
+    ]
+}

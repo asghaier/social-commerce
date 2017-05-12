@@ -10,8 +10,8 @@ dependencies:
     - bearded
 id: googlemaps
 theme: bearded
-region: sidebar_second
-weight: 0
+region: sidebar
+weight: -11
 provider: null
 plugin: 'block_content:bf17ab4b-532a-4ba1-86f7-98d8c8fc1d6b'
 settings:

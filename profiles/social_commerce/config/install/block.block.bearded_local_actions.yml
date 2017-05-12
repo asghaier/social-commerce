@@ -3,12 +3,10 @@ status: true
 dependencies:
   theme:
     - bearded
-_core:
-  default_config_hash: 2Z00kZncrcyKsrLcOVzTkVOQZgGMxa7YC6fF7CQ9RMA
 id: bearded_local_actions
 theme: bearded
-region: header
-weight: -3
+region: highlighted
+weight: -12
 provider: null
 plugin: local_actions_block
 settings:
