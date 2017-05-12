@@ -1,10 +1,59 @@
 /* Random products */
-
 .view-random-products {
+  padding: 0 20px;
+  font-size:1em;
+  .product-item {
+    .product-image img {
+      width:100%;
+    }
+    .commerce-variation-add-to-cart {
+      background-color: $body-font-color;
 
-  background-color: blue;
+      input[type=submit] {
+        font-size: 14px;
+        color: #fff;
+        line-height: 1.14286;
+        text-indent: 20px;
+        padding: 1em 1.2em;
+        background-color: transparent;
+        background-image: url(../images/cart.png);
+        background-repeat: no-repeat;
+        border: 0;
+        &:hover {
+          color: $theme-color;
+          cursor: pointer;
+          background-image: url(../images/cart-hover.png);
+        }
+      }
+    }
+    .product-info {
+      padding:15px 0 5px 0;
+      line-height: 1.4;
 
+      .product-title {
+        font-size: initial;
+        a {
+          color: $body-font-color;
+          &:hover {
+            color: $theme-color;
+          }
+        }
+      }
+      .product-price {
+        font-weight:bold;
+        font-size:1.14em;
+      }
+    }
+    .product-category {
+      text-align: right;
 
+    }
+
+    @media (max-width: $screen-md-min) {
+      margin-bottom: 40px;
+
+    }
+  }
 
 }
 
