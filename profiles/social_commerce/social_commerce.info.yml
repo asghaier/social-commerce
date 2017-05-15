@@ -13,58 +13,21 @@ core: 8.x
 # version: VERSION
 # core: 8.x
 dependencies:
-  - node
+  - address
+  - admin_toolbar
+  - admin_toolbar_tools
   - automated_cron
-  - menu_link_content
-  - menu_link_attributes
-  - history
   - block
   - block_content
   - breakpoint
-  - color
-  - config
-  - comment
-  - contextual
-  - contact
-  - default_content
-  - entityblock
-  - flexslider
-  - quickedit
-  - help
-  - image
-  - system
-  - options
-  - path
-  - taxonomy
-  - dblog
-  - search
-  - shortcut
-  - toolbar
-  - field
-  - field_ui
-  - file
-  - file_entity
-  - filter
-  - dynamic_page_cache
-  - page_cache
-  - menu_ui
-  - rdf
-  - tour
-  - views
-  - views_ui
-  - views_slideshow
-  - views_slideshow_cycle
-  - editor
-  - update
-  - user
   - ckeditor
-  - admin_toolbar
-  - admin_toolbar_tools
+  - color
+  - comment
   - commerce
   - commerce_cart
   - commerce_checkout
-  - commerce_order
   - commerce_log
+  - commerce_order
   - commerce_payment
   - commerce_payment_example
   - commerce_price
@@ -72,25 +35,63 @@ dependencies:
   - commerce_promotion
   - commerce_store
   - commerce_variation_add_to_cart
+  - config
+  - contact
+  - contextual
+  - datetime
+  - dblog
+  - default_content
   - devel
   - devel_generate
-  - inline_entity_form
-  - address
-  - datetime
+  - dynamic_page_cache
+  - easy_breadcrumb
+  - editor
+  - entity
   - entity_reference_revisions
+  - entityblock
+  - field
+  - field_ui
   - file
+  - file
+  - file_entity
+  - filter
+  - flexslider
+  - help
+  - history
+  - image
+  - inline_entity_form
+  - libraries
   - link
+  - menu_link_attributes
+  - menu_link_content
+  - menu_trail_by_path
+  - menu_ui
+  - node
+  - options
+  - page_cache
+  - path
+  - profile
+  - quickedit
+  - rdf
+  - search
+  - shortcut
+  - social_commerce_tests
+  - social_media_links
+  - state_machine
+  - superfish
+  - system
+  - taxonomy
   - text
   - token
-  - entity
-  - profile
-  - state_machine
-  - social_media_links
-  - social_commerce_tests
-  - superfish
-  - easy_breadcrumb
-  - libraries
+  - toolbar
+  - tour
+  - update
+  - user
+  - views
+  - views_slideshow
+  - views_slideshow_cycle
+  - views_ui
 themes:
   - bartik
-  - seven
   - bearded
+  - seven
