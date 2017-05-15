@@ -3091,6 +3091,10 @@ pre { background: none repeat scroll 0 0 #f7f7f8; margin: 1.5em; padding: 1.25em
 
 .region-navigation-collapsible.navbar-sticky .block--views-shopping-cart-block { float: right; }
 
+.region-navigation-collapsible.navbar-sticky #block-bearded-account-menu ul.menu > li.first > a.is-active { border-top-left-radius: 0px; border-bottom-left-radius: 0px; }
+
+.region-navigation-collapsible.navbar-sticky #block-bearded-account-menu ul.menu > li.last > a.is-active { border-top-right-radius: 0px; border-bottom-right-radius: 0px; }
+
 .region-navigation-collapsible.navbar-sticky ul { border-radius: 0; }
 
 .region-navigation-collapsible.navbar-sticky li { border-radius: 0; }
@@ -3435,6 +3439,8 @@ footer .region-footer-second #block-copyrightcopyright { font-size: 0.75em; }
 
 .product-title-price .field--name-price .field--item { float: right; font-size: 1em; font-weight: bold; line-height: 47px; }
 
+@media screen and (max-width: 992px) { .product-title-price { margin-top: 20px; } }
+
 .product-content .btn { font-size: 0.8125em; padding: 0.75em 1.5em 0.8125em 1.5em; }
 
 .product-content .field--name-field-product-category { padding: 20px 0 20px 0; }
@@ -3443,15 +3449,11 @@ footer .region-footer-second #block-copyrightcopyright { font-size: 0.75em; }
 
 .product-content .field--name-field-product-category .field--label::after { content: ":"; }
 
-.product-content .description-label { font-weight: bold; }
-
-.product-content .field--type-text-with-summary { padding: 10px 0 10px 0; }
-
-@media only screen and (max-width: 970px) { .product-title-price { margin-top: 20px; } }
-
-.product-content .description-label { font-size: 0.8125em; color: #fff; background-color: #27313d; padding: 0.75em 1.5em 0.8125em 1.5em; }
+.product-content .description-label { font-weight: bold; font-size: 0.8125em; color: #fff; background-color: #27313d; padding: 0.75em 1.5em 0.8125em 1.5em; }
 
 .product-content .field--name-body { border-top-width: 3px; border-top-color: #27313d; border-top-style: solid; margin-top: 0.7em; }
+
+.product-content .field--type-text-with-summary { padding: 10px 0; }
 
 /** jQuery UI autocomplete widget style overrides. $todo Remove once jQuery UI is no longer used? */
 .ui-autocomplete { background: #fff; background-clip: padding-box; border: 1px solid #ccc; border: 1px solid rgba(0, 0, 0, 0.15); border-radius: 4px; box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175); color: inherit; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 14px; list-style: none; min-width: 160px; padding: 5px 0; text-align: left; z-index: 1000; }
