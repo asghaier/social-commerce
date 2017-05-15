@@ -61,6 +61,16 @@ function CreateMenuItems() {
   }
   // User account Menu
   $menu_link = MenuLinkContent::create([
+        'title' => 'Home',
+        'link' => ['uri' => 'internal:/'],
+        'description' => 'Home',
+        'menu_name' => 'account',
+        'expanded' => TRUE,
+        'weight' => -51,
+  ]);
+  $menu_link->save();
+
+  $menu_link = MenuLinkContent::create([
         'title' => 'Shop',
         'link' => ['uri' => 'internal:/shop'],
         'description' => 'Visit Shop',

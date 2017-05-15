@@ -417,6 +417,16 @@
     .block--views-shopping-cart-block {
       float: right;
     }
+    #block-bearded-account-menu ul.menu>li{
+      &.first>a.is-active{
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+      }
+      &.last>a.is-active {
+      border-top-right-radius: 0px;
+      border-bottom-right-radius: 0px;
+      }
+    }
     ul {
       -webkit-border-radius: 0;
       -moz-border-radius: 0;
