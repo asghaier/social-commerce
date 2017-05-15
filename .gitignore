@@ -52,3 +52,4 @@ themes/custom/*/node_modules
 console/
 nbproject/
 .idea/
+modules/config_partial_export/

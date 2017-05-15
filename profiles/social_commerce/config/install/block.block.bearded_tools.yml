@@ -1,3 +1,4 @@
+uuid: 818df4f2-c0c2-4ecf-9008-a82c9e580031
 langcode: en
 status: false
 dependencies:
@@ -7,10 +8,12 @@ dependencies:
     - system
   theme:
     - bearded
+_core:
+  default_config_hash: Tg_glJRzUCAbjhOeHgHhigTBWt3QNRTW_YLVtt4qXZs
 id: bearded_tools
 theme: bearded
 region: '-1'
-weight: -11
+weight: -12
 provider: null
 plugin: 'system_menu_block:tools'
 settings:

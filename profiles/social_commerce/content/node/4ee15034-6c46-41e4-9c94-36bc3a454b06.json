@@ -1,0 +1,150 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/node\/16?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/service"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/service\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/service\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": "16"
+        }
+    ],
+    "uuid": [
+        {
+            "value": "4ee15034-6c46-41e4-9c94-36bc3a454b06"
+        }
+    ],
+    "vid": [
+        {
+            "value": "16"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "service"
+        }
+    ],
+    "title": [
+        {
+            "value": "Why choose us ?",
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/service\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "fd4ee914-9df1-4bb4-9bdb-6447a98d611c"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/service\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "fd4ee914-9df1-4bb4-9bdb-6447a98d611c"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "1493928732",
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": "1493928787",
+            "lang": "en"
+        }
+    ],
+    "promote": [
+        {
+            "value": "0",
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": "0",
+            "lang": "en"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "1493928787"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.&nbsp;<em>Quid autem habent admirationis, cum prope accesseris?<\/em>&nbsp;Nunc de hominis summo bono quaeritur;&nbsp;<strong>Sequitur disserendi ratio cognitioque naturae;<\/strong>&nbsp;Quo tandem modo? Eaedem res maneant alio modo. Ratio enim nostra consentit, pugnat oratio. Duo Reges: constructio interrete. Quae diligentissime contra Aristonem dicuntur a Chryippo.<\/p>\r\n\r\n<p><em>Dicimus aliquem hilare vivere;<\/em>&nbsp;Sed nimis multa.&nbsp;Bestiarum vero nullum iudicium puto. In eo enim positum est id, quod dicimus esse expetendum.&nbsp;<strong>Quamquam te quidem video minime esse deterritum.<\/strong>&nbsp;Callipho ad virtutem nihil adiunxit nisi voluptatem, Diodorus vacuitatem doloris. Sit hoc ultimum bonorum, quod nunc a me defenditur; Consequens enim est et post oritur, ut dixi.<\/p>\r\n\r\n<blockquote cite=\"http:\/\/loripsum.net\/\">Quid enim necesse est, tamquam meretricem in matronarum coetum, sic voluptatem in virtutum concilium adducere?<\/blockquote>\r\n\r\n<ol>\r\n\t<li>Egone quaeris, inquit, quid sentiam?<\/li>\r\n\t<li>Non enim solum Torquatus dixit quid sentiret, sed etiam cur.<\/li>\r\n\t<li>Habent enim et bene longam et satis litigiosam disputationem.<\/li>\r\n\t<li>Satisne ergo pudori consulat, si quis sine teste libidini pareat?<\/li>\r\n<\/ol>\r\n\r\n<p>Rhetorice igitur, inquam, nos mavis quam dialectice disputare? Qui autem de summo bono dissentit de tota philosophiae ratione dissentit. Praeteritis, inquit, gaudeo. Sed plane dicit quod intellegit. Si alia sentit, inquam, alia loquitur, numquam intellegam quid sentiat; Videamus animi partes, quarum est conspectus illustrior;<\/p>\r\n",
+            "format": "basic_html",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "field_awesome_icon_class": [
+        {
+            "value": "fa fa-check"
+        }
+    ]
+}

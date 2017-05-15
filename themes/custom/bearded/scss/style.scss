@@ -6,3 +6,23 @@
 
 // Base-theme overrides.
 @import 'overrides';
+
+/* ============================================= */
+/* ============= Bearded Theme ================= */
+
+@import "layout/header";
+@import "layout/sidebar";
+@import "layout/footer";
+
+@import "pages/frontpage";
+
+@import "pages/shop";
+@import "pages/register";
+@import "pages/shopping-cart";
+@import "pages/product-details";
+
+// jQuery UI style overrides.
+@import "jquery-ui/autocomplete";
+
+// to refactor asap
+@import "shame";

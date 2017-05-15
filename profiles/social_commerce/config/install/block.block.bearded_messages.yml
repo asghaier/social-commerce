@@ -5,12 +5,10 @@ dependencies:
     - system
   theme:
     - bearded
-_core:
-  default_config_hash: GfAtPxIOBX6fC-qUtzQ2W85UQIv3I95pz9o50NHa32A
 id: bearded_messages
 theme: bearded
-region: header
-weight: -6
+region: highlighted
+weight: -14
 provider: null
 plugin: system_messages_block
 settings:

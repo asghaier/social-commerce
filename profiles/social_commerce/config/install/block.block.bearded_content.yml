@@ -5,12 +5,10 @@ dependencies:
     - system
   theme:
     - bearded
-_core:
-  default_config_hash: iNcgQEycM0DHFSDCl_nmf7IcVXmK-ISOBvfGnAW2W8A
 id: bearded_content
 theme: bearded
 region: content
-weight: -6
+weight: -14
 provider: null
 plugin: system_main_block
 settings:

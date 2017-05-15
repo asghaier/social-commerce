@@ -1,5 +1,5 @@
 langcode: en
-status: true
+status: false
 dependencies:
   content:
     - 'block_content:basic:c6e2a05e-ea9c-4459-994c-6e5621feb880'
@@ -8,12 +8,10 @@ dependencies:
     - system
   theme:
     - bearded
-_core:
-  default_config_hash: EJ5iU3s22L6eIcnMCbLn38vWDZ5ebh8FmNw3j8UgSo8
 id: whoweare
 theme: bearded
-region: topwidget_second
-weight: 0
+region: '-1'
+weight: -10
 provider: null
 plugin: 'block_content:c6e2a05e-ea9c-4459-994c-6e5621feb880'
 settings:

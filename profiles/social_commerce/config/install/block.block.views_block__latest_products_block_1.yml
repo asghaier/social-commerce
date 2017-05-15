@@ -1,3 +1,4 @@
+uuid: 9a19c0d7-98d6-441c-8204-72144eadad80
 langcode: en
 status: true
 dependencies:
@@ -6,10 +7,14 @@ dependencies:
   module:
     - system
     - views
+  theme:
+    - bearded
+_core:
+  default_config_hash: FCG9s7tw8WdlkKR5jJBz8oJ2bdkZ8Z6uhr14bBt_nCM
 id: views_block__latest_products_block_1
 theme: bearded
-region: sidebar_second
-weight: -11
+region: sidebar
+weight: -13
 provider: null
 plugin: 'views_block:latest_products-block_1'
 settings:

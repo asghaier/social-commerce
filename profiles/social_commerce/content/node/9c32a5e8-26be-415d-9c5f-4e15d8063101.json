@@ -136,7 +136,7 @@
     ],
     "body": [
         {
-            "value": "<h1>Call to Action Banner<\/h1>\r\n<p>Download This theme It\u2019s 100% Free<\/p>",
+            "value": "<p>Download This theme It\u2019s 100% Free<\/p>",
             "format": "full_html",
             "summary": "",
             "lang": "en"
