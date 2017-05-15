@@ -1,7 +1,8 @@
 .products .region-products {
     padding: 60px 20px 60px;
+    font-size: 0.875em;
 }
-.products .region-products h2{
+.products .region-products h2 {
     font-size: 23px;
     font-weight: bold;
     overflow: hidden;
@@ -39,7 +40,7 @@
     float: left;
     line-height: 1.6;
 }
-.products .region-products .views-field-title a{
+.products .region-products .views-field-title a {
     color: #27313d;
 }
 .products .region-products .views-field-title a:hover,
@@ -61,10 +62,10 @@
     font-size: 0.928571em;
     line-height: 1.6;
 }
-.products .region-products .views-field-field-product-category a{
+.products .region-products .views-field-field-product-category a {
     color: #656565;
 }
-.products .region-products .views-field-field-product-category a:hover{
+.products .region-products .views-field-field-product-category a:hover {
     color: #27313d;
     text-decoration: none;
 }
@@ -72,7 +73,7 @@
     margin-bottom: 0.714286em;
     background-color: #27313d;
 }
-.products .region-products .commerce-variation-add-to-cart-form .form-submit{
+.products .region-products .commerce-variation-add-to-cart-form .form-submit {
     font-family: $body-font-family;
     font-size: 14px;
     color: #fff;
@@ -89,7 +90,7 @@
     border: 0;
     outline: medium none;
 }
-.products .region-products .commerce-variation-add-to-cart-form .form-submit:hover{
+.products .region-products .commerce-variation-add-to-cart-form .form-submit:hover {
     color: #1abc9c;
     cursor: pointer;
     background-image: url(../images/cart-hover.png);
