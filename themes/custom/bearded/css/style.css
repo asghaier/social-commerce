@@ -3428,7 +3428,7 @@ footer .region-footer-second #block-copyrightcopyright { font-size: 0.75em; }
 
 .view-footer .order-total-line.order-total-line__subtotal { display: none; }
 
-.view-footer .footer-wrapper { position: relative; bottom: 123px; border-bottom: 1px solid lightgray; padding-bottom: 15px; margin-left: 50%; }
+.view-footer .footer-wrapper { position: relative; bottom: 110px; border-bottom: 1px solid lightgray; padding-bottom: 15px; margin-left: 50%; }
 
 /* product-details.scss */
 .product-details .field--name-field-product-variation-image .field--label, .product-details .field--name-price .field--label { display: none; }
