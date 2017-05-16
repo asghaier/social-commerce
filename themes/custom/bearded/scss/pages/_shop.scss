@@ -119,10 +119,10 @@
 }
 // Pagination
 .pager-nav {
+    margin-top: 15px;
     font-size: 0.875em;
     font-weight: bold;
     line-height: 1;
-    padding-top: 2em;
     border-top: 1px solid #eaeaea;
 }
 .pagination>.active>a, .pagination>.active>a:hover, .pagination>.active>a:focus {
@@ -160,4 +160,7 @@
     .view-shop .view-filters .form-item {
         float: left;
     }
+}
+.views-col{
+    padding-bottom: 10px;
 }
