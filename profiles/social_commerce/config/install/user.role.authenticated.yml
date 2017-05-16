@@ -20,3 +20,4 @@ permissions:
   - 'access checkout'
   - 'view files'
   - 'access variation add to cart'
+  - 'change own username'
