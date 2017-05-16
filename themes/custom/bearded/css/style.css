@@ -3400,7 +3400,7 @@ footer .region-footer-second #block-copyrightcopyright { font-size: 0.75em; }
 
 .view-shop .product-item { margin-bottom: 30px; }
 
-.pager-nav { margin-top: 15px; font-size: 0.875em; font-weight: bold; line-height: 1; border-top: 1px solid #eaeaea; }
+.pager-nav { font-size: 0.875em; font-weight: bold; line-height: 1; border-top: 1px solid #eaeaea; }
 
 .pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus { z-index: 3; color: #1abc9c; background-color: transparent; border-color: transparent; border-width: 0; cursor: default; }
 
@@ -3414,7 +3414,7 @@ footer .region-footer-second #block-copyrightcopyright { font-size: 0.75em; }
   .view-shop .view-filters { float: left; width: 100%; }
   .view-shop .view-filters .form-item { float: left; } }
 
-.views-col { padding-bottom: 10px; }
+.views-col { padding-bottom: 20px; }
 
 /* register.scss */
 #edit-contact--2 { height: 1.2341em; }
