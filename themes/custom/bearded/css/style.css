@@ -3455,6 +3455,24 @@ footer .region-footer-second #block-copyrightcopyright { font-size: 0.75em; }
 
 .product-content .field--type-text-with-summary { padding: 10px 0; }
 
+.commerce-checkout-flow .layout-checkout-form .layout-region-checkout-secondary { float: none; width: 100%; }
+
+.commerce-checkout-flow .layout-checkout-form .layout-region-checkout-secondary > h3 { font-size: 2.25em; letter-spacing: -0.056em; }
+
+.commerce-checkout-flow .layout-checkout-form .layout-region-checkout-secondary .view-commerce-checkout-order-summary .view-content .table-responsive thead { font-weight: bold; }
+
+.commerce-checkout-flow .layout-checkout-form .layout-region-checkout-secondary .view-commerce-checkout-order-summary .view-content .table-responsive tbody { border-top: 3px solid #27313d; border-bottom: 3px solid #27313d; }
+
+.commerce-checkout-flow .layout-checkout-form .layout-region-checkout-secondary .view-commerce-checkout-order-summary .view-content .table-responsive .table { margin-bottom: 0px; }
+
+.commerce-checkout-flow .layout-checkout-form .layout-region-checkout-secondary .view-commerce-checkout-order-summary .view-footer .footer-wrapper { padding-left: 0; bottom: 0px; border-bottom: none; width: 100%; margin-left: 0; }
+
+.commerce-checkout-flow .layout-checkout-form .layout-region-checkout-secondary .view-commerce-checkout-order-summary .view-footer .footer-wrapper .order-total-line { padding: 0; }
+
+.commerce-checkout-flow .layout-checkout-form .layout-region-checkout-secondary .view-commerce-checkout-order-summary .view-footer .footer-wrapper .order-total-line-label { background-color: #e7e7e7; text-align: right; padding: 8px; width: 82%; }
+
+.commerce-checkout-flow .layout-checkout-form .layout-region-checkout-secondary .view-commerce-checkout-order-summary .view-footer .footer-wrapper .order-total-line-value { padding-left: 7px; width: 0; }
+
 /** jQuery UI autocomplete widget style overrides. $todo Remove once jQuery UI is no longer used? */
 .ui-autocomplete { background: #fff; background-clip: padding-box; border: 1px solid #ccc; border: 1px solid rgba(0, 0, 0, 0.15); border-radius: 4px; box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175); color: inherit; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 14px; list-style: none; min-width: 160px; padding: 5px 0; text-align: left; z-index: 1000; }
 
