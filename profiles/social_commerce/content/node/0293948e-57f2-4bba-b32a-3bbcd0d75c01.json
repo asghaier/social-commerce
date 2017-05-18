@@ -8,13 +8,13 @@
         },
         "http:\/\/drupal.org\/rest\/relation\/node\/service\/uid": [
             {
-                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "href": "http:\/\/default\/user\/0?_format=hal_json",
                 "lang": "en"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/node\/service\/revision_uid": [
             {
-                "href": "http:\/\/default\/user\/1?_format=hal_json"
+                "href": "http:\/\/default\/user\/0?_format=hal_json"
             }
         ]
     },
@@ -46,7 +46,7 @@
     ],
     "title": [
         {
-            "value": "Who we are ?",
+            "value": "477 505 8877",
             "lang": "en"
         }
     ],
@@ -55,7 +55,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                        "href": "http:\/\/default\/user\/0?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
@@ -63,7 +63,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "fd4ee914-9df1-4bb4-9bdb-6447a98d611c"
+                        "value": "87927e24-2491-42ba-be67-c07c36de9020"
                     }
                 ],
                 "lang": "en"
@@ -73,7 +73,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                        "href": "http:\/\/default\/user\/0?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
@@ -81,7 +81,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "fd4ee914-9df1-4bb4-9bdb-6447a98d611c"
+                        "value": "87927e24-2491-42ba-be67-c07c36de9020"
                     }
                 ]
             }
@@ -101,7 +101,7 @@
     ],
     "changed": [
         {
-            "value": "1493928631",
+            "value": "1495105299",
             "lang": "en"
         }
     ],
@@ -136,7 +136,7 @@
     ],
     "body": [
         {
-            "value": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Si enim ad populum me vocas, eum. Mene ergo et Triarium dignos existimas, apud quos turpiter loquare? Causa autem fuit huc veniendi ut quosdam hinc libros promerem. Ab his oratores, ab his imperatores ac rerum publicarum principes extiterunt. Duo Reges: constructio interrete. Nunc omni virtuti vitium contrario nomine opponitur.&nbsp;<strong>Honesta oratio, Socratica, Platonis etiam.<\/strong>&nbsp;Quis negat?<\/p>\r\n\r\n<p>Nunc omni virtuti vitium contrario nomine opponitur.&nbsp;<em>Quid censes in Latino fore?<\/em>&nbsp;Erat enim Polemonis. Videamus animi partes, quarum est conspectus illustrior; Quae cum magnifice primo dici viderentur, considerata minus probabantur. Sine ea igitur iucunde negat posse se vivere?<\/p>\r\n\r\n<p><strong>Negare non possum.<\/strong>&nbsp;Sic consequentibus vestris sublatis prima tolluntur. Cupit enim d\u00edcere nihil posse ad beatam vitam deesse sapienti. Ubi ut eam caperet aut quando? Hoc sic expositum dissimile est superiori.<\/p>\r\n\r\n<ol>\r\n\t<li>Audax negotium, dicerem impudens, nisi hoc institutum postea translatum ad philosophos nostros esset.<\/li>\r\n\t<li>Quid in isto egregio tuo officio et tanta fide-sic enim existimo-ad corpus refers?<\/li>\r\n\t<li>Nihil minus, contraque illa hereditate dives ob eamque rem laetus.<\/li>\r\n\t<li>Ita enim vivunt quidam, ut eorum vita refellatur oratio.<\/li>\r\n<\/ol>\r\n\r\n<p>&nbsp;<\/p>\r\n",
+            "value": "<p>24\/7 customer support.<\/p>\r\n",
             "format": "basic_html",
             "summary": "",
             "lang": "en"
@@ -144,7 +144,7 @@
     ],
     "field_awesome_icon_class": [
         {
-            "value": "fa fa-drupal"
+            "value": "fa fa-phone"
         }
     ]
 }
