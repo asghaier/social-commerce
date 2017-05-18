@@ -1,0 +1,17 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_cop
+id: demo_payment_gateway
+label: 'Demo payment gateway'
+weight: null
+plugin: offline
+configuration:
+  description: ''
+  information:
+    value: 'This is a demo payment gateway.'
+    format: plain_text
+  mode: test
+  payment_method_types:
+    - offline

@@ -91,6 +91,7 @@ dependencies:
   - views_slideshow
   - views_slideshow_cycle
   - views_ui
+  - commerce_cop
 themes:
   - bartik
   - bearded
