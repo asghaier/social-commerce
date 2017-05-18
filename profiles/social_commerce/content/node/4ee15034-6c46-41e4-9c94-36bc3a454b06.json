@@ -8,13 +8,13 @@
         },
         "http:\/\/drupal.org\/rest\/relation\/node\/service\/uid": [
             {
-                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "href": "http:\/\/default\/user\/0?_format=hal_json",
                 "lang": "en"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/node\/service\/revision_uid": [
             {
-                "href": "http:\/\/default\/user\/1?_format=hal_json"
+                "href": "http:\/\/default\/user\/0?_format=hal_json"
             }
         ]
     },
@@ -46,7 +46,7 @@
     ],
     "title": [
         {
-            "value": "Why choose us ?",
+            "value": "Free Shipping",
             "lang": "en"
         }
     ],
@@ -55,7 +55,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                        "href": "http:\/\/default\/user\/0?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
@@ -63,7 +63,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "fd4ee914-9df1-4bb4-9bdb-6447a98d611c"
+                        "value": "87927e24-2491-42ba-be67-c07c36de9020"
                     }
                 ],
                 "lang": "en"
@@ -73,7 +73,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                        "href": "http:\/\/default\/user\/0?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
@@ -81,7 +81,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "fd4ee914-9df1-4bb4-9bdb-6447a98d611c"
+                        "value": "87927e24-2491-42ba-be67-c07c36de9020"
                     }
                 ]
             }
@@ -101,7 +101,7 @@
     ],
     "changed": [
         {
-            "value": "1493928787",
+            "value": "1495105260",
             "lang": "en"
         }
     ],
@@ -136,7 +136,7 @@
     ],
     "body": [
         {
-            "value": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.&nbsp;<em>Quid autem habent admirationis, cum prope accesseris?<\/em>&nbsp;Nunc de hominis summo bono quaeritur;&nbsp;<strong>Sequitur disserendi ratio cognitioque naturae;<\/strong>&nbsp;Quo tandem modo? Eaedem res maneant alio modo. Ratio enim nostra consentit, pugnat oratio. Duo Reges: constructio interrete. Quae diligentissime contra Aristonem dicuntur a Chryippo.<\/p>\r\n\r\n<p><em>Dicimus aliquem hilare vivere;<\/em>&nbsp;Sed nimis multa.&nbsp;Bestiarum vero nullum iudicium puto. In eo enim positum est id, quod dicimus esse expetendum.&nbsp;<strong>Quamquam te quidem video minime esse deterritum.<\/strong>&nbsp;Callipho ad virtutem nihil adiunxit nisi voluptatem, Diodorus vacuitatem doloris. Sit hoc ultimum bonorum, quod nunc a me defenditur; Consequens enim est et post oritur, ut dixi.<\/p>\r\n\r\n<blockquote cite=\"http:\/\/loripsum.net\/\">Quid enim necesse est, tamquam meretricem in matronarum coetum, sic voluptatem in virtutum concilium adducere?<\/blockquote>\r\n\r\n<ol>\r\n\t<li>Egone quaeris, inquit, quid sentiam?<\/li>\r\n\t<li>Non enim solum Torquatus dixit quid sentiret, sed etiam cur.<\/li>\r\n\t<li>Habent enim et bene longam et satis litigiosam disputationem.<\/li>\r\n\t<li>Satisne ergo pudori consulat, si quis sine teste libidini pareat?<\/li>\r\n<\/ol>\r\n\r\n<p>Rhetorice igitur, inquam, nos mavis quam dialectice disputare? Qui autem de summo bono dissentit de tota philosophiae ratione dissentit. Praeteritis, inquit, gaudeo. Sed plane dicit quod intellegit. Si alia sentit, inquam, alia loquitur, numquam intellegam quid sentiat; Videamus animi partes, quarum est conspectus illustrior;<\/p>\r\n",
+            "value": "<p>Express delivery within 3 days.<\/p>\r\n",
             "format": "basic_html",
             "summary": "",
             "lang": "en"
@@ -144,7 +144,7 @@
     ],
     "field_awesome_icon_class": [
         {
-            "value": "fa fa-check"
+            "value": "fa fa-truck"
         }
     ]
 }
