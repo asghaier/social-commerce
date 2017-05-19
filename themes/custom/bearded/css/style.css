@@ -3271,7 +3271,9 @@ footer .region-footer-second #block-copyrightcopyright { font-size: 0.75em; }
 
 /* ========================================= */
 /* ============= Frontpage ================= */
-.view-id-front_page_slider .flexslider { margin: 0; padding: 0; border: 0; /*************************************************************************** BEGIN: When the slide has an image */ /*************************************************************************** END: When the slide has an image */ }
+.view-id-front_page_slider .flexslider { margin: 0; border: 0; /*************************************************************************** BEGIN: When the slide has an image */ /*************************************************************************** END: When the slide has an image */ }
+
+.view-id-front_page_slider .flexslider ul.slides li .slide-container { background-size: cover; }
 
 .view-id-front_page_slider .flexslider ul.slides li .slide-container .slide-content { text-align: center; padding: 2em 0 0 0; }
 
@@ -3283,16 +3285,16 @@ footer .region-footer-second #block-copyrightcopyright { font-size: 0.75em; }
 
 .view-id-front_page_slider .flexslider ul.slides li .slide-container .slide-content .slide-link a:hover { color: #ffffff; background: none repeat scroll 0 0 #27313d; }
 
-.view-id-front_page_slider .flexslider ul.slides li .slide-container-has-image .slide-image-container { display: block; text-align: center; }
+.view-id-front_page_slider .flexslider ul.slides li .slide-container-has-image .slide-image-container { padding: 35px 0; }
 
-.view-id-front_page_slider .flexslider ul.slides li .slide-container-has-image .slide-image-container img { padding: 2em 0 2em 0; display: inline-block; max-width: 200px; }
+.view-id-front_page_slider .flexslider ul.slides li .slide-container-has-image .slide-image-container img { max-width: 200px; margin: 0 auto; }
 
-@media (min-width: 768px) { .view-id-front_page_slider .flexslider { /*************************************************************************** BEGIN: When the slide has an image */ /*************************************************************************** END: When the slide has an image */ }
+@media (min-width: 992px) { .view-id-front_page_slider .flexslider { /*************************************************************************** BEGIN: When the slide has an image */ /*************************************************************************** END: When the slide has an image */ }
   .view-id-front_page_slider .flexslider ul.slides li .slide-container { min-height: 420px; }
   .view-id-front_page_slider .flexslider ul.slides li .slide-container .slide-content { padding: 7.5em 2em 0 0; }
-  .view-id-front_page_slider .flexslider ul.slides li .slide-container-has-image .slide-content { float: left; display: block; padding: 7.5em 2em 0 0; width: 50%; text-align: right; }
-  .view-id-front_page_slider .flexslider ul.slides li .slide-container-has-image .slide-image-container { display: inline-block; text-align: center; width: 50%; float: right; }
-  .view-id-front_page_slider .flexslider ul.slides li .slide-container-has-image .slide-image-container img { max-width: 350px; } }
+  .view-id-front_page_slider .flexslider ul.slides li .slide-container-has-image .slide-content { text-align: right; }
+  .view-id-front_page_slider .flexslider ul.slides li .slide-container-has-image .slide-image-container { padding-top: 35px; }
+  .view-id-front_page_slider .flexslider ul.slides li .slide-container-has-image .slide-image-container img { max-width: 350px; margin: 0 auto; } }
 
 /* action_banner.scss */
 .view-action-banner { padding: 45px 40px; margin-bottom: 10px; background-color: #27313d; color: #fff; }

@@ -77,15 +77,23 @@
   {{ content.field_slide_background }}
 {% endset %}
 
+{% set scclass = (node.field_slide_image is not empty) ? 'col-md-6' : 'col-md-12'  %}
+
 <div class="slide-container slide-{{ node.id }}{% if node.field_slide_image is not empty %} slide-container-has-image{% else %} slide-container-no-image{% endif %}">
- <div class="slide-content">
-  <h2>{{ label }}</h2>
-  <div class="slide-text">{{ content.body }}</div>
-  <div class="slide-link">{{ content.field_slide_link }}</div>
- </div>
- {% if node.field_slide_image is not empty %}
-  <div class="slide-image-container">
-   {{ content.field_slide_image }}
+ <div class="row">
+  <div class={{ scclass }}>
+   <div class="slide-content">
+    <h2>{{ label }}</h2>
+    <div class="slide-text">{{ content.body }}</div>
+    <div class="slide-link">{{ content.field_slide_link }}</div>
+   </div>
   </div>
-{% endif %}
+   {% if node.field_slide_image is not empty %}
+    <div class="col-md-6">
+     <div class="slide-image-container">
+       {{ content.field_slide_image }}
+     </div>
+    </div>
+   {% endif %}
+ </div>
 </div>
