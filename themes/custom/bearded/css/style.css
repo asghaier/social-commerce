@@ -2783,6 +2783,14 @@ table .checkbox.form-no-label, table .radio.form-no-label { margin-bottom: 0; ma
 
 .form-actions .btn-group .btn { margin-right: 0; }
 
+.form-wrapper .btn, .form-wrapper .btn-group { margin-right: 10px; }
+
+.form-wrapper .btn-group .btn { margin-right: 0; }
+
+.form-wrapper > .panel-body > p { margin: 0 0 15px 0; }
+
+.form-wrapper .input-group { display: inline; }
+
 fieldset legend { display: block; width: 100%; padding: 0; margin-bottom: 20px; font-size: 21px; line-height: inherit; color: #333; border: 0; border-bottom: 1px solid #e5e5e5; }
 
 /** Icon styles. */
