@@ -5,7 +5,7 @@
     ul.slides li .slide-container {
 
       background-size:cover;
-
+      height: 100%;
       .slide-content {
         text-align: center;
         padding: 2em 0 0 0;
@@ -108,4 +108,8 @@
     }
   }
 
+}
+
+.flex-direction-nav a  {
+  overflow: visible;
 }

@@ -3273,7 +3273,7 @@ footer .region-footer-second #block-copyrightcopyright { font-size: 0.75em; }
 /* ============= Frontpage ================= */
 .view-id-front_page_slider .flexslider { margin: 0; border: 0; /*************************************************************************** BEGIN: When the slide has an image */ /*************************************************************************** END: When the slide has an image */ }
 
-.view-id-front_page_slider .flexslider ul.slides li .slide-container { background-size: cover; }
+.view-id-front_page_slider .flexslider ul.slides li .slide-container { background-size: cover; height: 100%; }
 
 .view-id-front_page_slider .flexslider ul.slides li .slide-container .slide-content { text-align: center; padding: 2em 0 0 0; }
 
@@ -3295,6 +3295,8 @@ footer .region-footer-second #block-copyrightcopyright { font-size: 0.75em; }
   .view-id-front_page_slider .flexslider ul.slides li .slide-container-has-image .slide-content { text-align: right; }
   .view-id-front_page_slider .flexslider ul.slides li .slide-container-has-image .slide-image-container { padding-top: 35px; }
   .view-id-front_page_slider .flexslider ul.slides li .slide-container-has-image .slide-image-container img { max-width: 350px; margin: 0 auto; } }
+
+.flex-direction-nav a { overflow: visible; }
 
 /* action_banner.scss */
 .view-action-banner { padding: 45px 40px; margin-bottom: 10px; background-color: #27313d; color: #fff; }
