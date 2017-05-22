@@ -24,3 +24,5 @@ regions:
 libraries:
   - 'bearded/global-styling'
   - 'bearded/bootstrap-scripts'
+  - 'bearded/matchHeight'
+  - 'bearded/custom'
