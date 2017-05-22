@@ -1,49 +1,46 @@
-.commerce-checkout-flow{
-	.layout-checkout-form{
-		.layout-region-checkout-secondary{
-			float: none;
-			width: 100%;
-			> h3 {
-	          font-size: 2.25em;
-	          letter-spacing: -0.056em;
-        	}
-        	.view-commerce-checkout-order-summary{
-        		.view-content{
-        			.table-responsive{
-            			thead {
-             				font-weight: bold;
-           			 	}
-            			tbody {
-        		  			border-top: 3px solid #27313d;
-    						border-bottom: 3px solid #27313d;
-            			}
-            			.table{
-	        			    margin-bottom: 0px;
-
-            			}
-        			}
-        		}
-        		.view-footer .footer-wrapper{
-        			padding-left: 0;
-        			bottom: 0px;
-        			border-bottom: none;
-              		width: 100%;
-          		    margin-left: 0;
-    				.order-total-line{
-            			padding: 0;
-            		}			
-    				.order-total-line-label {
-                  		background-color: #e7e7e7;
-                  		text-align: right;
-                  		padding: 8px;
-              		    width: 82%;
-                	}
-                	.order-total-line-value{
-                		padding-left: 7px;
-                		width: 0;
-                	}
-        		}
-        	}
-		}
-	}
+.commerce-checkout-flow {
+  .layout-checkout-form {
+    .layout-region-checkout-secondary {
+      > h3 {
+        font-size: 2.25em;
+        letter-spacing: -0.056em;
+      }
+      .view-commerce-checkout-order-summary {
+        .view-content {
+          .table-responsive {
+            thead {
+              font-weight: bold;
+            }
+            tbody {
+              border-top: 3px solid #27313d;
+              border-bottom: 3px solid #27313d;
+            }
+            .table {
+              margin-bottom: 0px;
+            }
+          }
+        }
+        .view-footer .footer-wrapper {
+          padding-left: 0;
+          bottom: 0px;
+          border-bottom: none;
+          width: 100%;
+          margin-left: 0;
+          .order-total-line {
+            padding: 0;
+          }
+          .order-total-line-label {
+            background-color: #e7e7e7;
+            text-align: right;
+            padding: 8px;
+            width: 82%;
+          }
+          .order-total-line-value {
+            padding-left: 7px;
+            width: 0;
+          }
+        }
+      }
+    }
+  }
 }
