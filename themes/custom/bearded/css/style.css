@@ -2783,6 +2783,8 @@ table .checkbox.form-no-label, table .radio.form-no-label { margin-bottom: 0; ma
 
 .form-actions .btn-group .btn { margin-right: 0; }
 
+fieldset legend { display: block; width: 100%; padding: 0; margin-bottom: 20px; font-size: 21px; line-height: inherit; color: #333; border: 0; border-bottom: 1px solid #e5e5e5; }
+
 /** Icon styles. */
 a.icon-before .glyphicon { margin-right: .25em; }
 
@@ -3556,8 +3558,6 @@ form .form-item label { font-weight: 500; color: #4d4d4d; line-height: 1.6; marg
 form .form-item input:not([type=checkbox]):not([type=radio]), form .form-item textarea { background-color: white; border: 1px solid #cccccc; border-radius: 0; box-shadow: none; box-sizing: border-box; color: rgba(0, 0, 0, 0.75); display: block; font-family: inherit; font-size: 1em; height: 2.4375em; margin: 0 0 0.1875em; padding: 0.5em; width: 100%; }
 
 form .form-item textarea { height: 200px; }
-
-.form-group.form-wrapper { margin-bottom: 0; }
 
 .btn { font-size: 1em; font-weight: bold; text-align: center; text-decoration: none; color: #fff; line-height: normal; background-color: #1abc9c; padding: 1em 1.875em 0.9375em 1.875em; border: 0; border-radius: 3px; }
 
