@@ -23,17 +23,17 @@
     border-radius: 100%;
     text-indent: -999em;
   }
-}
 
-.view-footer{
-  .order-total-line.order-total-line__subtotal{
-  display: none;
-  }
-  .footer-wrapper {
-    position: relative;
-    bottom: 110px;
-    border-bottom: 1px solid lightgray;
-    padding-bottom: 15px;
-    margin-left: 50%;
+  .view-footer{
+    .order-total-line.order-total-line__subtotal{
+    display: none;
+    }
+    .footer-wrapper {
+      position: relative;
+      bottom: 110px;
+      border-bottom: 1px solid lightgray;
+      padding-bottom: 15px;
+      margin-left: 50%;
+    }
   }
 }
