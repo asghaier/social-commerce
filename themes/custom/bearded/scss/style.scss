@@ -5,7 +5,7 @@
 @import '../bootstrap/assets/stylesheets/bootstrap';
 
 // Base-theme overrides.
-@import 'overrides';
+// @import 'overrides';
 
 /* ============================================= */
 /* ============= Bearded Theme ================= */
@@ -18,13 +18,13 @@
 
 @import "pages/shop";
 @import "pages/register";
-@import "pages/shopping-cart";
+// @import "pages/shopping-cart";
 @import "pages/product-details";
 @import "pages/checkout-order";
 @import "pages/user";
 
-// jQuery UI style overrides.
+// // jQuery UI style overrides.
 @import "jquery-ui/autocomplete";
 
-// to refactor asap
-@import "shame";
+// // to refactor asap
+// @import "shame";
