@@ -101,6 +101,27 @@
   }
 }
 
+.form-wrapper {
+  .btn, .btn-group {
+    margin-right: 10px;
+  }
+  .btn-group {
+    .btn {
+      margin-right: 0;
+    }
+  }
+
+  > .panel-body {
+    > p {
+      margin: 0 0 15px 0;
+    }
+  }
+
+  .input-group {
+    display: inline;
+  }
+}
+
 fieldset {
   legend {
     display: block;
