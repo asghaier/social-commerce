@@ -1,0 +1,35 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.shop_product_large
+    - image.style.shop_product_medium
+    - image.style.shop_product_small
+    - image.style.shop_product_x_small
+  theme:
+    - bearded
+id: shop_product_image
+label: 'Shop Product image'
+image_style_mappings:
+  -
+    breakpoint_id: bootstrap.screen-xs-max
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: shop_product_x_small
+  -
+    breakpoint_id: bootstrap.screen-sm-max
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: shop_product_small
+  -
+    breakpoint_id: bootstrap.screen-lg-min
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: shop_product_large
+  -
+    breakpoint_id: bootstrap.screen-md-max
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: shop_product_medium
+breakpoint_group: bearded
+fallback_image_style: shop_product_x_small

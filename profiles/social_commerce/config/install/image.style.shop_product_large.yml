@@ -1,0 +1,13 @@
+langcode: en
+status: true
+dependencies: {  }
+name: shop_product_large
+label: 'Shop Product Large'
+effects:
+  9c96a05a-1b66-4c75-bcc9-849586c29d2a:
+    uuid: 9c96a05a-1b66-4c75-bcc9-849586c29d2a
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 253
+      height: 253

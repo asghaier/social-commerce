@@ -1,0 +1,13 @@
+langcode: en
+status: true
+dependencies: {  }
+name: shop_product_small
+label: 'Shop Product Small'
+effects:
+  ed0643b6-b9c4-4d9f-b7fe-cedd2dd3ffa6:
+    uuid: ed0643b6-b9c4-4d9f-b7fe-cedd2dd3ffa6
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 330
+      height: 330
