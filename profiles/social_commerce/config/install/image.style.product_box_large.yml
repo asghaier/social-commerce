@@ -1,8 +1,8 @@
 langcode: en
 status: true
 dependencies: {  }
-name: shop_product_large
-label: 'Shop Product Large'
+name: product_box_large
+label: 'Product Box Large'
 effects:
   9c96a05a-1b66-4c75-bcc9-849586c29d2a:
     uuid: 9c96a05a-1b66-4c75-bcc9-849586c29d2a

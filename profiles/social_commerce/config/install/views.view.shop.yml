@@ -5,7 +5,7 @@ dependencies:
     - field.storage.commerce_product.field_product_category
     - field.storage.commerce_product.variations
     - field.storage.commerce_product_variation.field_product_variation_image
-    - responsive_image.styles.shop_product_image
+    - responsive_image.styles.product_box_image
     - taxonomy.vocabulary.product_category
   module:
     - commerce_price
@@ -140,7 +140,7 @@ display:
           click_sort_column: target_id
           type: responsive_image
           settings:
-            responsive_image_style: shop_product_image
+            responsive_image_style: product_box_image
             image_link: content
           group_column: ''
           group_columns: {  }

@@ -1,8 +1,8 @@
 langcode: en
 status: true
 dependencies: {  }
-name: shop_product_medium
-label: 'Shop Product Medium'
+name: product_box_medium
+label: 'Product Box Medium'
 effects:
   11508326-b7b2-4bf8-8394-37f4f045687a:
     uuid: 11508326-b7b2-4bf8-8394-37f4f045687a

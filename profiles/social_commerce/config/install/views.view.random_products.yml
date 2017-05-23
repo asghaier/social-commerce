@@ -6,13 +6,13 @@ dependencies:
     - field.storage.commerce_product.field_product_category
     - field.storage.commerce_product.variations
     - field.storage.commerce_product_variation.field_product_variation_image
-    - image.style.medium
+    - responsive_image.styles.product_box_image
   module:
     - commerce
     - commerce_price
     - commerce_product
     - commerce_variation_add_to_cart
-    - image
+    - responsive_image
 id: random_products
 label: 'Random Products'
 module: views
@@ -125,9 +125,9 @@ display:
           empty_zero: false
           hide_alter_empty: true
           click_sort_column: target_id
-          type: image
+          type: responsive_image
           settings:
-            image_style: medium
+            responsive_image_style: product_box_image
             image_link: content
           group_column: ''
           group_columns: {  }

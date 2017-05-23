@@ -1,8 +1,8 @@
 langcode: en
 status: true
 dependencies: {  }
-name: shop_product_small
-label: 'Shop Product Small'
+name: product_box_small
+label: 'Product Box Small'
 effects:
   ed0643b6-b9c4-4d9f-b7fe-cedd2dd3ffa6:
     uuid: ed0643b6-b9c4-4d9f-b7fe-cedd2dd3ffa6

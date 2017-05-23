@@ -2,34 +2,34 @@ langcode: en
 status: true
 dependencies:
   config:
-    - image.style.shop_product_large
-    - image.style.shop_product_medium
-    - image.style.shop_product_small
-    - image.style.shop_product_x_small
+    - image.style.product_box_large
+    - image.style.product_box_medium
+    - image.style.product_box_small
+    - image.style.product_box_x_small
   theme:
     - bearded
-id: shop_product_image
-label: 'Shop Product image'
+id: product_box_image
+label: 'Product Box image'
 image_style_mappings:
   -
     breakpoint_id: bootstrap.screen-xs-max
     multiplier: 1x
     image_mapping_type: image_style
-    image_mapping: shop_product_x_small
+    image_mapping: product_box_x_small
   -
     breakpoint_id: bootstrap.screen-sm-max
     multiplier: 1x
     image_mapping_type: image_style
-    image_mapping: shop_product_small
+    image_mapping: product_box_small
   -
     breakpoint_id: bootstrap.screen-lg-min
     multiplier: 1x
     image_mapping_type: image_style
-    image_mapping: shop_product_large
+    image_mapping: product_box_large
   -
     breakpoint_id: bootstrap.screen-md-max
     multiplier: 1x
     image_mapping_type: image_style
-    image_mapping: shop_product_medium
+    image_mapping: product_box_medium
 breakpoint_group: bearded
-fallback_image_style: shop_product_x_small
+fallback_image_style: product_box_x_small
