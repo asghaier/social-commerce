@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_product
+    - ctools
+id: product
+label: Product
+type: 'canonical_entities:commerce_product'
+pattern: 'product/[commerce_product:title]'
+selection_criteria:
+  18fe5011-9068-4672-b27c-f0a3ec704be3:
+    id: 'entity_bundle:commerce_product'
+    bundles:
+      demo_product_type: demo_product_type
+    negate: false
+    context_mapping:
+      commerce_product: commerce_product
+    uuid: 18fe5011-9068-4672-b27c-f0a3ec704be3
+selection_logic: and
+weight: -5
+relationships: {  }
