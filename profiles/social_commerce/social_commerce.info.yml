@@ -45,7 +45,6 @@ dependencies:
   - devel
   - devel_generate
   - dynamic_page_cache
-  - easy_breadcrumb
   - editor
   - entity
   - entity_reference_revisions
