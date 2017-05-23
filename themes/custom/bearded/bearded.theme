@@ -8,21 +8,21 @@
  */
 function bearded_preprocess_block(&$variables) {
   //Change site logo to PNG.
- //$variables['site_logo'] = str_replace('.svg', '.png', $variables['content']['site_logo']['#uri']);
+  $variables['site_logo'] = str_replace('.svg', '.png', $variables['content']['site_logo']['#uri']);
 }
 
 function bearded_preprocess_menu(&$variables) {
-	if (! \Drupal::currentUser()->isAnonymous()) {
-		//hide new aacount menu item
-		unset($variables['items']['menu_link_content:c5f495a7-3c57-4820-90d8-c1a85437ba72']);
-	}
+  if (!\Drupal::currentUser()->isAnonymous()) {
+    //hide new aacount menu item
+    unset($variables['items']['menu_link_content:c5f495a7-3c57-4820-90d8-c1a85437ba72']);
+  }
 }
 
 function bearded_preprocess_breadcrumb(&$variables) {
   $current_path = \Drupal::service('path.current')->getPath();
   $path_parts = explode("/", $current_path);
   if ($path_parts[1] == "product") {
-    $products = array(array("text" => "Products", "url" => "/shop"));
-    array_splice($variables['breadcrumb'], 1, 0, $products);
+    $shop = array(array("text" => "Shop", "url" => "/shop"));
+    array_splice($variables['breadcrumb'], 1, 0, $shop);
   }
 }
