@@ -3,6 +3,14 @@ global-styling:
     theme:
       css/style.css: {}
 
+matchHeight:
+  js:
+    js/libs/jquery.matchHeight-min.js: {}
+
+custom:
+  js:
+    js/dist/app.js: {}
+
 bootstrap-scripts:
   js:
     bootstrap/assets/javascripts/bootstrap/affix.js: {}
@@ -17,7 +25,6 @@ bootstrap-scripts:
     bootstrap/assets/javascripts/bootstrap/scrollspy.js: {}
     bootstrap/assets/javascripts/bootstrap/tab.js: {}
     bootstrap/assets/javascripts/bootstrap/transition.js: {}
-    js/main.js: {}
 
   dependencies:
     - core/jquery

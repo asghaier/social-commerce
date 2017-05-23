@@ -1,0 +1,1 @@
+jQuery('.slides li').matchHeight();

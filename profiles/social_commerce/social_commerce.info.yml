@@ -17,6 +17,7 @@ dependencies:
   - admin_toolbar
   - admin_toolbar_tools
   - automated_cron
+  - bg_image_formatter
   - block
   - block_content
   - breakpoint
@@ -56,6 +57,7 @@ dependencies:
   - file_entity
   - filter
   - flexslider
+  - flexslider_views
   - help
   - history
   - image
