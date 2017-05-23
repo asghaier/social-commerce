@@ -28,8 +28,8 @@ options:
   multipleKeyboard: false
   mousewheel: false
   touch: true
-  prevText: Previous
-  nextText: Next
+  prevText: ''
+  nextText: ''
   namespace: flex-
   selector: '.slides > li'
   sync: ''

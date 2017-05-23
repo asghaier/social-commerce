@@ -3281,30 +3281,32 @@ footer .region-footer-second #block-copyrightcopyright { font-size: 0.75em; }
 
 /* ========================================= */
 /* ============= Frontpage ================= */
-.view-id-front_page_slider .flexslider { margin: 0; border: 0; /*************************************************************************** BEGIN: When the slide has an image */ /*************************************************************************** END: When the slide has an image */ }
+.block-views-blockfront-page-slider-block-1 .form-group { margin: 0; }
 
-.view-id-front_page_slider .flexslider ul.slides li .slide-container { background-size: cover; height: 100%; }
+.block-views-blockfront-page-slider-block-1 .form-group .view-id-front_page_slider .flexslider { margin: 0; border: 0; /*************************************************************************** BEGIN: When the slide has an image */ /*************************************************************************** END: When the slide has an image */ }
 
-.view-id-front_page_slider .flexslider ul.slides li .slide-container .slide-content { text-align: center; padding: 2em 0 0 0; }
+.block-views-blockfront-page-slider-block-1 .form-group .view-id-front_page_slider .flexslider ul.slides li .slide-container { background-size: cover; height: 100%; }
 
-.view-id-front_page_slider .flexslider ul.slides li .slide-container .slide-content h2 { color: #fff; font-size: 2.25em; font-weight: bold; line-height: 1.4; letter-spacing: -0.056em; margin: 0 0 0.416667em 0; }
+.block-views-blockfront-page-slider-block-1 .form-group .view-id-front_page_slider .flexslider ul.slides li .slide-container .slide-content { text-align: center; padding: 2em 0 0 0; }
 
-.view-id-front_page_slider .flexslider ul.slides li .slide-container .slide-content .slide-text p { font-size: 1em; font-weight: 300; line-height: 1.6; margin: 0 0 1.55em 0; }
+.block-views-blockfront-page-slider-block-1 .form-group .view-id-front_page_slider .flexslider ul.slides li .slide-container .slide-content h2 { color: #fff; font-size: 2.25em; font-weight: bold; line-height: 1.4; letter-spacing: -0.056em; margin: 0 0 0.416667em 0; }
 
-.view-id-front_page_slider .flexslider ul.slides li .slide-container .slide-content .slide-link a { display: inline-block; font-weight: bold; line-height: 1em; color: #27313d; text-decoration: none; padding: 0.8em 1.8em; border-radius: 3px; background: none repeat scroll 0 0 #ffffff; transition: all 0.2s linear 0s; }
+.block-views-blockfront-page-slider-block-1 .form-group .view-id-front_page_slider .flexslider ul.slides li .slide-container .slide-content .slide-text p { font-size: 1em; font-weight: 300; line-height: 1.6; margin: 0 0 1.55em 0; }
 
-.view-id-front_page_slider .flexslider ul.slides li .slide-container .slide-content .slide-link a:hover { color: #ffffff; background: none repeat scroll 0 0 #27313d; }
+.block-views-blockfront-page-slider-block-1 .form-group .view-id-front_page_slider .flexslider ul.slides li .slide-container .slide-content .slide-link a { display: inline-block; font-weight: bold; line-height: 1em; color: #27313d; text-decoration: none; padding: 0.8em 1.8em; border-radius: 3px; background: none repeat scroll 0 0 #ffffff; transition: all 0.2s linear 0s; }
 
-.view-id-front_page_slider .flexslider ul.slides li .slide-container-has-image .slide-image-container { padding: 35px 0; }
+.block-views-blockfront-page-slider-block-1 .form-group .view-id-front_page_slider .flexslider ul.slides li .slide-container .slide-content .slide-link a:hover { color: #ffffff; background: none repeat scroll 0 0 #27313d; }
 
-.view-id-front_page_slider .flexslider ul.slides li .slide-container-has-image .slide-image-container img { max-width: 200px; margin: 0 auto; }
+.block-views-blockfront-page-slider-block-1 .form-group .view-id-front_page_slider .flexslider ul.slides li .slide-container-has-image .slide-image-container { padding: 35px 0; }
 
-@media (min-width: 992px) { .view-id-front_page_slider .flexslider { /*************************************************************************** BEGIN: When the slide has an image */ /*************************************************************************** END: When the slide has an image */ }
-  .view-id-front_page_slider .flexslider ul.slides li .slide-container { min-height: 420px; }
-  .view-id-front_page_slider .flexslider ul.slides li .slide-container .slide-content { padding: 7.5em 2em 0 0; }
-  .view-id-front_page_slider .flexslider ul.slides li .slide-container-has-image .slide-content { text-align: right; }
-  .view-id-front_page_slider .flexslider ul.slides li .slide-container-has-image .slide-image-container { padding-top: 35px; }
-  .view-id-front_page_slider .flexslider ul.slides li .slide-container-has-image .slide-image-container img { max-width: 350px; margin: 0 auto; } }
+.block-views-blockfront-page-slider-block-1 .form-group .view-id-front_page_slider .flexslider ul.slides li .slide-container-has-image .slide-image-container img { max-width: 200px; margin: 0 auto; }
+
+@media (min-width: 992px) { .block-views-blockfront-page-slider-block-1 .form-group .view-id-front_page_slider .flexslider { /*************************************************************************** BEGIN: When the slide has an image */ /*************************************************************************** END: When the slide has an image */ }
+  .block-views-blockfront-page-slider-block-1 .form-group .view-id-front_page_slider .flexslider ul.slides li .slide-container { min-height: 420px; }
+  .block-views-blockfront-page-slider-block-1 .form-group .view-id-front_page_slider .flexslider ul.slides li .slide-container .slide-content { padding: 7.5em 2em 0 0; }
+  .block-views-blockfront-page-slider-block-1 .form-group .view-id-front_page_slider .flexslider ul.slides li .slide-container-has-image .slide-content { text-align: right; }
+  .block-views-blockfront-page-slider-block-1 .form-group .view-id-front_page_slider .flexslider ul.slides li .slide-container-has-image .slide-image-container { padding-top: 35px; }
+  .block-views-blockfront-page-slider-block-1 .form-group .view-id-front_page_slider .flexslider ul.slides li .slide-container-has-image .slide-image-container img { max-width: 350px; margin: 0 auto; } }
 
 .flex-direction-nav a { overflow: visible; }
 
