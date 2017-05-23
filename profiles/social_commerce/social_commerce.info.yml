@@ -27,6 +27,7 @@ dependencies:
   - commerce
   - commerce_cart
   - commerce_checkout
+  - commerce_cop
   - commerce_log
   - commerce_order
   - commerce_payment
@@ -39,6 +40,7 @@ dependencies:
   - config
   - contact
   - contextual
+  - ctools
   - datetime
   - dblog
   - default_content
@@ -72,6 +74,7 @@ dependencies:
   - options
   - page_cache
   - path
+  - pathauto
   - profile
   - quickedit
   - rdf
@@ -93,7 +96,6 @@ dependencies:
   - views_slideshow
   - views_slideshow_cycle
   - views_ui
-  - commerce_cop
 themes:
   - bartik
   - bearded
