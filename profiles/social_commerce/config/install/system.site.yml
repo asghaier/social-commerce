@@ -3,7 +3,7 @@ mail: admin@example.com
 slogan: 'Not Just Moustache'
 page:
   403: ''
-  404: ''
+  404: '/node/17'
   front: /node
 admin_compact_mode: false
 weight_select_max: 100
