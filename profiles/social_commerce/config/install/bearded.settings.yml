@@ -1,6 +1,6 @@
 cdn_provider: ''
 _core:
-  default_config_hash: 2bdTm0hxyupILZiXABj7eg2Hp9H8MdW_k7U9xmhoP4M
+  default_config_hash: nDWPotg_BN8BFld6lkZ8-2YHieG8-LfDjmfxOGMWvYs
 favicon:
   mimetype: image/vnd.microsoft.icon
   path: ''
@@ -15,28 +15,22 @@ logo:
   use_default: true
 table_responsive: '-1'
 table: ''
-features:
-  comment_user_picture: true
-  comment_user_verification: true
-  favicon: true
-  node_user_picture: true
 breadcrumb_home: 1
-breadcrumb_title: 0
+breadcrumb_title: 1
 region_wells:
   navigation: ''
   navigation_collapsible: ''
   header: ''
   highlighted: ''
   help: ''
-  breadcrumb: ''
-  slider: ''
-  banner: ''
-  products: ''
-  topwidget_first: ''
-  topwidget_second: ''
-  topwidget_third: ''
+  content_header: ''
   content: ''
-  clients: ''
-  sidebar_first: ''
-  sidebar_second: well
-  footer: ''
+  sidebar: ''
+  footer_first_left: ''
+  footer_first_right: ''
+  footer_second: ''
+features:
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: true
+  node_user_picture: true
