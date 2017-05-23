@@ -63,7 +63,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "87927e24-2491-42ba-be67-c07c36de9020"
+                        "value": "eb13c396-cc19-4cf8-8810-d6229af928de"
                     }
                 ],
                 "lang": "en"
@@ -81,7 +81,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "87927e24-2491-42ba-be67-c07c36de9020"
+                        "value": "eb13c396-cc19-4cf8-8810-d6229af928de"
                     }
                 ]
             }
@@ -101,7 +101,7 @@
     ],
     "changed": [
         {
-            "value": "1495105260",
+            "value": "1495473821",
             "lang": "en"
         }
     ],
@@ -136,7 +136,7 @@
     ],
     "body": [
         {
-            "value": "<p>Express delivery within 3 days.<\/p>\r\n",
+            "value": "<p>Enjoy free 3 day shipping on orders of $45 or more.<\/p>\r\n\r\n<p>For orders under $45, shipping costs just $4.99<\/p>\r\n",
             "format": "basic_html",
             "summary": "",
             "lang": "en"
