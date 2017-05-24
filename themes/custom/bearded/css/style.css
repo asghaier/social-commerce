@@ -3161,6 +3161,8 @@ pre { background: none repeat scroll 0 0 #f7f7f8; margin: 1.5em; padding: 1.25em
 
 .block-commerce-cart .cart-block--contents .cart-block--contents__inner .cart-block--contents__links a:hover { background-color: #27313d; }
 
+.block-commerce-cart .cart-block-sticky { right: 0; left: auto !important; }
+
 .cart-block--summary { float: left; list-style: none; width: auto; height: 39px; margin: 0 0 0 0; padding: 0; background: #27313d; border-radius: 5px; }
 
 .cart-block--summary a.cart-block--link__expand { display: block; }

@@ -587,6 +587,10 @@
       }
     }
   }
+  .cart-block-sticky {
+    right: 0;
+    left: auto !important;
+  }
 }
 .cart-block--summary {
   float: left;
@@ -654,8 +658,6 @@
     float: left;
   }
 }
-
-
 
 /* navbar: header.scss */
 

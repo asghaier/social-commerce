@@ -84,8 +84,10 @@
       $(window).scroll(function(){
         if($(window).scrollTop() > navbarpos.top){
           $('.region-navigation-collapsible').addClass("navbar-sticky");
+          $('#cart-block-contents').addClass("cart-block-sticky");
         } else {
           $('.region-navigation-collapsible').removeClass("navbar-sticky");
+          $('#cart-block-contents').removeClass("cart-block-sticky");
         }
       });
     }
