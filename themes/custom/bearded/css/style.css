@@ -3487,6 +3487,12 @@ footer .region-footer-second #block-copyrightcopyright { font-size: 0.75em; }
 
 .col-sm-9 .region-content .form-item h4.label { color: #27313d; font-size: 1em; font-weight: bold; }
 
+.content .not-found-text .text-ginormous { font-size: 145px; margin-bottom: 20px; }
+
+.content .not-found-text .error-code { color: #767676; }
+
+.content .not-found-image { padding: 60px 0 0 80px; }
+
 /** jQuery UI autocomplete widget style overrides. $todo Remove once jQuery UI is no longer used? */
 .ui-autocomplete { background: #fff; background-clip: padding-box; border: 1px solid #ccc; border: 1px solid rgba(0, 0, 0, 0.15); border-radius: 4px; box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175); color: inherit; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 14px; list-style: none; min-width: 160px; padding: 5px 0; text-align: left; z-index: 1000; }
 
@@ -3511,7 +3517,7 @@ ol, ul { padding-left: 1.5em; }
 
 .help-block:first-child, .control-group .help-inline:first-child { margin-top: 0; }
 
-h1, h2, h3, h4, h5, h6, p.navbar-text { color: #27313d; font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; font-size: 2.3125em; font-style: normal; font-weight: bold; line-height: 1.2125em; margin-bottom: 0.5em; margin-top: 0.2em; text-rendering: optimizelegibility; }
+h1, h2, h3, h4, h5, h6, p.navbar-text { color: #27313d; font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; font-style: normal; font-weight: bold; line-height: 1.2125em; margin-bottom: 0.5em; margin-top: 0.2em; text-rendering: optimizelegibility; }
 
 .navbar-default .navbar-text { color: #27313d; }
 
