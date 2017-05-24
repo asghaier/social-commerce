@@ -1,0 +1,13 @@
+langcode: en
+status: true
+dependencies: {  }
+name: product_box_medium
+label: 'Product Box Medium'
+effects:
+  11508326-b7b2-4bf8-8394-37f4f045687a:
+    uuid: 11508326-b7b2-4bf8-8394-37f4f045687a
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 205
+      height: 205

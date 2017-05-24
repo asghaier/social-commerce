@@ -1,0 +1,13 @@
+langcode: en
+status: true
+dependencies: {  }
+name: product_variation_large
+label: 'Product Variation Large'
+effects:
+  525cf265-7592-4ecf-93c9-b18718211468:
+    uuid: 525cf265-7592-4ecf-93c9-b18718211468
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 320
+      height: 320

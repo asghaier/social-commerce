@@ -8,12 +8,12 @@ dependencies:
     - field.field.node.slide.field_slide_image
     - field.field.node.slide.field_slide_link
     - image.style.slide_background
-    - image.style.slide_image
     - node.type.slide
+    - responsive_image.styles.front_page_slider_image
   module:
     - bg_image_formatter
-    - image
     - link
+    - responsive_image
     - text
     - user
 id: node.slide.full
@@ -50,10 +50,10 @@ content:
     weight: 102
     label: hidden
     settings:
-      image_style: slide_image
+      responsive_image_style: front_page_slider_image
       image_link: ''
     third_party_settings: {  }
-    type: image
+    type: responsive_image
   field_slide_link:
     weight: 103
     label: hidden

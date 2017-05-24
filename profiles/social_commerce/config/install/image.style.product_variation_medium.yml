@@ -1,0 +1,13 @@
+langcode: en
+status: true
+dependencies: {  }
+name: product_variation_medium
+label: 'Product Variation Medium'
+effects:
+  04b02def-bcf9-4b61-9be5-ab146cdbd7c0:
+    uuid: 04b02def-bcf9-4b61-9be5-ab146cdbd7c0
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 261
+      height: 261

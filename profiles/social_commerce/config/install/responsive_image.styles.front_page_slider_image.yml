@@ -1,0 +1,33 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.front_page_slider_image_large_and_medium
+    - image.style.front_page_slider_image_small_and_x_small
+  theme:
+    - bearded
+id: front_page_slider_image
+label: 'Front Page Slider image'
+image_style_mappings:
+  -
+    breakpoint_id: bootstrap.screen-xs-max
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: front_page_slider_image_small_and_x_small
+  -
+    breakpoint_id: bootstrap.screen-sm-max
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: front_page_slider_image_small_and_x_small
+  -
+    breakpoint_id: bootstrap.screen-lg-min
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: front_page_slider_image_large_and_medium
+  -
+    breakpoint_id: bootstrap.screen-md-max
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: front_page_slider_image_large_and_medium
+breakpoint_group: bearded
+fallback_image_style: front_page_slider_image_small_and_x_small

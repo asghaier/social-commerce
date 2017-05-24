@@ -93,10 +93,17 @@ function social_commerce_tests_install() {
     ))
     ->save();
 
+  // 'product_variation_image' display settings: using the 'responsive_image' formatter.
+  $display_options = array(
+    'type' => 'responsive_image',
+    'settings' => array(
+      'image_link' => 'content',
+      'responsive_image_style' => 'product_variation_image',
+    ),
+  );
+
   entity_get_display('commerce_product_variation', 'demo_variation_type', 'default')
-    ->setComponent('field_product_variation_image', array(
-      'type' => 'image',
-    ))
+    ->setComponent('field_product_variation_image', $display_options)
     ->save();
 
   $field_config = \Drupal\field\Entity\FieldStorageConfig::loadByName('commerce_product_variation', 'field_product_variation_image');
