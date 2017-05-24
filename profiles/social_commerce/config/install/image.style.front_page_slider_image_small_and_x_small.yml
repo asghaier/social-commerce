@@ -1,0 +1,13 @@
+langcode: en
+status: true
+dependencies: {  }
+name: front_page_slider_image_small_and_x_small
+label: 'Front Page Slider Image Small and X Small'
+effects:
+  78facd80-98c2-41b6-b5e1-2c0616d2a483:
+    uuid: 78facd80-98c2-41b6-b5e1-2c0616d2a483
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 200
+      height: 200
