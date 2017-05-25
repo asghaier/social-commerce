@@ -135,7 +135,7 @@
     ],
     "body": [
         {
-            "value": "<div class=\"col-sm-12 col-md-7 not-found-text\">\r\n<h1 class=\"text-jumbo text-ginormous hide-sm\">Oops!<\/h1>\r\n\r\n<h2>We can't seem to find the page you're looking for.<\/h2>\r\n\r\n<h6 class=\"error-code\">Error code: 404<\/h6>\r\n\r\n<ul class=\"list-unstyled\">\r\n\t<li>Here are some helpful links instead:<\/li>\r\n\t<li><a href=\"\/\">Home<\/a><\/li>\r\n\t<li><a href=\"\/shop\">Shop<\/a><\/li>\r\n\t<li><a href=\"\/contact\">Contact<\/a><\/li>\r\n<\/ul>\r\n<\/div>\r\n\r\n<div class=\"col-md-5 not-found-image\"><img alt=\"404-not-found\" data-entity-type=\"file\" data-entity-uuid=\"472ef0e4-4954-4b7f-82ca-e475fdbd5ec5\" src=\"\/sites\/default\/files\/inline-images\/robot2.png\" \/><\/div>\r\n",
+            "value": "<div class=\"col-sm-12 col-md-7 not-found-text\">\r\n<h1 class=\"text-jumbo text-ginormous hide-sm\">Oops!<\/h1>\r\n\r\n<h2>We can't seem to find the page you're looking for.<\/h2>\r\n\r\n<h6 class=\"error-code\">Error code: 404<\/h6>\r\n\r\n<ul class=\"list-unstyled\">\r\n\t<li>Here are some helpful links instead:<\/li>\r\n\t<li><a href=\"\/\">Home<\/a><\/li>\r\n\t<li><a href=\"\/shop\">Shop<\/a><\/li>\r\n\t<li><a href=\"\/contact\">Contact<\/a><\/li>\r\n<\/ul>\r\n<\/div>\r\n\r\n<div class=\"col-md-5 not-found-image\"><img alt=\"404-not-found\" data-entity-type=\"file\" data-entity-uuid=\"472ef0e4-4954-4b7f-82ca-e475fdbd5ec5\" src=\"\/sites\/default\/files\/styles\/medium\/\/public\/robot2.png\" \/><\/div>\r\n",
             "format": "full_html",
             "summary": "",
             "lang": "en"

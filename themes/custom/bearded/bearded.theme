@@ -26,3 +26,17 @@ function bearded_preprocess_breadcrumb(&$variables) {
     array_splice($variables['breadcrumb'], 1, 0, $shop);
   }
 }
+
+function bearded_theme_suggestions_page_alter(array &$suggestions, array $variables) {
+  $http_error_suggestions = [
+    'system.401' => 'page__401',
+    'system.403' => 'page__403',
+    'system.404' => 'page__404',
+  ];
+  $node = \Drupal::request()->attributes->get('node');
+  if ($node) {
+    if ($node->id() == 17) {  // this is the node id linked to the 404 page
+      $suggestions[] = $http_error_suggestions['system.404'];
+    }
+  }
+}

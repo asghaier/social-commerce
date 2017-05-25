@@ -25,6 +25,8 @@ function social_commerce_install() {
   createUsers();
   // Create menu items
   CreateMenuItems();
+  // Copy images
+  copy(DRUPAL_ROOT . '/modules/custom/social_commerce_tests/files/robot2.png', DRUPAL_ROOT . '/sites/default/files/styles/medium/public/robot2.png');
 }
 
 function createUsers() {
