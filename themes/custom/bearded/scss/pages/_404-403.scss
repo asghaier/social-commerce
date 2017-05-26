@@ -11,4 +11,9 @@
     .error-image {
         padding: 60px 0 0 80px;
     }
+    @media only screen and (max-width : 992px) {
+        .error-image, .text-ginormous {
+            display: none;
+        }
+    }
 }

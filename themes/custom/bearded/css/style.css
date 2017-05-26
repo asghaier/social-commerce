@@ -3497,6 +3497,8 @@ footer .region-footer-second #block-copyrightcopyright { font-size: 0.75em; }
 
 .content .error-image { padding: 60px 0 0 80px; }
 
+@media only screen and (max-width: 992px) { .content .error-image, .content .text-ginormous { display: none; } }
+
 .block-views-blocksidebar-cart-block-block-1 .form-group { text-align: left; }
 
 .block-views-blocksidebar-cart-block-block-1 .form-group a { color: #27313d; }
