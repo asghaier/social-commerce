@@ -12,6 +12,8 @@
  *
  */
 function bearded_preprocess_block(&$variables) {
+  //Change site logo to PNG.
+  $variables['site_logo'] = str_replace('.svg', '.png', $variables['content']['site_logo']['#uri']);
   // Change site logo to PNG.
   if ($variables['base_plugin_id'] == 'system_branding_block') {
     if ($variables['content']['site_logo']['#access'] && $variables['content']['site_logo']['#uri']) {
@@ -46,6 +48,9 @@ function bearded_theme_suggestions_page_alter(array &$suggestions, array $variab
   if ($node) {
     if ($node->id() == 17) {  // this is the node id linked to the 404 page
       $suggestions[] = $http_error_suggestions['system.404'];
+    }
+    if ($node->id() == 18) {  // this is the node id linked to the 403 page
+      $suggestions[] = $http_error_suggestions['system.403'];
     }
   }
 }

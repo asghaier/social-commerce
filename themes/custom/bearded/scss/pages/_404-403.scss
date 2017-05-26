@@ -1,5 +1,5 @@
 .content {
-    .not-found-text {
+    .error-text {
         .text-ginormous {
             font-size: 145px;
             margin-bottom: 20px;
@@ -8,7 +8,12 @@
             color: #767676;
         }
     }
-    .not-found-image {
+    .error-image {
         padding: 60px 0 0 80px;
+    }
+    @media only screen and (max-width : 992px) {
+        .error-image, .text-ginormous {
+            display: none;
+        }
     }
 }

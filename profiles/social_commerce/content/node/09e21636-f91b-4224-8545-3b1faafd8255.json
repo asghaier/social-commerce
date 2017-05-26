@@ -1,14 +1,14 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/node\/17?_format=hal_json"
+            "href": "http:\/\/default\/403-access-denied?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/node\/page"
         },
         "http:\/\/drupal.org\/rest\/relation\/node\/page\/uid": [
             {
-                "href": "http:\/\/default\/user\/0?_format=hal_json",
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
                 "lang": "en"
             }
         ],
@@ -20,17 +20,17 @@
     },
     "nid": [
         {
-            "value": "17"
+            "value": "18"
         }
     ],
     "uuid": [
         {
-            "value": "10865942-84e3-4bec-876a-a7ed88223b52"
+            "value": "09e21636-f91b-4224-8545-3b1faafd8255"
         }
     ],
     "vid": [
         {
-            "value": "34"
+            "value": "33"
         }
     ],
     "langcode": [
@@ -46,7 +46,7 @@
     ],
     "title": [
         {
-            "value": "404 - Not found",
+            "value": "403 - access denied",
             "lang": "en"
         }
     ],
@@ -55,7 +55,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/default\/user\/0?_format=hal_json"
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
@@ -63,7 +63,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "6919f18d-8e2a-46a9-8d73-4a520383d4a6"
+                        "value": "fda7e443-9154-4c84-ace0-419bd54b75f1"
                     }
                 ],
                 "lang": "en"
@@ -95,13 +95,13 @@
     ],
     "created": [
         {
-            "value": "1495550018",
+            "value": "1495818222",
             "lang": "en"
         }
     ],
     "changed": [
         {
-            "value": "1495819687",
+            "value": "1495819666",
             "lang": "en"
         }
     ],
@@ -118,7 +118,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "1495819687"
+            "value": "1495819666"
         }
     ],
     "revision_translation_affected": [
@@ -135,7 +135,7 @@
     ],
     "body": [
         {
-            "value": "<div class=\"col-sm-12 col-md-7 error-text\">\r\n<h1 class=\"text-jumbo text-ginormous hide-sm\">Oops!<\/h1>\r\n\r\n<h2>We can't seem to find the page you're looking for.<\/h2>\r\n\r\n<h6 class=\"error-code\">Error code: 404<\/h6>\r\n\r\n<ul class=\"list-unstyled\">\r\n\t<li>Here are some helpful links instead:<\/li>\r\n\t<li><a href=\"\/\">Home<\/a><\/li>\r\n\t<li><a href=\"\/shop\">Shop<\/a><\/li>\r\n\t<li><a href=\"\/contact\">Contact<\/a><\/li>\r\n<\/ul>\r\n<\/div>\r\n\r\n<div class=\"col-md-5 error-image\"><img alt=\"404-not-found\" data-entity-type=\"file\" data-entity-uuid=\"472ef0e4-4954-4b7f-82ca-e475fdbd5ec5\" src=\"\/sites\/default\/files\/robot2.png\" \/><\/div>\r\n",
+            "value": "<div class=\"col-sm-12 col-md-7 error-text\">\r\n<h1 class=\"text-jumbo text-ginormous hide-sm\">Oops!<\/h1>\r\n\r\n<h2>You are unauthorized to access this page.<\/h2>\r\n\r\n<h6 class=\"error-code\">Error code: 403<\/h6>\r\n\r\n<ul class=\"list-unstyled\">\r\n\t<li>Here are some helpful links instead:<\/li>\r\n\t<li><a href=\"\/\">Home<\/a><\/li>\r\n\t<li><a href=\"\/shop\">Shop<\/a><\/li>\r\n\t<li><a href=\"\/contact\">Contact<\/a><\/li>\r\n<\/ul>\r\n<\/div>\r\n\r\n<div class=\"col-md-5 error-image\"><img alt=\"404-not-found\" data-entity-type=\"file\" data-entity-uuid=\"472ef0e4-4954-4b7f-82ca-e475fdbd5ec5\" src=\"\/sites\/default\/files\/robot2.png\" \/><\/div>\r\n",
             "format": "full_html",
             "summary": "",
             "lang": "en"
