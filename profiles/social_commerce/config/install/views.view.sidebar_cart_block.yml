@@ -13,7 +13,7 @@ dependencies:
     - commerce_product
     - image
 _core:
-  default_config_hash: F8VHP5wLpNwbSCIWaOEvoRR2ousra6yINPBLhTeKt2o
+  default_config_hash: CAQjIa6Xj2Clh0ulsWGVx8odjB6hTIabM9eZVRTUELg
 id: sidebar_cart_block
 label: 'Sidebar Cart block'
 module: views
@@ -448,6 +448,17 @@ display:
           admin_label: ''
           empty: false
           plugin_id: commerce_order_total
+        area_text_custom:
+          id: area_text_custom
+          table: views
+          field: area_text_custom
+          relationship: none
+          group_type: group
+          admin_label: ''
+          empty: false
+          tokenize: false
+          content: "<a href=\"/cart\">View cart</a>\n"
+          plugin_id: text_custom
       empty: {  }
       relationships:
         order_items:
