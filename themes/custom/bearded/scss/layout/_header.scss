@@ -505,6 +505,8 @@
     display: block;
     box-sizing: content-box;
     background: white;
+    border-radius: 3px;
+    box-shadow: 0 4px 0 #1abc9c inset;
     .cart-block--contents__inner {
       padding: 0;
       .cart-block--contents__items {
@@ -586,6 +588,9 @@
         }
       }
     }
+  }
+  .cart-apply-margins {
+    margin: 5px 0 1.42857em 0;
   }
   .cart-block-sticky {
     right: 0;

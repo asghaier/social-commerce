@@ -1,10 +1,10 @@
 /* Random products */
 .view-random-products {
   padding: 0 20px;
-  font-size:1em;
+  font-size: 1em;
   .product-item {
     .product-image img {
-      width:100%;
+      width: 100%;
     }
     .commerce-variation-add-to-cart {
       background-color: $body-font-color;
@@ -27,7 +27,7 @@
       }
     }
     .product-info {
-      padding:15px 0 5px 0;
+      padding: 15px 0 5px 0;
       line-height: 1.4;
 
       .product-title {
@@ -40,13 +40,15 @@
         }
       }
       .product-price {
-        font-weight:bold;
-        font-size:1.14em;
+        font-weight: bold;
+        font-size: 1.14em;
       }
     }
     .product-category {
-      text-align: right;
-
+      a {
+        color: #656565;
+        font-size: 0.928571em;
+      }
     }
 
     @media (max-width: $screen-md-min) {
@@ -54,7 +56,4 @@
 
     }
   }
-
 }
-
-
