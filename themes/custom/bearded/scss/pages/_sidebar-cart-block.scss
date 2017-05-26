@@ -1,0 +1,43 @@
+.block-views-blocksidebar-cart-block-block-1{
+	.form-group{
+        text-align: left;
+        a {
+          color: $body-font-color;
+        }
+        .view-content {
+        	line-height: 1.6;
+			.views-row {
+				@include clearfix();
+				margin-bottom: 1em;
+				.views-field-field-product-variation-image {
+					float: right;
+					display: block;
+					img {
+						font-weight: bold;
+						height: auto;
+						max-width: 46px;
+						vertical-align: middle;
+						margin: 0 1em;
+						border-radius: 4px;
+					}
+				}
+				.views-field-title {
+			  	font-weight: bold;
+				}
+			}
+		}
+        .view-footer {
+            border-top-width: 3px;
+			border-top-style: solid;
+			.footer-wrapper {
+				text-align: left;
+				line-height: 1.6;
+				margin: 0.5em 0 1em 0;
+				padding: 0.5em 0 0 0;
+				.order-total-line__subtotal {
+					display: none;
+				}
+			}
+        }
+	}
+}

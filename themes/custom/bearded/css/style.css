@@ -3210,7 +3210,7 @@ pre { background: none repeat scroll 0 0 #f7f7f8; margin: 1.5em; padding: 1.25em
 
 .region-sidebar .block-title:before { border-left: 3px solid #3a3f43; border-right: 3px solid #3a3f43; }
 
-.region-sidebar .block { margin-bottom: 2.857em; }
+.region-sidebar .block { margin-bottom: 2em; }
 
 .region-sidebar select { padding: .5em .8em; }
 
@@ -3488,6 +3488,30 @@ footer .region-footer-second #block-copyrightcopyright { font-size: 0.75em; }
 .col-sm-9 .region-content .form-item { margin-top: 10px; }
 
 .col-sm-9 .region-content .form-item h4.label { color: #27313d; font-size: 1em; font-weight: bold; }
+
+.block-views-blocksidebar-cart-block-block-1 .form-group { text-align: left; }
+
+.block-views-blocksidebar-cart-block-block-1 .form-group a { color: #27313d; }
+
+.block-views-blocksidebar-cart-block-block-1 .form-group .view-content { line-height: 1.6; }
+
+.block-views-blocksidebar-cart-block-block-1 .form-group .view-content .views-row { margin-bottom: 1em; }
+
+.block-views-blocksidebar-cart-block-block-1 .form-group .view-content .views-row:before, .block-views-blocksidebar-cart-block-block-1 .form-group .view-content .views-row:after { content: " "; display: table; }
+
+.block-views-blocksidebar-cart-block-block-1 .form-group .view-content .views-row:after { clear: both; }
+
+.block-views-blocksidebar-cart-block-block-1 .form-group .view-content .views-row .views-field-field-product-variation-image { float: right; display: block; }
+
+.block-views-blocksidebar-cart-block-block-1 .form-group .view-content .views-row .views-field-field-product-variation-image img { font-weight: bold; height: auto; max-width: 46px; vertical-align: middle; margin: 0 1em; border-radius: 4px; }
+
+.block-views-blocksidebar-cart-block-block-1 .form-group .view-content .views-row .views-field-title { font-weight: bold; }
+
+.block-views-blocksidebar-cart-block-block-1 .form-group .view-footer { border-top-width: 3px; border-top-style: solid; }
+
+.block-views-blocksidebar-cart-block-block-1 .form-group .view-footer .footer-wrapper { text-align: left; line-height: 1.6; margin: 0.5em 0 1em 0; padding: 0.5em 0 0 0; }
+
+.block-views-blocksidebar-cart-block-block-1 .form-group .view-footer .footer-wrapper .order-total-line__subtotal { display: none; }
 
 /** jQuery UI autocomplete widget style overrides. $todo Remove once jQuery UI is no longer used? */
 .ui-autocomplete { background: #fff; background-clip: padding-box; border: 1px solid #ccc; border: 1px solid rgba(0, 0, 0, 0.15); border-radius: 4px; box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175); color: inherit; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 14px; list-style: none; min-width: 160px; padding: 5px 0; text-align: left; z-index: 1000; }
