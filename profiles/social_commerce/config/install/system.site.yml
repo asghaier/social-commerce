@@ -1,13 +1,13 @@
-name: socialcommerce
+name: 'Social commerce'
 mail: admin@example.com
 slogan: 'Not Just Moustache'
 page:
-  403: ''
-  404: '/node/17'
+  403: /node/18
+  404: /node/17
   front: /node
 admin_compact_mode: false
 weight_select_max: 100
 langcode: en
 default_langcode: en
 _core:
-  default_config_hash: 0fwWjRR_qSMYPAbOAs1oiyNOC5sKWvbwlrzJ5pYiEHk
+  default_config_hash: NCMEDKkVxishVWMO5UO0DCkTG9i9ttKFGwdihm0vMsE
