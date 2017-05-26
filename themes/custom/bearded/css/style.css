@@ -3496,9 +3496,8 @@ footer .region-footer-second #block-copyrightcopyright { font-size: 0.75em; }
 .content .not-found-text .error-code { color: #767676; }
 
 .content .not-found-image { padding: 60px 0 0 80px; }
-.block-views-blocksidebar-cart-block-block-1 .form-group { text-align: left; }
 
-.block-views-blocksidebar-cart-block-block-1 .form-group a { color: #27313d; }
+.block-views-blocksidebar-cart-block-block-1 .form-group { text-align: left; }
 
 .block-views-blocksidebar-cart-block-block-1 .form-group .view-content { line-height: 1.6; }
 
@@ -3518,7 +3517,15 @@ footer .region-footer-second #block-copyrightcopyright { font-size: 0.75em; }
 
 .block-views-blocksidebar-cart-block-block-1 .form-group .view-footer .footer-wrapper { text-align: left; line-height: 1.6; margin: 0.5em 0 1em 0; padding: 0.5em 0 0 0; }
 
+.block-views-blocksidebar-cart-block-block-1 .form-group .view-footer .footer-wrapper .order-total-line__total { padding-left: 0; }
+
 .block-views-blocksidebar-cart-block-block-1 .form-group .view-footer .footer-wrapper .order-total-line__subtotal { display: none; }
+
+.block-views-blocksidebar-cart-block-block-1 .form-group .view-footer .footer-wrapper a { font-size: 0.8125em; font-weight: bold; line-height: normal; text-align: center; background-color: #1abc9c; border-radius: 3px; padding: 0.75em 1.5em 0.8125em 1.5em; position: relative; display: inline-block; color: #fff; margin-top: 1em; }
+
+.block-views-blocksidebar-cart-block-block-1 .form-group .view-footer .footer-wrapper:hover a { background-color: #27313d; }
+
+.block-views-blocksidebar-cart-block-block-1 .form-group .view-footer .footer-wrapper:before { content: ""; }
 
 /** jQuery UI autocomplete widget style overrides. $todo Remove once jQuery UI is no longer used? */
 .ui-autocomplete { background: #fff; background-clip: padding-box; border: 1px solid #ccc; border: 1px solid rgba(0, 0, 0, 0.15); border-radius: 4px; box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175); color: inherit; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 14px; list-style: none; min-width: 160px; padding: 5px 0; text-align: left; z-index: 1000; }
