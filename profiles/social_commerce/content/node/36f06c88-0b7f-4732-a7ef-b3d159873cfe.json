@@ -136,7 +136,7 @@
     ],
     "body": [
         {
-            "value": "<ul>\r\n\t<li><a href=\"\/\">About<\/a><\/li>\r\n\t<li><a href=\"\/contact\">Contact Us<\/a><\/li>\r\n\t<li><a href=\"\/\">Help<\/a><\/li>\r\n\t<li><a href=\"\/sitemap\" target=\"_blank\">Sitemap<\/a><\/li>\r\n<\/ul>\r\n",
+            "value": "<ul>\r\n\t<li><a href=\"\/\">About<\/a><\/li>\r\n\t<li><a href=\"\/contact\">Contact Us<\/a><\/li>\r\n\t<li><a href=\"\/\">Help<\/a><\/li>\r\n\t<li><a href=\"\/sitemap\">Sitemap<\/a><\/li>\r\n<\/ul>\r\n",
             "format": "full_html",
             "summary": "",
             "lang": "en"

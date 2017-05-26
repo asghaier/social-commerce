@@ -3123,7 +3123,7 @@ pre { background: none repeat scroll 0 0 #f7f7f8; margin: 1.5em; padding: 1.25em
 
 .region-navigation-collapsible.navbar-sticky .block--system-user-menu ul.menu > li.first > a.active-trail { border-radius: 0; }
 
-.block-commerce-cart .cart-block--contents { background-color: #27313d !important; box-shadow: initial; color: #fff; font-size: 0.75em; text-align: left; min-width: 214px; visibility: hidden; line-height: 1.6; padding: 1em 1.5em; position: absolute; display: block; box-sizing: content-box; background: white; }
+.block-commerce-cart .cart-block--contents { background-color: #27313d !important; box-shadow: initial; color: #fff; font-size: 0.75em; text-align: left; min-width: 214px; visibility: hidden; line-height: 1.6; padding: 1em 1.5em; position: absolute; display: block; box-sizing: content-box; background: white; border-radius: 3px; box-shadow: 0 4px 0 #1abc9c inset; }
 
 .block-commerce-cart .cart-block--contents .cart-block--contents__inner { padding: 0; }
 
@@ -3162,6 +3162,8 @@ pre { background: none repeat scroll 0 0 #f7f7f8; margin: 1.5em; padding: 1.25em
 .block-commerce-cart .cart-block--contents .cart-block--contents__inner .cart-block--contents__links a { font-size: 0.81252222em; font-weight: bold; line-height: normal; background-color: #1abc9c; border-radius: 3px; padding: 0.75em 1.5em; color: #fff; text-decoration: none; }
 
 .block-commerce-cart .cart-block--contents .cart-block--contents__inner .cart-block--contents__links a:hover { background-color: #27313d; }
+
+.block-commerce-cart .cart-apply-margins { margin: 5px 0 1.42857em 0; }
 
 .block-commerce-cart .cart-block-sticky { right: 0; left: auto !important; }
 
@@ -3352,7 +3354,7 @@ footer .region-footer-second #block-copyrightcopyright { font-size: 0.75em; }
 
 .view-random-products .product-item .product-info .product-price { font-weight: bold; font-size: 1.14em; }
 
-.view-random-products .product-item .product-category { text-align: right; }
+.view-random-products .product-item .product-category a { color: #656565; font-size: 0.928571em; }
 
 @media (max-width: 992px) { .view-random-products .product-item { margin-bottom: 40px; } }
 

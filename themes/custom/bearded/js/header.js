@@ -108,6 +108,8 @@
         // And now hide the box and restore its visibility after the document is loaded.
         $('#cart-block-contents').hide();
         $("#cart-block-contents").css({"visibility": "visible"});
+        // Applying margins after positioning the cart block otherwise it will not be positioned correctly.
+        $('#cart-block-contents').addClass("cart-apply-margins");
       });
     }
   };
