@@ -1,0 +1,13 @@
+langcode: en
+status: true
+dependencies: {  }
+name: product_box_x_small
+label: 'Product Box X Small'
+effects:
+  05b0b0ec-e3a1-47bc-9227-3a32c3d69aab:
+    uuid: 05b0b0ec-e3a1-47bc-9227-3a32c3d69aab
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 707
+      height: 707

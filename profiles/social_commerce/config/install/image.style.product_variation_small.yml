@@ -1,0 +1,13 @@
+langcode: en
+status: true
+dependencies: {  }
+name: product_variation_small
+label: 'Product Variation Small'
+effects:
+  d4ab8cdc-d49f-437c-8c3a-2344a4f2f0a8:
+    uuid: d4ab8cdc-d49f-437c-8c3a-2344a4f2f0a8
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 503
+      height: 503

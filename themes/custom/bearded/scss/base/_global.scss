@@ -15,12 +15,22 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   font: inherit;
   vertical-align: baseline;
 }
-
+h1, h2, h3, h4, h5, h6, p.navbar-text {
+  color: #27313d;
+  font-family: $body-font-family;
+  font-size: 2.3125em;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 1.2125em;
+  margin-bottom: 0.5em;
+  margin-top: 0.2em;
+  text-rendering: optimizelegibility;
+}
 .fa {
   font-family: FontAwesome, $body-font-family;
 }
 h1 {
-  font-size: 2.25em;
+  font-size: 2.3125em;
   letter-spacing: -0.056em;
   line-height: 1.2;
   margin: 0 0 0.694em 0;
@@ -29,7 +39,7 @@ h1 {
   word-wrap: break-word;
 }
 h2 {
-  font-size: 2.3125em;
+  font-size: 1.99em;
 }
 h3 {
   font-size: 1.6875em;
@@ -39,7 +49,6 @@ pre {
   margin: 1.5em;
   padding: 1.25em;
 }
-
 
 /* layout:global.scss */
 

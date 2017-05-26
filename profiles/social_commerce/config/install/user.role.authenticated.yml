@@ -1,8 +1,6 @@
 langcode: en
 status: true
 dependencies: {  }
-_core:
-  default_config_hash: iOJ05NGgoj1lHW0C9oOdriyhY4_lwerfH7MaOjKNPU0
 id: authenticated
 label: 'Authenticated user'
 weight: 1
@@ -21,3 +19,4 @@ permissions:
   - 'view files'
   - 'access variation add to cart'
   - 'change own username'
+  - 'access sitemap'

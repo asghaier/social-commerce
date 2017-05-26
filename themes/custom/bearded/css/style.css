@@ -2933,11 +2933,13 @@ body.toolbar-fixed.toolbar-vertical.toolbar-tray-open.toolbar-fixed .toolbar-tra
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
 
+h1, h2, h3, h4, h5, h6, p.navbar-text { color: #27313d; font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; font-size: 2.3125em; font-style: normal; font-weight: bold; line-height: 1.2125em; margin-bottom: 0.5em; margin-top: 0.2em; text-rendering: optimizelegibility; }
+
 .fa { font-family: FontAwesome, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
 
-h1 { font-size: 2.25em; letter-spacing: -0.056em; line-height: 1.2; margin: 0 0 0.694em 0; padding: 0; max-width: 100%; word-wrap: break-word; }
+h1 { font-size: 2.3125em; letter-spacing: -0.056em; line-height: 1.2; margin: 0 0 0.694em 0; padding: 0; max-width: 100%; word-wrap: break-word; }
 
-h2 { font-size: 2.3125em; }
+h2 { font-size: 1.99em; }
 
 h3 { font-size: 1.6875em; }
 
@@ -3161,6 +3163,8 @@ pre { background: none repeat scroll 0 0 #f7f7f8; margin: 1.5em; padding: 1.25em
 
 .block-commerce-cart .cart-block--contents .cart-block--contents__inner .cart-block--contents__links a:hover { background-color: #27313d; }
 
+.block-commerce-cart .cart-block-sticky { right: 0; left: auto !important; }
+
 .cart-block--summary { float: left; list-style: none; width: auto; height: 39px; margin: 0 0 0 0; padding: 0; background: #27313d; border-radius: 5px; }
 
 .cart-block--summary a.cart-block--link__expand { display: block; }
@@ -3208,7 +3212,7 @@ pre { background: none repeat scroll 0 0 #f7f7f8; margin: 1.5em; padding: 1.25em
 
 .region-sidebar .block-title:before { border-left: 3px solid #3a3f43; border-right: 3px solid #3a3f43; }
 
-.region-sidebar .block { margin-bottom: 2.857em; }
+.region-sidebar .block { margin-bottom: 2em; }
 
 .region-sidebar select { padding: .5em .8em; }
 
@@ -3492,6 +3496,29 @@ footer .region-footer-second #block-copyrightcopyright { font-size: 0.75em; }
 .content .not-found-text .error-code { color: #767676; }
 
 .content .not-found-image { padding: 60px 0 0 80px; }
+.block-views-blocksidebar-cart-block-block-1 .form-group { text-align: left; }
+
+.block-views-blocksidebar-cart-block-block-1 .form-group a { color: #27313d; }
+
+.block-views-blocksidebar-cart-block-block-1 .form-group .view-content { line-height: 1.6; }
+
+.block-views-blocksidebar-cart-block-block-1 .form-group .view-content .views-row { margin-bottom: 1em; }
+
+.block-views-blocksidebar-cart-block-block-1 .form-group .view-content .views-row:before, .block-views-blocksidebar-cart-block-block-1 .form-group .view-content .views-row:after { content: " "; display: table; }
+
+.block-views-blocksidebar-cart-block-block-1 .form-group .view-content .views-row:after { clear: both; }
+
+.block-views-blocksidebar-cart-block-block-1 .form-group .view-content .views-row .views-field-field-product-variation-image { float: right; display: block; }
+
+.block-views-blocksidebar-cart-block-block-1 .form-group .view-content .views-row .views-field-field-product-variation-image img { font-weight: bold; height: auto; max-width: 46px; vertical-align: middle; margin: 0 1em; border-radius: 4px; }
+
+.block-views-blocksidebar-cart-block-block-1 .form-group .view-content .views-row .views-field-title { font-weight: bold; }
+
+.block-views-blocksidebar-cart-block-block-1 .form-group .view-footer { border-top-width: 3px; border-top-style: solid; }
+
+.block-views-blocksidebar-cart-block-block-1 .form-group .view-footer .footer-wrapper { text-align: left; line-height: 1.6; margin: 0.5em 0 1em 0; padding: 0.5em 0 0 0; }
+
+.block-views-blocksidebar-cart-block-block-1 .form-group .view-footer .footer-wrapper .order-total-line__subtotal { display: none; }
 
 /** jQuery UI autocomplete widget style overrides. $todo Remove once jQuery UI is no longer used? */
 .ui-autocomplete { background: #fff; background-clip: padding-box; border: 1px solid #ccc; border: 1px solid rgba(0, 0, 0, 0.15); border-radius: 4px; box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175); color: inherit; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 14px; list-style: none; min-width: 160px; padding: 5px 0; text-align: left; z-index: 1000; }

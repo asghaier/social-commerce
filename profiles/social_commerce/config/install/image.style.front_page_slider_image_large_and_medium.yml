@@ -1,0 +1,13 @@
+langcode: en
+status: true
+dependencies: {  }
+name: front_page_slider_image_large_and_medium
+label: 'Front Page Slider Image Large and Medium'
+effects:
+  c090aaa9-cc0d-46b1-8363-3f6e9383d987:
+    uuid: c090aaa9-cc0d-46b1-8363-3f6e9383d987
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 350
+      height: 350
