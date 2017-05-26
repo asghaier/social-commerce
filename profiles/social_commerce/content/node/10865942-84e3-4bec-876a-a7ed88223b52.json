@@ -1,14 +1,14 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/404?_format=hal_json"
+            "href": "http:\/\/default\/node\/17?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/node\/page"
         },
         "http:\/\/drupal.org\/rest\/relation\/node\/page\/uid": [
             {
-                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "href": "http:\/\/default\/user\/0?_format=hal_json",
                 "lang": "en"
             }
         ],
@@ -30,7 +30,7 @@
     ],
     "vid": [
         {
-            "value": "26"
+            "value": "28"
         }
     ],
     "langcode": [
@@ -46,7 +46,7 @@
     ],
     "title": [
         {
-            "value": "Oops!",
+            "value": "404 - Not found",
             "lang": "en"
         }
     ],
@@ -55,7 +55,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                        "href": "http:\/\/default\/user\/0?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
@@ -63,7 +63,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "726316ee-1d2a-4d81-9946-f15f404f9ddf"
+                        "value": "742ab9a7-bfac-40df-a71b-e1104df23649"
                     }
                 ],
                 "lang": "en"
@@ -81,7 +81,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "726316ee-1d2a-4d81-9946-f15f404f9ddf"
+                        "value": "8319b7e7-e73d-4550-9418-c379e4554365"
                     }
                 ]
             }
@@ -101,7 +101,7 @@
     ],
     "changed": [
         {
-            "value": "1495552645",
+            "value": "1495641563",
             "lang": "en"
         }
     ],
@@ -118,7 +118,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "1495552645"
+            "value": "1495641563"
         }
     ],
     "revision_translation_affected": [
@@ -135,7 +135,7 @@
     ],
     "body": [
         {
-            "value": "<h1>Something&nbsp;went wrong ...<\/h1>\r\n\r\n<p>Error 404 - page not found.<\/p>\r\n\r\n<p>The URL may be misspelled or the page you're looking for is no longer available. You can either <a href=\"\/contact\">Contact us<\/a> or head back to <a href=\"\/\">Homepage<\/a>.<\/p>\r\n",
+            "value": "<div class=\"col-sm-12 col-md-7 not-found-text\">\r\n<h1 class=\"text-jumbo text-ginormous hide-sm\">Oops!<\/h1>\r\n\r\n<h2>We can't seem to find the page you're looking for.<\/h2>\r\n\r\n<h6 class=\"error-code\">Error code: 404<\/h6>\r\n\r\n<ul class=\"list-unstyled\">\r\n\t<li>Here are some helpful links instead:<\/li>\r\n\t<li><a href=\"\/\">Home<\/a><\/li>\r\n\t<li><a href=\"\/shop\">Shop<\/a><\/li>\r\n\t<li><a href=\"\/contact\">Contact<\/a><\/li>\r\n<\/ul>\r\n<\/div>\r\n\r\n<div class=\"col-md-5 not-found-image\"><img alt=\"404-not-found\" data-entity-type=\"file\" data-entity-uuid=\"472ef0e4-4954-4b7f-82ca-e475fdbd5ec5\" src=\"\/sites\/default\/files\/robot2.png\" \/><\/div>\r\n",
             "format": "full_html",
             "summary": "",
             "lang": "en"

@@ -41,6 +41,16 @@ ol, ul {
   }
 }
 
+h1, h2, h3, h4, h5, h6, p.navbar-text {
+  color: #27313d;
+  font-family: $body-font-family;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 1.2125em;
+  margin-bottom: 0.5em;
+  margin-top: 0.2em;
+  text-rendering: optimizelegibility;
+}
 .navbar-default .navbar-text {
   color: #27313d;
 }

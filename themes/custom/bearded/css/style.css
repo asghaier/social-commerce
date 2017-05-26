@@ -3491,6 +3491,11 @@ footer .region-footer-second #block-copyrightcopyright { font-size: 0.75em; }
 
 .col-sm-9 .region-content .form-item h4.label { color: #27313d; font-size: 1em; font-weight: bold; }
 
+.content .not-found-text .text-ginormous { font-size: 145px; margin-bottom: 20px; }
+
+.content .not-found-text .error-code { color: #767676; }
+
+.content .not-found-image { padding: 60px 0 0 80px; }
 .block-views-blocksidebar-cart-block-block-1 .form-group { text-align: left; }
 
 .block-views-blocksidebar-cart-block-block-1 .form-group a { color: #27313d; }
@@ -3538,6 +3543,8 @@ ol, ul { padding-left: 1.5em; }
 .help-block, .control-group .help-inline { color: #777777; font-size: 12px; margin: 5px 0 10px; padding: 0; }
 
 .help-block:first-child, .control-group .help-inline:first-child { margin-top: 0; }
+
+h1, h2, h3, h4, h5, h6, p.navbar-text { color: #27313d; font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; font-style: normal; font-weight: bold; line-height: 1.2125em; margin-bottom: 0.5em; margin-top: 0.2em; text-rendering: optimizelegibility; }
 
 .navbar-default .navbar-text { color: #27313d; }
 
