@@ -3449,6 +3449,31 @@ footer .region-footer-second #block-copyrightcopyright { font-size: 0.75em; }
 .shopping-cart-form .view-footer .footer-wrapper { position: relative; bottom: 110px; border-bottom: 1px solid lightgray; padding-bottom: 15px; margin-left: 50%; }
 
 /* product-details.scss */
+/* Related products */
+.view-related-products { padding: 0 20px; font-size: 1em; }
+
+.view-related-products .product-item .product-image img { width: 100%; }
+
+.view-related-products .product-item .commerce-variation-add-to-cart { background-color: #27313d; }
+
+.view-related-products .product-item .commerce-variation-add-to-cart input[type=submit] { font-size: 14px; color: #fff; line-height: 1.14286; text-indent: 20px; padding: 1em 1.2em; background-color: transparent; background-image: url(../images/cart.png); background-repeat: no-repeat; border: 0; }
+
+.view-related-products .product-item .commerce-variation-add-to-cart input[type=submit]:hover { color: #1abc9c; cursor: pointer; background-image: url(../images/cart-hover.png); }
+
+.view-related-products .product-item .product-info { padding: 15px 0 5px 0; line-height: 1.4; }
+
+.view-related-products .product-item .product-info .product-title { font-size: 14px; }
+
+.view-related-products .product-item .product-info .product-title a { color: #27313d; }
+
+.view-related-products .product-item .product-info .product-title a:hover { color: #1abc9c; }
+
+.view-related-products .product-item .product-info .product-price { font-weight: bold; font-size: .99em; text-align: right; }
+
+.view-related-products .product-item .product-category a { color: #656565; font-size: 0.928571em; }
+
+@media (max-width: 992px) { .view-related-products .product-item { margin-bottom: 40px; } }
+
 .product-details .field--name-field-product-variation-image .field--label, .product-details .field--name-price .field--label { display: none; }
 
 .product-title-price { padding: 0 0 3.071em 0; margin: 0 0 1.4285em 0; float: none; border-bottom-width: 1px; border-bottom-color: #eee; border-bottom-style: solid; }
@@ -3500,7 +3525,6 @@ footer .region-footer-second #block-copyrightcopyright { font-size: 0.75em; }
 .content .error-image { padding: 60px 0 0 80px; }
 
 @media only screen and (max-width: 992px) { .content .error-image, .content .text-ginormous { display: none; } }
-.block-views-blocksidebar-cart-block-block-1 .form-group { text-align: left; }
 
 .block-views-blocksidebar-cart-block-block-1 .form-group { text-align: left; }
 

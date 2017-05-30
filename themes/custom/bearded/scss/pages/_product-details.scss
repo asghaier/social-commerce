@@ -1,4 +1,7 @@
 /* product-details.scss */
+
+@import "../partials/related_products";
+
 .product-details .field--name-field-product-variation-image .field--label,
 .product-details .field--name-price .field--label {
     display: none;
