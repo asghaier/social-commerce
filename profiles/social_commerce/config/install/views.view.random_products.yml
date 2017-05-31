@@ -13,6 +13,8 @@ dependencies:
     - commerce_product
     - commerce_variation_add_to_cart
     - responsive_image
+_core:
+  default_config_hash: 0_Yqr51MQtl4UU0R4MoBLuJwgqTPsbaPS7obiK2JEV4
 id: random_products
 label: 'Random Products'
 module: views
@@ -399,8 +401,8 @@ display:
           alter:
             alter_text: false
             text: ''
-            make_link: false
-            path: ''
+            make_link: true
+            path: '/shop?field_product_category_target_id={{ field_product_category__target_id }}'
             absolute: false
             external: false
             replace_spaces: false
@@ -438,7 +440,7 @@ display:
           click_sort_column: target_id
           type: entity_reference_label
           settings:
-            link: true
+            link: false
           group_column: target_id
           group_columns: {  }
           group_rows: true
