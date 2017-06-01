@@ -6,6 +6,8 @@
  */
 
 use Drupal\Core\Routing\RouteMatchInterface;
+use Drupal\Core\Url;
+use Drupal\Core\Link;
 
 function social_commerce_tests_help($route_name, RouteMatchInterface $route_match) {
   switch ($route_name) {
@@ -17,4 +19,37 @@ function social_commerce_tests_help($route_name, RouteMatchInterface $route_matc
       // Help text for the admin section, using the module name in the path.
       return t("This is help text created in social commerce tests's implementation of hook_help().");
   }
+}
+
+function social_commerce_tests_entity_view_alter(array &$build, Drupal\Core\Entity\EntityInterface $entity, \Drupal\Core\Entity\Display\EntityViewDisplayInterface $display) {
+
+	if ($entity->getEntityTypeId()=='commerce_product' && $build['#view_mode'] == 'full') {
+		$product_category_list = $entity->__get('field_product_category');
+
+		//get_field_product_category();
+		//getField_product_category();
+
+		foreach ($product_category_list as $category ) {
+			$targetId = $category->__get('target_id');
+		}
+		//load product category name
+		$term_object = taxonomy_term_load($targetId);
+  		$term_name = $term_object->get('name')->value;
+  		//add link to redirect to the shop page by applying product category filter
+		$url = Url::fromUri('internal:/shop?field_product_category_target_id=' . $targetId);
+		$project_link = Link::fromTextAndUrl(t($term_name), $url);
+		$project_link = $project_link->toRenderable();
+
+		$build['product_category']['#weight'] = 20;
+		$build['product_category']['#markup'] = 
+												'<div class="product-category">' .
+												'<div class="field--label">Product Category</div>' .
+												'<div class="field--item">'. render($project_link) .'</div>' .
+												'</div>'
+		;
+
+		// $entity->create($values = array('#markup' => 'This is a link!'));
+
+		}
+	
 }

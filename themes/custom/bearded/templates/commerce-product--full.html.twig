@@ -24,7 +24,7 @@
 {#{{ dump(elements) }}#}
 <article class="product-details">
     <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
-        {{- product|without('variation_attributes', 'variations', 'variation_title', 'variation_sku', 'variation_price', 'body', 'field_product_category') -}}
+        {{- product|without('variation_attributes', 'variations', 'variation_title', 'variation_sku', 'variation_price', 'body', 'product_category') -}}
     </div>
     <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
         <div class="product-title-price">
@@ -33,7 +33,7 @@
         </div>
         <div class="product-content">
             {{ product.variations }}
-            {{ product.field_product_category }}
+            {{ product.product_category }}
             <span class="description-label">Description</span>
             {{ product.body }}        
         </div>
