@@ -3461,11 +3461,11 @@ footer .region-footer-second #block-copyrightcopyright { font-size: 0.75em; }
 
 .product-content .btn { font-size: 0.8125em; padding: 0.75em 1.5em 0.8125em 1.5em; }
 
-.product-content .field--name-field-product-category { padding: 20px 0 20px 0; }
+.product-content .product-category { padding: 20px 0 20px 0; }
 
-.product-content .field--name-field-product-category .field--label { float: left; padding-right: 5px; }
+.product-content .product-category .field--label { float: left; padding-right: 5px; }
 
-.product-content .field--name-field-product-category .field--label::after { content: ":"; }
+.product-content .product-category .field--label::after { content: ":"; }
 
 .product-content .description-label { font-weight: bold; font-size: 0.8125em; color: #fff; background-color: #27313d; padding: 0.75em 1.5em 0.8125em 1.5em; }
 
