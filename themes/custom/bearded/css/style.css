@@ -2862,7 +2862,7 @@ body.navbar-is-fixed-bottom { padding-bottom: 65px; }
 /** Tabs and local action styles. */
 .local-actions { margin: 10px 0 10px -5px; }
 
-.tabs--secondary { margin: 10px 0 5px; }
+.tabs--secondary, .tabs--primary { margin: 10px 0 25px; }
 
 /** Missing Bootstrap 2 tab styling. $see http://stackoverflow.com/questions/18432577/stacked-tabs-in-bootstrap-3 $see http://bootply.com/74926 */
 .tabbable { margin-bottom: 20px; }
@@ -3450,53 +3450,61 @@ footer .region-footer-second #block-copyrightcopyright { font-size: 0.75em; }
 
 /* product-details.scss */
 /* Related products */
-.view-related-products { padding: 0 20px; font-size: 1em; }
+.block--related-products { float: left; width: 100%; }
 
-.view-related-products .product-item .product-image img { width: 100%; }
+.block--related-products .view-related-products { padding: 0 20px; font-size: 1em; }
 
-.view-related-products .product-item .commerce-variation-add-to-cart { background-color: #27313d; }
+.block--related-products .view-related-products .product-item .product-image img { width: 100%; }
 
-.view-related-products .product-item .commerce-variation-add-to-cart input[type=submit] { font-size: 14px; color: #fff; line-height: 1.14286; text-indent: 20px; padding: 1em 1.2em; background-color: transparent; background-image: url(../images/cart.png); background-repeat: no-repeat; border: 0; }
+.block--related-products .view-related-products .product-item .commerce-variation-add-to-cart { background-color: #27313d; }
 
-.view-related-products .product-item .commerce-variation-add-to-cart input[type=submit]:hover { color: #1abc9c; cursor: pointer; background-image: url(../images/cart-hover.png); }
+.block--related-products .view-related-products .product-item .commerce-variation-add-to-cart input[type=submit] { font-size: 14px; color: #fff; line-height: 1.14286; text-indent: 20px; padding: 1em 1.2em; background-color: transparent; background-image: url(../images/cart.png); background-repeat: no-repeat; border: 0; }
 
-.view-related-products .product-item .product-info { padding: 15px 0 5px 0; line-height: 1.4; }
+.block--related-products .view-related-products .product-item .commerce-variation-add-to-cart input[type=submit]:hover { color: #1abc9c; cursor: pointer; background-image: url(../images/cart-hover.png); }
 
-.view-related-products .product-item .product-info .product-title { font-size: 14px; }
+.block--related-products .view-related-products .product-item .product-info { padding: 15px 0 5px 0; line-height: 1.4; }
 
-.view-related-products .product-item .product-info .product-title a { color: #27313d; }
+.block--related-products .view-related-products .product-item .product-info .product-title { font-size: 14px; }
 
-.view-related-products .product-item .product-info .product-title a:hover { color: #1abc9c; }
+.block--related-products .view-related-products .product-item .product-info .product-title a { color: #27313d; }
 
-.view-related-products .product-item .product-info .product-price { font-weight: bold; font-size: .99em; text-align: right; }
+.block--related-products .view-related-products .product-item .product-info .product-title a:hover { color: #1abc9c; }
 
-.view-related-products .product-item .product-category a { color: #656565; font-size: 0.928571em; }
+.block--related-products .view-related-products .product-item .product-info .product-price { font-weight: bold; font-size: .99em; text-align: right; }
 
-@media (max-width: 992px) { .view-related-products .product-item { margin-bottom: 40px; } }
+.block--related-products .view-related-products .product-item .product-category a { color: #656565; font-size: 0.928571em; }
+
+@media (max-width: 992px) { .block--related-products .view-related-products .product-item { margin-bottom: 40px; } }
+
+.region-content-header { padding: 0 15px 2.083em 15px; }
+
+a img { margin: auto; }
+
+.product-details { display: inline-block; margin: 0 0 30px 0; }
 
 .product-details .field--name-field-product-variation-image .field--label, .product-details .field--name-price .field--label { display: none; }
 
-.product-title-price { padding: 0 0 3.071em 0; margin: 0 0 1.4285em 0; float: none; border-bottom-width: 1px; border-bottom-color: #eee; border-bottom-style: solid; }
+.product-details .product-title-price { padding: 0 0 3.071em 0; margin: 0 0 1.4285em 0; float: none; border-bottom-width: 1px; border-bottom-color: #eee; border-bottom-style: solid; }
 
-.product-title-price h1 { font-size: 1.715em; letter-spacing: -1px; float: left; }
+.product-details .product-title-price h1 { font-size: 1.715em; letter-spacing: -1px; float: left; }
 
-.product-title-price .field--name-price .field--item { float: right; font-size: 1em; font-weight: bold; line-height: 47px; }
+.product-details .product-title-price .field--name-price .field--item { float: right; font-size: 1em; font-weight: bold; line-height: 47px; }
 
-@media screen and (max-width: 992px) { .product-title-price { margin-top: 20px; } }
+@media screen and (max-width: 992px) { .product-details .product-title-price { margin-top: 20px; } }
 
-.product-content .btn { font-size: 0.8125em; padding: 0.75em 1.5em 0.8125em 1.5em; }
+.product-details .product-content .btn { font-size: 0.8125em; padding: 0.75em 1.5em 0.8125em 1.5em; }
 
-.product-content .product-category { padding: 20px 0 20px 0; }
+.product-details .product-content .product-category { padding: 20px 0 20px 0; }
 
-.product-content .product-category .field--label { float: left; padding-right: 5px; }
+.product-details .product-content .product-category .field--label { float: left; padding-right: 5px; }
 
-.product-content .product-category .field--label::after { content: ":"; }
+.product-details .product-content .product-category .field--label::after { content: ":"; }
 
-.product-content .description-label { font-weight: bold; font-size: 0.8125em; color: #fff; background-color: #27313d; padding: 0.75em 1.5em 0.8125em 1.5em; }
+.product-details .product-content .description-label { font-weight: bold; font-size: 0.8125em; color: #fff; background-color: #27313d; padding: 0.75em 1.5em 0.8125em 1.5em; }
 
-.product-content .field--name-body { border-top-width: 3px; border-top-color: #27313d; border-top-style: solid; margin-top: 0.7em; }
+.product-details .product-content .field--name-body { border-top-width: 3px; border-top-color: #27313d; border-top-style: solid; margin-top: 0.7em; }
 
-.product-content .field--type-text-with-summary { padding: 10px 0; }
+.product-details .product-content .field--type-text-with-summary { padding: 10px 0; }
 
 .commerce-checkout-flow .layout-checkout-form .layout-region-checkout-secondary > h3 { font-size: 2.25em; letter-spacing: -0.056em; }
 

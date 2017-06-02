@@ -54,3 +54,17 @@ function bearded_theme_suggestions_page_alter(array &$suggestions, array $variab
     }
   }
 }
+
+/**
+ * Implements hook_theme_suggestions_HOOK_alter() for block templates.
+ */
+function bearded_theme_suggestions_block_alter(array &$suggestions, array $variables) {
+  $block_id = $variables['elements']['#id'];
+
+  // Use a different template file based on the block id.
+  switch ($block_id) {
+    case 'views_block__related_products_block_1':
+      $suggestions[] = 'block__related_products';
+      break;
+  }
+}
