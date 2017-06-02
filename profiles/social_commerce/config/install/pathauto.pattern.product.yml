@@ -7,16 +7,16 @@ dependencies:
 id: product
 label: Product
 type: 'canonical_entities:commerce_product'
-pattern: 'product/[commerce_product:title]'
+pattern: 'products/[commerce_product:field_product_category]/[commerce_product:title]'
 selection_criteria:
-  18fe5011-9068-4672-b27c-f0a3ec704be3:
+  d5ce2f6b-9397-4637-9583-cd8287e4266a:
     id: 'entity_bundle:commerce_product'
     bundles:
       demo_product_type: demo_product_type
     negate: false
     context_mapping:
       commerce_product: commerce_product
-    uuid: 18fe5011-9068-4672-b27c-f0a3ec704be3
+    uuid: d5ce2f6b-9397-4637-9583-cd8287e4266a
 selection_logic: and
 weight: -5
 relationships: {  }

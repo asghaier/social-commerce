@@ -346,7 +346,7 @@ display:
           field: nothing
           relationship: none
           group_type: group
-          admin_label: ''
+          admin_label: 'Product Title, Product Price'
           label: ''
           exclude: false
           alter:
