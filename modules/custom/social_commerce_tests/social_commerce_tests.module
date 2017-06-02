@@ -25,10 +25,7 @@ function social_commerce_tests_entity_view_alter(array &$build, Drupal\Core\Enti
 
 	if ($entity->getEntityTypeId()=='commerce_product' && $build['#view_mode'] == 'full') {
 		$product_category_list = $entity->__get('field_product_category');
-
-		//get_field_product_category();
-		//getField_product_category();
-
+		
 		foreach ($product_category_list as $category ) {
 			$targetId = $category->__get('target_id');
 		}
@@ -47,9 +44,5 @@ function social_commerce_tests_entity_view_alter(array &$build, Drupal\Core\Enti
 												'<div class="field--item">'. render($project_link) .'</div>' .
 												'</div>'
 		;
-
-		// $entity->create($values = array('#markup' => 'This is a link!'));
-
-		}
-	
+	}
 }
