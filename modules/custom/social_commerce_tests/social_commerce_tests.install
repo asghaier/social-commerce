@@ -340,11 +340,6 @@ function social_commerce_tests_install() {
     ))
     ->save();
 
-  entity_get_display('commerce_product', 'demo_product_type', 'default')
-    ->setComponent('field_product_category'
-      )
-    ->save();
-
   $field_config = \Drupal\field\Entity\FieldStorageConfig::loadByName('commerce_product', 'field_product_category');
 
   // These three functions must be called to add the appropriate fields to the type
