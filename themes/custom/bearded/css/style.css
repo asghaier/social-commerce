@@ -3490,7 +3490,7 @@ footer .region-footer-second #block-copyrightcopyright { font-size: 0.75em; }
 
 /* product-details.scss */
 /* Related products */
-.block--related-products { float: left; width: 100%; }
+.block--related-products { width: 100%; }
 
 .block--related-products .view-related-products { font-size: 1em; }
 
