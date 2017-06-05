@@ -1,61 +1,129 @@
 /* sidebar.scss */
 .region-sidebar {
-    .block-title {
-      position: relative;
-      margin: 0 15px 15px 0;
-      font-size: 1.1428em;
-      padding-top: 2px;
-      padding-left: 18px;
-      &:before {
-        border-left: 3px solid #3a3f43;
-        border-right: 3px solid #3a3f43;
-      }
+  .block-title {
+    position: relative;
+    margin: 0 15px 15px 0;
+    font-size: 1.1428em;
+    padding-top: 2px;
+    padding-left: 18px;
+    &:before {
+      border-left: 3px solid #3a3f43;
+      border-right: 3px solid #3a3f43;
     }
-    font-size: .875em;
-    .block {
-      margin-bottom: 2em;
+  }
+  font-size: .875em;
+  .block {
+    @media only screen and (max-width: 768px) {
+      padding: 0 15px 0 15px;
     }
-    select {
-      padding: .5em .8em;
-    }
+    margin-bottom: 2em;
+  }
+  select {
+    padding: .5em .8em;
+  }
 
 }
 
-.block-views-blockproduct-category-block-1{
+.block-views-blocksidebar-cart-block-block-1 {
+  .form-group{
+    text-align: left;
     .view-content {
-   
       line-height: 1.6;
-      margin-bottom: 0;
-        ul {
-          list-style: none inside;
-          margin-bottom: 0;
-          li {
-            position: relative;
-            padding-left: 1em;
-            a {
-              -webkit-transition: all 0.2s linear;
-              -moz-transition: all 0.2s linear;
-              transition: all 0.2s linear;
-              color: $body-font-color;
-              &:hover {
-                color: $theme-color;
-              }
-            }
-            &:before {
-              font-family: FontAwesome;
-              content: "\f0da";
-              line-height: inherit;
-              font-size: 0.857em;
-              color: #ccc;
-              position: absolute;
-              display: inline-block;
-              height: 100%;
-              left: 0;
-              top: 3px;
-            }
+      .views-row {
+        @include clearfix();
+        margin-bottom: 1em;
+        .views-field-field-product-variation-image {
+          float: right;
+          display: block;
+          img {
+            font-weight: bold;
+            height: auto;
+            max-width: 46px;
+            vertical-align: middle;
+            margin: 0 1em;
+            border-radius: 4px;
           }
         }
-    }     
+        .views-field-title {
+          font-weight: bold;
+        }
+      }
+    }
+    .view-footer {
+      border-top-width: 3px;
+      border-top-style: solid;
+      .footer-wrapper {
+        text-align: left;
+        line-height: 1.6;
+        margin: 0.5em 0 1em 0;
+        padding: 0.5em 0 0 0;
+        .order-total-line__total{
+          padding-left: 0;
+        }
+        .order-total-line__subtotal {
+          display: none;
+        }
+        a {
+          font-size: 0.8125em;
+          font-weight: bold;
+          line-height: normal;
+          text-align: center;
+          background-color: $theme-color;
+          border-radius: 3px;
+          padding: 0.75em 1.5em 0.8125em 1.5em;
+          position: relative;
+          display: inline-block;
+          color: #fff;
+          margin-top: 1em;
+        }
+        &:hover {
+          a {
+            background-color: $body-font-color;
+          }
+        }
+        &:before {
+          content: "";
+        }
+      }
+    }
+  }
+}
+
+.block-views-blockproduct-category-block-1 {
+  .view-content {
+
+    line-height: 1.6;
+    margin-bottom: 0;
+    ul {
+      list-style: none inside;
+      margin-bottom: 0;
+      li {
+        position: relative;
+        padding-left: 1em;
+        a {
+          -webkit-transition: all 0.2s linear;
+          -moz-transition: all 0.2s linear;
+          transition: all 0.2s linear;
+          color: $body-font-color;
+          &:hover {
+            color: $theme-color;
+          }
+        }
+        &:before {
+          font-family: FontAwesome;
+          content: "\f0da";
+          line-height: inherit;
+          font-size: 0.857em;
+          color: #ccc;
+          position: absolute;
+          display: inline-block;
+          height: 100%;
+          left: 0;
+          top: 3px;
+        }
+      }
+    }
+  }
 }
 
 .block-views-blocklatest-products-block-1 {
@@ -85,7 +153,7 @@
     .views-field-price__number {
       margin-top: 10px;
     }
-    a{
+    a {
       color: #1abc9c;
     }
   }

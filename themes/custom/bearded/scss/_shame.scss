@@ -207,7 +207,6 @@ form .form-item textarea {
 
 .container > .navbar-header {
   margin: 0;
-  margin-left: 15px;
   @media (min-width: $grid-float-breakpoint) {
     margin-left: -15px;
   }
@@ -218,7 +217,10 @@ form .form-item textarea {
   max-width: 100%;
   display: block;
   text-align: center;
-  margin-bottom: 2em;
+  margin: 0 0 2em 0;
+  @media (min-width: $small) and (max-width: $screen-xs-max) {
+    margin: 0 0 2em 1em;
+  }
   .logo {
     display: inline-block;
     margin: 0;

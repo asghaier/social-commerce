@@ -25,6 +25,9 @@ a img {
         border-bottom-width: 1px;
         border-bottom-color: #eee;
         border-bottom-style: solid;
+        @media only screen and (max-width: 320px) {
+          border-width: 0;
+        }
         h1 {
             font-size: 1.715em;
             letter-spacing: -1px;
@@ -50,7 +53,7 @@ a img {
         }
         .product-category {
             padding: 20px 0 20px 0;
-
+            line-height: 1.6;
             .field--label {
                 float: left;
                 padding-right: 5px;
