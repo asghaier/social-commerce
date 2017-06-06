@@ -1,0 +1,94 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/file\/9000008?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/file\/image"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/file\/image\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "fid": [
+        {
+            "value": "9000008"
+        }
+    ],
+    "uuid": [
+        {
+            "value": "f4dee6d0-f963-40e9-8ea4-7ba0bc0e2ba7"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "image"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/file\/image\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "edd44168-1d13-420e-a013-f2124b502199"
+                    }
+                ]
+            }
+        ]
+    },
+    "filename": [
+        {
+            "value": "b_pennmart.png"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2017-06\/b_pennmart.png"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/png"
+        }
+    ],
+    "filesize": [
+        {
+            "value": "4561"
+        }
+    ],
+    "status": [
+        {
+            "value": "1"
+        }
+    ],
+    "created": [
+        {
+            "value": "1496405484"
+        }
+    ],
+    "changed": [
+        {
+            "value": "1496405495"
+        }
+    ],
+    "data": [
+        {
+            "value": "iVBORw0KGgoAAAANSUhEUgAAAQ4AAABQCAYAAADoQpuWAAAABmJLR0QA\/wD\/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4QUSDCgoQs6N1wAAABl0RVh0Q29tbWVudABDcmVhdGVkIHdpdGggR0lNUFeBDhcAABE5SURBVHja7Z15dFRVnse\/71XVe7UllUoqSyWVkARIQIVmaxHc2sEBoV1oB0dsFVy6tbuhu+0+c5zT45np1h7HxvV022PPwCiOY6uDii1ywGlkEFmEEdkUCAESQpbKUqlUKrW92t78EXipV+urEELVzO9zTs7Jfdvv3fvu+97f\/d37bjE\/Pz5DBEEQRBawVAQEQZBwEARBwkEQBAkHQRAkHARBkHAQBEGQcBAEQcJBEAQJB0EQJBwEQZBwEARBkHAQBEHCQRAECQdBECQcBEGQcBAEQZBwEARBwkEQBAkHQRAkHARBkHAQBEHCQRAEQcJBEAQJB0EQOYY612\/QoqkGk6W+iRAhRH3wR4YQhkBPmSD+PwmHgTXjF5M2XdQ1HEIHzvgOYPfAO+gSTtITJ4j\/68JRwU+EJzwgpXnWAA3LSWl\/2IMIQrJzGLDQskaoWNWwx8LbYOFtmGteis8H3sPG7jWIIkxPnsgJqvgpABgAgDcyAFe4Oy\/um8mn345dXbMedYYZUvrFlnvQKTQl66ugUtuI+ea7MM\/8V7JdX7q24C37E1RjictOkboCfz95q5Te0vN7bHe+mhf3nj\/BURGwahukZDgahF04nUIOgS7hJN7r\/kds6n5Rtmt20RJMMVxLtZa4\/N6Gdoos3ZlHXem8EY5SrhZalV5KdwstirocO53\/AWewS7btm6bbqdYSlx2bdqos3RE4QcIx9oUcp86BJoWdMeCs\/4hsUzlfT7WWyCmPYzDUB0+kn4Rj7At59OocjPplaY7VUa0lcqox7Azk14ifOh8LOSuPA0CBukSWdof7FBYOBwtXA6PKDI7VIyj6MRjqhSPYDpGJjGn+GJGFlZ8Ek6YcYTEEV6gbfaGzY16O42VHBQ2qtI0wqkogRL2wC6fgiw6mPcekKkMZXw81o4Y73I+uQPPYlrMIlHDVMKrMMKiKADAIin4MhR3oC54bs9G2Ek01SjRVUDMcfJFBOENdcEfkdc7AmmHSlMXU5xMkHJfarYtEI+gKNCs+t5JvkKXTncuILGabvo3ZpiWo082ERsUnejARP05692FH\/+toCxxNea1Flh9ikv6bSfdtc6xFs28feMaImy0P4eqipTCqzbJjBoLd2NL3Mg66t6TNXy7Z0TEFWFT6A8wx3Q6d2ih7Zsc9O\/F+9zMYijhk515huBELS7+Pat2Vsu2+sBvb+1\/Dp\/3\/fmHEchRCqcKMwoWYUfiXqNPPgkFtSnpcIOLD06eXJBU3JfnWMFrcWHw\/rim6E2auIuG4wVAftvb9M6423QEA4Fm9bP+MwoWYqJ+TVO3Wtq9CSAyQcGSLWW2FXl0opR3BNoSgrCDLuXqYOats2wnP7qTHTtbPxbKKJ2Dhq88LRADNnv0YDPdCzXAo5+pQqWsAp9JhWuFNmFZ4Ezb3\/A47nOuTXm9awQJYtROT7vN0O1HFT8GDtpeSVjQAMHMVuLfqaTBg8aV7c8o8jped6QULUJHGTgU3CQ\/aXoKFtyV6IKwK0wr\/Ala+AS+23gNB9ICFGndbf4k5RbcmvaZeXYjbyh+DCipsd76WtXdxrXk5FlgelFr2cDSEDn8TBsO9EMUo6vWzpHoVFoWUHlGmfFu5BjxoexElfFXK2\/FH3GgwzEW9YWbS\/aX8BJTyExK2DwTtOScaeSMcifEN5d2U68zLZWmH0I4mz56EFuzmku9joeVRqFgVotEoPnW+gW2OdQiKPrn3wjVgpe15SVxuLf8JzvoOozVwKMH21t7fg2WGJ6LNN9+FBuPc8xU4CDXL45HqVxAU\/fhvx+voCJxAOBqEhavBfPMy6foAsNDyCL4c3Jyy1R0vO3\/qeU6a\/n9jyX2YYpwv2QGA1RPWIyj6sMPxBrrPD5XX6K7C3KKlUJ+fuGfhbbix5F5s61uHB6pfwJUFN6DZsw\/HPbvgCTthVBdjtmmJzPv4VslK7HS+iTCCip55maYOyyufwgT9VZJHtc2xFkfdn8AvDknHLbasws2l38sYY0iXbxWjwSM1r4BjtTg8uA0tvoPwRQZRwlXh+uLvSt5dZ6AJ+11\/wlH3dgDAAstDqNZdIXlWG+xPJbXtjQxQV2W0VI8yMFqjvQpzi74j27al72WITFS2baHlB1hU+igAIBqN4q2uJ3Bo6OOk1+wKNuM\/7b\/CqtqRiTrzzMvQak8UjmPeT2Mq\/\/3S\/0PhfqyoWoMT3l3YYH9K3qJ4gf2ujXh84kaYNKXnX7ZqmDVWDITtSe9pvOyc8u2X\/r+l9IcxMSMHVtiexdeeHXjf\/k8yb\/CA+yOc9n2BlbbnpG2NhvngGD3qdTOxtm0VTvr2yuzscr6NH9euR63+G5LnUaO7Ci3+gxmfea12Bh6u\/q3kSexxbsCmnheSio5VO1lRjCFVvofC\/VhhexZ9wTa82fkLOMOdsvOaPHvxs\/o\/SnX2jP+AtO+2sp\/J6vNXnu15FePIi1GVqlEERqv4qXjY9luo2BFt3OPcgCND22THzSpcIokGAOweeCelaFygxXcQoehIRazgJ2ZwmxlY+ckxXQMrOgMn8cfOv0vqhgZED054dsm2FapLFbjn42lnkpQs5iphF07jna5\/SNqFPOr+BL6wO+bZNOL64nvwWsdjCaJxPjCBA4Obs76vKYbr8GjNHyTR+LD7BWzseSalpzI83TsLLzYu32bOCk\/YiVfavpcgGgDQIRxHKCIkXF\/LGGXdmmwC\/eRxXIRwpHzIImDlJ2Nu0VLMMy+T3GMA2O18Bx90r5G54Ua2GEvLHx\/ph4aH8HHfHzIH3MCCzUJzy\/g68DGT1wIRLzbYn0wb8BsK98dlTcwZOxV8PTiVLqbcPHjX\/uvUdhjAE3FKL7RGxWOX8+20HoQ75Ii7RProaLG6CvdVPgNOpQUAfNb\/Fj4beDPl8Qa2CEVcuSKPI1W+QxEBb3Q+nrYL9V7302AZFdr9xy6qISThyJIClQWFGouUjkaj+GntG4kZYTgY1GbZ7FIAcAV7sKn3hWFPI67u3VL2I1mUff\/gBxBET8Z7qtPPkHky\/aGOtMfHDyXvHXgX3qgr7TnxUff4F\/xy2omv+J+73s041MoxIy9cJBrGdkf6YGf8XBtPmr4+I6pwX9VvpFGcDn8TNvW8kFYwbdorZMLnCLZnHLlJzPf7Kbt1sV21RNv5O2M0b4Qj\/mVgWRbl2rq05\/jCbpzzf4WD7q044t6WtEXQsybMLlwi23ZwcGvG+1FBjVtj+qcA8NXQ9gx5kFeUL1yZlwqIdc1DEQEDoa6MFfvy2fkoQ5lpUKAeEf9T3v0JQ7IJHoSmUpbuC7alPHa++S4pEAoAH\/Y8nxDHSicCdqFZ0XBvfL73uzaOrk7rpsq8wr5g26iHm0k4Uj5g+cPa49yAw+4\/J+2nBKJe+CKDcIW6Mz6ImYWLZW5nf7Az+Ze2sV0Brh7LrU\/KKmlX4BQODf5XWnuxlXQgaEdvqFVRt+MC3cHTiipWrtop5+qkZQ4AoMm7N3O3IGb40xd2p\/zcnBFVsoDwKc8XaPF\/mVWDpHSULj7f3cEzo6vTfGNM\/WnOO9HIE49DLhzHhnZmrhgKHkSjcZ4sfdr7RdLjWKgxST8H1xTdiWkFC8CyI7GNfqETa8\/9KH3rJsorSovvUMZ7Y6FGGTchy8Dd+NmpzNKOTXeFLN3qO6zg5VI2HXuW6RYUc5UxXsAHWTdIiroKo8h3MjTQwhJT5pkaKxKOUXscjXH9weMXf1ERqNfNigtQnYRFUw2DyowiTQUqtQ2o5BtQp5spmwF5Ic6yz\/U+Nvf+LmNMpERjg05dkNX9W\/lJssBuhz9zxR4vOxauWlYeSuzEin84GhruGqR7uRgtLFxNzMt1Io1wjHQ3gxE\/jg59kvF+eMYom6SmJDg5mnwno1LbIPO+lJQ5CUeW6NhCWWviCvZkDPYpwaypTBCDO61\/m\/G8PuEcDrk\/xv+4PsRAuEuZ8OmmJghUNi7x8DkncsdOwjlK7IyIf4\/QgkiGb0IqefnLlerFVkGNet3ITMyz\/iMJK8Jl6qYEIwH0CC1ZB0ZH+1FavAedjyMqOS8clyr6XKQuT7o9GAkgKPohRHwYDPdiIGTHQKgLHYEmtPoPj+qzZ5vSoeQ0LXSXcCqH7GQ5izdubomiOTjxefEnP6dOP0sWpzrtPaDomdTpR1aRswunMwZSR5VvBXkLRQR0C2coxjH23ZT4FZLGRp01rFaW7g6cwXMtyy7JA4ytcA6hXdFwb2y+e4VWha3o+NipytJO\/NwSJeIfmxch4kNvsDXps6nWXhlXP5R5AZP0V0v\/dwlKA6PZl2+mvHUHlYlWLpLTM0fjW9F2\/\/Exua4Q9crSIVG4ZKofG7BUOjuxMqaF7lBascfLjjY7O4meUHbdIbtwKuWzKYr5LB0AXCF7xmsXqCyo18\/KOsaQbb5Tda3KY0axOvK0m5LzwlF1iboqfcFzsrRRVXxJ7t+kKodRU5zV\/ZfxdTL3u9PflDN2itQVsk\/ys\/UelCyHwEKNipgV2tK9XDxrkKWjYubW+\/rie+TBycClyXcyyvmJsmB0Zx4LR852VThGB4tm5MtNd6g\/46QhpfiiLnT6T6JKN9yKFKpLUaCyKLr+HWV\/g6nG6xGIevDy2ZVpA32jCYSNpoUeLzuxQ6SjiVc4gucyLodQEfdypbsvT9gpS5s11rRzSsxqK6413y2L69gVxHVGk++kwsHVJXSR41lufQqT9VcjKAbwXMuynP0pj5z1OKr4KbI5E2O9QtLegQ0jLiSrwjzzsoznTNTNwbXmu1HK1+DY0M6MowO2hJGO7Nz0aDSq6EekctaOKF9ESUmMKpvvOM745PN5ZpkWp\/ZOGANWVD0LNaPJPn40ivJNhkElX0ApfiU6njFgesECFHHl6Ao05\/Tv\/+SMcDAiCz1rkv4ufFI90r1ok+3XMQUXZW+f6wO0+b6S0gtKHsI044KUx88sWIyHq4e\/tm3y7MUnjn\/L6iVQOpQc6z04Q51QM9xwftnCvLNTorHJFmBSEk+IH+kZCvdLzzz++7smzx70CSPdzjlFt+JbxSvBiCrZcbXab2B17XpwrA7HPJ9J23uCrdK1NYx2TMs3Gf7okNzdj\/GsIAJLyn4MXqVHJBrBjv7XqauihOmFN2OFbU3K\/TeU3IsbSu4deeiBVjzbeufFKBVebf8JVteuRxlfCzWrwQPVz6PFewgnvZ9jKOwAAxZmzopGwzXSwjIHXJuxwf6kwiG8Kdn1i+NaaAtfjV83fjosnMI5\/KbljryyEz+3RFlgtDHmxdLgVw3bJK\/oiebrEBRHFp4WmeG1Ux6t+Vfp48bbyh\/DTSUr0RU4iagYgYWbAAtvQ0+gFevaV+MB2\/MjjYFpEWaaFgEAtvWtw8eOV8amfFNw1n8EkWhEirHcX7Xm\/PdEDK4suAETDbMBANv7X0WHcJyEQ1HXJG6GaCbG4ndgvVEXXmr9Lr5d9lPMLfoONCyHesPMpMu7tfuP4c9963Dcu1OZWxq\/GK0CN71YUyVroWX5TTHhKJftZL3AtAhY49aHvUB\/qEMmGhc4F\/ga\/9L2CP668peoPL8wj1FtRoPxGgDDw7l7nBvwUc9LCIshlKdYO6VzDPOdiv5QO7b0vYzFpaugZjWwaifh9oqfj3gk55d12O16O+eDo3n1E5CXEp4xYopx\/rB7rTIhIgbhiwyhP9SOc\/6vE1apJnIMEZigm44JuukoUBfDFxmCM9SBJs9eCKI3p27VpCpDg3GetBK6PzIEu3AKzd79CEPIi+Im4SAIImtYKgKCIEg4CIIg4SAIgoSDIAgSDoIgSDgIgiBIOAiCIOEgCIKEgyAIEg6CIEg4CIIgSDgIgiDhIAiChIMgCBIOgiBIOAiCIEg4CIIg4SAIgoSDIAgSDoIgSDgIgiDhIAiCIOEgCOLS8r8wepR15fwwugAAAABJRU5ErkJggg=="
+        }
+    ]
+}
