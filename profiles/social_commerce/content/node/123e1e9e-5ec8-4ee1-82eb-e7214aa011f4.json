@@ -1,0 +1,144 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/refunds?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/page"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/page\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/page\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": "20"
+        }
+    ],
+    "uuid": [
+        {
+            "value": "123e1e9e-5ec8-4ee1-82eb-e7214aa011f4"
+        }
+    ],
+    "vid": [
+        {
+            "value": "37"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "page"
+        }
+    ],
+    "title": [
+        {
+            "value": "Returns, Refunds and Exchanges Policy",
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/page\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "edd44168-1d13-420e-a013-f2124b502199"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/page\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "edd44168-1d13-420e-a013-f2124b502199"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "1496747600",
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": "1496747667",
+            "lang": "en"
+        }
+    ],
+    "promote": [
+        {
+            "value": "0"
+        }
+    ],
+    "sticky": [
+        {
+            "value": "0",
+            "lang": "en"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "1496747667"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p><strong>How To Return An Item<\/strong><\/p>\r\n\r\n<p dir=\"ltr\"><strong>Your item must be in its original unused condition to be returned, unless there is a manufacturer defect. Your must return the item within 30 days of your purchase. <\/strong><\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p dir=\"ltr\"><strong>1. Please email info@yourstore.com to request a refund and we will assign you a tracking #.<\/strong><\/p>\r\n\r\n<p dir=\"ltr\"><strong>2. Mail your returned item to:<\/strong><\/p>\r\n\r\n<p dir=\"ltr\"><strong>&nbsp;&nbsp;&nbsp;&nbsp;YourStore Name<\/strong><\/p>\r\n\r\n<p dir=\"ltr\"><strong>&nbsp;&nbsp;&nbsp;&nbsp;Returns Department Tracking # <\/strong><\/p>\r\n\r\n<p dir=\"ltr\"><strong>&nbsp;&nbsp;&nbsp;&nbsp;123 Your Store Road<\/strong><\/p>\r\n\r\n<p dir=\"ltr\"><strong>&nbsp;&nbsp;&nbsp;&nbsp;Store City, Store State Store Zip Code <\/strong><\/p>\r\n\r\n<p dir=\"ltr\"><strong>3. Include in your package a signed letter stating the reason for your return and the original receipt. <\/strong><\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p dir=\"ltr\"><strong>Return Exceptions<\/strong><\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p dir=\"ltr\"><strong>Some items can not be returned if they are opened. These include music, software, and video games.<\/strong><\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p dir=\"ltr\"><strong>Merchandise that has been worn, used, or altered will not be accepted for return or exchange. <\/strong><\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p dir=\"ltr\"><strong>Restocking Fee<\/strong><\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p dir=\"ltr\"><strong>All items are subject to a 10% restocking fee, this will be deducted from your refund. We also do not refund the original shipping and handling that you paid on the order. <\/strong><\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p dir=\"ltr\"><strong>Exchanges<\/strong><\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p dir=\"ltr\"><strong>If your clothing item is in like new condition, you may exchange your clothing item for a different size or color. You will not be subject to a restocking fee in this case, but you still will have to pay return shipping. <\/strong><\/p>\r\n",
+            "format": "basic_html",
+            "summary": "",
+            "lang": "en"
+        }
+    ]
+}

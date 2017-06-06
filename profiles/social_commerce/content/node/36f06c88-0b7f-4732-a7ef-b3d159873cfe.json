@@ -63,7 +63,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "d304144b-4469-4c8c-81d8-f5f202627ac2"
+                        "value": "562381db-73a9-40c4-9c84-35072c8da510"
                     }
                 ],
                 "lang": "en"
@@ -81,7 +81,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "d304144b-4469-4c8c-81d8-f5f202627ac2"
+                        "value": "562381db-73a9-40c4-9c84-35072c8da510"
                     }
                 ]
             }
@@ -101,7 +101,7 @@
     ],
     "changed": [
         {
-            "value": "1492100158",
+            "value": "1496748495",
             "lang": "en"
         }
     ],
@@ -136,7 +136,7 @@
     ],
     "body": [
         {
-            "value": "<ul>\r\n\t<li><a href=\"\/\">About<\/a><\/li>\r\n\t<li><a href=\"\/contact\">Contact Us<\/a><\/li>\r\n\t<li><a href=\"\/\">Help<\/a><\/li>\r\n\t<li><a href=\"\/sitemap\">Sitemap<\/a><\/li>\r\n<\/ul>\r\n",
+            "value": "<ul>\r\n\t<li><a href=\"\/\">About<\/a><\/li>\r\n\t<li><a href=\"\/contact\">Contact Us<\/a><\/li>\r\n\t<li><a href=\"\/\">Help<\/a><\/li>\r\n\t<li><a href=\"\/sitemap\">Sitemap<\/a><\/li>\r\n    <li><a href=\"\/privacy-policy\">Privacy policy<\/a><\/li>\r\n    <li><a href=\"\/shipping-policy\">Shipping policy<\/a><\/li>\r\n    <li><a href=\"\/refunds\">Returns, refunds and exchange policy<\/a><\/li>\r\n<\/ul>\r\n",
             "format": "full_html",
             "summary": "",
             "lang": "en"

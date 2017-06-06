@@ -1,0 +1,144 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/privacy-policy?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/page"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/page\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/page\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": "19"
+        }
+    ],
+    "uuid": [
+        {
+            "value": "68860ed1-035e-47a0-b62f-c29de101fab9"
+        }
+    ],
+    "vid": [
+        {
+            "value": "41"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "page"
+        }
+    ],
+    "title": [
+        {
+            "value": "Privacy Policy",
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/page\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "edd44168-1d13-420e-a013-f2124b502199"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/page\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "edd44168-1d13-420e-a013-f2124b502199"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "1496747523",
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": "1496748413",
+            "lang": "en"
+        }
+    ],
+    "promote": [
+        {
+            "value": "0"
+        }
+    ],
+    "sticky": [
+        {
+            "value": "0",
+            "lang": "en"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "1496748413"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p><strong>This policy covers how we use your personal information. We take your privacy SERIOUSLY and will take all measures to protect your personal information. <\/strong><\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p dir=\"ltr\"><strong>What Information Do We Collect?<\/strong><\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p dir=\"ltr\"><strong>We only collect information that we need that is related to your order. This includes your:<\/strong><\/p>\r\n\r\n<p dir=\"ltr\"><strong>Billing Address<\/strong><\/p>\r\n\r\n<p dir=\"ltr\"><strong>Shipping Address<\/strong><\/p>\r\n\r\n<p dir=\"ltr\"><strong>Email Address <\/strong><\/p>\r\n\r\n<p dir=\"ltr\"><strong>Credit Card Information<\/strong><\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p dir=\"ltr\"><strong>In addition we also collect information on your IP address, browser type, and Refer URL data. We use this data to prevent hacking attempts, help us know what web browsers people are using, and find out where our visitors are coming from so that we can improve our marketing. <\/strong><\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p dir=\"ltr\"><strong>How Is My Information Used?<\/strong><\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p dir=\"ltr\"><strong>Your information is only used to fill your order. We do not sell or redistribute your information to ANYONE.<\/strong><\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p dir=\"ltr\"><strong>Security and Storage<\/strong><\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p dir=\"ltr\"><strong>Only your order data billing, shipping, and order contents data is stored on our server. This information is encrypted using a Secure Sockets Layer before it is transmitted over a web server. We do not store your Credit Card data. <\/strong><\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p dir=\"ltr\"><strong>Cookies and Browser Information <\/strong><\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p dir=\"ltr\"><strong>Cookies are small files that reside on your computer and allow us to recognize you on your next visit or store your shopping cart contents. We use them only to track this information. <\/strong><\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n",
+            "format": "basic_html",
+            "summary": "",
+            "lang": "en"
+        }
+    ]
+}
