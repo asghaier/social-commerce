@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.menu_links
+  module:
+    - system
+  theme:
+    - bearded
+id: links
+theme: bearded
+region: footer_first_right
+weight: 0
+provider: null
+plugin: 'system_menu_block:menu_links'
+settings:
+  id: 'system_menu_block:menu_links'
+  label: Links
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility: {  }

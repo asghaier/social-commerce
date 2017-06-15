@@ -22,13 +22,6 @@ function bearded_preprocess_block(&$variables) {
   }
 }
 
-function bearded_preprocess_menu(&$variables) {
-  if (!\Drupal::currentUser()->isAnonymous()) {
-    // Hide new acount menu item
-    unset($variables['items']['menu_link_content:c5f495a7-3c57-4820-90d8-c1a85437ba72']);
-  }
-}
-
 function bearded_preprocess_breadcrumb(&$variables) {
   $current_path = \Drupal::service('path.current')->getPath();
   $path_parts = explode("/", $current_path);
