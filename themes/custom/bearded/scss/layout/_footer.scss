@@ -16,7 +16,7 @@ footer {
             color: $theme-color
         }
     }
-    .region-footer-first-left, .region-footer-first-right {
+    .region-footer-first-left {
         max-width: 67.5em;
         margin: 0 auto 30px auto;
         @include clearfix;
@@ -50,6 +50,54 @@ footer {
                     @include opacity(.2);
                 }
             }
+        }
+    }
+    .region-footer-first-right {
+        .contextual-region {
+            font-size: 0.875em;
+            padding: 0 17px 0 17px;
+            margin-bottom:52px; 
+            h2 {
+                font-size: 18px;
+                padding: 2px 0 0 18px;
+                color: #fff;
+                margin: 49.5px 0 28.125px 0;
+                &:before {
+                    content: "";
+                    width: 9px;
+                    border-left: 3px solid #cccccc;
+                    border-right: 3px solid #cccccc;
+                    height: 9px;
+                    position: absolute;
+                    margin-top: -3px;
+                    margin-right: 9px;
+                    top: 9%;
+                    left: 17px;
+                }
+                &:after {
+                    content: "";
+                    position: absolute;
+                    top: 17%;
+                    left: 32px;
+                    height: 2px;
+                    width: 20px;
+                    background: #fff;
+                    @include opacity(.2);
+                }
+            }
+            .menu{
+                padding-left: 20px;
+                li {
+                    display: list-item;
+                    a {
+                        padding: 0px;   
+                        display: initial;
+                        &:hover{
+                            background-color: transparent;
+                        }
+                    }
+                }  
+            }    
         }
     }
     .region-footer-second {
