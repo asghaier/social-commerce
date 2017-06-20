@@ -8,8 +8,6 @@ use Drupal\user\RoleInterface;
 use Drupal\menu_link_content\Entity\MenuLinkContent;
 use Drupal\block\Entity\Block;
 use Drupal\block_content\Entity\BlockContent;
-use Drupal\user\Entity\User;
-
 /**
  * Implements hook_install().
  *
@@ -21,82 +19,139 @@ function social_commerce_install() {
   // First, do everything in standard profile.
   include_once DRUPAL_ROOT . '/core/profiles/standard/standard.install';
   standard_install();
-  // Create users
-  createUsers();
   // Create menu items
-  CreateMenuItems();
+  CreateMenus();
   // Copy images
   copy(DRUPAL_ROOT . '/modules/custom/social_commerce_tests/files/robot2.png', DRUPAL_ROOT . '/sites/default/files/robot2.png');
 }
 
-function createUsers() {
-  $user = User::create();
-  // Mandatory settings
-  $user->setPassword('testuser');
-  $user->enforceIsNew();
-  $user->setEmail('testuser@testuser.com');
-  $user->setUsername('testuser'); //This username must be unique and accept only a-Z,0-9, - _ @ .
-  $user->roles[] = 'administrator';
-  // Optional settings
-  $user->activate();
-  // Save user
-  $res = $user->save();
+function CreateMenus() {
+  CreateMainMenu();
+  CreateAccountMenu();
+  CreateLinksMenu();
+}
+// Main menu
+function CreateMainMenu() {
+  $home = new Item('Home', '/', 'main', null, 0);
+  $contact = new Item('Contact', '/contact', 'main', null, 1);
+  $shop = new Item('Shop', '/shop', 'main', null, 2);
+
+  $items = array($home, $contact, $shop);
+
+  addMenuItems($items);
+}
+// User account Menu
+function CreateAccountMenu() {
+  $home = new Item('Home', '/', 'account', 'Home', 0);
+  $shop = new Item('Shop', '/shop', 'account', 'Visit Shop', 1);
+  $password = new Item('Password', '/user/password', 'account', 'Lost Password', 2);
+  $register = new Item('New Account', '/user/register', 'account','New Account', 3);
+
+  $items = array($home, $shop, $password, $register);
+
+  addMenuItems($items);
+}
+//Links menu
+function CreateLinksMenu() {
+  $about = new Item('About', '/', 'menu_links', null, 0);
+  $contact = new Item('Contact Us', '/contact', 'menu_links', null, 1);
+  $help = new Item('Help', '/', 'menu_links',null, 2);
+  $sitemap = new Item('Sitemap', '/sitemap', 'menu_links', null, 3);
+
+  $items = array($about, $contact, $help, $sitemap);
+
+  addMenuItems($items);
 }
 
-// Create menu items.
-function CreateMenuItems() {
-  // Main menu
-  $items = array(
-    '/' => ' Home',
-    '/contact' => 'Contact',
-    '/shop' => 'Shop'
-  );
-
-  foreach ($items as $path => $title) {
+function addMenuItems($items){
+    foreach ($items as $item) {
     $menu_link = MenuLinkContent::create([
-          'title' => $title,
-          'link' => ['uri' => 'internal:' . $path],
-          'menu_name' => 'main',
+          'title' => $item->getTitle(),
+          'link' => ['uri' => 'internal:' . $item->getLink()],
+          'menu_name' => $item->getMenuName(),
+          'description' => $item->getDescription(),
           'expanded' => TRUE,
+          'weight' => $item->getweight(),
     ]);
     $menu_link->save();
   }
-  // User account Menu
-  $menu_link = MenuLinkContent::create([
-        'title' => 'Home',
-        'link' => ['uri' => 'internal:/'],
-        'description' => 'Home',
-        'menu_name' => 'account',
-        'expanded' => TRUE,
-        'weight' => -51,
-  ]);
-  $menu_link->save();
+}
 
-  $menu_link = MenuLinkContent::create([
-        'title' => 'Shop',
-        'link' => ['uri' => 'internal:/shop'],
-        'description' => 'Visit Shop',
-        'menu_name' => 'account',
-        'expanded' => TRUE,
-        'weight' => -50,
-  ]);
-  $menu_link->save();
-  $menu_link = MenuLinkContent::create([
-        'title' => 'Password',
-        'link' => ['uri' => 'internal:/user/password'],
-        'description' => 'Lost Password',
-        'menu_name' => 'account',
-        'expanded' => TRUE,
-        'weight' => -49,
-  ]);
-  $menu_link->save();
-  $menu_link = MenuLinkContent::create([
-        'title' => 'New Account',
-        'link' => ['uri' => 'internal:/user/register'],
-        'description' => 'New Account',
-        'menu_name' => 'account',
-        'expanded' => TRUE,
-        'weight' => -48,
-  ]);
-  $menu_link->save();
+class Menu {
+  private $id;
+  private $label;
+  private $description;
+
+  public function __construct($id, $label, $description){
+    $this->id = $id;
+    $this->label = $label;
+    $this->description = $description;
+  }
+
+  function setId($id) {
+    $this->id = $id;
+  }
+  function getID() {
+    return $this->id;
+  }
+  function setLabel($label) {
+    $this->label = $label;
+  }
+  function getLabel() {
+    return $this->label;
+  }
+  function setDescription($description) {
+    $this->description = $description;
+  }
+  function getDescription() {
+    return $this->description;
+  }
+}
+
+Class Item{
+  private $title;
+  private $link;
+  private $menu_name;
+  private $description;
+  private $weight;
+
+  public function __construct($title, $link, $menu_name, $description, $weight){
+    $this->title = $title;
+    $this->link = $link;
+    $this->menu_name = $menu_name;
+    $this->description = $description;
+    $this->weight = $weight;
+
+  }
+
+  function setTitle($title) {
+    $this->title = $title;
+  }
+  function getTitle() {
+    return $this->title;
+  }
+  function setLink($link) {
+    $this->link = $link;
+  }
+  function getLink() {
+    return $this->link;
+  }
+  function setMenuName($menu_name) {
+    $this->menu_name = $menu_name;
+  }
+  function getMenuName() {
+    return $this->menu_name;
+  }
+  function setDescription($description) {
+    $this->description = $description;
+  }
+  function getDescription() {
+    return $this->description;
+  }
+  function setweight($weight) {
+    $this->weight = $weight;
+  }
+  function getweight() {
+    return $this->weight;
+  }
 }
