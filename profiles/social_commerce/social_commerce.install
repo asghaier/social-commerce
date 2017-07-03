@@ -57,8 +57,11 @@ function CreateLinksMenu() {
   $contact = new Item('Contact Us', '/contact', 'menu_links', null, 1);
   $help = new Item('Help', '/', 'menu_links',null, 2);
   $sitemap = new Item('Sitemap', '/sitemap', 'menu_links', null, 3);
+  $privacy_policy = new Item('Privacy Policy', '/privacy-policy', 'menu_links', null, 4);
+  $shipping_policy = new Item('Shipping Policy', '/shipping-policy', 'menu_links', null, 5);
+  $refunds = new Item('Returns, Refunds and Exchanges Policy', '/refunds', 'menu_links', null, 6);
 
-  $items = array($about, $contact, $help, $sitemap);
+  $items = array($about, $contact, $help, $sitemap, $privacy_policy, $shipping_policy, $refunds);
 
   addMenuItems($items);
 }
@@ -153,5 +156,24 @@ Class Item{
   }
   function getweight() {
     return $this->weight;
+  }
+}
+
+/**
+ * Implements hook_entity_insert().
+ *
+ * Creating URL aliases for legal pages on profile install.
+ */
+function social_commerce_entity_insert(Drupal\Core\Entity\EntityInterface $entity){
+  $url_aliases = array(
+    '68860ed1-035e-47a0-b62f-c29de101fab9' => '/privacy-policy',
+    '424f01c9-d1c8-46db-bfe8-5086426304da' => '/shipping-policy',
+    '123e1e9e-5ec8-4ee1-82eb-e7214aa011f4' => '/refunds'
+  );
+
+  $entity_uuid = $entity->uuid();
+
+  if (isset($url_aliases[$entity_uuid])) {
+    \Drupal::service('path.alias_storage')->save('/node/' . $entity->id(), $url_aliases[$entity_uuid]);
   }
 }
