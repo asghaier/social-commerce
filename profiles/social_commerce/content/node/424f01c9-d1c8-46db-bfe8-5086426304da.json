@@ -1,0 +1,144 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/shipping-policy?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/page"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/page\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/page\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": "21"
+        }
+    ],
+    "uuid": [
+        {
+            "value": "424f01c9-d1c8-46db-bfe8-5086426304da"
+        }
+    ],
+    "vid": [
+        {
+            "value": "40"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "page"
+        }
+    ],
+    "title": [
+        {
+            "value": "Shipping Policy",
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/page\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "edd44168-1d13-420e-a013-f2124b502199"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/page\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "edd44168-1d13-420e-a013-f2124b502199"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "1496747681",
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": "1496748379",
+            "lang": "en"
+        }
+    ],
+    "promote": [
+        {
+            "value": "0"
+        }
+    ],
+    "sticky": [
+        {
+            "value": "0",
+            "lang": "en"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "1496748379"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<h2><strong>Turnaround<\/strong><\/h2>\r\n\r\n<p dir=\"ltr\"><strong>All orders are shipped within 48 hours Monday - Friday 8am - 5pm.<\/strong><\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<h2 dir=\"ltr\"><strong>Carriers<\/strong><\/h2>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p dir=\"ltr\"><strong>We use the following carriers to deliver our orders:<\/strong><\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p dir=\"ltr\"><strong>USPS<\/strong><\/p>\r\n\r\n<p dir=\"ltr\"><strong>UPS<\/strong><\/p>\r\n\r\n<p dir=\"ltr\"><strong>FedEx<\/strong><\/p>\r\n\r\n<p dir=\"ltr\"><strong>DHL<\/strong><\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<h2 dir=\"ltr\"><strong>Order Tracking<\/strong><\/h2>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p dir=\"ltr\"><strong>If a tracking # is provided by the shipping carrier, we will update your order with the tracking information. Please note that some orders using 1st Class USPS mail will not have tracking numbers. <\/strong><\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<h2 dir=\"ltr\"><strong>Shipping Rates<\/strong><\/h2>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p dir=\"ltr\"><strong>The rate charged for the shipping of your order is based on the weight of your products, and your location. Before the final checkout page you will be shown what the cost of shipping will be, and you will have a chance to not place your order if you decide not to. <\/strong><\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<h2 dir=\"ltr\"><strong>Back Orders <\/strong><\/h2>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p dir=\"ltr\"><strong>If an item goes on back order we will ship you the part of your order that is in stock. When the item becomes available we will ship you the rest of your order. You will not be charged any additional shipping and handling for the second shipment. <\/strong><\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n",
+            "format": "basic_html",
+            "summary": "",
+            "lang": "en"
+        }
+    ]
+}
